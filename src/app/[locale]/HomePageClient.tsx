@@ -1,15 +1,25 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
+  Calendar,
   CalendarClock,
   Check,
+  ChevronDown,
   ExternalLink,
+  Flame,
+  Gem,
+  Hammer,
+  Network,
+  Package,
+  Skull,
   Sparkles,
   Star,
   Swords,
+  Users,
+  Workflow,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
@@ -40,6 +50,19 @@ const MODULE_ICONS: Record<string, LucideIcon> = {
   abyssusReviewScoresAndPlayerRatings: Star,
   abyssusBeginnerGuide: BookOpen,
   abyssusWeaponsTierListAndBestBuilds: Swords,
+  abyssusBlessingsCharmsAndForgeMods: Gem,
+  abyssusBossesEnemiesAndLevelProgression: Skull,
+  abyssusCoOpCrossplayAndMatchmaking: Users,
+  abyssusUpdatesPatchNotesAndDlc: Package,
+};
+
+// Module 5 inner card icons (distinct, mapped by JSON icon key)
+const CARD_ICONS: Record<string, LucideIcon> = {
+  Flame,
+  Sparkles,
+  Hammer,
+  Network,
+  Workflow,
 };
 
 // Tools Grid navigation targets (anchor <-> section 1:1)
@@ -48,6 +71,10 @@ const TOOL_SECTION_IDS = [
   "review-scores-player-ratings",
   "beginner-guide",
   "weapons-tier-list-best-builds",
+  "blessings-charms-ancient-forge-mods",
+  "bosses-enemies-level-progression",
+  "co-op-crossplay-matchmaking",
+  "updates-patch-notes-dlc",
 ];
 
 interface HomePageClientProps {
@@ -63,6 +90,9 @@ export default function HomePageClient({
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.abyssus.wiki";
   const mobileBannerAd = getPreferredMobileBannerSelection();
+
+  // Accordion open state for module 6 (bosses/enemies FAQ)
+  const [openAccordion, setOpenAccordion] = useState<number | null>(0);
 
   // Structured data
   const structuredData = {
@@ -586,6 +616,340 @@ export default function HomePageClient({
                 </div>
               ),
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Abyssus Blessings, Charms and Ancient Forge Mods (card-list) */}
+      <section id="blessings-charms-ancient-forge-mods" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4 text-[hsl(var(--nav-theme-light))]">
+              {(() => {
+                const Icon = MODULE_ICONS.abyssusBlessingsCharmsAndForgeMods;
+                return <Icon className="w-5 h-5" />;
+              })()}
+              <span className="text-xs md:text-sm font-semibold uppercase tracking-wider">
+                {t.modules.abyssusBlessingsCharmsAndForgeMods.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.abyssusBlessingsCharmsAndForgeMods.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.abyssusBlessingsCharmsAndForgeMods.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.abyssusBlessingsCharmsAndForgeMods.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.abyssusBlessingsCharmsAndForgeMods.items.map(
+              (item: any, index: number) => {
+                const Icon = CARD_ICONS[item.icon] ?? Sparkles;
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                  >
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="h-10 w-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="text-lg md:text-xl font-bold">{item.title}</h3>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5 mb-3">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-medium">
+                        {item.type}
+                      </span>
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                        {item.value}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-3 flex-grow">
+                      {item.description}
+                    </p>
+                    <p className="text-xs md:text-sm font-medium border-t border-border pt-3 mb-3">
+                      <span className="text-[hsl(var(--nav-theme-light))]">Best for: </span>
+                      {item.bestFor}
+                    </p>
+                    {Array.isArray(item.examples) && item.examples.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5">
+                        {item.examples.map((ex: string, i: number) => (
+                          <span
+                            key={i}
+                            className="inline-flex items-center px-2 py-0.5 rounded-md bg-white/5 border border-border text-xs text-muted-foreground"
+                          >
+                            {ex}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Ad slot 6: between modules */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Abyssus Bosses, Enemies and Level Progression (accordion) */}
+      <section id="bosses-enemies-level-progression" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4 text-[hsl(var(--nav-theme-light))]">
+              {(() => {
+                const Icon = MODULE_ICONS.abyssusBossesEnemiesAndLevelProgression;
+                return <Icon className="w-5 h-5" />;
+              })()}
+              <span className="text-xs md:text-sm font-semibold uppercase tracking-wider">
+                {t.modules.abyssusBossesEnemiesAndLevelProgression.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.abyssusBossesEnemiesAndLevelProgression.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.abyssusBossesEnemiesAndLevelProgression.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.abyssusBossesEnemiesAndLevelProgression.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 max-w-3xl mx-auto">
+            {t.modules.abyssusBossesEnemiesAndLevelProgression.items.map(
+              (item: any, index: number) => {
+                const isOpen = openAccordion === index;
+                return (
+                  <div
+                    key={index}
+                    className="bg-white/5 border border-border rounded-xl overflow-hidden"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => setOpenAccordion(isOpen ? null : index)}
+                      className="w-full flex items-center justify-between gap-4 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                    >
+                      <span className="font-semibold text-base md:text-lg">
+                        {item.question}
+                      </span>
+                      <ChevronDown
+                        className={`w-5 h-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform ${
+                          isOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    {isOpen && (
+                      <div className="px-4 md:px-5 pb-4 md:pb-5">
+                        <p className="text-sm md:text-base text-muted-foreground mb-3">
+                          {item.answer}
+                        </p>
+                        {Array.isArray(item.highlights) && item.highlights.length > 0 && (
+                          <div className="flex flex-wrap gap-1.5">
+                            {item.highlights.map((h: string, i: number) => (
+                              <span
+                                key={i}
+                                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs"
+                              >
+                                <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))]" />
+                                {h}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Ad slot 7: between modules */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Abyssus Co-Op, Crossplay and Matchmaking (comparison-table) */}
+      <section id="co-op-crossplay-matchmaking" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4 text-[hsl(var(--nav-theme-light))]">
+              {(() => {
+                const Icon = MODULE_ICONS.abyssusCoOpCrossplayAndMatchmaking;
+                return <Icon className="w-5 h-5" />;
+              })()}
+              <span className="text-xs md:text-sm font-semibold uppercase tracking-wider">
+                {t.modules.abyssusCoOpCrossplayAndMatchmaking.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.abyssusCoOpCrossplayAndMatchmaking.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.abyssusCoOpCrossplayAndMatchmaking.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.abyssusCoOpCrossplayAndMatchmaking.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal">
+            {/* Desktop table */}
+            <div className="hidden md:block overflow-hidden rounded-xl border border-border">
+              <table className="w-full text-sm">
+                <thead className="bg-[hsl(var(--nav-theme)/0.1)]">
+                  <tr>
+                    <th className="text-left p-4 font-semibold">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.feature}</th>
+                    <th className="text-left p-4 font-semibold">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.steam_pc}</th>
+                    <th className="text-left p-4 font-semibold">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.playstation_5}</th>
+                    <th className="text-left p-4 font-semibold">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.xbox_series_xs}</th>
+                    <th className="text-left p-4 font-semibold">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.notes}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.modules.abyssusCoOpCrossplayAndMatchmaking.rows.map(
+                    (row: any, index: number) => (
+                      <tr key={index} className="border-t border-border align-top">
+                        <td className="p-4 font-medium text-[hsl(var(--nav-theme-light))]">
+                          {row.feature}
+                        </td>
+                        <td className="p-4 text-muted-foreground">{row.steam_pc}</td>
+                        <td className="p-4 text-muted-foreground">{row.playstation_5}</td>
+                        <td className="p-4 text-muted-foreground">{row.xbox_series_xs}</td>
+                        <td className="p-4 text-muted-foreground">{row.notes}</td>
+                      </tr>
+                    ),
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Mobile stacked cards */}
+            <div className="md:hidden space-y-3">
+              {t.modules.abyssusCoOpCrossplayAndMatchmaking.rows.map(
+                (row: any, index: number) => (
+                  <div
+                    key={index}
+                    className="p-4 bg-white/5 border border-border rounded-xl"
+                  >
+                    <h3 className="font-bold text-base mb-3 text-[hsl(var(--nav-theme-light))]">
+                      {row.feature}
+                    </h3>
+                    <dl className="space-y-2 text-sm">
+                      <div>
+                        <dt className="font-medium mb-0.5">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.steam_pc}</dt>
+                        <dd className="text-muted-foreground">{row.steam_pc}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-medium mb-0.5">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.playstation_5}</dt>
+                        <dd className="text-muted-foreground">{row.playstation_5}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-medium mb-0.5">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.xbox_series_xs}</dt>
+                        <dd className="text-muted-foreground">{row.xbox_series_xs}</dd>
+                      </div>
+                      <div className="pt-2 mt-2 border-t border-border">
+                        <dt className="font-medium mb-0.5">{t.modules.abyssusCoOpCrossplayAndMatchmaking.headers.notes}</dt>
+                        <dd className="text-muted-foreground">{row.notes}</dd>
+                      </div>
+                    </dl>
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ad slot 8: between modules */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Abyssus Updates, Patch Notes and DLC (timeline) */}
+      <section id="updates-patch-notes-dlc" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4 text-[hsl(var(--nav-theme-light))]">
+              {(() => {
+                const Icon = MODULE_ICONS.abyssusUpdatesPatchNotesAndDlc;
+                return <Icon className="w-5 h-5" />;
+              })()}
+              <span className="text-xs md:text-sm font-semibold uppercase tracking-wider">
+                {t.modules.abyssusUpdatesPatchNotesAndDlc.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.abyssusUpdatesPatchNotesAndDlc.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.abyssusUpdatesPatchNotesAndDlc.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.abyssusUpdatesPatchNotesAndDlc.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative max-w-3xl mx-auto">
+            {/* vertical line */}
+            <div className="absolute left-[7px] top-2 bottom-2 w-0.5 bg-[hsl(var(--nav-theme)/0.3)]" />
+            <div className="space-y-5">
+              {t.modules.abyssusUpdatesPatchNotesAndDlc.items.map(
+                (event: any, index: number) => (
+                  <div key={index} className="relative pl-8">
+                    <div className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-[hsl(var(--nav-theme))] ring-4 ring-background flex items-center justify-center">
+                      <div className="h-1.5 w-1.5 rounded-full bg-white" />
+                    </div>
+                    <div className="p-4 md:p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="inline-flex items-center gap-1 text-xs md:text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                          <Calendar className="w-3.5 h-3.5" />
+                          {event.date}
+                        </span>
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-medium">
+                          {event.label}
+                        </span>
+                      </div>
+                      <h3 className="text-base md:text-lg font-bold mb-1.5">
+                        {event.title}
+                      </h3>
+                      <p className="text-sm text-muted-foreground">{event.description}</p>
+                    </div>
+                  </div>
+                ),
+              )}
+            </div>
           </div>
         </div>
       </section>

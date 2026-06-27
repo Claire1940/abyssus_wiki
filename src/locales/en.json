@@ -58,7 +58,7 @@
   "tools": {
     "title": "Abyssus",
     "titleHighlight": "Guides",
-    "subtitle": "Release info, reviews, beginner walkthroughs, and the best weapons and builds for Abyssus.",
+    "subtitle": "Release info, reviews, beginner walkthroughs, the best weapons and builds, Blessings and Charms, bosses, co-op, and the latest Abyssus updates.",
     "cards": [
       {
         "icon": "CalendarClock",
@@ -79,6 +79,26 @@
         "icon": "Swords",
         "title": "Weapons Tier List",
         "description": "9 weapons, 54 mods, and the best builds for every run"
+      },
+      {
+        "icon": "Gem",
+        "title": "Blessings & Charms",
+        "description": "250+ Charms and Blessings, 140+ Ancient Forge mods, and run builds"
+      },
+      {
+        "icon": "Skull",
+        "title": "Bosses & Enemies",
+        "description": "70+ levels, 36 enemies, and 12 bosses across Abyssus expeditions"
+      },
+      {
+        "icon": "Users",
+        "title": "Co-Op & Crossplay",
+        "description": "1-to-4-player co-op, full crossplay, matchmaking, and quickplay"
+      },
+      {
+        "icon": "Package",
+        "title": "Updates & DLC",
+        "description": "Patch notes, free content updates, console launch, and cosmetic DLC"
       }
     ]
   },
@@ -289,6 +309,243 @@
               "whyUseIt": "Best treated as a specialist pick rather than a first-run comfort weapon."
             }
           ]
+        }
+      ]
+    },
+    "abyssusBlessingsCharmsAndForgeMods": {
+      "eyebrow": "Build Crafting",
+      "title": "Abyssus Blessings, Charms and Ancient Forge Mods",
+      "subtitle": "Shape each expedition with divine Blessings, Charms, skill choices, and Ancient Forge mods. This section explains how Abyssus turns weapons and abilities into full run builds.",
+      "intro": "Abyssus builds are layered from weapons, suits, skills, Blessings, Charms, and Ancient Forge upgrades. The current content pool includes over 250 Charms and Blessings and over 140 Ancient Forge mods, giving each run a different upgrade path instead of one fixed loadout.",
+      "items": [
+        {
+          "icon": "Flame",
+          "title": "Blessings",
+          "type": "Run Power",
+          "value": "250+ shared with Charms",
+          "description": "Blessings attach elemental or mystic effects to primary fire, secondary fire, and abilities, turning core attacks into burn, freeze, arc, tentacle, shadow, or spirit-focused damage plans.",
+          "bestFor": "Building around the weapon fire mode or ability you use most often.",
+          "examples": [
+            "Fire burn effects",
+            "Ice freeze effects",
+            "Lightning arcs",
+            "Ocean tentacles",
+            "Shadow debuffs",
+            "Vengeful spirits"
+          ]
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Charms",
+          "type": "Build Modifier",
+          "value": "250+ shared with Blessings",
+          "description": "Charms add extra rules that push a run toward a specific rhythm, such as stronger ability cycling, survival support, or extra synergy with placed skills like turrets.",
+          "bestFor": "Locking in a build identity after the core weapon and ability are chosen.",
+          "examples": [
+            "Ability cooldown support",
+            "Damage scaling support",
+            "Survival pressure relief",
+            "Co-op role tuning"
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "title": "Ancient Forge Mods",
+          "type": "Weapon and Skill Upgrade",
+          "value": "140+ mods",
+          "description": "Ancient Forge mods further empower weapons and skills, changing how equipped tools behave and expanding the upgrade path beyond simple stat increases.",
+          "bestFor": "Refitting a favorite weapon or ability so it matches the run's Blessing setup.",
+          "examples": [
+            "Weapon behavior upgrades",
+            "Skill-enhancing mods",
+            "Ability-specific challenge unlocks"
+          ]
+        },
+        {
+          "icon": "Network",
+          "title": "Skill Tree",
+          "type": "Meta Progression",
+          "value": "Expanded in Update 1.3",
+          "description": "The skill tree adds long-term progression and new skills, improving what Brinehunters can bring into later expeditions and opening stronger routing choices between runs.",
+          "bestFor": "Making deeper runs more consistent after early failed descents.",
+          "examples": [
+            "New 1.3 skills",
+            "Run preparation choices",
+            "Long-term upgrade planning"
+          ]
+        },
+        {
+          "icon": "Workflow",
+          "title": "Synergy Loop",
+          "type": "Practical Build Rule",
+          "value": "Weapon + Blessing + Charm + Forge",
+          "description": "A strong run usually starts with one repeatable action, then stacks Blessings, Charms, and Forge mods that trigger from that action as often as possible.",
+          "bestFor": "Players who want reliable damage, control, or team utility instead of random upgrade collecting.",
+          "examples": [
+            "Turret plus Ocean-style summons",
+            "Freeze control plus burst damage",
+            "Shadow debuff plus steady fire"
+          ]
+        }
+      ]
+    },
+    "abyssusBossesEnemiesAndLevelProgression": {
+      "eyebrow": "Combat Progression",
+      "title": "Abyssus Bosses, Enemies and Level Progression",
+      "subtitle": "Track how Abyssus escalates from early combat rooms into elite encounters, boss fights, and deeper expedition routes.",
+      "intro": "Abyssus uses hand-crafted levels that are procedurally sequenced across runs, then layers enemies, room objectives, upgrades, and bosses on top. After Update 1.3, the game lists over 70 hand-crafted levels, 36 enemy types, and 12 bosses.",
+      "items": [
+        {
+          "question": "How many levels, enemies, and bosses are in Abyssus?",
+          "answer": "The post-1.3 content pool lists over 70 hand-crafted levels, 36 different enemies, and 12 bosses. Levels are procedurally sequenced, so each expedition can reuse hand-built spaces in a different run order.",
+          "highlights": [
+            "70+ hand-crafted levels",
+            "36 enemies",
+            "12 bosses",
+            "Procedurally sequenced runs"
+          ]
+        },
+        {
+          "question": "What changes as a run goes deeper in Abyssus?",
+          "answer": "Runs move through combat arenas, objectives, upgrade choices, and boss gates. Meta progression adds new weapons, abilities, upgrade access, healing support, and stronger options for later attempts.",
+          "highlights": [
+            "Combat rooms",
+            "Upgrade stations",
+            "Boss gates",
+            "Meta progression unlocks"
+          ]
+        },
+        {
+          "question": "What did Update 1.3 add to enemy and boss progression in Abyssus?",
+          "answer": "Update 1.3 adds a brinepunk machinery-themed playable area, fresh enemies, a new elite encounter, a new boss encounter, a new God, new Blessings, and an expanded skill tree.",
+          "highlights": [
+            "New playable area",
+            "Fresh enemies",
+            "New elite encounter",
+            "New boss encounter",
+            "New God"
+          ]
+        },
+        {
+          "question": "Which Abyssus boss variants are called out in Patch 1.2?",
+          "answer": "Patch 1.2 introduced new boss patterns for Golemancer, Kri'Su, and Un'glu, giving returning players revamped attacks and Surge-powered versions of familiar boss fights.",
+          "highlights": [
+            "Golemancer",
+            "Kri'Su",
+            "Un'glu",
+            "Revamped attacks"
+          ]
+        },
+        {
+          "question": "What should Abyssus players expect from boss combat?",
+          "answer": "Bosses lean on arena pressure, area-of-effect attacks, invulnerability phases, damage rings, and hazards that reward movement, timing, and teamwork. Dash and double-jump movement matter as much as raw damage.",
+          "highlights": [
+            "AoE attacks",
+            "Invulnerability phases",
+            "Arena hazards",
+            "Movement-heavy fights"
+          ]
+        }
+      ]
+    },
+    "abyssusCoOpCrossplayAndMatchmaking": {
+      "eyebrow": "Multiplayer",
+      "title": "Abyssus Co-Op, Crossplay and Matchmaking",
+      "subtitle": "Abyssus supports solo play and online co-op, with full cross-platform multiplayer added alongside the PS5 and Xbox Series X|S launch.",
+      "intro": "Abyssus is built around fast 1-to-4-player brinepunk FPS runs. Update 1.3 adds full cross-platform multiplayer, streamlined matchmaking, and quickplay so Steam, PlayStation 5, and Xbox Series X|S players can group up more easily.",
+      "headers": {
+        "feature": "Feature",
+        "steam_pc": "Steam / PC",
+        "playstation_5": "PlayStation 5",
+        "xbox_series_xs": "Xbox Series X|S",
+        "notes": "Notes"
+      },
+      "rows": [
+        {
+          "feature": "Solo Play",
+          "steam_pc": "Supported",
+          "playstation_5": "Supported; PlayStation Store lists 1 player",
+          "xbox_series_xs": "Supported; Xbox lists Single player",
+          "notes": "Solo runs are available, while the game design strongly emphasizes team loadout synergy."
+        },
+        {
+          "feature": "Online Co-Op Party Size",
+          "steam_pc": "1-to-4-player FPS with Online Co-op",
+          "playstation_5": "Supports up to 4 online players with PS Plus",
+          "xbox_series_xs": "Online co-op listed for 2-4 players",
+          "notes": "Official game pages present Abyssus as up to 4-player co-op."
+        },
+        {
+          "feature": "Crossplay",
+          "steam_pc": "Full cross-platform multiplayer added in Update 1.3",
+          "playstation_5": "Cross-platform play with PC and Xbox through Update 1.3",
+          "xbox_series_xs": "Xbox cross-platform co-op listed; full cross-platform multiplayer announced",
+          "notes": "Crossplay covers Steam, PlayStation 5, and Xbox Series X|S."
+        },
+        {
+          "feature": "Matchmaking and Quickplay",
+          "steam_pc": "Streamlined matchmaking and quickplay added in Update 1.3",
+          "playstation_5": "Uses the same 1.3 console-launch multiplayer feature set",
+          "xbox_series_xs": "Uses the same 1.3 console-launch multiplayer feature set",
+          "notes": "Quickplay is designed to help players jump into more open lobbies."
+        },
+        {
+          "feature": "Online Subscription Rules",
+          "steam_pc": "Steam account required; no console subscription rule",
+          "playstation_5": "PS Plus required for online play",
+          "xbox_series_xs": "Console online multiplayer requires Xbox Game Pass Essential, Premium, or Ultimate",
+          "notes": "Online access rules are platform-specific."
+        },
+        {
+          "feature": "Game Pass and Cloud",
+          "steam_pc": "Sold on Steam",
+          "playstation_5": "Sold on PlayStation Store; PS5 cloud streaming supported only with Premium",
+          "xbox_series_xs": "Included with Game Pass Premium and Ultimate; cloud playable on supported tiers",
+          "notes": "Xbox also lists PC, Xbox Series X|S, Xbox Cloud Gaming, and handheld play."
+        }
+      ]
+    },
+    "abyssusUpdatesPatchNotesAndDlc": {
+      "eyebrow": "Updates",
+      "title": "Abyssus Updates, Patch Notes and DLC",
+      "subtitle": "Follow the major Abyssus updates, free content drops, console launch changes, and cosmetic add-ons.",
+      "intro": "Abyssus has expanded through free gameplay updates while keeping supporter DLC cosmetic-only. The biggest current milestone is Update 1.3, which launched with console versions, cross-platform multiplayer, new content, and the Brinerot cosmetic pack.",
+      "items": [
+        {
+          "date": "August 12, 2025",
+          "label": "PC Launch",
+          "title": "Abyssus launches on Steam",
+          "description": "The PC version launches as a fast-paced 1-to-4-player co-op roguelite FPS with weapon customization, divine Blessings, roguelite progression, and hand-crafted levels."
+        },
+        {
+          "date": "January 12, 2026",
+          "label": "Update 1.2 Brinefrost",
+          "title": "Brinefrost adds Harpoon Gun, Smiting Spear, and boss variants",
+          "description": "Update 1.2 adds the unlockable Harpoon Gun, the Smiting Spear ability, new Ancient Forge mods, new challenges, boss variant patterns for Golemancer, Kri'Su, and Un'glu, and the cosmetic-only Brinefrost Pack."
+        },
+        {
+          "date": "March 10, 2026",
+          "label": "1.3 Preview",
+          "title": "Update 1.3 preview reveals new area and crossplay plan",
+          "description": "The preview outlines a brinepunk machinery-themed area, new enemies, an elite encounter, a boss encounter, the Brine God with 15 new Blessings, 5 new Blessings for each existing God, a revamped skill tree, streamlined matchmaking, quickplay, console versions, and full cross-platform multiplayer."
+        },
+        {
+          "date": "June 25, 2026",
+          "label": "Update 1.3",
+          "title": "Abyssus 1.3 launches with full cross-platform multiplayer",
+          "description": "Update 1.3 adds the new playable area, full cross-platform multiplayer, an updated skill tree, new Blessings, a new God, fresh enemies, and two sea shanties. After 1.3, official materials list over 70 levels, 9 weapons, 54 weapon mods, over 140 Ancient Forge mods, 36 enemies, 12 bosses, and over 250 Charms and Blessings."
+        },
+        {
+          "date": "June 25, 2026",
+          "label": "Console Launch",
+          "title": "PS5 and Xbox Series X|S versions arrive",
+          "description": "The console release arrives alongside Update 1.3, with PlayStation 5, Xbox Series X|S, and Steam players able to squad up through cross-platform multiplayer."
+        },
+        {
+          "date": "June 25, 2026",
+          "label": "DLC and Edition",
+          "title": "Brinerot Pack and Brine Edition expand cosmetic options",
+          "description": "The Brinerot Pack adds a helmet, armor, emote, and portrait frame. Brine Edition bundles the base game with the Brinehunter, Brineguard, Brinefrost, and Brinerot cosmetic packs."
         }
       ]
     }
