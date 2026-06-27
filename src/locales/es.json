@@ -1,9 +1,715 @@
 {
+  "seo": {
+    "home": {
+      "title": "Abyssus - Builds, armas y jefes",
+      "description": "Abyssus cubre builds, armas, jefes, amuletos, bendiciones, consejos cooperativos, logros e información de lanzamiento para jugadores de Steam, PS5 y Xbox.",
+      "keywords": "Abyssus, Steam, PS5, Xbox, builds, armas, jefes, amuletos",
+      "ogTitle": "Abyssus - Builds, armas y jefes",
+      "ogDescription": "Abyssus cubre builds, armas, jefes, amuletos, bendiciones, consejos cooperativos, logros e información de lanzamiento para jugadores de Steam, PS5 y Xbox.",
+      "twitterTitle": "Abyssus - Builds, armas y jefes",
+      "twitterDescription": "Wiki de Abyssus para builds, armas, mods, bendiciones, amuletos, jefes, consejos cooperativos y logros en Steam, PS5 y Xbox."
+    }
+  },
   "nav": {
-    "guide": "Guide",
+    "guide": "Guía",
     "builds": "Builds",
-    "weapons": "Weapons",
-    "platforms": "Platforms",
-    "review": "Review"
+    "weapons": "Armas",
+    "platforms": "Plataformas",
+    "review": "Análisis"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "FPS roguelite cooperativo brinepunk",
+    "title": "Wiki de Abyssus",
+    "description": "Sumérgete en Abyssus como un Brinehunter, lucha a través de niveles roguelite diseñados a mano, crea armas con mods, colecciona amuletos y bendiciones, y sobrevive en solitario o en cooperativo de 4 jugadores.",
+    "getFreeCodesCTA": "Ver builds",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "Muy positivas",
+        "label": "Reseñas de Steam"
+      },
+      "stat2": {
+        "value": "119",
+        "label": "Logros de Steam"
+      },
+      "stat3": {
+        "value": "9",
+        "label": "Armas"
+      },
+      "stat4": {
+        "value": "250+",
+        "label": "Amuletos y bendiciones"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Abyssus",
+    "description": "Abyssus es un vertiginoso FPS roguelite cooperativo brinepunk de 1 a 4 jugadores. Acumula mods de armas, bendiciones elementales y amuletos mientras luchas en partidas diseñadas a mano y sobrevives a encuentros con jefes en Steam, PS5 y Xbox."
+  },
+  "tools": {
+    "title": "Abyssus",
+    "titleHighlight": "Guías",
+    "subtitle": "Información de lanzamiento, reseñas, guías para principiantes, las mejores armas y builds, Bendiciones y Amuletos, jefes, cooperativo y las últimas actualizaciones de Abyssus.",
+    "cards": [
+      {
+        "icon": "CalendarClock",
+        "title": "Lanzamiento y plataformas",
+        "description": "Fechas de lanzamiento en Steam, PS5 y Xbox, precio, ediciones y Game Pass"
+      },
+      {
+        "icon": "Star",
+        "title": "Puntuaciones de las reseñas",
+        "description": "Recepción en Steam, PlayStation, Metacritic y la prensa para Abyssus"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Movimiento, equipamiento, Bendiciones, mejoras y patrones de los jefes"
+      },
+      {
+        "icon": "Swords",
+        "title": "Tier list de armas",
+        "description": "9 armas, 54 mods y las mejores builds para cada partida"
+      },
+      {
+        "icon": "Gem",
+        "title": "Bendiciones y Amuletos",
+        "description": "Más de 250 Amuletos y Bendiciones, más de 140 mods de la Forja Antigua y builds para partidas"
+      },
+      {
+        "icon": "Skull",
+        "title": "Jefes y enemigos",
+        "description": "Más de 70 niveles, 36 enemigos y 12 jefes en las expediciones de Abyssus"
+      },
+      {
+        "icon": "Users",
+        "title": "Cooperativo y juego cruzado",
+        "description": "Cooperativo de 1 a 4 jugadores, juego cruzado completo, matchmaking y partida rápida"
+      },
+      {
+        "icon": "Package",
+        "title": "Actualizaciones y DLC",
+        "description": "Notas del parche, actualizaciones de contenido gratuitas, lanzamiento en consolas y DLC estéticos"
+      }
+    ]
+  },
+  "modules": {
+    "abyssusReleaseDatePlatformsAndGamePass": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento, plataformas, precio y Game Pass de Abyssus",
+      "subtitle": "Abyssus se lanzó primero en Steam y luego se expandió a PS5 y Xbox Series X|S con soporte para Game Pass. Usa esta sección para consultar dónde jugar, qué ofrece cada tienda y qué edición se adapta a tu configuración.",
+      "intro": "Abyssus es un FPS roguelite brinepunk de ritmo rápido para 1 a 4 jugadores de DoubleMoose Games, publicado por The Arcade Crew y Dotemu. La versión para PC se lanzó en Steam el 12 de agosto de 2025, mientras que las versiones para PS5 y Xbox Series X|S se lanzaron el 25 de junio de 2026.",
+      "items": [
+        {
+          "label": "Lanzamiento en PC",
+          "value": "12 de agosto de 2025",
+          "platforms": [
+            "Steam"
+          ],
+          "details": "La versión de Steam es compatible con el modo para un jugador, cooperativo en línea, logros de Steam, Steam Cloud y Préstamo familiar.",
+          "price": "Precio base de 24,99 $"
+        },
+        {
+          "label": "Lanzamiento en consolas",
+          "value": "25 de junio de 2026",
+          "platforms": [
+            "PlayStation 5",
+            "Xbox Series X|S"
+          ],
+          "details": "Las versiones de consola se lanzaron para PS5 y Xbox Series X|S después del lanzamiento en PC.",
+          "price": "Precio base de $24.99"
+        },
+        {
+          "label": "Xbox Game Pass",
+          "value": "Incluido",
+          "platforms": [
+            "Nube",
+            "Xbox Series X|S",
+            "PC"
+          ],
+          "details": "Abyssus está disponible a través de Game Pass Ultimate, Game Pass Premium y PC Game Pass. Xbox también incluye juego en la nube, Smart Delivery, Xbox Play Anywhere y cooperativo multiplataforma de Xbox.",
+          "price": "Incluido con los niveles de Game Pass compatibles"
+        },
+        {
+          "label": "Ediciones y complementos",
+          "value": "Standard y Brine Edition",
+          "platforms": [
+            "Steam",
+            "PS5",
+            "Xbox Series X|S"
+          ],
+          "details": "El juego base se vende por separado, mientras que la Brine Edition incluye packs cosméticos como los contenidos de Brinehunter, Brineguard, Brinefrost y Brinerot.",
+          "price": "Brine Edition listada a $34.99 en PlayStation Store"
+        }
+      ]
+    },
+    "abyssusReviewScoresAndPlayerRatings": {
+      "eyebrow": "Reseñas",
+      "title": "Puntuaciones de reseñas y calificaciones de jugadores de Abyssus",
+      "subtitle": "Abyssus cuenta con una sólida tendencia de reseñas de usuarios en Steam, calificaciones de jugadores positivas en PlayStation y una recepción de la crítica entre mixta y positiva. El público ideal son los jugadores que disfrutan de los shooters cooperativos rápidos con acumulación de mejoras tipo roguelite.",
+      "intro": "Este módulo compara las calificaciones de las tiendas, las puntuaciones de la crítica y la recepción de los jugadores en Steam, PlayStation Store, Metacritic y medios especializados en PC. Mantiene la página de inicio útil para búsquedas como reseña de Abyssus, calificación de Abyssus y si vale la pena Abyssus.",
+      "items": [
+        {
+          "source": "Steam",
+          "score": "Muy positivas",
+          "sample": "Reseñas en inglés: 3,030 reseñas; reseñas recientes: 110 reseñas",
+          "details": "Steam clasifica las reseñas de usuarios en inglés como Muy positivas y las reseñas recientes como Mayormente positivas. La página también muestra el juego como un FPS roguelite de 1 a 4 jugadores de ritmo rápido con soporte para cooperativo en línea.",
+          "bestFor": "Jugadores de PC que consultan el sentimiento general de los usuarios antes de comprar."
+        },
+        {
+          "source": "PlayStation Store",
+          "score": "4.59 / 5",
+          "sample": "74 calificaciones de jugadores",
+          "details": "La página de la tienda de PS5 muestra una calificación promedio de 4.59 y presenta el juego como un shooter para PS5 con funciones en línea y varios idiomas de pantalla compatibles.",
+          "bestFor": "Jugadores de PS5 que consultan la recepción en consola tras el lanzamiento."
+        },
+        {
+          "source": "Metacritic",
+          "score": "71 Metascore",
+          "sample": "15 reseñas de la crítica en PC",
+          "details": "Metacritic lista Abyssus con un Metascore de 71 en PC y una puntuación de usuario de 6.5. Los resúmenes de las reseñas elogian la base de disparos cooperativos roguelite, aunque señalan problemas de repetición y equilibrio.",
+          "bestFor": "Jugadores que buscan un resumen de las puntuaciones de la crítica en lugar de solo reseñas de tiendas."
+        },
+        {
+          "source": "PC Gamer",
+          "score": "Cobertura positiva en artículos especiales",
+          "sample": "Cobertura de impresiones de primera mano",
+          "details": "PC Gamer destaca a Abyssus como un FPS roguelite rápido y cooperativo con movimientos ágiles, acumulación de mejoras, bendiciones elementales y un gran atractivo para jugar en cooperativo entre semana.",
+          "bestFor": "Grupos de juego cooperativo que deciden si Abyssus encaja entre juegos más largos y de mayor duración."
+        }
+      ]
+    },
+    "abyssusBeginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de Abyssus: Qué hacer primero",
+      "subtitle": "Aprende el bucle de juego básico antes de que el abismo te convierta en marisco decorativo. Empieza con el movimiento, la elección de equipamiento, las bendiciones, las mejoras y la lectura de los patrones de los jefes.",
+      "intro": "Las partidas de Abyssus se estructuran en torno a elegir un equipamiento, despejar salas diseñadas a mano y secuenciadas de forma procedimental, mejorar armas y habilidades, y sobrevivir a encuentros con jefes. Se puede jugar en solitario, pero el cooperativo recompensa la coordinación de equipamientos, habilidades, trajes y modificaciones de armas.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Elige jugar en solitario o en cooperativo antes de crear tu equipamiento",
+          "description": "Abyssus permite jugar en solitario y en cooperativo en línea de hasta 4 jugadores. En el modo cooperativo, coordina armas, habilidades, trajes y modificaciones de armas en lugar de que todos busquen el mismo rol de daño.",
+          "beginnerTip": "Empieza en solitario para aprender el movimiento y los patrones de los enemigos, y luego pasa al cooperativo cuando entiendas el flujo de las salas."
+        },
+        {
+          "step": 2,
+          "title": "Trata el movimiento como una forma de sobrevivir, no como decoración",
+          "description": "Usa el esquive, el salto, el doble salto y el posicionamiento en la arena para evitar el daño mientras mantienes tu arma activa. Los primeros enemigos y jefes premian el reposicionamiento constante en lugar de quedarse quietos.",
+          "beginnerTip": "Rodea las arenas, mantén la distancia con los enemigos que explotan y reserva las herramientas de movimiento para los ataques de área de los jefes."
+        },
+        {
+          "step": 3,
+          "title": "Despeja salas mientras buscas oportunidades de mejora",
+          "description": "Las partidas transcurren por niveles diseñados a mano que se secuencian de forma procedimental, por lo que el orden de las salas cambia mientras que las reglas básicas del combate siguen siendo las mismas. Busca estaciones de mejora, altares, opciones de curación y recompensas que definan tu configuración entre combates.",
+          "beginnerTip": "No gastes cada mejora en daño puro; la supervivencia y el tiempo de actividad de las habilidades importan durante las partidas más largas."
+        },
+        {
+          "step": 4,
+          "title": "Aplica bendiciones al disparo principal, al disparo secundario y a las habilidades",
+          "description": "Las bendiciones pueden añadir efectos como fuego, hielo, rayo, invocaciones de estilo marino, sombras o espíritus a tus ataques y habilidades. Una configuración sólida se consigue acumulando efectos que funcionen bien juntos.",
+          "beginnerTip": "Para las primeras partidas, elige efectos que controlen a los enemigos o mantengan el daño activo mientras te mueves."
+        },
+        {
+          "step": 5,
+          "title": "Usa la metaprogresión para facilitar las futuras partidas",
+          "description": "Abyssus incluye metaprogresión roguelite con avances, recompensas y desbloqueos. Las mejoras pueden ampliar tus herramientas disponibles, mejorar la consistencia de las partidas y ayudarte a llegar más lejos tras los intentos fallidos.",
+          "beginnerTip": "Las partidas fallidas siguen siendo importantes cuando desbloquean mejores armas, habilidades, estaciones de mejora o apoyo de curación."
+        },
+        {
+          "step": 6,
+          "title": "Lee a los jefes como combates de patrones",
+          "description": "Los jefes usan grandes ataques de área, momentos de invulnerabilidad, peligros y fases de presión. Céntrate primero en aprender los patrones de ataque y luego inflige daño durante las ventanas seguras.",
+          "beginnerTip": "En el modo cooperativo, asigna roles: un jugador se encarga de los efectos de control, otro se centra en el daño al jefe y los demás apoyan con el despeje de área o la supervivencia."
+        }
+      ]
+    },
+    "abyssusWeaponsTierListAndBestBuilds": {
+      "eyebrow": "Armas y configuraciones",
+      "title": "Lista de niveles de armas y mejores configuraciones de Abyssus",
+      "subtitle": "Abyssus cuenta con 9 armas, 54 modificaciones de armas, más de 140 modificaciones de la Forja Ancestral y más de 250 amuletos y bendiciones. Las mejores configuraciones surgen al combinar el rol del arma, la elección de modificaciones, la habilidad y los efectos elementales.",
+      "intro": "Esta cuadrícula de niveles se centra en roles de configuración prácticos para partidas reales: despeje de salas, daño a jefes, consistencia para principiantes y juego de especialista de alta habilidad. El equilibrio de las armas puede cambiar con los parches, pero estos roles se adaptan perfectamente al arsenal de armas confirmado de Abyssus y a los sistemas de configuración actuales.",
+      "tiers": [
+        {
+          "tier": "S",
+          "tierLabel": "Mejores elecciones para liderar partidas",
+          "weapons": [
+            {
+              "name": "Pistola Tesla",
+              "role": "Despeje de salas y propagación de estados",
+              "bestBuild": "Combínala con efectos que propaguen el daño o controlen grupos, y luego aumenta el tiempo de actividad de las habilidades con amuletos y modificaciones de la forja.",
+              "whyUseIt": "Excelente para despejar varios enemigos rápidamente y mantener la presión en arenas abarrotadas."
+            },
+            {
+              "name": "Revólver de salmuera",
+              "role": "Daño a jefes y a un solo objetivo",
+              "bestBuild": "Crea tu configuración en torno al daño de precisión, las ventanas de puntos débiles y los efectos que recompensan los disparos precisos durante las aperturas de los jefes.",
+              "whyUseIt": "Una opción sólida cuando una partida requiere daño concentrado contra objetivos con mucha salud."
+            },
+            {
+              "name": "Lanzador de plasma",
+              "role": "Daño de área y despeje explosivo",
+              "bestBuild": "Acumula daño de área, apoyo a la cadencia de tiro y amuletos que beneficien a las explosiones para lidiar con enemigos agrupados.",
+              "whyUseIt": "Ideal para jugadores que buscan un gran control de salas y un daño de área explosivo."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Armas principales fiables",
+          "weapons": [
+            {
+              "name": "Arco de combate",
+              "role": "Daño progresivo y configuraciones aptas para torretas",
+              "bestBuild": "Usa mejoras que perfeccionen el ritmo de disparo y combínalas con efectos de control o torretas para infligir un daño constante.",
+              "whyUseIt": "Funciona bien una vez mejorado y recompensa a los jugadores que mantienen la distancia apuntando con precisión."
+            },
+            {
+              "name": "Deidad Pez",
+              "role": "Limpieza de enemigos y configuraciones basadas en efectos",
+              "bestBuild": "Usa modificadores de aumento de daño y efectos de tipo explosión para convertir grupos de enemigos en reacciones en cadena.",
+              "whyUseIt": "Una gran opción para jugadores que buscan un estilo de arma más peculiar con un auténtico poder de limpieza."
+            },
+            {
+              "name": "Fusil de motor",
+              "role": "Arma equilibrada ideal para principiantes",
+              "bestBuild": "Úsalo como un arma inicial estable mientras aprendes sobre el Calor, el ritmo de recarga y las opciones básicas de modificadores.",
+              "whyUseIt": "Una elección inicial segura que enseña el manejo de armas de Abyssus sin exigir un posicionamiento avanzado."
+            }
+          ]
+        },
+        {
+          "tier": "Avanzado",
+          "tierLabel": "Elecciones dependientes de la habilidad y los modificadores",
+          "weapons": [
+            {
+              "name": "Escopeta",
+              "role": "Daño de ráfaga a corta distancia",
+              "bestBuild": "Prioriza la movilidad, el retroceso y la supervivencia para mantener bajo control los combates a corta distancia.",
+              "whyUseIt": "Útil para jugadores que saben gestionar las distancias y castigar a los enemigos de cerca."
+            },
+            {
+              "name": "Lanzadiscos",
+              "role": "Control de proyectiles y limpieza eficaz de salas",
+              "bestBuild": "Elige modificadores que mejoren la redirección de los discos, el daño de retorno o el fijado de enemigos, y añade efectos que recompensen los impactos repetidos.",
+              "whyUseIt": "Es mejor una vez que los jugadores comprenden la geometría de las salas y el movimiento enemigo."
+            },
+            {
+              "name": "Arpón",
+              "role": "Espacio de arma de especialista",
+              "bestBuild": "Úsalo tras aprender los tiempos y el posicionamiento de los jefes, y luego crea una configuración basada en la precisión, el control y ventanas de ataque seguras.",
+              "whyUseIt": "Es mejor tratarlo como una elección de especialista que como un arma cómoda para la primera partida."
+            }
+          ]
+        }
+      ]
+    },
+    "abyssusBlessingsCharmsAndForgeMods": {
+      "eyebrow": "Creación de configuraciones",
+      "title": "Bendiciones, Amuletos y modificadores de la Forja Antigua de Abyssus",
+      "subtitle": "Da forma a cada expedición con Bendiciones divinas, Amuletos, elecciones de habilidades y modificadores de la Forja Antigua. Esta sección explica cómo Abyssus convierte armas y habilidades en configuraciones completas para cada partida.",
+      "intro": "Las configuraciones de Abyssus se componen de armas, trajes, habilidades, Bendiciones, Amuletos y mejoras de la Forja Antigua. El repertorio de contenido actual incluye más de 250 Amuletos y Bendiciones y más de 140 modificadores de la Forja Antigua, lo que otorga a cada partida una ruta de mejora distinta en lugar de un equipamiento fijo.",
+      "items": [
+        {
+          "icon": "Llama",
+          "title": "Bendiciones",
+          "type": "Poder de la partida",
+          "value": "Más de 250 compartidos con Amuletos",
+          "description": "Las Bendiciones otorgan efectos elementales o místicos al disparo principal, secundario y habilidades, convirtiendo los ataques básicos en estrategias de daño centradas en quemaduras, congelación, arcos, tentáculos, sombras o espíritus.",
+          "bestFor": "Crear una configuración en torno al modo de disparo o la habilidad que más utilices.",
+          "examples": [
+            "Efectos de quemadura por fuego",
+            "Efectos de congelación por hielo",
+            "---",
+            "Arcos eléctricos",
+            "Tentáculos del océano",
+            "Debilitamientos de sombra"
+          ]
+        },
+        {
+          "icon": "Espíritus vengativos",
+          "title": "Destellos",
+          "type": "Amuletos",
+          "value": "Modificador de configuración",
+          "description": "Más de 250 compartidos con Bendiciones",
+          "bestFor": "Los amuletos añaden reglas adicionales que orientan la partida hacia un ritmo específico, como un ciclo de habilidades más potente, apoyo a la supervivencia o mayor sinergia con habilidades desplegadas como torretas.",
+          "examples": [
+            "Definir la identidad de la configuración tras elegir el arma y la habilidad principales.",
+            "Apoyo al enfriamiento de habilidades",
+            "Apoyo al escalado de daño",
+            "Alivio de la presión de supervivencia"
+          ]
+        },
+        {
+          "icon": "Ajuste de roles cooperativos",
+          "title": "Martillo",
+          "type": "Mods de la Forja Antigua",
+          "value": "Mejora de armas y habilidades",
+          "description": "Más de 140 mods",
+          "bestFor": "Los mods de la Forja Antigua potencian aún más las armas y habilidades, cambiando el comportamiento de las herramientas equipadas y ampliando la ruta de mejora más allá de simples aumentos de estadísticas.",
+          "examples": [
+            "Reajustar un arma o habilidad favorita para que coincida con la configuración de Bendiciones de la partida.",
+            "Mejoras de comportamiento del arma",
+            "Mods de mejora de habilidades"
+          ]
+        },
+        {
+          "icon": "Desbloqueos de desafíos específicos de habilidades",
+          "title": "Red",
+          "type": "Árbol de habilidades",
+          "value": "Metaprogresión",
+          "description": "Ampliado en la actualización 1.3",
+          "bestFor": "El árbol de habilidades añade progresión a largo plazo y nuevas habilidades, mejorando lo que los Brinehunters pueden llevar a expediciones posteriores y abriendo opciones de ruta más sólidas entre partidas.",
+          "examples": [
+            "Hacer que las incursiones más profundas sean más consistentes tras los descensos fallidos iniciales.",
+            "Nuevas habilidades de la 1.3",
+            "Opciones de preparación para la partida"
+          ]
+        },
+        {
+          "icon": "Planificación de mejoras a largo plazo",
+          "title": "Flujo de trabajo",
+          "type": "Bucle de sinergia",
+          "value": "Regla práctica de configuración",
+          "description": "Arma + Bendición + Amuleto + Forja",
+          "bestFor": "Una partida sólida suele empezar con una acción repetible y luego acumula Bendiciones, Amuletos y mods de la Forja que se activan con esa acción tan a menudo como sea posible.",
+          "examples": [
+            "Jugadores que buscan daño fiable, control o utilidad de equipo en lugar de una recolección aleatoria de mejoras.",
+            "Torreta más invocaciones de estilo oceánico",
+            "Debuff de sombra más fuego constante"
+          ]
+        }
+      ]
+    },
+    "abyssusBossesEnemiesAndLevelProgression": {
+      "eyebrow": "Progresión de combate",
+      "title": "Jefes, enemigos y progresión de niveles de Abyssus",
+      "subtitle": "Sigue cómo Abyssus escala desde las primeras salas de combate hacia encuentros de élite, combates contra jefes y rutas de expedición más profundas.",
+      "intro": "Abyssus utiliza niveles diseñados a mano que se secuencian de forma procedimental a lo largo de las partidas, y luego añade capas de enemigos, objetivos de sala, mejoras y jefes. Tras la Actualización 1.3, el juego cuenta con más de 70 niveles diseñados a mano, 36 tipos de enemigos y 12 jefes.",
+      "items": [
+        {
+          "question": "¿Cuántos niveles, enemigos y jefes hay en Abyssus?",
+          "answer": "El conjunto de contenido posterior a la versión 1.3 incluye más de 70 niveles diseñados a mano, 36 enemigos diferentes y 12 jefes. Los niveles se secuencian de forma procedimental, por lo que cada expedición puede reutilizar espacios creados a mano en un orden de partida diferente.",
+          "highlights": [
+            "Más de 70 niveles diseñados a mano",
+            "36 enemigos",
+            "12 jefes",
+            "Partidas secuenciadas de forma procedimental"
+          ]
+        },
+        {
+          "question": "¿Qué cambia a medida que una partida se hace más profunda en Abyssus?",
+          "answer": "Las partidas avanzan a través de arenas de combate, objetivos, opciones de mejora y puertas de jefes. La metaprogresión añade nuevas armas, habilidades, acceso a mejoras, apoyo de curación y opciones más fuertes para intentos posteriores.",
+          "highlights": [
+            "Salas de combate",
+            "Estaciones de mejora",
+            "Puertas de jefes",
+            "Desbloqueos de metaprogresión"
+          ]
+        },
+        {
+          "question": "¿Qué añadió la Actualización 1.3 a la progresión de enemigos y jefes en Abyssus?",
+          "answer": "La Actualización 1.3 añade una zona jugable con temática de maquinaria brinepunk, nuevos enemigos, un nuevo encuentro de élite, un nuevo encuentro con jefe, un nuevo Dios, nuevas Bendiciones y un árbol de habilidades ampliado.",
+          "highlights": [
+            "Nueva zona jugable",
+            "Nuevos enemigos",
+            "Nuevo encuentro de élite",
+            "Nuevo encuentro con jefe",
+            "Nuevo Dios"
+          ]
+        },
+        {
+          "question": "¿Qué variantes de jefes de Abyssus se destacan en el Parche 1.2?",
+          "answer": "El Parche 1.2 introdujo nuevos patrones de jefes para Golemancer, Kri'Su y Un'glu, ofreciendo a los jugadores que regresan ataques renovados y versiones potenciadas por Surge de combates contra jefes conocidos.",
+          "highlights": [
+            "Golemancer",
+            "Kri'Su",
+            "Un'glu",
+            "Ataques renovados"
+          ]
+        },
+        {
+          "question": "¿Qué deben esperar los jugadores de Abyssus del combate contra jefes?",
+          "answer": "Los jefes se apoyan en la presión de la arena, ataques de área de efecto, fases de invulnerabilidad, anillos de daño y peligros que recompensan el movimiento, la precisión y el trabajo en equipo. El dash y el doble salto importan tanto como el daño puro.",
+          "highlights": [
+            "Ataques AoE",
+            "Fases de invulnerabilidad",
+            "Peligros de la arena",
+            "Combates con gran enfoque en el movimiento"
+          ]
+        }
+      ]
+    },
+    "abyssusCoOpCrossplayAndMatchmaking": {
+      "eyebrow": "Multijugador",
+      "title": "Cooperativo, juego cruzado y emparejamiento de Abyssus",
+      "subtitle": "Abyssus es compatible con el juego en solitario y el cooperativo en línea, con multijugador multiplataforma completo añadido junto con el lanzamiento en PS5 y Xbox Series X|S.",
+      "intro": "Abyssus está diseñado en torno a partidas rápidas de FPS brinepunk de 1 a 4 jugadores. La Actualización 1.3 añade multijugador multiplataforma completo, emparejamiento optimizado y juego rápido para que los jugadores de Steam, PlayStation 5 y Xbox Series X|S puedan agruparse más fácilmente.",
+      "headers": {
+        "feature": "---",
+        "steam_pc": "Característica",
+        "playstation_5": "Steam / PC",
+        "xbox_series_xs": "PlayStation 5",
+        "notes": "Xbox Series X|S"
+      },
+      "rows": [
+        {
+          "feature": "Notas",
+          "steam_pc": "Juego en solitario",
+          "playstation_5": "Compatible",
+          "xbox_series_xs": "Compatible; PlayStation Store indica 1 jugador",
+          "notes": "Compatible; Xbox indica Un jugador"
+        },
+        {
+          "feature": "Las partidas en solitario están disponibles, aunque el diseño del juego enfatiza fuertemente la sinergia de equipamiento en equipo.",
+          "steam_pc": "Tamaño del grupo cooperativo en línea",
+          "playstation_5": "FPS de 1 a 4 jugadores con cooperativo en línea",
+          "xbox_series_xs": "Admite hasta 4 jugadores en línea con PS Plus",
+          "notes": "Cooperativo en línea listado para 2-4 jugadores"
+        },
+        {
+          "feature": "Las páginas oficiales del juego presentan Abyssus como un cooperativo de hasta 4 jugadores.",
+          "steam_pc": "Juego cruzado",
+          "playstation_5": "Multijugador multiplataforma completo añadido en la Actualización 1.3",
+          "xbox_series_xs": "Juego multiplataforma con PC y Xbox mediante la Actualización 1.3",
+          "notes": "Cooperativo multiplataforma de Xbox listado; multijugador multiplataforma completo anunciado"
+        },
+        {
+          "feature": "El juego cruzado abarca Steam, PlayStation 5 y Xbox Series X|S.",
+          "steam_pc": "Matchmaking y partida rápida",
+          "playstation_5": "Matchmaking y partida rápida optimizados añadidos en la Actualización 1.3",
+          "xbox_series_xs": "Utiliza el mismo conjunto de funciones multijugador del lanzamiento en consolas de la versión 1.3",
+          "notes": "Utiliza el mismo conjunto de funciones multijugador del lanzamiento en consolas de la versión 1.3"
+        },
+        {
+          "feature": "La partida rápida está diseñada para ayudar a los jugadores a unirse a salas públicas más fácilmente.",
+          "steam_pc": "Reglas de suscripción en línea",
+          "playstation_5": "Se requiere una cuenta de Steam; sin reglas de suscripción de consola",
+          "xbox_series_xs": "Se requiere PS Plus para el juego en línea",
+          "notes": "El multijugador en línea en consola requiere Xbox Game Pass Essential, Premium o Ultimate"
+        },
+        {
+          "feature": "Las reglas de acceso en línea son específicas de cada plataforma.",
+          "steam_pc": "Game Pass y la nube",
+          "playstation_5": "Disponible en Steam",
+          "xbox_series_xs": "Disponible en PlayStation Store; streaming en la nube de PS5 compatible solo con Premium",
+          "notes": "Incluido con Game Pass Premium y Ultimate; jugable en la nube en los niveles compatibles"
+        }
+      ]
+    },
+    "abyssusUpdatesPatchNotesAndDlc": {
+      "eyebrow": "Xbox también incluye PC, Xbox Series X|S, Xbox Cloud Gaming y juego en dispositivos portátiles.",
+      "title": "Actualizaciones",
+      "subtitle": "Actualizaciones, notas del parche y DLC de Abyssus",
+      "intro": "Sigue las principales actualizaciones de Abyssus, las entregas de contenido gratuito, los cambios del lanzamiento en consolas y los complementos cosméticos.",
+      "items": [
+        {
+          "date": "Abyssus se ha expandido mediante actualizaciones gratuitas de jugabilidad, manteniendo el DLC de apoyo solo para cosméticos. El hito más importante hasta la fecha es la Actualización 1.3, que se lanzó con las versiones de consola, multijugador multiplataforma, nuevo contenido y el paquete cosmético Brinerot.",
+          "label": "Lanzamiento en PC",
+          "title": "Abyssus se lanza en Steam",
+          "description": "La versión de PC se lanza como un FPS roguelite cooperativo de 1 a 4 jugadores de ritmo frenético con personalización de armas, Bendiciones divinas, progresión roguelite y niveles creados a mano."
+        },
+        {
+          "date": "12 de enero de 2026",
+          "label": "Actualización 1.2 Brinefrost",
+          "title": "Brinefrost añade el Harpoon Gun, la Smiting Spear y variantes de jefes",
+          "description": "La actualización 1.2 añade el Harpoon Gun desbloqueable, la habilidad Smiting Spear, nuevos mods de Ancient Forge, nuevos desafíos, patrones de variantes de jefes para Golemancer, Kri'Su y Un'glu, y el Brinefrost Pack de contenido puramente cosmético."
+        },
+        {
+          "date": "10 de marzo de 2026",
+          "label": "Avance de la 1.3",
+          "title": "El avance de la actualización 1.3 revela una nueva zona y planes de juego cruzado",
+          "description": "El avance describe una zona temática de maquinaria brinepunk, nuevos enemigos, un encuentro de élite, un encuentro con un jefe, el Brine God con 15 nuevas Bendiciones, 5 nuevas Bendiciones para cada Dios existente, un árbol de habilidades renovado, emparejamiento optimizado, partida rápida, versiones para consolas y multijugador multiplataforma completo."
+        },
+        {
+          "date": "25 de junio de 2026",
+          "label": "Actualización 1.3",
+          "title": "Abyssus 1.3 se lanza con multijugador multiplataforma completo",
+          "description": "La actualización 1.3 añade la nueva zona jugable, multijugador multiplataforma completo, un árbol de habilidades actualizado, nuevas Bendiciones, un nuevo Dios, nuevos enemigos y dos salomas marinas. Tras la 1.3, los materiales oficiales enumeran más de 70 niveles, 9 armas, 54 mods de armas, más de 140 mods de Ancient Forge, 36 enemigos, 12 jefes y más de 250 Amuletos y Bendiciones."
+        },
+        {
+          "date": "25 de junio de 2026",
+          "label": "Lanzamiento en consolas",
+          "title": "Llegan las versiones de PS5 y Xbox Series X|S",
+          "description": "El lanzamiento en consolas llega junto con la actualización 1.3, permitiendo que los jugadores de PlayStation 5, Xbox Series X|S y Steam formen escuadrones mediante el multijugador multiplataforma."
+        },
+        {
+          "date": "25 de junio de 2026",
+          "label": "DLC y Edición",
+          "title": "El Brinerot Pack y la Brine Edition amplían las opciones cosméticas",
+          "description": "El Brinerot Pack añade un casco, armadura, gesto y marco de retrato. La Brine Edition incluye el juego base junto con los packs cosméticos Brinehunter, Brineguard, Brinefrost y Brinerot."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Abyssus antes de sumergirte.",
+    "questions": [
+      {
+        "question": "¿Qué es Abyssus?",
+        "answer": "Abyssus es un FPS roguelite cooperativo brinepunk de DoubleMoose Games. Juegas como un Brinehunter luchando a través de incursiones creadas a mano, acumulando mods de armas, Bendiciones y Amuletos, ya sea en solitario o con hasta 4 jugadores."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Abyssus?",
+        "answer": "Abyssus se lanzó en Steam para PC el 12 de agosto de 2025 y llegó a PS5 y Xbox Series X|S el 25 de junio de 2026. La versión de Xbox también está incluida en Game Pass."
+      },
+      {
+        "question": "¿Abyssus es compatible con cooperativo y juego cruzado?",
+        "answer": "Sí. Abyssus admite cooperativo en línea de 1 a 4 jugadores, y Xbox indica cooperativo multiplataforma, por lo que los amigos en PC y Xbox pueden jugar juntos a través de Game Pass y las configuraciones de tienda compatibles."
+      },
+      {
+        "question": "¿Es Abyssus un roguelite o un roguelike?",
+        "answer": "Abyssus es un roguelite. Cada partida te lleva a través de salas creadas a mano y secuenciadas proceduralmente, y la metaprogresión desbloquea mejores armas, habilidades y mejoras que se mantienen entre partidas."
+      },
+      {
+        "question": "¿Cuánto dura Abyssus y cuánto contenido tiene?",
+        "answer": "Abyssus incluye más de 70 niveles creados a mano, 9 armas, 54 mods de armas, más de 140 mods de Ancient Forge, más de 250 Amuletos y Bendiciones, 36 tipos de enemigos y 12 jefes."
+      },
+      {
+        "question": "¿Qué tal son las críticas de Abyssus?",
+        "answer": "Abyssus tiene una calificación \"Muy positiva\" en Steam, una valoración de los jugadores de 4,59 sobre 5 en la PlayStation Store y un Metascore de 71 en PC, con elogios centrados en sus disparos cooperativos rápidos y la acumulación de mejoras."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para sumergirte en Abyssus?",
+    "description": "¡Únete a la comunidad de Abyssus en Discord para ver builds, buscar partidas cooperativas, actualizaciones y debates!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Steam"
+  },
+  "footer": {
+    "title": "Abyssus Wiki",
+    "description": "Tu centro de recursos completo para builds, armas, mods, blessings, charms, jefes, cooperativo y guías de logros de Abyssus.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Abyssus Wiki. No afiliado con los desarrolladores de Abyssus.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Abyssus",
+      "description": "Recorrido completo de Abyssus que cubre estrategias de jefes, rutas de logros, mecánicas de nivel, finales y consejos profesionales para partidas en solitario y cooperativas.",
+      "metaTitle": "Guía de Abyssus - Jefes, logros y recorrido",
+      "metaDescription": "Domina Abyssus con nuestra guía completa: estrategias de combate contra jefes, rutas de desbloqueo de logros, progresión de niveles, finales y consejos cooperativos para Steam, PS5 y Xbox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es la Guía de Abyssus?",
+      "whatIsDescription": "La Guía de Abyssus es tu centro principal para superar cada nivel diseñado a mano, vencer a los 12 jefes y desbloquear el conjunto completo de 119 logros. Cubre la progresión de las partidas, las mecánicas de las salas, las fases del jefe final y cada final, con equipamientos probados y estrategias cooperativas para Steam, PS5 y Xbox.",
+      "why": "¿Por qué usar la Guía de Abyssus?",
+      "whySteps": {
+        "step1Title": "Vence a todos los jefes",
+        "step1Description": "Aprende las mecánicas de encuentro y las rotaciones de fase de los 12 jefes, incluido el jefe final, con posicionamiento y armas recomendadas.",
+        "step2Title": "Desbloquea todos los logros",
+        "step2Description": "Sigue rutas de trofeos que agrupan los logros por dificultad para que los completes en partidas eficientes y organizadas.",
+        "step3Title": "Completa cada final",
+        "step3Description": "Completa los requisitos de partida para cada final con selecciones de equipamiento y blessing que se adapten a tu estilo de juego."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "builds": {
+      "title": "Builds de Abyssus",
+      "description": "Las mejores builds de Abyssus para solitario y cooperativo: configuraciones de armas de tier-list, sinergias de mods y combinaciones de charms y blessings para cada estilo de juego.",
+      "metaTitle": "Builds de Abyssus - Mejores equipamientos y configuraciones de armas",
+      "metaDescription": "Encuentra las mejores builds de Abyssus con configuraciones de armas de tier-list, sinergias de mods y combos de charms + blessings para la supervivencia en solitario y partidas cooperativas de 4 jugadores.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "¿Qué son las Builds de Abyssus?",
+      "whatIsDescription": "Las Builds de Abyssus detallan cómo combinar armas, mods de armas, charms y blessings en equipamientos que se adapten a tu estilo de juego. Con 9 armas, 54 mods de armas y más de 250 charms y blessings, la build adecuada convierte una brutal partida roguelite en una estrategia fluida y repetible para la supervivencia en solitario o el cooperativo de 4 jugadores.",
+      "why": "¿Por qué seguir las Builds de Abyssus?",
+      "whySteps": {
+        "step1Title": "Elige el arma adecuada",
+        "step1Description": "Compara configuraciones de armas de la tier-list como el plasma launcher, el revolver y la harpoon gun para encontrar una que se adapte a tu puntería y ritmo.",
+        "step2Title": "Acumula mods y charms",
+        "step2Description": "Combina weapon mods con charms y blessings para mejorar el daño, el control y la supervivencia en distintos tipos de salas y combates contra jefes.",
+        "step3Title": "Adáptate a la partida",
+        "step3Description": "Ajusta tu build en cada partida según los blessings, mods y el botín que encuentres para que cada equipamiento siga siendo competitivo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las Builds"
+    },
+    "weapons": {
+      "title": "Armas de Abyssus",
+      "description": "Todas las armas de Abyssus clasificadas y explicadas: tier lists, estadísticas, mejores mods y rutas de mejora para el plasma launcher, la harpoon gun, el disc thrower y más.",
+      "metaTitle": "Armas de Abyssus - Tier List y Guía de los mejores mods",
+      "metaDescription": "Explora todas las armas de Abyssus con rankings de tier, estadísticas, mejores mods y rutas de mejora para el plasma launcher, la harpoon gun, el disc thrower y la fish deity.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "¿Qué son las Armas de Abyssus?",
+      "whatIsDescription": "Armas de Abyssus cubre las 9 armas y los 54 weapon mods del juego, explicando la sensación de cada arma, en qué destaca y qué mods y mejoras la hacen brillar. Desde potencias de área como el plasma launcher hasta opciones especializadas como la harpoon gun, encontrarás la herramienta adecuada para cada tipo de enemigo y jefe.",
+      "why": "¿Por qué estudiar las Armas de Abyssus?",
+      "whySteps": {
+        "step1Title": "Elige tu arma principal",
+        "step1Description": "Compara los rankings de tier y estadísticas de las armas para elegir una principal que se ajuste a tu estilo de puntería y objetivos de la partida.",
+        "step2Title": "Elige los mejores mods",
+        "step2Description": "Combina cada arma con sus mods más potentes para daño, munición o control y así aprovechar al máximo cada objeto que recojas.",
+        "step3Title": "Planifica las mejoras",
+        "step3Description": "Sigue rutas de mejora que potencien el arma para el endgame, manteniéndola viable contra los enemigos y jefes más duros."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las armas"
+    },
+    "platforms": {
+      "title": "Plataformas de Abyssus",
+      "description": "Dónde jugar Abyssus: detalles de Steam, PS5, Xbox Series X|S y Game Pass, además de información sobre crossplay, soporte para mando y fecha de lanzamiento.",
+      "metaTitle": "Plataformas de Abyssus - Steam, PS5, Xbox, Game Pass y Crossplay",
+      "metaDescription": "Descubre dónde jugar Abyssus en Steam, PS5, Xbox Series X|S y Game Pass, con detalles sobre crossplay, soporte para mando y fecha de lanzamiento.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué son las Plataformas de Abyssus?",
+      "whatIsDescription": "Plataformas de Abyssus explica dónde y cómo jugar a Abyssus. El juego se lanzó en Steam el 12 de agosto de 2025, y las versiones para PS5 y Xbox Series X|S llegarán el 25 de junio de 2026. Esta sección cubre cada tienda, la disponibilidad en Game Pass, el crossplay entre PC y Xbox y el soporte total para mando para que puedas empezar el cooperativo en la plataforma que prefieras.",
+      "why": "¿Por qué consultar las Plataformas de Abyssus?",
+      "whySteps": {
+        "step1Title": "Elige tu tienda",
+        "step1Description": "Compara Steam, PS5, Xbox Series X|S y Game Pass para elegir dónde comprar y ejecutar Abyssus.",
+        "step2Title": "Configura el crossplay",
+        "step2Description": "Aprende cómo funciona el crossplay entre PC y Xbox para que tu equipo pueda jugar unido entre distintas plataformas.",
+        "step3Title": "Configura tu mando",
+        "step3Description": "Sigue las guías de soporte y configuración de mandos para PC y consolas para obtener una puntería cómoda y fluida."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las plataformas"
+    },
+    "review": {
+      "title": "Reseña de Abyssus",
+      "description": "¿Vale la pena jugar a Abyssus? Reseñas, impresiones de gameplay, cantidad de jugadores, viabilidad en solitario y rendimiento en Steam Deck detallados.",
+      "metaTitle": "Reseña de Abyssus - Gameplay, cantidad de jugadores y antes de comprar",
+      "metaDescription": "Lee nuestra reseña de Abyssus con impresiones de gameplay, cantidad de jugadores, consejos para jugar en solitario, rendimiento en Steam Deck y un desglose de lo que debes saber antes de comprar.",
+      "categoryLabel": "RESEÑAS",
+      "whatIs": "¿Qué es la reseña de Abyssus?",
+      "whatIsDescription": "La reseña de Abyssus reúne impresiones de gameplay, valoraciones en Steam, tendencias en la cantidad de jugadores y el rendimiento en plataformas para ayudarte a decidir si Abyssus es para ti. Cubre la viabilidad para jugar en solitario, la compatibilidad con Steam Deck y un resumen de lo que debes saber antes de comprar para que sepas qué esperar en Steam, PS5 y Xbox.",
+      "why": "¿Por qué leer la reseña de Abyssus?",
+      "whySteps": {
+        "step1Title": "Ver gameplay real",
+        "step1Description": "Lee impresiones de gameplay que explican cómo se siente jugar a Abyssus en solitario y en cooperativo de 4 jugadores.",
+        "step2Title": "Consulta la comunidad",
+        "step2Description": "Sigue la cantidad de jugadores y la opinión de las reseñas en Steam para medir qué tan activa y saludable está la comunidad.",
+        "step3Title": "Decide antes de comprar",
+        "step3Description": "Usa el desglose de lo que debes saber antes de comprar y las notas de rendimiento en plataformas para elegir la versión correcta con confianza."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las reseñas"
+    }
   }
 }
