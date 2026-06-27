@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus: Gameplay-Tipps & Fortschrittsleitfaden 2026",
+  description: "Meistere Abyssus mit unserem Experten-Leitfaden zu Waffen-Tiers, essenziellen Builds, Boss-Strategien und Koop-Taktiken für den Konsolen- und PC-Launch 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/081b1f/26b8aa?text=Abyssus+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus, Gameplay-Tipps, Waffen-Tier-Liste, Boss-Strategien, Koop, Fortschrittsleitfaden"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Abyssus** ist ein rasanter **Brinepunk-Roguelite-FPS**, der Solo- und 4-Spieler-Koop unterstützt.
+- Konzentriere dich auf **Bewegung und Positionierung**, um intensive Arena-Kämpfe zu überleben.
+- Schaffe Beständigkeit, indem du **Segen, Amulette und Upgrades der Uralten Schmiede** für Synergien kombinierst.
+- Nutze das **Cross-Platform-Play**, um dich mit Freunden auf Steam, PS5 und Xbox zusammenzuschließen.
+- Priorisiere **Überlebens-Upgrades** früh in deinem Run, um tiefere Boss-Begegnungen zu erreichen.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte in Abyssus">
+
+Abyssus erfordert schnelle Reflexe und kluges Loadout-Management. Egal, ob du solo eintauchst oder einem 4-Spieler-Team beitrittst, das Verständnis des Kern-Loops – das Säubern handgefertigter Räume, das Management von Hitze und die Auswahl der richtigen Upgrades – ist entscheidend für das langfristige Überleben.
+
+**Video-Highlights:**
+- Übersicht der Brinepunk-FPS-Bewegungsmechaniken
+- Demonstration von Waffen-Modding im Early-Game
+- Grundlegende Boss-Strategien für neue Spieler
+
+<YouTubeEmbed videoId="jkDOLIRLJpU" title="Abyssus Gameplay-Übersicht" />
+
+Das Spiel bietet 9 Primärwaffen und ein tiefgreifendes Modifikationssystem. Der Erfolg hängt von deiner Fähigkeit ab, Raumlayouts zu lesen und deine Ausrüstung an die spezifischen Herausforderungen jedes Bioms anzupassen.
+
+| System | Beschreibung | Wichtigkeit |
+| :--- | :--- | :--- |
+| Bewegung | Dash, Sprung, Doppelsprung | Überlebenskritisch |
+| Kampf | Primäre/Sekundäre Feuermodi | Hauptschadensquelle |
+| Upgrades | Segen & Uralte Schmiede | Run-entscheidende Kraft |
+| Meta | Skillbaum-Fortschritt | Langfristige Beständigkeit |
+
+<Callout type="tip" title="Profi-Tipp">
+Betrachte Bewegung als dein primäres Verteidigungswerkzeug. In Abyssus ist Stillstand der schnellste Weg, um zu dekorativen Meeresfrüchten zu werden. Bleib immer in Bewegung, während du Nachlade- und Hitzezyklen deiner Waffe kontrollierst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Waffen-Tier-Liste und Builds">
+
+Die Wahl der richtigen Waffe ist der Grundstein für jeden erfolgreichen Run. Während persönliche Vorlieben zählen, bieten bestimmte Waffen einen besseren Nutzen für das Säubern von Räumen oder Boss-Schaden.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Top-Picks">
+    - **Tesla Gun**: Beste Raumreinigung
+    - **Brine Revolver**: Hoher Einzelziel-DPS
+    - **Plasma Launcher**: Zuverlässiger AOE-Burst
+  </Card>
+  <Card title="A-Tier: Zuverlässig">
+    - **Combat Bow**: Skalierender Präzisionsschaden
+    - **Fish Deity**: Starke effektlastige Builds
+    - **Engine Rifle**: Vielseitige Starterwaffe
+  </Card>
+  <Card title="Advanced: Spezialisten">
+    - **Shotgun**: Nahkampf-Burst
+    - **Disc Thrower**: Projektilkontrolle
+    - **Harpoon Gun**: Boss-spezifischer Nutzen
+  </Card>
+</CardGrid>
+
+| Waffe | Beste Rolle | Synergie-Fokus |
+| :--- | :--- | :--- |
+| Tesla Gun | Massenkontrolle | Bogen/Blitz-Segen |
+| Brine Revolver | Boss-Schaden | Schwachpunkt-Amulette |
+| Plasma Launcher | Raumreinigung | Explosions/Feuer-Mods |
+| Engine Rifle | Einsteiger-Allrounder | Abklingzeitverkürzung |
+
+<Callout type="warning" title="Warnung: Build-Synergien">
+Vermeide es, zufällige Upgrades zu wählen. Ein mächtiger Build in Abyssus basiert auf einem "Trigger-Effekt"-Loop: Wähle eine konsistente Aktion (wie dein primäres Feuer) und staple Segen und Amulette, die durch diese spezifische Aktion ausgelöst werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortschritt und Boss-Taktiken">
+
+Mit über 12 Bossen und mehr als 70 handgefertigten Leveln hält das Spiel den Kampf durch prozedural sequenzierte Runs frisch. Das Verständnis von Gegnermustern ist effektiver, als sich auf reine Statuswerte zu verlassen.
+
+<Steps>
+  <Step num="1" title="Boss-Muster analysieren">
+    Beobachte den Boss während der ersten Phase. Achte auf Unverwundbarkeitsfenster und Anzeichen für Flächenangriffe.
+  </Step>
+  <Step num="2" title="Koop-Rollen zuweisen">
+    Stelle in 4-Spieler-Gruppen sicher, dass sich ein Spieler auf Massenkontrolle konzentriert, während andere Boss-Schaden oder Unterstützung priorisieren.
+  </Step>
+  <Step num="3" title="In Meta-Fortschritt investieren">
+    Nutze Ressourcen aus gescheiterten Runs, um Knoten im Skillbaum freizuschalten, was deine Überlebensfähigkeit und deinen Schaden für zukünftige Versuche permanent erhöht.
+  </Step>
+</Steps>
+
+| Boss-Begegnung | Schlüsselmechanik | Strategie |
+| :--- | :--- | :--- |
+| Golemancer | Beschwörung/Minions | Zuerst Minions fokussieren |
+| Kri'Su | Arena-Gefahren | Bewegungswerkzeuge nutzen |
+| Un'glu | Unverwundbarkeitsphasen | Burst-Schaden timen |
+
+<Callout type="success" title="Koop-Erfolg">
+Cross-Platform-Multiplayer ermöglicht nahtloses Teamplay. Wenn du mit anderen spielst, koordiniere deine Segen, um eine Mischung aus Elementareffekten (Feuer, Eis, Blitz) zu gewährleisten, um verschiedene Gegnerresistenzen zu bewältigen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multiplayer und Plattform-Unterstützung">
+
+Abyssus ist so konzipiert, dass es auf verschiedenen Plattformen gespielt werden kann. Seit dem Update 1.3 ist Cross-Platform-Play vollständig integriert, was das Gruppenspiel einfacher denn je macht.
+
+| Funktion | Steam | PS5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| Solo-Spiel | Unterstützt | Unterstützt | Unterstützt |
+| Max. Gruppe | 4 Spieler | 4 Spieler | 4 Spieler |
+| Crossplay | Ja | Ja | Ja |
+| Abonnement | N/A | PS Plus erf. | Game Pass erf. |
+
+<Checklist
+  id="multiplayer-goals"
+  title="Multiplayer-Checkliste:"
+  items={[
+    "Crossplay in den Einstellungen aktivieren",
+    "Loadouts mit Teamkollegen koordinieren",
+    "Quickplay für schnelles Matchmaking nutzen",
+    "Heilressourcen im Koop teilen"
+  ]}
+/>
+
+<Callout type="info" title="Plattform-Hinweis">
+Xbox-Spieler können über Game Pass Ultimate und PC Game Pass auf das Spiel zugreifen. Stelle sicher, dass die Online-Dienste deiner Plattform aktiv sind, um Matchmaking-Funktionen effektiv zu nutzen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist Abyssus solo oder im Koop besser?",
+    answer: "Beides ist machbar. Das Solo-Spiel eignet sich hervorragend zum Erlernen von Mustern, während der 4-Spieler-Koop tiefere Build-Synergien und koordinierte Teamtaktiken ermöglicht."
+  },
+  {
+    question: "Wie schalte ich mehr Waffen frei?",
+    answer: "Du schaltest Waffen und Fähigkeiten über den Meta-Fortschritt-Skillbaum frei, der durch das Sammeln von Ressourcen während deiner Runs erweitert wird."
+  },
+  {
+    question: "Unterstützt Abyssus Cross-Platform-Play?",
+    answer: "Ja, Update 1.3 hat den vollständigen Cross-Platform-Multiplayer zwischen Steam, PlayStation 5 und Xbox Series X|S eingeführt."
+  },
+  {
+    question: "Was ist der beste Weg, um Bosskämpfe zu bewältigen?",
+    answer: "Konzentriere dich auf Bewegung und das Erlernen von Angriffsmustern. Nutze deinen Dash und Doppelsprung, um Schaden zu vermeiden, und hebe dir deine Fähigkeiten mit hohem Schaden für sichere Zeitfenster nach den Angriffen des Bosses auf."
+  }
+]} />
+
+</Section>

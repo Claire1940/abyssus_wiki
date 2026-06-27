@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Gameplay: Strategie-Guide & Build-Mechaniken für 2026",
+  description: "Meistere das Abyssus-Gameplay mit unserem Guide für 2026. Entdecke Waffen, Builds, Tipps für den 4-Spieler-Koop und Boss-Strategien für Steam, PS5 und Xbox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Abyssus+Gameplay+Guide",
+  date: "2026-06-27",
+  author: "Abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Das **Abyssus-Gameplay** dreht sich um einen rasanten Brinepunk-FPS-Roguelite-Loop für 1 bis 4 Spieler mit handgefertigten Levels.
+- Die **Waffenanpassung** ist tiefgründig und bietet 9 Kernwaffen, 54 Waffen-Mods und über 140 Upgrades der Uralten Schmiede.
+- Die **Build-Synergie** basiert auf der Kombination von elementaren Segen mit Talismanen, um spezialisierte Kampfrollen zu erschaffen.
+- Der **plattformübergreifende Koop-Modus** wurde im Juni 2026 vollständig implementiert, sodass sich Spieler auf Steam, PS5 und Xbox zusammenschließen können.
+- **Update 1.3** führte das von Maschinen geprägte Brinerot-Gebiet, neue Elite-Begegnungen und einen erweiterten Fähigkeitenbaum ein.
+</Callout>
+
+<Section icon={Sparkles} title="Kernmechaniken und Brinepunk-Atmosphäre">
+
+Abyssus bietet eine einzigartige Ästhetik namens Brinepunk, die Tiefsee-Erkundung mit schweren Maschinen und göttlichen, mystischen Kräften verbindet. Der Kern des **Abyssus-Gameplays** konzentriert sich auf hochmobile Kämpfe, bei denen die Spieler die Rolle von Brinehuntern übernehmen. Ob solo oder in einer Vierergruppe – das Ziel ist es, durch prozedural aneinandergereihte, handgefertigte Levels hinabzusteigen und das versunkene Königreich von 36 verschiedenen Gegnertypen und 12 furchterregenden Bossen zu befreien.
+
+Das Kampfgefühl ist durch seine Vertikalität und Schnelligkeit geprägt. Die Spieler haben Zugriff auf Dashes, Doppelsprünge und arena-basierte Bewegungswerkzeuge, die für das Überleben unerlässlich sind. Im Gegensatz zu traditionellen, deckungsbasierten Shootern belohnt dieses Spiel ständige Positionswechsel. Stillzustehen ist oft ein Todesurteil, besonders angesichts der explosiven Gefahren und Flächenangriffe in späteren Expeditionen.
+
+<CardGrid cols={3}>
+  <Card title="Handgefertigte Levels">
+    Erkunde über 70 handgefertigte Räume, die prozedural aneinandergereiht werden, damit sich jeder Run einzigartig anfühlt.
+  </Card>
+  <Card title="Brinehunter-Fähigkeiten">
+    Nutze bewegungsbasierte Fähigkeiten und spezialisierte Anzüge, um durch gefährliche Unterwasserumgebungen zu navigieren.
+  </Card>
+  <Card title="Meta-Progression">
+    Nutze Ressourcen aus gescheiterten Runs, um permanente Upgrades im erweiterten Fähigkeitenbaum von Update 1.3 freizuschalten.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Meisterung der Bewegung">
+Betrachte deinen Dash und Doppelsprung als primäre Überlebenswerkzeuge. Die meisten Bossangriffe in der Version von 2026 sind darauf ausgelegt, Spieler zu bestrafen, die sich zu lange auf dem Boden aufhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Einsteiger-Guide: Deine erste Expedition">
+
+Der Einstieg als Brinehunter kann aufgrund der schieren Anzahl an Upgrade-Möglichkeiten überwältigend sein. Das Spiel reiht seine Herausforderungen so aneinander, dass du die Grundlagen der Raumklärung lernst, bevor du mit Elite-Begegnungen konfrontiert wirst. In der aktuellen Meta von 2026 konzentriert sich das Early Game darauf zu verstehen, wie sich Hitze-Management und Nachladerhythmen auf deinen Schaden auswirken.
+
+<Steps>
+  <Step num="1" title="Wähle deine Ausrüstung">
+    Wähle eine Startwaffe und einen Fähigkeitsanzug. Für Anfänger bietet das Engine Rifle die stabilste Lernkurve, bevor man zu komplexeren Projektilwaffen übergeht.
+  </Step>
+  <Step num="2" title="Meistere den Arena-Loop">
+    Betritt einen Kampfraum und identifiziere Prioritätsziele. Konzentriere dich zuerst auf explodierende Gegner, um den Arenaboden frei von anhaltenden Gefahren zu halten.
+  </Step>
+  <Step num="3" title="Sammle Segen">
+    Interagiere mit Altären, um göttliche Segen zu erhalten. Diese fügen deinen primären und sekundären Feuermodi Elementareffekte wie Feuer, Eis oder Blitz hinzu.
+  </Step>
+  <Step num="4" title="Besuche die Uralte Schmiede">
+    Finde Schmiedestationen zwischen den Räumen, um Mods anzuwenden. Diese verändern das Verhalten deiner Waffen, indem sie beispielsweise Querschläger hinzufügen oder den Schadensradius vergrößern.
+  </Step>
+  <Step num="5" title="Stelle dich dem Bosstor">
+    Sobald das Gebietsziel abgeschlossen ist, bereite dich auf einen Bosskampf vor. Studiere die Bewegungsmuster des Golemancers oder von Kri'Su, bevor du deine Fähigkeiten mit hoher Abklingzeit einsetzt.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Solo vs. Koop">
+Obwohl das Spiel Solo-Spieler unterstützt, belohnt der Koop-Modus koordinierte Builds. Wenn du mit Freunden spielst, stelle sicher, dass sich mindestens ein Spieler auf Crowd Control (Eis/Schatten) konzentriert, während die anderen auf puren Schaden (DPS) setzen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Tier-List und Ausrüstungsstrategien">
+
+Mit 9 Kernwaffen und 54 einzigartigen Mods ist die Vielfalt im **Abyssus-Gameplay** enorm. Jede Waffe erfüllt eine bestimmte Rolle in einer 4-Spieler-Gruppe oder bei einem Solo-Run. Die Balance-Patches von 2026 haben die Rollen dieser Waffen gefestigt, sodass sich einige besser für das Klären von Räumen eignen, während andere für den Boss-Schaden unerlässlich sind.
+
+| Waffe | Rolle | Tier | Bester Einsatzzweck |
+| :--- | :--- | :--- | :--- |
+| **Tesla Gun** | Raumklärung / CC | **S** | Blitze durch große Gegnergruppen ketten |
+| **Brine Revolver** | Präzisions-DPS | **S** | Treffen von Boss-Schwachpunkten in Schadensfenstern |
+| **Plasma Launcher** | Flächenschaden | **A** | Schnelles Ausschalten von Elite-Gegnern in engen Korridoren |
+| **Combat Bow** | Skalierender Schaden | **A** | Sicherheit auf Distanz und Geschützturm-Synergie |
+| **Engine Rifle** | Allrounder | **B** | Zuverlässige Leistung für neue Spieler |
+| **Shotgun** | Nahkampf-Burst | **B** | Aggressives Spiel mit hohem Risiko und hoher Belohnung |
+| **Harpoon Gun** | Spezialist | **B** | Festsetzen von sich schnell bewegenden Zielen |
+
+Die Tesla Gun bleibt eine erstklassige Wahl, da sie Statuseffekte schnell verbreiten kann. In Kombination mit „Bogen“- oder „Blitz“-Segen kann sie ganze Räume in Sekundenschnelle leeren. Umgekehrt ist der Brine Revolver der Goldstandard für Bossbegegnungen und belohnt Spieler, die auch unter Druck ihre Präzision beibehalten.
+
+<Callout type="info" title="Waffen-Mods">
+Ignoriere die 54 Waffen-Mods nicht. Eine Waffe der Stufe „B“ wie die Shotgun kann zu einem Kraftpaket der Stufe „S“ werden, wenn du die richtige Mod der Uralten Schmiede findest, um ihre effektive Reichweite oder ihren Rückstoß zu erhöhen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Build-Synergien: Segen und Talismane">
+
+Die wahre Tiefe des **Abyssus-Gameplays** liegt in der Synergie zwischen Segen, Talismanen und Mods der Uralten Schmiede. Mit über 250 verfügbaren Talismanen und Segen ab Update 1.3 ist die Anzahl der möglichen Kombinationen überwältigend. Ein erfolgreicher Build konzentriert sich in der Regel auf eine wiederholbare Aktion und stapelt Effekte, die dadurch ausgelöst werden.
+
+| Element | Primäreffekt | Beste Synergie |
+| :--- | :--- | :--- |
+| **Feuer** | Verbrennung / Schaden über Zeit | Waffen mit hoher Feuerrate wie das Engine Rifle |
+| **Eis** | Einfrieren / Crowd Control | Präzisionswaffen wie der Brine Revolver |
+| **Blitz** | Bogen / Kettenschaden | Mehrfachziel-Waffen wie die Tesla Gun |
+| **Ozean** | Tentakel-Beschwörungen | Fähigkeitslastige Builds und Geschütztürme |
+| **Schatten** | Debuffs / Verwundbarkeit | Koop-Rollen zur Steigerung des Teamschadens |
+| **Geist** | Rachsüchtige Projektile | Anspruchsvolle Projektilwaffen |
+
+Talismane fungieren als Modifikatoren, die die Regeln deines Runs verändern. Einige verringern beispielsweise deine Abklingzeiten, wann immer du einen kritischen Treffer landest, während andere dir einen Schild gewähren, sobald deine Gesundheit unter einen bestimmten Schwellenwert fällt. Die Uralte Schmiede verfeinert dies weiter, indem sie es dir ermöglicht, deine Waffe an diese elementaren Entscheidungen anzupassen.
+
+<Callout type="warning" title="Die Synergie-Falle">
+Vermeide es, wahllos glänzende Upgrades auszuwählen. Ein Build, der zu viele Elemente ohne klaren Fokus mischt, lässt oft die nötige Durchschlagskraft vermissen, um die 12 Bosse in den späteren Phasen der Expedition zu besiegen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Meilensteine und Boss-Inhalte">
+
+Der Fortschritt in Abyssus ist unterteilt in die Stärke während eines Runs und die permanente Meta-Progression. Je länger du überlebst, desto mehr neue Gebiete schaltest du frei, wie zum Beispiel die Brinerot-Maschinen-Zone. Das Spiel bietet 12 Bosse, die jeweils einen anderen taktischen Ansatz erfordern. Zum Beispiel konzentriert sich der Golemancer auf Arenagefahren, während Un'glu überarbeitete Angriffsmuster nutzt, die mit Patch 1.2 eingeführt wurden.
+
+<Checklist
+  id="progression-tracker"
+  title="Fortschrittsziele des Brinehunters:"
+  items={[
+    "Schließe die Tutorial-Expedition ab und schalte das Engine Rifle frei",
+    "Besige den Golemancer solo, um die erste Stufe des Fähigkeitenbaums freizuschalten",
+    "Sammle 50 einzigartige Talismane, um deinen verfügbaren Build-Pool zu erweitern",
+    "Schließe erfolgreich einen 4-Spieler-Koop-Run auf dem Schwierigkeitsgrad „Schwer“ ab",
+    "Erreiche das Brinerot-Gebiet und stelle dich den neuen, von Maschinen geprägten Elite-Gegnern",
+    "Schalte die Harpoon Gun frei, indem du die Brinefrost-Herausforderungen abschließt"
+  ]}
+/>
+
+Das Update 1.3 hat den Fähigkeitenbaum erheblich erweitert und bietet neue Möglichkeiten, sich auf Runs vorzubereiten. Spieler können nun in spezifische „Starter-Kits“ investieren, die einen Vorsprung für bestimmte Build-Pfade bieten, wie etwa den Start mit einem zusätzlichen Dash oder einem bereits ausgerüsteten Elementarsegen.
+
+<Callout type="tip" title="Boss-Verhaltensmuster">
+Bosse wie Kri'Su haben Unverwundbarkeitsphasen. Konzentriere dich in diesen Momenten ganz darauf, die kleineren Diener zu eliminieren, die sie beschwören, um Gesundheit und Fähigkeitsaufladungen für das nächste Schadensfenster zurückzugewinnen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mehrspieler, Crossplay und Matchmaking">
+
+Abyssus ist als das ultimative Koop-Erlebnis für Feierabend-Runden konzipiert. Mit dem Start der Konsolenversionen im Juni 2026 unterstützt das Spiel nun volles plattformübergreifendes Multiplayer-Spiel. Das bedeutet, dass Spieler auf Steam, PlayStation 5 und Xbox Series X|S dank der optimierten Matchmaking- und Quickplay-Funktionen nahtlos zusammen spielen können.
+
+| Feature | Steam (PC) | PlayStation 5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| **Max. Spieler** | 4-Spieler-Koop | 4-Spieler-Koop | 4-Spieler-Koop |
+| **Crossplay** | Unterstützt (Alle) | Unterstützt (Alle) | Unterstützt (Alle) |
+| **Abonnement** | Keines erforderlich | PS Plus erforderlich | Game Pass erforderlich |
+| **Cloud-Speicherung** | Steam Cloud | PS Plus Cloud | Xbox Cloud |
+| **Leistung** | Unbegrenzt | Ziel: 60 FPS | Ziel: 60 FPS |
+
+Das in Update 1.3 hinzugefügte Quickplay-System macht es viel einfacher, Gruppen zu finden. Es priorisiert Lobbys mit freien Plätzen, die deinem aktuellen Fortschrittsniveau entsprechen, um sicherzustellen, dass du nicht ohne die passende Ausrüstung in einen späten Bosskampf geworfen wirst.
+
+<Callout type="success" title="Koop-Synergie">
+Weise in 4-Spieler-Sitzungen einem Spieler die Rolle des „Controllers“ zu, der Eis- und Schatteneffekte nutzt. Dadurch können sich die anderen drei Spieler voll und ganz auf den Schaden konzentrieren, was selbst die härtesten Bosse wesentlich einfacher macht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist das Abyssus-Gameplay für Solo-Spieler geeignet?",
+    answer: "Ja, das Spiel ist vollständig solo spielbar. Der Schwierigkeitsgrad skaliert basierend auf der Anzahl der Spieler, und viele Spieler finden Solo-Runs hilfreich, um Boss-Verhaltensmuster und Bewegungsmechaniken zu erlernen."
+  },
+  {
+    question: "Wie funktioniert Crossplay in der Version von 2026?",
+    answer: "Der vollständige plattformübergreifende Multiplayer-Modus wurde in Update 1.3 hinzugefügt. Spieler auf Steam, PS5 und Xbox können ein gemeinsames Einladungssystem oder das Quickplay-Matchmaking nutzen, um sich unabhängig von ihrer Plattform zusammenzuschließen."
+  },
+  {
+    question: "Was ist die beste Startwaffe für Anfänger?",
+    answer: "Das Engine Rifle gilt weithin als die beste Startwaffe, da sie eine ausgewogene Feuerrate und einen berechenbaren Rückstoß bietet. Sie ermöglicht es neuen Spielern, sich auf die Bewegung zu konzentrieren, während sie dennoch beständigen Schaden verursachen."
+  },
+  {
+    question: "Wie viele Bosse gibt es derzeit im Spiel?",
+    answer: "Seit den Updates im Juni 2026 gibt es 12 einzigartige Bosse und 36 Gegnertypen, die über mehr als 70 handgefertigte Levels verteilt sind."
+  }
+]} />
+
+</Section>

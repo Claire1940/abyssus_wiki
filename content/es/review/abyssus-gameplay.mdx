@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gameplay de abyssus: Guía de estrategia de 2026 y mecánicas de build",
+  description: "Domina el gameplay de abyssus con nuestra guía de 2026. Explora armas, builds, consejos de cooperativo para 4 jugadores y estrategias de jefes para jugadores de Steam, PS5 y Xbox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Abyssus+Gameplay+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **gameplay de abyssus** gira en torno a un vertiginoso bucle roguelite de disparos en primera persona (FPS) brinepunk de 1 a 4 jugadores que cuenta con niveles diseñados a mano.
+- La **personalización de armas** es profunda, utilizando 9 armas principales, 54 modificaciones de armas y más de 140 mejoras de la Forja Ancestral (Ancient Forge).
+- La **sinergia de la build** depende de combinar bendiciones (Blessings) elementales con amuletos (Charms) para crear roles de combate especializados.
+- El **cooperativo multiplataforma** se implementó por completo en junio de 2026, lo que permite a los jugadores de Steam, PS5 y Xbox formar equipos sin problemas.
+- La **Actualización 1.3** introdujo la zona de Brinerot con temática de maquinaria, nuevos encuentros de élite y un árbol de habilidades ampliado.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas principales y atmósfera Brinepunk">
+
+Abyssus ofrece una estética única conocida como brinepunk, que combina la exploración de las profundidades marinas con maquinaria pesada y poderes místicos divinos. El núcleo del **gameplay de abyssus** se centra en un combate de alta movilidad donde los jugadores asumen el papel de Brinehunters (cazadores de salmuera). Ya sea jugando en solitario o en un escuadrón de cuatro, el objetivo es descender a través de niveles diseñados a mano y secuenciados de forma procedimental, purgando el reino sumergido de 36 tipos de enemigos diferentes y 12 formidables jefes.
+
+La sensación del combate se define por su verticalidad y velocidad. Los jugadores tienen acceso a esquives (dashes), saltos dobles y herramientas de movimiento basadas en la arena que son esenciales para la supervivencia. A diferencia de los shooters tradicionales basados en coberturas, este juego recompensa el reposicionamiento constante. Quedarse quieto suele ser una sentencia de muerte, especialmente al enfrentarse a los peligros explosivos y ataques de área de efecto que prevalecen en las expediciones más avanzadas.
+
+<CardGrid cols={3}>
+  <Card title="Niveles diseñados a mano">
+    Explora más de 70 salas diseñadas a mano que están secuenciadas de forma procedimental para garantizar que cada partida se sienta distinta.
+  </Card>
+  <Card title="Habilidades de Brinehunter">
+    Utiliza habilidades basadas en el movimiento y trajes especializados para navegar por peligrosos entornos submarinos.
+  </Card>
+  <Card title="Meta-progresión">
+    Usa los recursos de las partidas fallidas para desbloquear mejoras permanentes en el árbol de habilidades ampliado de la versión 1.3.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dominio del movimiento">
+Trata tu esquive y doble salto como herramientas principales de supervivencia. La mayoría de los ataques de los jefes en la versión de 2026 del juego están diseñados para castigar a los jugadores que permanecen en el suelo durante demasiado tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía para principiantes: Tu primera expedición">
+
+Comenzar tu viaje como Brinehunter puede ser abrumador debido a la gran cantidad de opciones de mejora. El juego secuencia sus desafíos para enseñarte los conceptos básicos de la limpieza de salas antes de lanzarte a encuentros de élite. En el meta actual de 2026, el juego temprano se centra en comprender cómo la gestión del calor y los ritmos de recarga afectan a tu daño infligido.
+
+<Steps>
+  <Step num="1" title="Selecciona tu equipamiento">
+    Elige un arma inicial y un traje de habilidad. Para los principiantes, el Rifle de Motor (Engine Rifle) proporciona la curva de aprendizaje más estable antes de pasar a armas de proyectiles complejas.
+  </Step>
+  <Step num="2" title="Domina el bucle de la arena">
+    Entra en una sala de combate e identifica los objetivos prioritarios. Concéntrate primero en los enemigos explosivos para mantener el suelo de la arena libre de peligros persistentes.
+  </Step>
+  <Step num="3" title="Reúne bendiciones">
+    Interactúa con los altares para recibir bendiciones (Blessings) divinas. Estas añaden efectos elementales como fuego, hielo o rayo a tus modos de disparo principal y secundario.
+  </Step>
+  <Step num="4" title="Visita la Forja Ancestral">
+    Localiza las estaciones de la Forja (Forge) entre las salas para aplicar modificaciones. Estas cambian el comportamiento de tus armas, como añadir rebotes o aumentar el radio del área de efecto.
+  </Step>
+  <Step num="5" title="Enfréntate a la puerta del jefe">
+    Una vez completado el objetivo de la zona, prepárate para una batalla contra un jefe. Estudia el patrón del Golemancer o de Kri'Su antes de comprometer tus habilidades con tiempos de recarga elevados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="En solitario vs. Cooperativo">
+Aunque el juego admite el juego en solitario, el cooperativo recompensa las builds coordinadas. Si juegas con amigos, asegúrate de que al menos un jugador se centre en el control de masas (Hielo/Sombra) mientras los demás se enfocan en el daño por segundo (DPS) bruto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de armas y estrategias de equipamiento">
+
+Con 9 armas principales y 54 modificaciones únicas, la variedad en el **gameplay de abyssus** es amplia. Cada arma cumple un papel específico en un escuadrón de 4 jugadores o en una partida en solitario. Los parches de equilibrio de 2026 han consolidado los roles de estas armas, haciendo que algunas sean mejores para la limpieza de salas y otras esenciales para el daño por segundo (DPS) a jefes.
+
+| Arma | Rol | Rango | Mejor caso de uso |
+| :--- | :--- | :--- | :--- |
+| **Tesla Gun** (Arma Tesla) | Limpieza de salas / CC | **S** | Encadenar rayos a través de grandes grupos de enemigos |
+| **Brine Revolver** (Revólver de salmuera) | DPS de precisión | **S** | Impactar en los puntos débiles de los jefes durante las ventanas de daño |
+| **Plasma Launcher** (Lanzador de plasma) | Daño de área | **A** | Eliminar rápidamente a enemigos de élite en pasillos estrechos |
+| **Combat Bow** (Arco de combate) | Daño progresivo | **A** | Seguridad a larga distancia y sinergia con torretas |
+| **Engine Rifle** (Rifle de motor) | Polivalente | **B** | Rendimiento fiable para nuevos jugadores |
+| **Shotgun** (Escopeta) | Ráfaga a corta distancia | **B** | Juego agresivo de alto riesgo y alta recompensa |
+| **Harpoon Gun** (Pistola de arpón) | Especialista | **B** | Inmovilizar a objetivos de movimiento rápido |
+
+El Arma Tesla (Tesla Gun) sigue siendo una opción de primer nivel por su capacidad para propagar efectos de estado rápidamente. Cuando se combina con bendiciones de "Arco" o "Rayo", puede limpiar salas enteras en segundos. Por el contrario, el Revólver de salmuera (Brine Revolver) es el estándar de oro para los encuentros con jefes, recompensando a los jugadores que pueden mantener la precisión bajo presión.
+
+<Callout type="info" title="Modificaciones de armas">
+No ignores las 54 modificaciones de armas. Un arma de "Rango B" como la Escopeta puede convertirse en una potencia de "Rango S" si encuentras la modificación de la Forja Ancestral adecuada para aumentar su alcance efectivo o su empuje.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sinergias de build: Bendiciones y amuletos">
+
+La verdadera profundidad del **gameplay de abyssus** radica en la sinergia entre las bendiciones (Blessings), los amuletos (Charms) y las modificaciones de la Forja Ancestral. Con más de 250 amuletos y bendiciones disponibles a partir de la Actualización 1.3, el número de combinaciones posibles es asombroso. Una build exitosa suele centrarse en una acción repetible y acumula efectos que se activan a partir de ella.
+
+| Elemento | Efecto principal | Mejor sinergia |
+| :--- | :--- | :--- |
+| **Fuego** | Quemadura / Daño en el tiempo | Armas de alta cadencia de fuego como el Rifle de Motor |
+| **Hielo** | Congelación / Control de masas | Armas de precisión como el Revólver de salmuera |
+| **Rayo** | Arco / Daño en cadena | Armas multi-objetivo como el Arma Tesla |
+| **Océano** | Invocación de tentáculos | Builds centradas en habilidades y torretas |
+| **Sombra** | Debilidades / Vulnerabilidad | Roles cooperativos para aumentar el daño del equipo |
+| **Espíritu** | Proyectiles vengativos | Armas de proyectiles de alta habilidad |
+
+Los amuletos actúan como modificadores que cambian las reglas de tu partida. Algunos pueden reducir los tiempos de recarga de tus habilidades cada vez que asestas un golpe crítico, mientras que otros pueden otorgarte un escudo cuando tu salud cae por debajo de un determinado umbral. La Forja Ancestral refina aún más esto al permitirte adaptar tu arma para que coincida con estas elecciones elementales.
+
+<Callout type="warning" title="La trampa de la sinergia">
+Evita elegir mejoras brillantes al azar. Una build que mezcla demasiados elementos sin un enfoque claro a menudo carece del poder bruto necesario para derrotar a los 12 jefes en las etapas posteriores de la expedición.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de progresión y contenido de jefes">
+
+La progresión en Abyssus se divide entre el poder dentro de la partida y la meta-progresión permanente. A medida que sobrevives más tiempo, desbloqueas nuevas áreas como la zona de maquinaria de Brinerot. El juego cuenta con 12 jefes, y cada uno requiere un enfoque táctico diferente. Por ejemplo, el Golemancer se centra en los peligros de la arena, mientras que Un'glu utiliza patrones de ataque renovados introducidos en el parche 1.2.
+
+<Checklist
+  id="progression-tracker"
+  title="Objetivos de progresión del Brinehunter:"
+  items={[
+    "Completa la expedición del tutorial y desbloquea el Rifle de Motor",
+    "Derrota al Golemancer en solitario para desbloquear el primer nivel del árbol de habilidades",
+    "Reúne 50 amuletos únicos para ampliar tu catálogo de builds disponibles",
+    "Termina con éxito una partida cooperativa de 4 jugadores en dificultad Difícil",
+    "Llega al área de Brinerot y enfréntate a los nuevos enemigos de élite con temática de maquinaria",
+    "Desbloquea la Pistola de arpón completando los desafíos de Brinefrost"
+  ]}
+/>
+
+La Actualización 1.3 amplió significativamente el árbol de habilidades, ofreciendo nuevas formas de prepararse para las partidas. Los jugadores ahora pueden invertir en "kits de inicio" específicos que proporcionan una ventaja inicial en ciertas rutas de build, como comenzar con un esquive adicional o una bendición elemental preequipada.
+
+<Callout type="tip" title="Patrones de jefes">
+Los jefes como Kri'Su tienen fases de invulnerabilidad. Durante estos momentos, concéntrate por completo en eliminar a los enemigos menores que invocan para recuperar salud y cargas de habilidad para la siguiente ventana de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multijugador, juego cruzado y emparejamiento">
+
+Abyssus está diseñado para ser la experiencia cooperativa definitiva para las noches entre semana. Con el lanzamiento de las versiones para consola en junio de 2026, el juego ahora es totalmente compatible con el multijugador multiplataforma. Esto significa que los jugadores de Steam, PlayStation 5 y Xbox Series X|S pueden jugar juntos sin problemas utilizando las funciones simplificadas de emparejamiento y partida rápida.
+
+| Característica | Steam (PC) | PlayStation 5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| **Máximo de jugadores** | Cooperativo para 4 jugadores | Cooperativo para 4 jugadores | Cooperativo para 4 jugadores |
+| **Juego cruzado** | Compatible (Todos) | Compatible (Todos) | Compatible (Todos) |
+| **Suscripción** | Ninguna requerida | Se requiere PS Plus | Se requiere Game Pass |
+| **Guardado en la nube** | Steam Cloud | Nube de PS Plus | Nube de Xbox |
+| **Rendimiento** | Ilimitado | Objetivo de 60 FPS | Objetivo de 60 FPS |
+
+El sistema de partida rápida añadido en la Actualización 1.3 facilita mucho la búsqueda de grupos. Prioriza las salas con espacios libres que coincidan con tu nivel de progresión actual, asegurando que no te dejen caer en una pelea de jefe de final de juego sin el equipo adecuado.
+
+<Callout type="success" title="Sinergia cooperativa">
+En las sesiones de 4 jugadores, asigna a un jugador como el "Controlador" usando efectos de Hielo y Sombra. Esto permite que los otros tres jugadores se concentren por completo en el daño, lo que hace que incluso los jefes más difíciles sean mucho más manejables.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el gameplay de abyssus adecuado para jugadores en solitario?",
+    answer: "Sí, el juego es totalmente jugable en solitario. El dificultad se escala según el número de jugadores, y muchos jugadores encuentran que las partidas en solitario son útiles para aprender los patrones de los jefes y las mecánicas de movimiento."
+  },
+  {
+    question: "¿Cómo funciona el juego cruzado en la versión de 2026?",
+    answer: "El multijugador multiplataforma completo se añadió en la Actualización 1.3. Los jugadores de Steam, PS5 y Xbox pueden usar un sistema de invitación compartido o el emparejamiento de partida rápida para agruparse sin importar su plataforma."
+  },
+  {
+    question: "¿Cuál es la mejor arma inicial para un principiante?",
+    answer: "El Rifle de Motor (Engine Rifle) es ampliamente considerado la mejor arma inicial debido a su cadencia de fuego equilibrada y retroceso predecible. Permite a los nuevos jugadores concentrarse en el movimiento mientras infligen un daño constante."
+  },
+  {
+    question: "¿Cuántos jefes hay actualmente en el juego?",
+    answer: "A partir de las actualizaciones de junio de 2026, hay 12 jefes únicos y 36 tipos de enemigos distribuidos en más de 70 niveles diseñados a mano."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "weapons": "Weapons",
+    "platforms": "Platforms",
+    "review": "Review"
+  }
+}

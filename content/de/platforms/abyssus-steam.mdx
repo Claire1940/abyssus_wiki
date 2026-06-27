@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Steam: Vollständiger Leitfaden für Waffen, Builds & Koop",
+  description: "Meistere Abyssus auf Steam und Konsolen. Tauche ein in unsere ultimative Waffen-Tier-List, die besten Builds, Segen, Boss-Strategien und Koop-Crossplay-Tipps.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Steam+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptplattform**: Das Spiel wurde zuerst am 12. August 2025 auf **abyssus steam** veröffentlicht, bevor es für Konsolen erschien.
+- **Beste Waffen**: Konzentriere dich auf S-Tier-Waffen wie die Tesla Gun zur Gruppenkontrolle und den Brine Revolver für Einzelzielschaden.
+- **Synergie-Schleife**: Baue Kraft auf, indem du elementare Segen, passive Talismane und Mods der Uralten Schmiede auf eine einzige Aktion mit hoher Verfügbarkeit stapelst.
+- **Koop-Strategie**: Koordiniere die Rollen in Lobbys für 1 bis 4 Spieler mithilfe der neu implementierten plattformübergreifenden Spielersuche.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Steam-Release, Plattformen und Game Pass">
+
+Seit seiner Erstveröffentlichung auf **abyssus steam** am 12. August 2025 hat der Brinepunk-Shooter von DoubleMoose Games die Aufmerksamkeit von Roguelite-Fans auf sich gezogen. Das Spiel erweiterte seine Reichweite am 25. Juni 2026 mit dem massiven Update 1.3 auf die PlayStation 5 und Xbox Series X|S. Diese Erweiterung vereinte die Spielerbasis durch die Einführung eines vollständigen plattformübergreifenden Mehrspielermodus, der es Tauchern auf verschiedenen Systemen ermöglicht, sich nahtlos zu verbünden.
+
+Für Spieler, die sich entscheiden müssen, wo sie das Spiel kaufen oder spielen möchten, ist es auf mehreren digitalen Plattformen erhältlich. Xbox- und PC-Spieler profitieren zusätzlich von Abonnementdiensten, während PlayStation-Spieler lokalisierte Funktionen und eine leistungsstarke Konsolenoptimierung genießen.
+
+| Plattform | Veröffentlichungsdatum | Basispreis | Game Pass | Features / Funktionen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Steam (PC)** | 12. August 2025 | 24,99 $ | Nein | Steam-Errungenschaften, Steam Cloud, Familienbibliothek |
+| **PlayStation 5** | 25. Juni 2026 | 24,99 $ | Nein | 4,59/5 Spielerbewertung, PS Plus Online-Koop |
+| **Xbox Series X\|S** | 25. Juni 2026 | 24,99 $ | Ja | Play Anywhere, Cloud-Gaming, Smart Delivery |
+
+Die Standard Edition bietet das vollständige Basiserlebnis, während die Premium Brine Edition (zum Preis von 34,99 $ in den Konsolen-Stores) das Hauptspiel mit mehreren kosmetischen Erweiterungspaketen bündelt, darunter die Kosmetika Brinehunter, Brineguard, Brinefrost und Brinerot.
+
+<Callout type="warning" title="Abonnement-Anforderungen">
+Während PC-Spieler auf Steam kein aktives Abonnement für den Online-Koop benötigen, müssen Konsolenspieler auf der PlayStation 5 über PlayStation Plus verfügen und Xbox-Spieler benötigen Xbox Game Pass Core oder Ultimate, um auf die Online-Spielersuche zuzugreifen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Tier-List und beste Builds">
+
+Der Erfolg in der Tiefe erfordert das Verständnis des Arsenals aus 9 einzigartigen Waffen des Spiels. Jede Waffe verfügt über unterschiedliche primäre und sekundäre Feuermodi, die mit 54 verschiedenen Waffen-Mods und über 140 Upgrades der Uralten Schmiede (Ancient Forge) modifiziert werden können. Die Wahl der richtigen Waffe für deinen Spielstil ist der erste Schritt, um in den Tiefen zu überleben.
+
+<CardGrid cols={3}>
+  <Card title="Tesla Gun (S-Tier)">
+    - **Ideale Rolle**: Räume säubern und Statuseffekte verbreiten
+    - **Primärfeuer**: Überspringende Elektrizität
+    - **Beste Synergie**: Kettenblitz-Mods und elementare Verbreitung
+  </Card>
+  <Card title="Brine Revolver (S-Tier)">
+    - **Ideale Rolle**: Boss- und Einzelzielschaden
+    - **Primärfeuer**: Hochpräzise Schüsse
+    - **Beste Synergie**: Schwachpunktschaden und kritische Modifikatoren
+  </Card>
+  <Card title="Plasma Launcher (S-Tier)">
+    - **Ideale Rolle**: Bereichskontrolle und Explosionsschaden
+    - **Primärfeuer**: Explosive Plasmaenergie
+    - **Beste Synergie**: Explosionsradius und Feuerraten-Upgrades
+  </Card>
+</CardGrid>
+
+Während S-Tier-Waffen die Meta dominieren, bieten andere Optionen je nach Teamzusammensetzung äußerst zuverlässige Spielstile. Die folgende Tabelle zeigt die Leistungsmerkmale und Upgrade-Pfade für die Kernwaffen.
+
+| Waffe | Tier | Ideale Rolle | Empfohlene Mod | Beste Segen-Paarung |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tesla Gun** | **S** | Gruppenkontrolle | Kettenblitz | Blitzbögen |
+| **Brine Revolver** | **S** | Boss-Schaden (DPS) | Kritischer Treffer | Feuerbrand |
+| **Plasma Launcher** | **S** | Schwerer Flächenschaden (AoE) | Explosionsradius | Schatten-Debuffs |
+| **Combat Bow** | **A** | Fernkampf-Präzision | Zuggeschwindigkeit | Geschützplatzierung |
+| **Fish Deity** | **A** | Kettenreaktionen | Explosionsauslöser | Ozean-Beschwörungen |
+| **Engine Rifle** | **A** | Ausgewogener Allrounder | Wärmeableitung | Eis-Einfrieren |
+| **Shotgun** | **B** | Nahkampf-Explosionsschaden | Rückstoß | Eis-Einfrieren |
+| **Disc Thrower** | **B** | Raumgeometrie | Querschläger | Schatten-Debuffs |
+| **Harpoon Gun** | **B** | Spezialisten-Schaden | Präzisionsspitze | Rachsüchtige Geister |
+
+Um ein mächtiges Loadout zu erstellen, konzentriere dich darauf, einen primären Schadenstyp zu skalieren. Wenn du beispielsweise die **Tesla Gun** mit Segen zum Thema Blitz und Abklingzeit-Talismanen für Fähigkeiten kombinierst, entsteht ein Build, der ganze Räume voller Feinde in Sekundenschnelle wegschmilzt.
+
+<Callout type="tip" title="Waffensynergie-Regel">
+Verzettle dich nicht bei deinen Upgrades. Eine spezialisierte Waffe mit drei synergetischen Mods übertrifft ein Loadout, bei dem die Mods über mehrere nicht zusammenhängende Elementartypen verstreut sind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Segen, Talismane und Mods der Uralten Schmiede">
+
+Expeditionen werden durch göttliche Segen und passive Talismane (Charms) geprägt. Mit über 250 Talismanen und Segen im gemeinsamen Pool fühlt sich kein Durchgang wie der andere an. Segen wenden elementare oder mystische Effekte direkt auf dein Primärfeuer, Sekundärfeuer und deine aktiven Fähigkeiten an, während Talismane das grundlegende Verhalten, die Abklingzeiten und die Überlebensfähigkeit deines Charakters modifizieren.
+
+Die Uralte Schmiede (Ancient Forge) ermöglicht es dir, Waffen und Fähigkeiten mitten im Lauf umzurüsten und deine Ausrüstung an die gesammelten Segen anzupassen. Update 1.3 hat dieses System durch die Einführung eines neuen Salzlaken-Gottes erweitert, der 15 exklusive Segen sowie 5 neue Segen für jede der bestehenden Gottheiten mit sich bringt.
+
+| Element / Gott | Primäreffekt | Beste Waffen-Kombination | Build-Strategie |
+| :--- | :--- | :--- | :--- |
+| **Feuer** | Schaden über Zeit (Brand) | Brine Revolver, Engine Rifle | Brandstapel auf Ziele mit hoher Gesundheit ansammeln |
+| **Eis** | Gruppenkontrolle (Einfrieren) | Shotgun, Combat Bow | Elitegegner einfrieren, um sichere Zeitfenster zu schaffen |
+| **Blitz** | Kettenschaden (Bogen) | Tesla Gun, Disc Thrower | Flächenschaden in überfüllten Arenen maximieren |
+| **Ozean** | Diener-Unterstützung (Beschwörungen) | Combat Bow, Plasma Launcher | Tentakel beschwören, um Feinde abzulenken und zu beschädigen |
+| **Schatten** | Verwundbarkeit (Debuffs) | Harpoon Gun, Engine Rifle | Debuffs vor schweren Angriffen anwenden |
+| **Geister** | Automatische Verfolgung (Projektile) | Fish Deity, Brine Revolver | Zielsuchende Geister Nachzügler eliminieren lassen |
+
+Durch die Kombination dieser Elemente mit passiven Talismanen (wie der Reduzierung der Abklingzeit von Fähigkeiten oder der Schildregeneration bei Kills) kannst du dich auf bestimmte Rollen spezialisieren. Dies ist besonders im Koop nützlich, wo sich ein Spieler auf Eiskontrolle konzentrieren kann, während ein anderer auf Feuerschaden setzt.
+
+<Callout type="success" title="Die goldene Synergie-Schleife">
+Die effektivsten Builds nutzen eine einfache Schleife: Wähle eine Kernaktion (wie dein Sekundärfeuer), füge einen statusverändernden Segen hinzu, rüste einen Talisman aus, der bei diesem spezifischen Status ausgelöst wird, und verwende Mods der Uralten Schmiede, um die Abklingzeit dieser Aktion zu verringern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Einsteiger-Guide: Schritt-für-Schritt-Ablauf">
+
+Das Betreten der tiefen Ozeanruinen kann für neue Salzlakenjäger (Brinehunters) überwältigend sein. Um Expeditionen beständig abzuschließen und deine Ressourcen für die Meta-Progression zu behalten, folge dieser strukturierten Anleitung.
+
+<Steps>
+  <Step num="1" title="Wähle dein Start-Loadout">
+    Wähle vor dem Tauchgang eine Startwaffe wie das Engine Rifle. Wenn du im Koop spielst, stimme dich mit deinem Team ab, um eine Mischung aus Gruppenkontrolle und Einzelzielschaden sicherzustellen.
+  </Step>
+  <Step num="2" title="Meistere Abstand und Bewegung">
+    Betrachte Bewegung als dein primäres Verteidigungswerkzeug. Nutze Dash-, Sprung- und Doppelsprung-Mechaniken, um in der Luft zu bleiben und gegnerische Horden im Kreis zu umrunden. Bleibe im Kampf niemals stillstehen.
+  </Step>
+  <Step num="3" title="Säubere Räume und priorisiere Ziele">
+    Jeder Durchlauf besteht aus prozedural aneinandergereihten, handgefertigten Räumen. Priorisiere zuerst Fernkämpfer und explodierende Gegner, um die Arena übersichtlich zu halten, und konzentriere dich dann auf die zäheren Elite-Ziele.
+  </Step>
+  <Step num="4" title="Investiere in Altäre und Upgrades">
+    Suche zwischen den Kampfphasen nach Upgrade-Stationen, Altären und Heilbecken. Gib deine gesammelte Währung für Segen aus, die den primären Elementartyp deiner Waffe ergänzen.
+  </Step>
+  <Step num="5" title="Nutze die Meta-Progression in der Basis">
+    Wenn ein Durchlauf endet, nutze deine verdienten Ressourcen in der Basis (Hub), um permanente Fähigkeiten, neue Waffen und fortschrittliche Upgrade-Stationen freizuschalten. Dies macht nachfolgende Abstiege erheblich einfacher.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Solo- vs. Koop-Skalierung">
+Die Gesundheit der Gegner und die Spawn-Raten skalieren dynamisch basierend auf deiner Gruppengröße. Konzentriere dich im Solospiel stark auf Selbsterhalt und Bewegung. Weise im Koop einem Spieler die Rolle zu, sich auf Heilung und defensive Unterstützung zu konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bosskämpfe und Level-Progression">
+
+Abyssus verfügt über ein robustes Progressionssystem, das aus über 70 handgefertigten Levels, 36 verschiedenen Gegnertypen und 12 anspruchsvollen Bossen besteht. Update 1.3 führte ein brandneues Gebiet im Brinepunk-Maschinen-Stil ein, komplett mit neuen Gegnern, einer Elite-Begegnung und einem verheerenden neuen Bosskampf.
+
+Bosskämpfe in diesem Spiel erfordern präzise Ausführung, Mustererkennung und sorgfältige Positionierung. Im Gegensatz zu Standardräumen nutzen Bosse Bullet-Hell-Muster, Unverwundbarkeitsschilde und Umweltgefahren.
+
+| Boss-Name | Primäres Angriffsmuster | Hauptgefahr | Empfohlene Waffe | Schwierigkeitsgrad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Golemancer** | Schockwellen und Schläge | Bodenwellen | Brine Revolver | ★★★☆☆ (Mittel) |
+| **Kri'Su** | Mörserprojektile | Feuerbecken | Tesla Gun | ★★★★☆ (Schwer) |
+| **Un'glu** | Geschützte Ansturmphasen | Arenawände | Plasma Launcher | ★★★★☆ (Schwer) |
+| **Neuer 1.3 Boss** | Maschinen-Lasergitter | Sich bewegende Strahlen | Combat Bow | ★★★★★ (Sehr schwer) |
+
+Um diese Bosse zu erreichen und die ultimativen Herausforderungen des Spiels zu meistern, solltest du versuchen, diese Meilensteine auf deiner Progressionsreise abzuhaken.
+
+<Checklist
+  id="abyssus-milestones"
+  title="Fortschrittsmeilensteine:"
+  items={[
+    "Schalte alle 9 Basiswaffen in der Basis frei",
+    "Besiege Golemancer, Kri'Su und Un'glu auf dem normalen Schwierigkeitsgrad",
+    "Maximiere deinen bevorzugten Zweig des neu erweiterten 1.3-Fähigkeitenbaums",
+    "Schließe einen vollständigen 4-Spieler-Koop-Durchlauf unter Nutzung der plattformübergreifenden Spielersuche ab",
+    "Besiege eine Surge-verstärkte Bossvariante auf einem hohen Schwierigkeitsgrad"
+  ]}
+/>
+
+<Callout type="warning" title="Achte auf die Surge-Muster der Bosse">
+Die Patches 1.2 and 1.3 haben überarbeitete Angriffsmuster für Golemancer, Kri'Su und Un'glu eingeführt. Rückkehrende Spieler sollten sich bei diesen Begegnungen auf schnellere Projektilgeschwindigkeiten und kürzere Sicherheitsfenster einstellen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Koop, Crossplay und Spielersuche">
+
+Die ultimative Art, das Spiel zu erleben, ist der Mehrspielermodus, der bis zu 4 Spieler unterstützt. Mit dem Start von Update 1.3 wird volles Crossplay zwischen PC (Steam), PlayStation 5 und Xbox Series X|S unterstützt. Das Update hat auch den Matchmaking-Prozess rationalisiert und eine Quickplay-Funktion eingeführt, mit der Spieler direkt in aktive Lobbys springen können.
+
+Beim Spielen in einer Gruppe wird die Synergie der Loadouts zum entscheidenden Faktor zwischen einem erfolgreichen Durchlauf und einem schnellen Scheitern. Spieler sollten kommunizieren, um sicherzustellen, dass sich ihre aktiven Fähigkeiten und elementaren Segen nicht gegenseitig überschreiben oder behindern, sondern aufeinander aufbauen, um verheerende Kombinationen zu erschaffen.
+
+<FAQ items={[
+  {
+    question: "Ist Abyssus im Solomodus vollständig spielbar?",
+    question_id: "solo-play",
+    answer: "Ja. Obwohl das Spiel für einen Koop-Modus mit 1 bis 4 Spielern konzipiert ist, wird das Solospiel vollständig unterstützt. Die Gesundheit der Gegner und die Spawn-Raten werden herunterskaliert, um sich an Einzelspieler anzupassen."
+  },
+  {
+    question: "Wie funktioniert Crossplay zwischen Steam- und Konsolenspielern?",
+    question_id: "crossplay-mechanics",
+    answer: "Crossplay ist ab Update 1.3 standardmäßig aktiviert. Du kannst Freunde von anderen Plattformen über einen Session-Code im Spiel einladen oder das Quickplay-Matchmaking-System nutzen, um offene Lobbys auf Steam, PlayStation und Xbox zu finden."
+  },
+  {
+    question: "Gibt es exklusive Belohnungen in der Steam-Version von Abyssus?",
+    question_id: "steam-exclusives",
+    answer: "Es gibt keine spielerisch exklusiven Waffen oder Gegenstände. Die Steam-Version bietet jedoch 119 einzigartige Errungenschaften, Steam-Cloud-Unterstützung und eine Community-Hub-Integration, die spezifisch für das PC-Ökosystem sind."
+  },
+  {
+    question: "Was beinhaltet die Brine Edition?",
+    question_id: "brine-edition",
+    answer: "Die Brine Edition bündelt das Hauptspiel mit rein kosmetischen DLC-Paketen, darunter die Pakete Brinehunter, Brineguard, Brinefrost und Brinerot. Diese Pakete bieten alternative Helme, Rüstungs-Skins, Emotes und Porträtrahmen."
+  }
+]} />
+
+<Callout type="info" title="Tipp zur Quickplay-Spielersuche">
+Wenn du Schwierigkeiten hast, eine Lobby zu finden, stelle sicher, dass dein Spiel auf die neueste Version (Update 1.3 oder höher) aktualisiert ist und dass Crossplay im Menü für die Gameplay-Einstellungen auf „Ein“ gestellt ist.
+</Callout>
+
+</Section>

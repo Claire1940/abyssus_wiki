@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejor Build de Abyssus: Tier List y Guía de Configuración de Armas",
+  description: "Domina las profundidades marinas con nuestra guía sobre la mejor build de Abyssus. Compara tiers de armas, bendiciones elementales y modificaciones de la Forja Ancestral para dominar las partidas cooperativas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Best+Build+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal de la build**: Crea sinergia entre tu arma principal, las modificaciones de arma, las bendiciones elementales y los amuletos pasivos para maximizar el daño infligido.
+- **Arma de primer nivel**: El **Arma Tesla** (Tesla Gun) reina suprema para limpiar salas y propagar estados, lo que la convierte en un elemento básico para incursiones de alto nivel.
+- **Mecánica clave**: Utiliza la **Forja Ancestral** para alterar fundamentalmente el comportamiento de las armas en lugar de simplemente mejorar sus estadísticas básicas.
+- **Prioridad defensiva**: Equilibra las builds de daño extremo de tipo "cañón de cristal" con **amuletos** generadores de escudos y de reducción de enfriamiento para sobrevivir a los jefes del juego avanzado.
+- **Estrategia cooperativa**: Coordina los roles con tus compañeros de equipo para asegurar una mezcla de control de masas, daño por segundo (DPS) a un solo objetivo y habilidades de apoyo.
+</Callout>
+
+<Section icon={Swords} title="Mejor Build de Abyssus: Mecánicas de sinergia principales">
+
+Tener éxito en las profundidades marinas de este roguelite estilo brinepunk requiere algo más que reflejos rápidos. Encontrar y perfeccionar la **mejor build de Abyssus** es esencial para sobrevivir a incursiones de alta dificultad, especialmente tras los desafíos introducidos en el lanzamiento para consolas de junio de 2026. Una build exitosa no consiste solo en elegir el arma más rara; se trata de crear un bucle de sinergia cohesivo entre el arma de fuego elegida, las modificaciones de arma, las habilidades activas y las mejoras pasivas.
+
+El juego cuenta con un amplio ecosistema de personalización que consta de 9 armas base, 54 modificaciones de arma, más de 140 modificaciones de la Forja Ancestral y más de 250 amuletos y bendiciones. Acumular mejoras al azar conducirá rápidamente a incursiones fallidas en las expediciones más profundas. En su lugar, los jugadores deben centrarse en activadores elementales y modificaciones de comportamiento que se complementen entre sí.
+
+| Arquetipo | Arma principal | Bendición clave | Mejor modificación | Estilo de juego |
+|---|---|---|---|---|
+| Cadena de rayos | Arma Tesla | Arcos de rayos | Radio de cadena | Limpieza rápida de salas en área |
+| Derretidor de jefes | Revólver de salmuera | Quemadura de fuego | Mejora de puntos débiles | Alto DPS a un solo objetivo |
+| Controlador de masas | Lanzador de plasma | Congelación de hielo | Radio de explosión | Denegación defensiva de área |
+| Invocador de élite | Deidad pez | Tentáculos del océano | Reducción de enfriamiento | Daño de torretas y mascotas |
+
+<Callout type="tip" title="Regla de sinergia">
+Alinea siempre tus bendiciones elementales con la cadencia de tiro de tu arma. Las armas de disparo rápido como el Arma Tesla destacan en la aplicación de efectos de estado acumulativos, mientras que las armas lentas y de golpe pesado como el Revólver de salmuera se benefician más de los modificadores de daño elevado de un solo golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tier List de armas y equipamientos del meta">
+
+Las armas constituyen el pilar fundamental de tu build. Con el lanzamiento de la Actualización 1.3, el equilibrio de las armas se ha consolidado en diferentes niveles (tiers) basados en la versatilidad, la facilidad de uso y el potencial de escalado. Aunque cualquier arma puede ser viable con las mejoras adecuadas, las opciones de Tier S ofrecen el camino más consistente hacia la victoria.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Pilares de la incursión">
+    - **Arma Tesla**: Control de masas y aplicación elemental inigualables.
+    - **Revólver de salmuera**: Daño de ráfaga de élite a un solo objetivo para fases de jefes.
+    - **Lanzador de plasma**: Daño masivo en área de efecto para limpiar arenas repletas de enemigos.
+  </Card>
+  <Card title="Tier A: Núcleo confiable">
+    - **Arco de combate**: Excelente escalado y seguridad a distancia.
+    - **Deidad pez**: Mecánicas únicas que activan poderosas reacciones en cadena.
+    - **Fusil de motor**: Arma polivalente ideal para principiantes con un manejo estable.
+  </Card>
+  <Card title="Avanzado: Opciones de especialista">
+    - **Escopeta**: Daño de ráfaga a corta distancia de alto riesgo.
+    - **Lanzador de discos**: Techo de habilidad elevado que utiliza la geometría de los rebotes.
+    - **Arpón**: Arma de precisión para especialistas desbloqueada en la Actualización 1.2.
+  </Card>
+</CardGrid>
+
+Al diseñar tu equipamiento, considera cómo se comporta tu arma en diferentes escenarios de combate. Una build que destaca en la limpieza de enemigos menores puede tener dificultades contra los 12 formidables jefes del juego. Por el contrario, una build dedicada a matar jefes puede verse abrumada fácilmente en arenas muy concurridas.
+
+| Arma | Rol base | Bendición principal | Prioridad de la Forja | Calificación |
+|---|---|---|---|---|
+| Arma Tesla | Limpieza de salas y propagación de estados | Arcos de rayos | Escalado de daño en cadena | ★★★★★ |
+| Revólver de salmuera | Daño a jefes y a un solo objetivo | Quemadura de fuego | Multiplicador de puntos débiles | ★★★★★ |
+| Lanzador de plasma | Daño en área y limpieza explosiva | Congelación de hielo | Expansión del radio de explosión | ★★★★☆ |
+| Arco de combate | Daño escalable y seguridad | Debilitamientos de sombra | Reducción de la velocidad de carga | ★★★★☆ |
+| Fusil de motor | Polivalente para principiantes | Variable | Mejora de velocidad de recarga | ★★★☆☆ |
+
+<Callout type="info" title="Equilibrio del equipo cooperativo">
+En el modo cooperativo de 4 jugadores, los integrantes deben evitar usar builds idénticas. Tener a un jugador dedicado al control de masas (usando el Lanzador de plasma o el Arma Tesla) y a otro enfocado en el daño a jefes (usando el Revólver de salmuera) aumenta drásticamente las tasas de supervivencia del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración paso a paso para la build del Arma Tesla">
+
+La build del Arma Tesla es ampliamente considerada como una de las configuraciones más poderosas tanto para jugar en solitario como en cooperativo. Destaca al limpiar rápidamente enormes salas llenas de maquinaria brinepunk y monstruos marinos, aliviando la presión sobre el jugador. Sigue estos pasos para armar esta configuración dominante en tu próxima incursión.
+
+<Steps>
+  <Step num="1" title="Selecciona el Arma Tesla y las modificaciones básicas">
+    Equipa el Arma Tesla como tu arma principal. Centra tus primeras elecciones de modificaciones de arma en aumentar tu cadencia de tiro y la capacidad de munición. Esto garantiza que puedas aplicar efectos de estado continuamente sin interrupciones frecuentes por recarga.
+  </Step>
+  <Step num="2" title="Prioriza las bendiciones de Arcos de rayos">
+    Busca altares elementales u ofrendas del Dios de la Salmuera para asegurar bendiciones de Arcos de rayos. Estas bendiciones hacen que tus ataques se encadenen a los enemigos adyacentes, multiplicando exponencialmente tu daño en salas concurridas.
+  </Step>
+  <Step num="3" title="Aplica mejoras de la Forja Ancestral">
+    Una vez que localices una estación de la Forja Ancestral, mejora el comportamiento de tu arma. Busca modificaciones que aumenten el número máximo de objetivos encadenados o que activen explosiones secundarias cuando un enemigo sea derrotado por daño de rayo.
+  </Step>
+  <Step num="4" title="Acumula amuletos de reducción de enfriamiento de habilidades">
+    Completa tu build equipando amuletos pasivos que reduzcan los tiempos de enfriamiento de las habilidades activas. Esto te permitirá desplegar habilidades de apoyo, como escudos defensivos o torretas señuelo, con el mínimo tiempo de inactividad.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build completada">
+Una vez completamente armada, esta configuración te permite limpiar arenas de combate enteras en cuestión de segundos. La cadena de rayos apuntará automáticamente a enemigos ocultos o distantes, manteniéndote a salvo de amenazas fuera de la pantalla.
+</Callout>
+
+| Nombre de mod | Tipo | Efecto principal | Prioridad de mejora |
+|---|---|---|---|
+| Bobinas conductoras | Mod de arma | Aumenta el alcance de la cadena de rayos un 25% | Alta |
+| Sobrecarga | Mod de Forja | Activa una ráfaga explosiva cada tres golpes | Alta |
+| Descarga rápida | Mod de arma | Aumenta la cadencia de tiro del arma un 15% | Media |
+| Escudo estático | Amuleto | Otorga un escudo temporal al usar una habilidad activa | Media |
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de amuletos defensivos y de utilidad">
+
+Aunque maximizar el daño es satisfactorio, sobrevivir en las arenas del juego avanzado requiere una base defensiva sólida. Acumular mejoras puramente ofensivas puede dejarte vulnerable a los ataques de área de efecto de gran daño de enemigos de élite y jefes. Integrar amuletos defensivos y de utilidad en tu build es esencial para la consistencia de tus incursiones.
+
+<Checklist
+  id="run-survival"
+  title="Lista de verificación para sobrevivir en la incursión:"
+  items={[
+    "Equipa al menos un amuleto generador de escudos para absorber el daño de ráfaga repentino",
+    "Desbloquea mejoras de salud máxima de nivel tres a través de la metaprogresión",
+    "Identifica los indicadores de ataque de los jefes y guarda cargas de deslizamiento para evadir",
+    "Coordina las habilidades de apoyo activas con los miembros del equipo en las salas cooperativas",
+    "Mantén lista una habilidad de control de masas para interrumpir a los enemigos de élite agresivos"
+  ]}
+/>
+
+Las opciones defensivas deben complementar tu estilo de movimiento. Si prefieres el combate de alta movilidad, prioriza los amuletos que mejoran tu deslizamiento o que otorgan fotogramas de invulnerabilidad temporal. Si prefieres un estilo de juego más lento y deliberado, concéntrate en las reservas de salud bruta y la regeneración de escudos.
+
+| Tipo de amuleto | Beneficio principal | Mejor sinergia | Calificación de nivel |
+|---|---|---|---|
+| Núcleo de égida | Escudo temporal con salud baja | Configuraciones de alta movilidad | Excelente |
+| Cargador cinético | Recuperación de enfriamiento de deslizamiento más rápida | Builds de escopeta a corta distancia | Buenísima |
+| Runa de vitalidad | Aumenta la reserva de salud máxima | Incursiones de supervivencia en solitario | Buena |
+| Anillo catalizador | Extiende la duración del estado elemental | Arma Tesla o builds de fuego | Excelente |
+
+<Callout type="warning" title="Peligro de cañón de cristal">
+Evita la mentación de ignorar por completo las mejoras defensivas. En las expediciones de alto nivel, un solo error contra un jefe del juego avanzado puede terminar tu incursión instantáneamente si careces de escudos básicos o reservas de salud.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de jefes y adaptaciones de la build">
+
+Los encuentros con jefes en este shooter brinepunk actúan como importantes barreras de progresión, lo que obliga a los jugadores a adaptar sus estrategias ofensivas sobre la marcha. Las Actualizaciones 1.2 y 1.3 introdujeron patrones de ataque renovados y variantes potenciadas por oleadas de energía (Surge) para jefes clave como Golemancer, Kri'Su y Un'glu. Tu build debe contar con la suficiente flexibilidad para manejar estos cambios mecánicos.
+
+Durante las batallas de jefes, los peligros de la arena y las fases de invulnerabilidad limitarán tus oportunidades de infligir daño directo. Las builds que dependen de quedarse quieto y disparar fallarán rápidamente. En su lugar, concéntrate en armas de alta movilidad y efectos de estado de daño en el tiempo que continúen drenando la salud del jefe mientras te enfocas en esquivar ataques.
+
+| Nombre del jefe | Amenaza clave | Ajuste de la build | Arma recomendada |
+|---|---|---|---|
+| Golemancer | Golpes contra el suelo y peligros de la arena | Alta movilidad, altura de salto | Arco de combate |
+| Kri'Su | Lluvia rápida de proyectiles | Amuletos de escudo, habilidades defensivas | Arma Tesla |
+| Un'glu | Fases de invulnerabilidad, esbirros | Alta limpieza en área, control de masas | Lanzador de plasma |
+
+<Callout type="tip" title="Moverse es sobrevivir">
+Guarda siempre tus habilidades de movimiento, como los deslizamientos y los dobles saltos, para escapar de los ataques de área de efecto de los jefes, en lugar de usarlas únicamente para reposicionarte. Mantenerse en movimiento es tu mejor defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor build absoluta para jugadores en solitario?",
+    answer: "La mejor build absoluta para jugadores en solitario es la build del Arma Tesla combinada con las bendiciones de Arcos de rayos y amuletos generadores de escudos. Esta configuración proporciona un control de masas inigualable y una alta supervivencia al jugar sin equipo."
+  },
+  {
+    question: "¿En qué se diferencian las modificaciones de arma de las modificaciones de la Forja Ancestral?",
+    answer: "Las modificaciones de arma alteran las estadísticas básicas del arma, como la cadencia de tiro, la velocidad de recarga y la capacidad del cargador. Las modificaciones de la Forja Ancestral cambian fundamentalmente el comportamiento de las armas, como añadir munición explosiva, proyectiles divididos o efectos de cadena de rayos."
+  },
+  {
+    question: "¿Puedo cambiar mi build a mitad de una incursión?",
+    answer: "Aunque no puedes cambiar tu arma principal a mitad de una incursión, puedes adaptar tu build eligiendo diferentes bendiciones, amuletos y mejoras de la Forja Ancestral en las estaciones que encuentres a lo largo de los niveles."
+  },
+  {
+    question: "¿El modo cooperativo escala la dificultad de las batallas de jefes?",
+    answer: "Sí, la salud y el daño de los enemigos se escalan según el número de jugadores activos en la sala. Se recomiendan encarecidamente builds coordinadas y una división clara de roles para equipos de 4 jugadores."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de parches">
+Periódicamente se lanzan ajustes de equilibrio. Asegúrate de consultar las notas del parche más recientes, ya que el escalado de las armas y las sinergias de las modificaciones pueden cambiar con futuras actualizaciones.
+</Callout>
+
+</Section>

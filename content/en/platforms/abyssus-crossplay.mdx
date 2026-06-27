@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Crossplay: Multiplayer Setup Guide & Platform Comparison",
+  description: "Learn how to set up Abyssus crossplay across Steam, PS5, and Xbox Series X|S. Check subscription rules, matchmaking tips, and co-op builds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Crossplay+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus crossplay** connects Steam, PlayStation 5, and Xbox Series X|S players since the release of Update 1.3 on June 25, 2026.
+- **Co-op party size** supports up to 4 players, featuring dynamic difficulty scaling based on the number of active Brinehunters.
+- **Subscription requirements** apply to console players, who typically need active PS Plus or Xbox Game Pass Core/Ultimate memberships.
+- **Matchmaking features** include streamlined quickplay and private lobby codes, allowing for fast connections across different ecosystems.
+</Callout>
+
+<Section icon={Map} title="Abyssus Crossplay: Multiplayer Features and Compatibility">
+
+The release of Update 1.3 on June 25, 2026, completely transformed the multiplayer landscape of Abyssus [00基础信息]. Initially launching as a PC-exclusive title on Steam on August 12, 2025, this brinepunk roguelite FPS has finally expanded its reach to PlayStation 5 and Xbox Series X|S [00基础信息]. Along with this console launch, the developers introduced full **Abyssus crossplay** support, allowing players across all three major ecosystems to form squads and dive into the deep sea together [00基础信息, 00首页信息-1].
+
+This unified player base ensures faster matchmaking times and a healthier community ecosystem. For Xbox players, the game's inclusion in Xbox Game Pass (including Cloud, Console, and PC tiers) significantly lowers the barrier to entry, bringing a massive wave of new players into the matchmaking pool [00首页信息-1]. PlayStation 5 players can also join the fray, enjoying high-fidelity underwater visuals and optimized console performance [00首页信息-1].
+
+To understand how cross-platform connectivity works for your specific setup, review the platform compatibility table below:
+
+| Platform | Crossplay Status | Online Subscription | Cloud Play | Store Link |
+| --- | --- | --- | --- | --- |
+| Steam PC | Supported | None | Not applicable | [Steam Store](https://store.steampowered.com/app/1721110/Abyssus/) |
+| PlayStation 5 | Supported | PS Plus required | Premium tier only | [PlayStation Store](https://store.playstation.com/en-us/concept/10016582) |
+| Xbox Series X|S | Supported | Game Pass required | Ultimate tier only | [Xbox Store](https://www.xbox.com/en-US/games/store/abyssus/9P8NKVVB0XQJ) |
+
+<Callout type="info" title="Game Pass Availability">
+Abyssus is available through Game Pass Ultimate, Game Pass Premium, and PC Game Pass [00首页信息-1]. Xbox players can also take advantage of Smart Delivery and Xbox Play Anywhere features to sync progress between console and PC [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Set Up Crossplay in Abyssus">
+
+Setting up your multiplayer session is straightforward, but it requires understanding how the in-game systems handle cross-platform accounts. Abyssus utilizes an internal matchmaking system to bridge the gap between Steam, PlayStation Network, and Xbox Network [00首页信息-2]. To play with friends on other platforms, you will need to share your unique in-game session code or utilize the streamlined quickplay feature introduced in Update 1.3 [00首页信息-2].
+
+Follow these steps to host or join a cross-platform game lobby:
+
+<Steps>
+  <Step num="1" title="Enable Crossplay in Settings">
+    Before attempting to invite friends from other platforms, navigate to the main options menu and ensure that the crossplay setting is toggled to "Enabled." This is generally turned on by default, but verifying it prevents connection issues.
+  </Step>
+  <Step num="2" title="Create a Multiplayer Lobby">
+    From the main menu, select "Co-Op Play" and choose "Host Lobby." You can set your lobby privacy to "Public" (allowing quickplay players to join) or "Private" (restricting entry to invited players and code holders).
+  </Step>
+  <Step num="3" title="Generate and Share your Lobby Code">
+    Once inside the lobby, look at the top-right corner of your screen to find your unique 6-digit session code. Copy this code and share it with your friends on other platforms.
+  </Step>
+  <Step num="4" title="Join via Lobby Code">
+    If you are joining a friend's lobby, select "Join Lobby" from the co-op menu, enter the 6-digit session code shared by the host, and confirm to connect instantly across platforms.
+  </Step>
+</Steps>
+
+For players who prefer to jump straight into action with random teammates, the matchmaking system offers several streamlined options:
+
+| Lobby Type | Max Players | Best For | Matchmaking Method |
+| --- | --- | --- | --- |
+| Solo Run | 1 | Learning enemy patterns | Private lobby [00首页信息-2] |
+| Private Co-Op | 4 | Coordinated friend groups | Room code or direct invites [00首页信息-2] |
+| Quickplay | 4 | Quick matchmaking | Automated cross-platform queue [00首页信息-2] |
+
+<Callout type="warning" title="Platform-Specific Restrictions">
+Console online multiplayer requires active platform-specific subscriptions [00首页信息-2]. PlayStation 5 players must have a PlayStation Plus membership, while Xbox Series X|S players require at least an Xbox Game Pass Core membership to access online co-op features [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Mechanics and Party Synergy">
+
+Surviving the depths of the sunken kingdom requires more than just fast reflexes; it demands tight team coordination. In a 4-player co-op lobby, enemies receive health and damage scaling to keep the challenge engaging [00首页信息-1, 00首页信息-2]. If everyone in your squad runs a pure damage build without crowd control or utility, your expedition is likely to end prematurely.
+
+The game features 9 distinct weapons, 54 weapon mods, and over 140 Ancient Forge mods [00基础信息, 00首页信息-1]. Combining these with more than 250 Charms and Blessings allows for highly specialized combat roles [00基础信息, 00首页信息-1]. To maximize your chances of survival, your squad should coordinate loadouts to cover three essential roles:
+
+<CardGrid cols={3}>
+  <Card title="Crowd Controller">
+    - **Focus**: Slowing and grouping enemies
+    - **Best Weapon**: Tesla Gun or Fish Deity [00首页信息-1]
+    - **Key Synergy**: Ice freeze and ocean tentacle Blessings [00首页信息-2]
+  </Card>
+  <Card title="Boss Burner">
+    - **Focus**: High single-target weak-point damage
+    - **Best Weapon**: Brine Revolver or Harpoon Gun [00首页信息-1]
+    - **Key Synergy**: Fire burn and critical damage Charms [00首页信息-2]
+  </Card>
+  <Card title="Area Cleaver">
+    - **Focus**: Clearing minor enemy packs quickly
+    - **Best Weapon**: Plasma Launcher [00首页信息-1]
+    - **Key Synergy**: Lightning arcs and explosive Forge mods [00首页信息-2]
+  </Card>
+</CardGrid>
+
+When building your squad, refer to this role synergy table to ensure you have a balanced distribution of elemental effects and weapon types:
+
+| Combat Role | Primary Weapon | Recommended Mod Focus | Ideal Blessing Element |
+| --- | --- | --- | --- |
+| Crowd Control | Tesla Gun | Status spread, reload speed | Ice freeze effects [00首页信息-2] |
+| Boss Burner | Brine Revolver | Precision damage, critical chance | Fire burn effects [00首页信息-2] |
+| Area Cleaver | Plasma Launcher | Area of effect, ammo capacity | Lightning arcs [00首页信息-2] |
+| Utility Support | Combat Bow | Ability cooldown, turret duration | Shadow debuffs [00首页信息-2] |
+
+<Callout type="tip" title="Co-Op Resuscitation">
+In co-op mode, players do not immediately fail the run upon losing all health. Instead, they enter a downed state, allowing teammates a short window to revive them. Coordinate your movement abilities to clear nearby threats before attempting a rescue.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abyssus Crossplay Checklist for Launch Week">
+
+To make the most of your initial cross-platform runs, it helps to set clear progression goals. Meta-progression is a core element of the Abyssus experience [00首页信息-1, 00首页信息-2]. Failed runs still contribute to your overall progress, unlocking new skills, weapons, and upgrade opportunities at the Ancient Forge [00首页信息-1, 00首页信息-2].
+
+Use this checklist to track your multiplayer milestones during launch week:
+
+<Checklist
+  id="crossplay-launch-goals"
+  title="Multiplayer Milestones:"
+  items={[
+    "Complete a 4-player co-op run on any difficulty setting",
+    "Unlock the Harpoon Gun from the Update 1.2 content pool",
+    "Coordinate with teammates to stack fire and ice Blessings in a single run",
+    "Defeat Golemancer, Kri'Su, or Un'glu in their revamped Patch 1.2 forms",
+    "Reach the deep brinepunk machinery-themed area introduced in Update 1.3"
+  ]}
+/>
+
+To help you decide whether to tackle expeditions solo or with a group, consider these gameplay differences:
+
+| Feature | Solo Play | Co-Op Play |
+| --- | --- | --- |
+| Enemy Scaling | Standard health and damage | Scaled per active player [00首页信息-1, 00首页信息-2] |
+| Downed State | Requires self-revive tokens | Teammates can revive you [00首页信息-1] |
+| Loot Distribution | All upgrades go to you | Upgrades are instanced per player |
+| Progression Speed | Methodical and slower | Fast-paced but chaotic |
+
+<Callout type="success" title="Community Connections">
+If you need to find active players for cross-platform matches, check the [Official Discord](https://discord.gg/thearcadecrew) or participate in discussions on the Steam Community Hub [00基础信息]. These platforms are excellent resources for finding coordinated squads.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+To help you quickly resolve any issues regarding matchmaking or connectivity, we have compiled the most common inquiries from the community.
+
+<FAQ items={[
+  {
+    question: "Does Abyssus crossplay support cross-progression?",
+    answer: "Yes, cross-progression is supported between Xbox and PC via the Xbox Play Anywhere program. However, cross-progression between Steam and PlayStation 5 is currently not supported, meaning your character levels and unlocks are tied to those individual ecosystems."
+  },
+  {
+    question: "Do I need an external account to use crossplay?",
+    answer: "No external third-party account is required to play. The game uses your native platform account (Steam, PSN, or Xbox) and generates a temporary session code to bridge the connection between different platforms."
+  },
+  {
+    question: "Can I disable crossplay if I only want to play with my own platform?",
+    answer: "Yes, you can disable crossplay at any time in the main gameplay options. Disabling it will restrict your matchmaking pool to players on your specific platform, which may result in longer queue times."
+  },
+  {
+    question: "How does loot distribution work in co-op runs?",
+    answer: "Loot drops, Charms, and Blessings are instanced for each individual player. This means you do not have to fight your teammates for upgrades, as everyone receives their own selections at upgrade stations and altars."
+  }
+]} />
+
+<Callout type="info" title="Patch Updates">
+Keep your game updated to the latest version (Update 1.3 or higher) to ensure compatibility with cross-platform servers [00首页信息-2]. Players on different versions of the game will not be able to join the same lobby.
+</Callout>
+
+</Section>

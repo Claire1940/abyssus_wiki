@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de rifle de motor de Abyssus: mejores mods y guía de configuración",
+  description: "Domina la build de rifle de motor de Abyssus con nuestra guía sobre los mejores mods de Gatling, configuraciones de Disparo Dividido, bendiciones elementales y pasos de desbloqueo rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Engine+Rifle+Build",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "Abyssus, rifle de motor, build, mods, Gatling, Disparo Dividido"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque principal de la build**: La **build de rifle de motor de Abyssus** destaca por una cadencia de fuego inigualable, utilizando el modo Gatling para destrozar multitudes y generar barreras instantáneas.
+- **Fuego primario y secundario**: Combina el **Fuego Gatling** con el **Disparo Dividido** para maximizar el daño de área de efecto y aplicar estados elementales rápidamente.
+- **Mejores opciones de Aspecto**: Prioriza el **Aspecto de Barrera** para la generación activa de escudos y la **Cadena de Rayos** para rebotar electricidad entre grupos masivos.
+- **Mejor sinergia de habilidades**: Equipa la **Granada de Fragmentación** para debilitar a los objetivos agrupados antes de que tus balas de alta velocidad acaben con los enemigos restantes.
+</Callout>
+
+Como el arma inicial por excelencia en Abyssus, el Rifle de Motor es mucho más que una herramienta básica de entrenamiento. Cuando se optimiza con las modificaciones correctas, habilidades activas y bendiciones elementales, una **build de rifle de motor de Abyssus** dedicada transforma esta confiable arma automática en una devastadora ametralladora generadora de escudos de las profundidades marinas. Al dominar su sistema único de gestión de calor brinepunk y acumular multiplicadores de cadencia de fuego, los jugadores pueden superar fácilmente arenas complejas en solitario o liderar a su escuadrón en incursiones cooperativas de alto riesgo.
+
+<Section icon={Swords} title="Descripción general del arma y la mecánica de calor">
+
+El Rifle de Motor es el arma de fuego automática fundamental de tu arsenal de Cazador de Salmuera. A diferencia de los shooters tradicionales, las armas en este mundo brinepunk no utilizan depósitos de munición convencionales. En su lugar, el Rifle de Motor funciona con un sistema de calor termodinámico. Disparar el arma genera calor, y permitir que el medidor llegue al máximo activa una fase de sobrecalentamiento temporal, bloqueando tus capacidades ofensivas principales.
+
+Para crear una configuración exitosa, debes aprender a equilibrar el fuego continuo con la disipación de calor. Alternativamente, las builds avanzadas pueden aprovechar el estado de sobrecalentamiento para estilos de juego de alto riesgo y alta recompensa. Comprender el comportamiento base del arma es crucial antes de profundizar en las modificaciones avanzadas.
+
+| Métrica | Valor Base | Impacto Práctico en el Juego |
+| :--- | :--- | :--- |
+| **Consumo de munición** | Ninguno | Capacidad de disparo ilimitada gobernada solo por la generación de calor |
+| **Cadencia de fuego** | Media-Alta | Perfecta para aplicar estados rápidos y presión continua |
+| **Alcance óptimo** | Distancia media | Alta precisión a distancia, pero la dispersión aumenta durante el fuego sostenido |
+| **Disipación de calor** | Moderada | Requiere pausas breves o amuletos pasivos específicos para enfriarse |
+
+<Callout type="warning" title="Advertencia de Calor">
+Permitir que tu Rifle de Motor se sobrecaliente por completo te deja muy vulnerable en espacios de combate cerrados. Vigila siempre tu indicador de calor y usa tus habilidades de movimiento, como el deslizamiento y el doble salto, para reposicionarte mientras el arma se enfría.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración de Gatling y Disparo Dividido: Guía de la build de rifle de motor de Abyssus">
+
+La configuración más confiable para una **build de rifle de motor de Abyssus** de élite se centra en maximizar la cadencia de fuego sostenida y la cobertura de área de efecto. Al combinar la modificación de fuego primario Gatling con el fuego secundario de Disparo Dividido, conviertes tu rifle estándar en una potencia destructora de multitudes. El mod Gatling aumenta progresivamente tu cadencia de fuego cuanto más tiempo mantengas presionado el gatillo, mientras que el Disparo Dividido lanza una dispersión horizontal de proyectiles que hace casi imposible fallar a los objetivos en los estrechos corredores submarinos.
+
+| Tipo de Modificación | Opción Recomendada | Mecánica Principal y Beneficio |
+| :--- | :--- | :--- |
+| **Fuego Primario** | Fuego Gatling | Aumenta la cadencia de fuego con el tiempo, ofreciendo un DPS sostenido masivo |
+| **Fuego Secundario** | Disparo Dividido | Dispara una amplia dispersión de proyectiles, perfecto para aplicar estados |
+| **Primario Alternativo** | Revoluciones de Motor | Se centra en la aceleración instantánea de la cadencia de fuego a costa de la precisión |
+| **Secundario Alternativo** | Disparo Concentrado | Disparos de precisión semiautomáticos que infligen un gran retroceso |
+
+<CardGrid cols={3}>
+  <Card title="El Controlador de Masas">
+    - **Primario**: Fuego Gatling
+    - **Secundario**: Disparo Dividido
+    - **Enfoque**: Propagar estados elementales rápidamente por grupos masivos de enemigos.
+  </Card>
+  <Card title="El Atacante de Precisión">
+    - **Primario**: Automático Estándar
+    - **Secundario**: Disparo Concentrado
+    - **Enfoque**: Alto daño en puntos débiles de un solo objetivo con retroceso defensivo confiable.
+  </Card>
+  <Card title="El Revolucionado de Alto Riesgo">
+    - **Primario**: Revoluciones de Motor
+    - **Secundario**: Disparo Dividido
+    - **Enfoque**: Máxima cadencia de fuego posible, requiriendo amuletos de gestión de calor intensiva.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Nota de Sinergia">
+Cuando uses el modo Gatling, prioriza las cartas, amuletos y mejoras que reduzcan los tiempos de recarga. Debido a que tu cadencia de fuego se acelera drásticamente, agotarás tu cargador rápidamente. Minimizar el tiempo de inactividad por recarga se traduce directamente en una mayor generación de escudos y producción de daño total.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cómo desbloquear los mods del Rifle de Motor">
+
+Para desbloquear todo el potencial de tu **build de rifle de motor de Abyssus**, debes completar desafíos específicos durante las incursiones para obtener las modificaciones secundarias del arma. Estos desafíos te animan a experimentar con diferentes mecánicas, como bajas explosivas y umbrales de calor. Se recomienda desbloquear estos mods temprano en tu progresión para facilitar mucho las expediciones más profundas.
+
+<Steps>
+  <Step num="1" title="Desbloquear el modo de Fuego Gatling">
+    Derrota a 15 adversarios durante una sola expedición sin recargar tu arma. Esto es más fácil de lograr en las primeras salas de combate donde aparecen enemigos débiles y con poca salud en grupos.
+  </Step>
+  <Step num="2" title="Desbloquear el secundario Disparo Dividido">
+    Derrota a 30 enemigos usando daño explosivo mientras tienes el Rifle de Motor equipado. Utilizar tu habilidad de Granada de Fragmentación en puntos de estrangulamiento concurridos es la forma más rápida de completar este objetivo.
+  </Step>
+  <Step num="3" title="Desbloquear el Disparo Concentrado">
+    Elimina a 5 enemigos mientras tu Rifle de Motor está completamente sobrecalentado. Para hacerlo de forma segura, aplica un efecto de congelación a un grupo de enemigos, dispara lejos de ellos para sobrecalentar tu arma y luego remátalos mientras está sobrecalentada.
+  </Step>
+</Steps>
+
+| Modificación | Logro de Desbloqueo | Método más Fácil |
+| :--- | :--- | :--- |
+| **Fuego Gatling** | Cazador Sostenido | Usa disparos únicos de precisión contra enemigos dron al principio del juego |
+| **Disparo Dividido** | Fuego de Tambor | Agrupa a los enemigos y lanza una Granada de Fragmentación en el momento justo |
+| **Disparo Concentrado** | Fecha Límite | Congela a un grupo de enemigos, sobrecalienta tu arma y remátalos |
+
+<Callout type="warning" title="Seguimiento de Logros">
+Asegúrate de tener el Rifle de Motor activamente equipado en tus manos al completar estos desafíos. Si consigues bajas explosivas mientras sostienes un arma secundaria, el progreso no contará para el desbloqueo de tu Disparo Dividido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones Divinas, Amuletos y Mods de Forja Antigua">
+
+Las modificaciones de tu arma solo representan la mitad del poder de tu build. Para escalar tu daño hacia el juego tardío, debes infundir tus armamentos con bendiciones divinas y equipar amuletos sinérgicos. Debido a que el Rifle de Motor dispara tan rápido, es absolutamente la mejor arma del juego para activar efectos "al golpear" y "al realizar críticos". Acumular múltiples cadenas elementales convierte cada pulsación del gatillo en una reacción en cadena explosiva.
+
+| Tipo de Mejora | Mejor Opción | Sinergia de Build e Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Aspecto Primario** | Aspecto de Barrera | Genera cargas de escudo activas rápidamente debido a la alta cadencia de fuego |
+| **Aspecto Secundario** | Cadena de Rayos | Rebota arcos eléctricos entre los objetivos alcanzados por el Disparo Dividido |
+| **Aspecto de Habilidad** | Aspecto de Espíritu | Invoca espíritus buscadores para atacar objetivos tras explosiones de granadas |
+| **Bendición Elemental** | Congelación | Ralentiza a los enemigos abisales rápidos, facilitando su seguimiento |
+| **Mod de Forja Antigua** | Cañón Overclockeado | Aumenta la velocidad del proyectil y añade una probabilidad de atravesar objetivos |
+
+<Checklist
+  id="engine-rifle-checklist"
+  title="Lista de verificación de la build previa a la expedición:"
+  items={[
+    "Equipa el mod primario Gatling en el banco de trabajo antes de la partida",
+    "Selecciona la Granada de Fragmentación como tu habilidad activa de control de masas",
+    "Busca amuletos de velocidad de recarga y reducción de calor en las primeras salas",
+    "Prioriza las bendiciones de Rayo y Congelación durante tu incursión",
+    "Mejora la capacidad máxima de barrera de tu traje mediante la metaprogresión"
+  ]}
+/>
+
+<Callout type="success" title="Lección Maestra de Defensa">
+La sinergia entre el modo de fuego Gatling y el Aspecto de Barrera es tu herramienta de supervivencia principal. Debido a que la barrera se carga según la frecuencia de tus impactos, la cadencia de fuego acelerada del modo Gatling garantiza que tus escudos estén casi siempre cargados al máximo, incluso cuando estás en zonas de peligro de jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de Combate y Juego Solo vs Cooperativo">
+
+Jugar con una **build de rifle de motor de Abyssus** optimizada requiere una mezcla de posicionamiento agresivo y rotación inteligente de habilidades. En el juego en solitario, tu enfoque principal es la gestión de multitudes y mantener la distancia. Usa tu Disparo Dividido para aplicar efectos de lentitud o congelación a los enemigos cuerpo a cuerpo que se aproximen, luego acelera tu fuego Gatling para derretir a los objetivos de alta prioridad. Guarda siempre tu deslizamiento para escapar cuando tu arma esté cerca de sobrecalentarse.
+
+In el juego cooperativo, que admite hasta cuatro jugadores con multijugador multiplataforma a partir de la Actualización 1.3 de 2026, tu rol cambia hacia el daño sostenido y la utilidad defensiva. Mientras tus compañeros de equipo pueden usar armas pesadas y de disparo lento como el Lanzador de Plasma o el Fusil de Arpón, tu trabajo es mantener los efectos de estado activos en toda el arena y atraer la atención de los enemigos (aggro) usando tu rápida generación de barreras.
+
+| Escenario | Rol Táctico Principal | Sinergia de Habilidad Clave |
+| :--- | :--- | :--- |
+| **Expediciones en Solitario** | Polivalente, control de masas y defensa autosuficiente | Lentitud de Congelación + espaciado con Granada de Fragmentación |
+| **Escuadrones Cooperativos** | Propagador de estados, tanque de barrera y apoyo de DPS constante | Propagación de Cadena de Rayos + activadores explosivos de compañeros |
+
+<Callout type="info" title="Consejo de la Actualización 1.3">
+Con la adición del emparejamiento optimizado y el juego rápido en la Actualización 1.3, puedes unirte fácilmente a salas abiertas [homepage-modules-1]. Al agruparte con jugadores aleatorios, el Rifle de Motor es la opción más segura porque no requiere un equipo altamente coordinado para ser efectivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+Para ayudarte a perfeccionar tu configuración, hemos recopilado las preguntas más comunes sobre la **build de rifle de motor de Abyssus** y cómo sacar el máximo provecho de esta arma versátil.
+
+<FAQ items={[
+  {
+    question: "¿Es mejor el modo Gatling que las Revoluciones de Motor para el Rifle de Motor?",
+    answer: "Sí, para la mayoría de las incursiones, el modo Gatling es superior. Mientras que las Revoluciones de Motor ofrecen una aceleración instantánea de la cadencia de fuego, el modo Gatling proporciona una mejor precisión sostenida y funciona de manera más eficiente con el Aspecto de Barrera para mantener tus escudos cargados."
+  },
+  {
+    question: "¿Cómo desbloqueo fácilmente el mod de Disparo Dividido?",
+    answer: "Para desbloquear el Disparo Dividido, debes matar a 30 enemigos con explosiones mientras tienes el Rifle de Motor equipado. El método más fácil es reunir a enemigos débiles usando el efecto de congelación de tu granada y luego detonar una Granada de Fragmentación para eliminarlos."
+  },
+  {
+    question: "¿Funciona bien el Rifle de Motor contra los jefes?",
+    answer: "Sí. Aunque tiene un daño base moderado contra un solo objetivo, la rápida cadencia de fuego te permite acumular efectos de daño elemental en el tiempo (como quemadura de Fuego o veneno de Ponzoña) extremadamente rápido, destrozando las barras de salud de los jefes durante las ventanas de daño."
+  },
+  {
+    question: "¿Cuál es la mejor habilidad activa para combinar con esta arma?",
+    answer: "La Granada de Fragmentación es la opción ideal. Proporciona control de masas inmediato, te ayuda a desbloquear el mod secundario Disparo Dividido y sinergiza perfectamente con el Aspecto de Espíritu para infligir daño suplementario tras las explosiones."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto Final">
+El Rifle de Motor sigue siendo una de las armas más confiables y versátiles en Abyssus. Ya seas un principiante aprendiendo los conceptos básicos o un veterano enfrentando incursiones de alta dificultad, esta build ofrece la mezcla perfecta de defensa, velocidad y caos elemental.
+</Callout>
+
+</Section>

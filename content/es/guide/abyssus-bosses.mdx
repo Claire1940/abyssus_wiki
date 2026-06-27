@@ -1,0 +1,172 @@
+import { Target, Swords, Map, Sparkles, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jefes de Abyssus: Guía de Encuentros y Consejos de Combate 2026",
+  description: "Domina a los 12 jefes de Abyssus con nuestra guía completa de encuentros. Aprende los patrones de Golemancer, Kri'Su y Un'glu, las mejores armas y estrategias cooperativas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Bosses+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "jefes de abyssus, guía de combate, golemancer, kri'su, un'glu, estrategias cooperativas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los jefes de Abyssus** exigen una movilidad excepcional; reserva tus cargas de carrera (dash) y salto doble exclusivamente para esquivar ataques de área amplia.
+- **Las variantes potenciadas por Oleada (Surge)**, introducidas en el Parche 1.2 para Golemancer, Kri'Su y Un'glu, presentan secuencias de ataque renovadas y más rápidas.
+- **Las armas de un solo objetivo** como el Brine Revolver y el Harpoon Gun ofrecen el daño más constante durante las ventanas críticas de vulnerabilidad de los jefes.
+- **Los encuentros de la Actualización 1.3** presentan un nuevo jefe temático de maquinaria brinepunk que recompensa a los equipos por centrarse en los puntos débiles mecánicos.
+</Callout>
+
+<Section icon={Target} title="Descripción General de los Jefes de Abyssus y Mecánicas Principales">
+
+Sobrevivir a las profundidades marinas de este mundo brinepunk requiere más que reflejos rápidos; exige un conocimiento profundo de los formidables **jefes de Abyssus** que custodian el reino sumergido [1]. Con el lanzamiento de la Actualización 1.3, junto con el debut en las consolas PlayStation 5 y Xbox Series X|S el 25 de junio de 2026, el juego cuenta con un total de 12 jefes únicos y 36 tipos de enemigos distintos [1]. Estos encuentros se distribuyen en más de 70 niveles creados a mano y secuenciados proceduralmente, lo que garantiza que no haya dos expediciones exactamente iguales [1, 2].
+
+Las batallas contra jefes en este entorno sirven como la prueba definitiva de la sinergia de tu build durante la partida. Las arenas suelen ser circulares, lo que obliga a un movimiento constante y ofrece una cobertura mínima. Los jefes utilizan ataques masivos de área de efecto (AoE), fases de invulnerabilidad, láseres de seguimiento y peligros ambientales como mareas de salmuera crecientes o conductos de vapor [2]. Para tener éxito, debes aprender a leer las animaciones de aviso, gestionar el calor de tu arma o los ciclos de recarga, y coordinarte con tu equipo si juegas en modo cooperativo [1, 2].
+
+| Nombre del Jefe | Tipo | Amenaza Clave | Contramedida Recomendada |
+|--- |--- |--- |--- |
+| Golemancer | Constructor | Golpes terrestres masivos, anillos de ondas de choque | Salto doble sobre las ondas, mantener distancia media |
+| Kri'Su | Bestia mutada | Cargas de barrido a alta velocidad, peligros de hielo | Carrera lateral durante la carga, castigar recuperación |
+| Un'glu | Abominación | Spam de proyectiles tóxicos, generación masiva de enemigos | Eliminar enemigos rápido, usar cobertura perimetral |
+| Jefe Mecánico 1.3 | Mecánico | Láseres de seguimiento, rejillas de denegación de área | Mantenerse en movimiento, apuntar a núcleos brillantes |
+
+<Callout type="info" title="Conciencia de la Arena">
+Los peligros ambientales pueden aparecer dinámicamente durante las peleas contra los jefes. Escanea siempre el suelo en busca de anillos de advertencia brillantes, que indican ataques de mortero entrantes, ráfagas de vapor o caída de escombros.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Variantes de los Jefes Golemancer, Kri'Su y Un'glu">
+
+La actualización "Brinefrost" del Parche 1.2 elevó el desafío al introducir variantes renovadas y potenciadas por Oleada (Surge) para tres de los jefes principales del juego: Golemancer, Kri'Su y Un'glu [2]. Estos encuentros variantes están diseñados para poner a prueba a los jugadores experimentados alterando los tiempos de ataque, introduciendo infusiones elementales y reduciendo las ventanas de seguridad entre las habilidades del jefe [2].
+
+Por ejemplo, el Surge Golemancer ya no depende de golpes terrestres individuales; en su lugar, encadena múltiples ondas de choque en rápida sucesión, obligándote a cronometrar tus saltos dobles a la perfección. Surge Kri'Su deja un rastro persistente de peligros de escarcha tras sus cargas, restringiendo tus opciones de movimiento en la arena. Mientras tanto, Surge Un'glu dispara proyectiles tóxicos que se dividen en fragmentos rastreadores más pequeños al impactar, lo que requiere carreras precisas para evitarlos.
+
+| Variante de Jefe | Ataque de Oleada | Cambio Mecánico | Estrategia de Supervivencia |
+|--- |--- |--- |--- |
+| Surge Golemancer | Triple Golpe Terrestre | Ondas de choque se expanden un 30% más rápido | Saltar y planear para estar más tiempo en el aire |
+| Surge Kri'Su | Carga con Eco | Deja un rastro de peligros de escarcha congelante | Evitar la trayectoria de carga; luchar en zonas limpias |
+| Surge Un'glu | Lluvia Tóxica | Los proyectiles se dividen en fragmentos rastreadores | Separarse en cooperativo; destruir vainas tóxicas |
+
+<Callout type="warning" title="Escalado de Dificultad de Oleada">
+Las variantes potenciadas por Oleada presentan reservas de salud significativamente mayores y ventanas de recuperación más cortas. No intentes forzar daño adicional durante sus animaciones de ataque; concéntrate totalmente en la evasión hasta que el jefe entre en un estado de recuperación.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia Paso a Paso para Encuentros con Jefes">
+
+Derrotar los encuentros más difíciles del juego requiere un enfoque estructurado. Sigue este ciclo de combate paso a paso para desmantelar a cualquier jefe, ya sea jugando solo o en un escuadrón cooperativo coordinado de 4 jugadores [1].
+
+<Steps>
+  <Step num="1" title="Analizar la Arena e Identificar Zonas Seguras">
+    Al entrar en la arena del jefe, identifica inmediatamente la ubicación de los peligros ambientales, los conductos de vapor y los posibles puntos de cobertura. Observa dónde se encuentran las estaciones de recuperación de salud o escudo, ya que necesitarás volver a ellas durante las fases caóticas.
+  </Step>
+  <Step num="2" title="Provocar y Leer los Patrones de Ataque Iniciales">
+    No descargues toda tu munición de inmediato. Pasa los primeros 30 segundos de la pelea manteniendo la distancia, provocando los ataques principales del jefe e identificando las señales visuales o auditivas. Cada habilidad importante tiene una animación de aviso, como un núcleo brillante o un rugido específico.
+  </Step>
+  <Step num="3" title="Coordinar Roles Cooperativos y Gestión de Enemigos">
+    Si juegas en cooperativo, asigna roles claros [1]. Un jugador debe centrarse en eliminar a los enemigos menores (adds) que aparecen para evitar que la arena se vea desbordada. Otro jugador debe equipar bendiciones orientadas al control para ralentizar al jefe, mientras que los jugadores restantes se centran en infligir daño directo [1].
+  </Step>
+  <Step num="4" title="Ejecutar Fases de Castigo de Alto Daño">
+    Espera a que el jefe complete una secuencia de ataque importante o entre en una fase de ruptura de invulnerabilidad. Una vez que el jefe sea temporalmente vulnerable o se esté recuperando, desata tus modos de disparo principal y secundario, utilizando mods de armas de alto daño y sinergias elementales para derretir su barra de salud [1].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Posicionamiento en Cooperativo">
+En el modo multijugador, no se agrupen. Los jefes suelen atacar a los jugadores con ataques AoE de alto daño. Espaciarse alrededor del perímetro de la arena asegura que solo un jugador tenga que esquivar en un momento dado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Builds y Armas para Peleas contra Jefes">
+
+Tu elección de equipo determina qué tan rápido puedes destrozar la salud de un jefe [1]. El juego cuenta con 9 armas principales, 54 mods de armas y más de 140 mods de la Forja Antigua, lo que te permite crear builds altamente especializadas [1]. Acumular bendiciones y amuletos centrados en el daño es clave para maximizar tu DPS durante las estrechas ventanas de vulnerabilidad [1].
+
+<CardGrid cols={3}>
+  <Card title="Build de DPS de Objetivo Único">
+    - **Arma Principal**: Brine Revolver [1]
+    - **Bendición Clave**: Quemadura de fuego o Bono de punto débil [1, 2]
+    - **Estilo de Combate**: Golpes críticos de alta precisión [1]
+  </Card>
+  <Card title="Build de Control y Utilidad">
+    - **Arma Principal**: Tesla Gun [1]
+    - **Bendición Clave**: Congelación de hielo o Arcos eléctricos [1, 2]
+    - **Estilo de Combate**: Ralentizar las animaciones del jefe [2]
+  </Card>
+  <Card title="Build de Supervivencia Sostenida">
+    - **Arma Principal**: Harpoon Gun [1, 2]
+    - **Bendición Clave**: Debuffs de sombra o Regen. de escudo [2]
+    - **Estilo de Combate**: Enfrentamientos seguros a larga distancia [1, 2]
+  </Card>
+</CardGrid>
+
+Al construir específicamente para encuentros con jefes, prioriza el daño de ráfaga de un solo objetivo sobre la limpieza de áreas amplias. El Brine Revolver destaca aquí, especialmente cuando se combina con mods que aumentan el daño crítico en impactos consecutivos [1]. Para un estilo de juego más seguro y a larga distancia, la Harpoon Gun te permite infligir un daño masivo desde lejos mientras mantienes tus opciones de movimiento completamente abiertas [1, 2].
+
+| Arma | Rol Principal | Mejor Sinergia de Bendiciones | Calificación de Combate |
+|--- |--- |--- |--- |
+| Brine Revolver | Ráfaga crítica a un solo objetivo | Quemadura / Bono de punto débil | ★★★★★ |
+| Tesla Gun | Control de enemigos y estados | Arcos eléctricos / Congelación | ★★★★☆ |
+| Harpoon Gun | Daño de precisión a larga distancia | Debuffs de sombra / Ralentización | ★★★★☆ |
+| Plasma Launcher | Ráfaga AoE y trituración de armadura | Escala de daño por explosión | ★★★☆☆ |
+
+<Callout type="success" title="Sinergia Elemental">
+Combinar una bendición de congelación con una de fuego crea un efecto de choque térmico en los jefes, infligiendo un daño extra masivo e interrumpiendo momentáneamente sus animaciones no programadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para la Preparación contra Jefes">
+
+Antes de lanzarte a una partida profunda para enfrentar a los guardianes finales de las ruinas sumergidas, asegúrate de que tu build y estrategia estén completamente optimizadas [1]. Usa esta lista para preparar a tu Brinehunter para los desafíos que se avecinan [1].
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Verificación Previa a la Partida:"
+  items={[
+    "Equipar al menos un arma dedicada a un alto DPS de objetivo único.",
+    "Desbloquear nodos de mejora de movimiento en el árbol de habilidades de metaprogresión.",
+    "Coordinar bendiciones elementales con tu escuadrón cooperativo para evitar estados redundantes.",
+    "Abastecerse de amuletos que mejoren la recuperación de escudo o reduzcan el enfriamiento de habilidades.",
+    "Familiarizarse con las señales visuales de las variantes de Golemancer, Kri'Su y Un'glu."
+  ]}
+/>
+
+<Callout type="info" title="Metaprogresión">
+Si te encuentras luchando contra un jefe específico, dedica algunas partidas exclusivamente a recolectar materiales de metaprogresión. Mejorar los nodos permanentes de tu árbol de habilidades proporciona un impulso sustancial a tu supervivencia general y a tu producción de daño [1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jefes hay actualmente en Abyssus?",
+    answer: "Tras el lanzamiento de la Actualización 1.3, hay un total de 12 jefes únicos para encontrar a lo largo de las partidas secuenciadas proceduralmente del juego."
+  },
+  {
+    question: "¿Cuáles son las mejores armas para derrotar a los jefes de Abyssus?",
+    answer: "El Brine Revolver es muy recomendable por su excepcional daño crítico a un solo objetivo, mientras que la Harpoon Gun ofrece una seguridad y precisión excelentes desde larga distancia."
+  },
+  {
+    question: "¿Aumenta la dificultad de las peleas contra jefes en el modo cooperativo?",
+    answer: "Sí, la salud de los jefes, la frecuencia de los peligros y la tasa de aparición de enemigos adicionales escalan dinámicamente según el número de jugadores en tu escuadrón para mantener un desafío equilibrado."
+  },
+  {
+    question: "¿Qué cambió la Actualización 1.2 en los encuentros con jefes?",
+    answer: "La Actualización 1.2 introdujo variantes renovadas potenciadas por Oleada (Surge) para Golemancer, Kri'Su y Un'glu, con secuencias de ataque más rápidas y nuevos peligros elementales."
+  }
+]} />
+
+<Callout type="tip" title="Mantente Actualizado">
+Consulta siempre las notas oficiales del parche después de actualizaciones importantes como la 1.3, ya que a menudo introducen ajustes de equilibrio en la salud de los jefes, el daño de las armas y las sinergias de las bendiciones [1, 2].
+</Callout>
+
+</Section>

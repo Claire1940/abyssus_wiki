@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Crossplay: Anleitung für Multiplayer-Setup & Matchmaking",
+  description: "Erfahre, wie der Crossplay-Multiplayer in Abyssus funktioniert. Verbinde dich mit Spielern auf Steam, PS5 und Xbox Series X|S mithilfe unserer Einrichtungsanleitung und Matchmaking-Tipps.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Cross+Platform+Multiplayer",
+  date: "2026-06-27",
+  author: "Abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Der **Abyssus-Crossplay**-Multiplayer unterstützt Steam, PlayStation 5 und Xbox Series X|S vollständig.
+- **Update 1.3** wurde am 25. Juni 2026 veröffentlicht und führt vollständiges Crossplay sowie ein optimiertes Matchmaking ein.
+- Für den **Online-Multiplayer** sind aktive Plattform-Abonnements wie PS Plus oder Xbox Game Pass Core erforderlich.
+- **Quickplay und Lobbys** ermöglichen es bis zu 4 Spielern, in anspruchsvollen Brinepunk-Runs zu kooperieren.
+- **Raum-Codes** erleichtern das Teilen von Einladungen über verschiedene Gaming-Plattformen hinweg.
+</Callout>
+
+<Section icon={Map} title="Überblick über das Abyssus-Crossplay">
+
+Abyssus ist ein rasanter Brinepunk-Roguelite-FPS, der von DoubleMoose Games entwickelt und von The Arcade Crew und Dotemu veröffentlicht wurde [00基础信息]. Als das Spiel am 12. August 2025 zuerst auf Steam erschien, lobten die Spieler die flüssige Steuerung, die tiefgehende Waffenanpassung und das atmosphärische Unterwasserszenario [00首页信息-1]. Der Konsolen-Release für PlayStation 5 und Xbox Series X|S am 25. Juni 2026 markierte jedoch einen riesigen Meilenstein: die offizielle Einführung des **Abyssus-Crossplay**-Multiplayers [00基础信息, 00首页信息-2]. 
+
+Dieses Feature wurde zusammen mit Update 1.3 eingeführt und vereint PC- und Konsolenspieler in einem einzigen Matchmaking-Pool [00首页信息-2]. Egal, ob du von einem High-End-PC aus abtauchst oder es dir auf der Couch vor der Konsole gemütlich machst, du kannst dich jetzt mit Freunden zusammenschließen, um gemeinsam die Tiefen des versunkenen Königreichs zu erkunden [00首页信息-2]. Das Spiel unterstützt Online-Koop für bis zu 4 Spieler, wobei sich der Schwierigkeitsgrad dynamisch an die Größe eurer Gruppe anpasst [00首页信息-1, 00首页信息-2].
+
+Um dir zu helfen zu verstehen, wie die verschiedenen Plattformen interagieren, haben wir eine Kompatibilitätsmatrix zusammengestellt, die die Crossplay-Funktionen und Matchmaking-Optionen für alle unterstützten Systeme beschreibt.
+
+| Plattform | Crossplay-Unterstützung | Matchmaking-Optionen | Handheld- / Cloud-Gaming |
+| :--- | :--- | :--- | :--- |
+| Steam-PC | Unterstützt | Quickplay, Raum-Codes | Steam-Deck-kompatibel |
+| PlayStation 5 | Unterstützt | Quickplay, Raum-Codes | PS5-Cloud-Streaming |
+| Xbox Series X\|S | Unterstützt | Quickplay, Raum-Codes | Xbox-Cloud-Gaming |
+
+<Callout type="info" title="Meilensteine von Update 1.3">
+Der Konsolen-Launch am 25. Juni 2026 vereinte die gesamte Spielerschaft und ermöglicht es PC- und Konsolenjägern, sich nahtlos im neuen spielbaren Bereich im Brinepunk-Maschinen-Stil zusammenzutun [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="So richtest du den Crossplay-Multiplayer ein">
+
+Die Einrichtung des Multiplayers über verschiedene Plattformen hinweg ist dank des optimierten Lobbysystems, das mit dem Konsolen-Launch-Patch eingeführt wurde, denkbar einfach [00首页信息-2]. Anstatt sich auf plattformspezifische Freundeslisten zu verlassen, nutzt das Spiel ein universelles Raum-Code-System [00首页信息-2]. Dies umgeht die Notwendigkeit, externe Konten zu verknüpfen, sodass du schnell in Spiele mit Spielern auf anderen Geräten einsteigen kannst [00首页信息-2].
+
+Um eine reibungslose Verbindung zu gewährleisten, stelle sicher, dass alle Spieler ihren Spiel-Client auf die neueste Version (Update 1.3 oder höher) aktualisiert haben [00首页信息-2]. Nicht übereinstimmende Spielversionen sind die Hauptursache für Verbindungsfehler in Lobbys.
+
+<Steps>
+  <Step num="1" title="Crossplay in den Einstellungen aktivieren">
+    Starte das Spiel und navigiere zum Optionsmenü. Stelle unter dem Reiter „Netzwerk“ sicher, dass der Schalter für das plattformübergreifende Matchmaking auf „Aktiviert“ steht. Dies muss bei allen Spielern in der Gruppe eingeschaltet sein.
+  </Step>
+  <Step num="2" title="Auf das Multiplayer-Terminal zugreifen">
+    Gehe im Haupt-Hub-Bereich zum Multiplayer-Terminal. Interagiere damit, um das Matchmaking-Menü zu öffnen, in dem du eine private Lobby erstellen, einer bestehenden Lobby beitreten oder nach öffentlichen Spielen suchen kannst.
+  </Step>
+  <Step num="3" title="Mit Raum-Codes erstellen oder beitreten">
+    Wenn du der Host bist, wähle „Private Lobby erstellen“, um einen einzigartigen 6-stelligen Raum-Code zu generieren, der auf deinem Bildschirm angezeigt wird. Teile diesen Code mit deinen Freunden. Wenn du beitrittst, wähle „Raum-Code eingeben“ und gib den Code des Hosts ein.
+  </Step>
+  <Step num="4" title="Die Expedition starten">
+    Sobald alle Spieler die Lobby betreten und ihren Bereit-Status ausgewählt haben, kann der Host das Ziel wählen. Stelle sicher, dass deine Brinehunter-Ausrüstung, Fähigkeiten und Anzüge vorbereitet sind, bevor du den Tauchgang startest.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verbindungstipp">
+Die Verwendung von direkten Raum-Codes umgeht regionale Matchmaking-Einschränkungen und sorgt für schnelle Verbindungszeiten sowie stabile Lobbys über verschiedene Kontinente hinweg [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Plattformanforderungen & Abonnement-Regeln">
+
+Obwohl das **Abyssus-Crossplay** vollständig integriert ist, variieren die Online-Abonnement-Regeln und Kaufoptionen je nach gewählter Plattform [00首页信息-2]. Steam-Spieler genießen kostenlosen Online-Multiplayer, aber Konsolenspieler müssen die Premium-Netzwerkanforderungen ihrer jeweiligen Plattform erfüllen [00首页信息-2]. 
+
+Zusätzlich können Spieler zwischen der Standard Edition und der Premium-Brine-Edition wählen [00首页信息-1]. Die Brine-Edition bündelt das Hauptspiel mit mehreren kosmetischen Erweiterungspaketen, darunter die Pakete Brinehunter, Brineguard, Brinefrost und Brinerot [00首页信息-1, 00首页信息-2]. Diese kosmetischen Gegenstände sind völlig optional und haben keinen Einfluss auf die Spielbalance oder die Matchmaking-Kompatibilität [00首页信息-2].
+
+Die folgende Tabelle zeigt die genauen Anforderungen, Preise und die Verfügbarkeit von Abonnements für jede Plattform.
+
+| Plattform | Abonnement-Anforderung | Game-Pass-Status | Verfügbare Editionen |
+| :--- | :--- | :--- | :--- |
+| Steam-PC | Keine (Kostenloser Online-Multiplayer) | Nicht verfügbar | Standard / Brine-Edition |
+| PlayStation 5 | PS Plus erforderlich | Nicht verfügbar | Standard / Brine-Edition |
+| Xbox Series X\|S | Xbox Game Pass Core/Ultimate | Im Game Pass enthalten | Standard / Brine-Edition |
+
+<Callout type="warning" title="Konsolen-Anforderungen">
+Konsolenspieler müssen über ein aktives Online-Abonnement (PlayStation Plus oder Xbox Game Pass Core/Ultimate) verfügen, um plattformübergreifenden Lobbys beizutreten, selbst wenn sie mit Steam-Freunden spielen [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Koop-Teamzusammensetzung & Build-Synergien">
+
+Das Überleben in den Tiefseegräben von Abyssus erfordert mehr als nur schnelle Reflexe; es verlangt koordinierte Ausrüstungen und Build-Synergien [00首页信息-1]. Mit einem Pool von 9 einzigartigen Waffen, 54 Waffen-Mods, über 140 „Uralte Schmiede“-Mods und mehr als 250 Zaubern und Segen sind die Build-Möglichkeiten gigantisch [00基础信息, 00首页信息-1]. In einer 4-Spieler-Koop-Gruppe sollten sich die Spieler auf bestimmte Rollen spezialisieren, anstatt dass jeder versucht, das exakt gleiche Schadens-Setup zu spielen [00首页信息-1].
+
+Eine ausgewogene Teamzusammensetzung besteht in der Regel aus verschiedenen Rollen, die die Bereiche Gegnerkontrolle (Crowd Control), Einzelzielschaden und Utility-Support abdecken [00首页信息-1].
+
+<CardGrid cols={3}>
+  <Card title="Spezialist für Raum-Clearing">
+    - **Primärwaffe**: Tesla-Kanone oder Plasma-Werfer [00首页信息-1]
+    - **Fokus**: Verbreiten von Statuseffekten und Verursachen von massivem Flächenschaden (AOE) [00首页信息-1]
+    - **Beste Segen**: Blitzbögen, Brandeffekte und Ozeanbeschwörungen [00首页信息-1, 00首页信息-2]
+  </Card>
+  <Card title="Boss-Jäger">
+    - **Primärwaffe**: Brine-Revolver oder Harpunenkanone [00首页信息-1, 00首页信息-2]
+    - **Fokus**: Hoher Präzisionsschaden an Schwachstellen einzelner Ziele [00首页信息-1]
+    - **Beste Segen**: Präzisionsbasierte Schadensmultiplikatoren und Krit-Boosts [00首页信息-1]
+  </Card>
+  <Card title="Unterstützung & Kontrolle">
+    - **Primärwaffe**: Kampfbogen oder Schrotflinte [00首页信息-1]
+    - **Fokus**: Verlangsamen von Gegnern, Ziehen von Aggro und Wiederbeleben von Verbündeten [00首页信息-1]
+    - **Beste Segen**: Eis-Einfriereffekte und Schatten-Debuffs [00首页信息-1, 00首页信息-2]
+  </Card>
+</CardGrid>
+
+Um die Effizienz deines Teams zu maximieren, solltet ihr eure aktiven Waffen-Mods und Elementarsegen aufeinander abstimmen [00首页信息-1]. Wenn beispielsweise ein Spieler einen Einfrier- oder Schatten-Debuff anwendet, können die Schadensausteiler massiven Zersplitterungsschaden verursachen oder Schadensboni ausnutzen [00首页信息-1, 00首页信息-2].
+
+| Waffe | Primäre Rolle | Empfohlener Segen | Bester Koop-Partner |
+| :--- | :--- | :--- | :--- |
+| Tesla-Kanone | Gegnerkontrolle (Crowd Control) | Blitzbogen / Einfrieren | Brine-Revolver |
+| Brine-Revolver | Einzelziel-DPS | Brandeffekt / Präzision | Tesla-Kanone |
+| Plasma-Werfer | Flächenschaden | Explosion / Ozeanbeschwörungen | Kampfbogen |
+| Kampfbogen | Skalierender Schaden | Schatten-Debuff / Geister | Plasma-Werfer |
+
+<Callout type="tip" title="Synergie-Strategie">
+Vermeide es im 4-Spieler-Koop, dass alle Spieler reine Schadens-Builds spielen. Mindestens ein Spieler sollte sich auf Gegnerkontrolle und elementare Debuffs konzentrieren, um die Arena überschaubar zu halten [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittsziele & Checkliste">
+
+Das Spielen im plattformübergreifenden Koop macht das Meistern der anspruchsvollen Meta-Progression des Spiels viel einfacher [00首页信息-1]. Selbst gescheiterte Runs belohnen dich mit wertvollen Ressourcen, die im Haupt-Hub ausgegeben werden können, um deinen permanenten Skillbaum zu erweitern [00首页信息-1]. Update 1.3 hat den Skillbaum überarbeitet und neue Fähigkeiten sowie Vorbereitungsoptionen eingeführt, die tiefere Expeditionen sehr beständig machen [00首页信息-2].
+
+Arbeite mit deiner plattformübergreifenden Truppe zusammen, um diese wichtigen Multiplayer-Meilensteine zu erreichen.
+
+<Checklist
+  id="multiplayer-goals"
+  title="Multiplayer-Meilensteine:"
+  items={[
+    "Schließe eine vollständige plattformübergreifende 4-Spieler-Expedition ab",
+    "Schalte die Harpunenkanone gemäß den Anforderungen des Brinefrost-Updates frei",
+    "Besiege die überarbeiteten Bossvarianten Golemancer, Kri'Su und Un'glu",
+    "Maximiere den erweiterten Skillbaum aus Update 1.3",
+    "Sammle in deinen Runs über 100 einzigartige Zauber und Segen"
+  ]}
+/>
+
+<Callout type="success" title="Meta-Progression">
+Gescheiterte Runs im Koop gewähren dennoch Ressourcen für deinen permanenten Skillbaum, was zukünftige Expeditionen für die gesamte Truppe erheblich erleichtert [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+Um das Beste aus deinen Multiplayer-Sessions herauszuholen, haben wir Antworten auf die am häufigsten gestellten Fragen rund um die Netzwerkfunktionen des Spiels zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Unterstützt Abyssus plattformübergreifenden Fortschritt (Cross-Progression)?",
+    answer: "Cross-Progression ist nur eingeschränkt verfügbar. Während Crossplay es dir ermöglicht, mit Freunden auf Steam, PS5 und Xbox Series X|S zu spielen, bleiben deine Speicherstände, freigeschalteten Waffen und der Fortschritt im Skillbaum an dein lokales Plattformkonto gebunden."
+  },
+  {
+    question: "Ist Abyssus im Xbox Game Pass verfügbar?",
+    answer: "Ja, Abyssus ist auf Xbox Series X|S und PC über unterstützte Game-Pass-Stufen, einschließlich Cloud-Gaming, verfügbar, was es für plattformübergreifende Gruppen sehr leicht zugänglich macht."
+  },
+  {
+    question: "Wie viele Spieler können einer Online-Koop-Sitzung beitreten?",
+    answer: "Bis zu 4 Spieler können einer einzigen Online-Koop-Lobby für plattformübergreifende Expeditionen beitreten, wobei der Schwierigkeitsgrad dynamisch an die Gruppengröße angepasst wird."
+  },
+  {
+    question: "Wie verhält sich die Skalierung des Schwierigkeitsgrads im Multiplayer?",
+    answer: "Die Gesundheit der Gegner, die Spawn-Raten und die Häufigkeit von Gefahren skalieren dynamisch basierend auf der Anzahl der aktiven Spieler in der Lobby, um eine gleichbleibende Herausforderung zu gewährleisten."
+  }
+]} />
+
+<Callout type="info" title="Matchmaking-Updates">
+Update 1.3 hat Quickplay und ein optimiertes Matchmaking eingeführt, um die Wartezeiten in Lobbys drastisch zu verkürzen und das Finden offener Gruppen zu erleichtern [00首页信息-2].
+</Callout>
+
+</Section>

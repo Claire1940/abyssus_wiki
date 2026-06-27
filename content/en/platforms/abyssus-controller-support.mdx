@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Monitor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Controller Support: Setup Guide for PC & Consoles",
+  description: "Master Abyssus controller support with our 2026 setup guide. Learn button mappings, Steam Input tips, and cross-platform co-op controls.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Controller+Support+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus controller support** is native for Xbox Series X|S and PS5 as of the June 2026 launch.
+- **PC players** on Steam should enable Steam Input to ensure full compatibility with DualSense and generic gamepads.
+- **Cross-platform co-op** allows controller and M/K players to squad up seamlessly in 1-4 player sessions.
+- **Custom remapping** is available in the settings menu to optimize dash and ability timing.
+</Callout>
+
+<Section icon={Monitor} title="Platform Compatibility and Native Support">
+
+With the release of Update 1.3 on June 25, 2026, **abyssus controller support** has reached full parity across all major platforms. Whether you are diving into the brinepunk depths on a high-end PC or the latest console hardware, the game recognizes a wide variety of input devices. The transition from the August 2025 Steam launch to the 2026 console expansion has refined the aim-assist and movement deadzones for a smoother experience.
+
+| Platform | Native Support | Recommended Controller | Features |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | Yes (via Steam Input) | Xbox Wireless / DualSense | Full remapping, Steam Deck support |
+| **PlayStation 5** | Yes | DualSense | Haptic feedback, Adaptive triggers |
+| **Xbox Series X/S** | Yes | Xbox Wireless Controller | Smart Delivery, Vibration support |
+| **Xbox Cloud** | Yes | Any Bluetooth Controller | Low-latency input optimization |
+
+<Callout type="success" title="Console Launch Note">
+The PS5 and Xbox Series X|S versions launched on June 25, 2026, including all 1.3 features such as cross-platform multiplayer and the new Brine God blessings.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="PC Setup: Enabling Steam Input">
+
+For PC players, ensuring your **abyssus controller support** works correctly often requires a quick trip into the Steam settings. While the game has native drivers for many devices, Steam Input acts as a universal translator for older or niche gamepads.
+
+<Steps>
+  <Step num="1" title="Access Controller Settings">
+    Right-click **Abyssus** in your Steam Library, select **Properties**, and navigate to the **Controller** tab.
+  </Step>
+  <Step num="2" title="Override for Abyssus">
+    Set the "Override for Abyssus" dropdown to **Enable Steam Input**. This ensures Steam handles the API translation.
+  </Step>
+  <Step num="3" title="In-Game Calibration">
+    Launch the game and go to **Settings > Input**. Adjust your look sensitivity and deadzones to match your stick tension.
+  </Step>
+  <Step num="4" title="Layout Verification">
+    Check that the on-screen prompts match your controller (e.g., ABXY for Xbox or Shapes for PlayStation).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Input Lag Tip">
+If you experience "floaty" aiming on PC, disable V-Sync in the video settings. This often reduces the perceived input latency when using a controller.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Default Button Mapping and Controls">
+
+The brinepunk combat in Abyssus is fast-paced, requiring constant movement and ability cycling. The default layout is designed to keep your thumbs on the sticks as much as possible, utilizing the bumpers and triggers for high-frequency actions.
+
+| Action | Xbox Input | PlayStation Input | Combat Priority |
+| :--- | :--- | :--- | :--- |
+| **Primary Fire** | RT | R2 | **High** - Main DPS |
+| **Secondary Fire** | LT | L2 | **Medium** - Weapon Mods |
+| **Dash / Evade** | B | Circle | **Critical** - Survival |
+| **Jump / Double Jump** | A | Cross | **High** - Verticality |
+| **Abilities** | RB / LB | R1 / L1 | **High** - Skill Tree Skills |
+| **Interact / Reload** | X | Square | **Low** - Utility |
+| **Ultimate / God Power** | Y | Triangle | **Medium** - Burst DMG |
+
+<CardGrid cols={2}>
+  <Card title="Movement Focus">
+    - **Deadzone Tuning**: Set to 0.05-0.10 for snappy turns.
+    - **Auto-Sprint**: Enable this to free up the Left Stick click.
+  </Card>
+  <Card title="Combat Focus">
+    - **Aim Assist**: Stronger on console to help with fast projectiles.
+    - **Target Snapping**: Can be toggled for precision weapons like the Brine Revolver.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Optimizing for Cross-Platform Co-op">
+
+Update 1.3 introduced full cross-platform multiplayer, meaning Steam, PS5, and Xbox players can now hunt together. When playing in a mixed lobby, **abyssus controller support** helps bridge the gap between mouse precision and analog movement.
+
+| Feature | Support Level | Controller Impact |
+| :--- | :--- | :--- |
+| **Matchmaking** | Full Crossplay | Quickplay finds all platforms |
+| **Voice Chat** | Integrated | PTT mapped to D-Pad by default |
+| **Party Invites** | In-game System | Unified friend list across IDs |
+| **Progress** | Cross-platform | Play Anywhere (Xbox/PC) |
+
+<Callout type="tip" title="Team Synergy">
+In 4-player co-op, controller players often excel at "Tank" or "Brawler" roles using the Shotgun or Tesla Gun, where 360-degree movement is more valuable than long-range flick shots.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Input Issues">
+
+Even with the robust 2026 updates, you might encounter minor glitches with your gamepad. Use this checklist to verify your connection before starting a deep-sea run.
+
+<Checklist
+  id="controller-troubleshoot"
+  title="Pre-Run Connection Checklist:"
+  items={[
+    "Verify controller is connected before launching the game executable",
+    "Check for firmware updates via Xbox Accessories or PS5 System menu",
+    "Disable external remapping software like DS4Windows to avoid double-input",
+    "Ensure Steam Input is enabled if using a non-standard Bluetooth device",
+    "Reset in-game input settings to default if buttons are unresponsive"
+  ]}
+/>
+
+<Callout type="info" title="Hardware Support">
+Official support includes Xbox One/Series, DualShock 4, DualSense, and most X-Input compatible gamepads. Generic Direct-Input controllers may require Steam Input translation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Abyssus have aim assist for controller players on PC?",
+    answer: "Yes, Abyssus includes adjustable aim assist for controllers on PC to ensure a fair experience during cross-platform co-op with mouse and keyboard players."
+  },
+  {
+    question: "Can I use a PS5 DualSense controller on the Steam version?",
+    answer: "Absolutely. Through Steam Input, the DualSense is fully supported, though native haptic feedback features are most prominent on the PS5 console version."
+  },
+  {
+    question: "Is there a way to remap buttons in Abyssus?",
+    answer: "Yes, the 1.3 Update provides a full remapping suite in the Settings > Input menu for all platforms, allowing you to customize your brinepunk experience."
+  },
+  {
+    question: "Does the Xbox version support mouse and keyboard?",
+    answer: "Currently, Abyssus on Xbox Series X|S is optimized for controller support. For M/K play, the Steam PC version is the recommended platform."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,13 @@
       "twitterDescription": "Abyssus wiki for builds, weapons, mods, blessings, charms, bosses, co-op tips, and achievements on Steam, PS5, and Xbox."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "weapons": "Weapons",
+    "platforms": "Platforms",
+    "review": "Review"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -605,125 +611,105 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Abyssus Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Ancient Forge strategies. Master survival and crafting.",
-      "metaTitle": "Abyssus Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Abyssus guides covering beginner tips, Ancient Forge system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Ancient Forge crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Abyssus Guide",
+      "description": "Complete Abyssus walkthrough covering boss strategies, achievement routes, level mechanics, endings, and pro tips for solo and co-op runs.",
+      "metaTitle": "Abyssus Guide - Bosses, Achievements & Walkthrough",
+      "metaDescription": "Master Abyssus with our full guide: boss fight strategies, achievement unlock routes, level progression, endings, and co-op tips for Steam, PS5, and Xbox.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Abyssus Guide?",
+      "whatIsDescription": "The Abyssus Guide is your central hub for clearing every hand-crafted level, beating all 12 bosses, and unlocking the full set of 119 achievements. It covers run progression, room mechanics, the final boss phases, and every ending, with proven loadouts and co-op strategies for Steam, PS5, and Xbox.",
+      "why": "Why use the Abyssus Guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Ancient Forge system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Beat every boss",
+        "step1Description": "Learn the encounter mechanics and phase rotations for all 12 bosses, including the final boss, with positioning and recommended weapons.",
+        "step2Title": "Unlock all achievements",
+        "step2Description": "Follow trophy routes that group achievements by difficulty so you clear them in efficient, organized runs.",
+        "step3Title": "Finish every ending",
+        "step3Description": "Complete run requirements for each ending with loadout and blessing picks that fit your playstyle."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Abyssus Crafting",
-      "description": "Master the Ancient Forge fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Abyssus Crafting - Ancient Forge System & Recipes",
-      "metaDescription": "Master Abyssus Ancient Forge crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Ancient Forge system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "builds": {
+      "title": "Abyssus Builds",
+      "description": "Best Abyssus builds for solo and co-op: tier-list weapon setups, mod synergies, charm and blessing combinations for every playstyle.",
+      "metaTitle": "Abyssus Builds - Best Loadouts & Weapon Setups",
+      "metaDescription": "Find the best Abyssus builds with tier-list weapon setups, mod synergies, and charm + blessing combos for solo survival and 4-player co-op runs.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are Abyssus Builds?",
+      "whatIsDescription": "Abyssus Builds break down how to combine weapons, weapon mods, charms, and blessings into loadouts that fit your playstyle. With 9 weapons, 54 weapon mods, and 250+ charms and blessings, the right build turns a brutal roguelite run into a smooth, repeatable strategy for solo survival or 4-player co-op.",
+      "why": "Why follow Abyssus Builds?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the right weapon",
+        "step1Description": "Compare tier-list weapon setups like the plasma launcher, revolver, and harpoon gun to find one that matches your aim and pacing.",
+        "step2Title": "Stack mods and charms",
+        "step2Description": "Layer weapon mods with charms and blessings for damage, control, and survivability across room types and boss fights.",
+        "step3Title": "Adapt to the run",
+        "step3Description": "Adjust your build each run based on the blessings, mods, and loot you find so every loadout stays competitive."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Builds"
     },
-    "items": {
-      "title": "Abyssus Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Abyssus Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Abyssus including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "weapons": {
+      "title": "Abyssus Weapons",
+      "description": "Every Abyssus weapon ranked and explained: tier lists, stats, best mods, and upgrade paths for the plasma launcher, harpoon gun, disc thrower, and more.",
+      "metaTitle": "Abyssus Weapons - Tier List & Best Mods Guide",
+      "metaDescription": "Explore all Abyssus weapons with tier rankings, stats, best mods, and upgrade paths for the plasma launcher, harpoon gun, disc thrower, and fish deity.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Abyssus Weapons?",
+      "whatIsDescription": "Abyssus Weapons covers the game's 9 weapons and 54 weapon mods, explaining how each gun feels, what it excels at, and which mods and upgrades make it shine. From AoE powerhouses like the plasma launcher to specialist picks like the harpoon gun, you will find the right tool for every enemy type and boss.",
+      "why": "Why study Abyssus Weapons?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Ancient Forge",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose your main gun",
+        "step1Description": "Compare weapon tier rankings and stats to pick a primary that fits your aim style and run goals.",
+        "step2Title": "Pick the best mods",
+        "step2Description": "Pair each weapon with its strongest mods for damage, ammo, or control so you get the most out of every pickup.",
+        "step3Title": "Plan upgrades",
+        "step3Description": "Follow upgrade paths that scale a weapon into the endgame, keeping it viable against tougher enemies and bosses."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons"
     },
-    "biomes": {
-      "title": "Abyssus Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Abyssus Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Abyssus biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "platforms": {
+      "title": "Abyssus Platforms",
+      "description": "Where to play Abyssus: Steam, PS5, Xbox Series X|S, and Game Pass details, plus crossplay, controller support, and release date info.",
+      "metaTitle": "Abyssus Platforms - Steam, PS5, Xbox, Game Pass & Crossplay",
+      "metaDescription": "Find where to play Abyssus across Steam, PS5, Xbox Series X|S, and Game Pass, with crossplay, controller support, and release date details.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Abyssus Platforms?",
+      "whatIsDescription": "Abyssus Platforms explains where and how to play Abyssus. The game launched on Steam on August 12, 2025, with PS5 and Xbox Series X|S versions arriving June 25, 2026. This section covers each storefront, Game Pass availability, crossplay between PC and Xbox, and full controller support so you can start co-op on the platform that fits you.",
+      "why": "Why check Abyssus Platforms?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick your storefront",
+        "step1Description": "Compare Steam, PS5, Xbox Series X|S, and Game Pass to choose where to buy and launch Abyssus.",
+        "step2Title": "Set up crossplay",
+        "step2Description": "Learn how PC and Xbox crossplay works so your crew can play together across platforms.",
+        "step3Title": "Configure your controller",
+        "step3Description": "Follow controller support and setup guides for PC and consoles to get comfortable, responsive aim."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Platforms"
     },
-    "building": {
-      "title": "Abyssus Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Abyssus Building - Qualia & Base Construction",
-      "metaDescription": "Master Abyssus building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "review": {
+      "title": "Abyssus Review",
+      "description": "Is Abyssus worth playing? Reviews, gameplay impressions, player count, solo-play viability, and Steam Deck performance covered.",
+      "metaTitle": "Abyssus Review - Gameplay, Player Count & Before You Buy",
+      "metaDescription": "Read our Abyssus review with gameplay impressions, player count, solo-play tips, Steam Deck performance, and a before-you-buy breakdown.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What is the Abyssus Review?",
+      "whatIsDescription": "The Abyssus Review brings together gameplay impressions, Steam ratings, player count trends, and platform performance to help you decide if Abyssus is right for you. It covers solo-play viability, Steam Deck support, and a before-you-buy summary so you know what you are getting on Steam, PS5, and Xbox.",
+      "why": "Why read the Abyssus Review?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "See real gameplay",
+        "step1Description": "Read gameplay impressions that explain how Abyssus feels to play solo and in 4-player co-op.",
+        "step2Title": "Check the community",
+        "step2Description": "Track player count and Steam review sentiment to gauge how active and healthy the community is.",
+        "step3Title": "Decide before you buy",
+        "step3Description": "Use the before-you-buy breakdown and platform performance notes to choose the right version with confidence."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Abyssus Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Abyssus Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Abyssus including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Reviews"
     }
   }
 }

@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Monitor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Controller-Unterstützung: Einrichtungsanleitung für PC & Konsolen",
+  description: "Meistern Sie die Abyssus-Controller-Unterstützung mit unserem Einrichtungsleitfaden für 2026. Erfahren Sie mehr über Tastenbelegungen, Steam-Input-Tipps und plattformübergreifende Koop-Steuerung.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Controller+Support+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Abyssus-Controller-Unterstützung** ist seit dem Start im Juni 2026 nativ für Xbox Series X|S und PS5 verfügbar.
+- **PC-Spieler** auf Steam sollten Steam Input aktivieren, um die volle Kompatibilität mit DualSense- und generischen Gamepads zu gewährleisten.
+- **Plattformübergreifender Koop** ermöglicht es Controller- und M/T-Spielern (Maus/Tastatur), sich nahtlos in Sitzungen für 1–4 Spieler zusammenzutun.
+- **Benutzerdefinierte Tastenbelegung** ist im Einstellungsmenü verfügbar, um das Timing von Ausweichmanövern und Fähigkeiten zu optimieren.
+</Callout>
+
+<Section icon={Monitor} title="Plattformkompatibilität und native Unterstützung">
+
+Mit der Veröffentlichung von Update 1.3 am 25. Juni 2026 hat die **Abyssus-Controller-Unterstützung** auf allen wichtigen Plattformen die volle Parität erreicht. Egal, ob Sie auf einem High-End-PC oder der neuesten Konsolenhardware in die Brinepunk-Tiefen eintauchen, das Spiel erkennt eine Vielzahl von Eingabegeräten. Der Übergang vom Steam-Start im August 2025 zur Konsolenerweiterung im Jahr 2026 hat die Zielhilfe und die Bewegungs-Totzonen für ein flüssigeres Spielerlebnis verfeinert.
+
+| Plattform | Native Unterstützung | Empfohlener Controller | Funktionen |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | Ja (über Steam Input) | Xbox Wireless / DualSense | Vollständige Tastenbelegung, Steam Deck-Unterstützung |
+| **PlayStation 5** | Ja | DualSense | Haptisches Feedback, adaptive Trigger |
+| **Xbox Series X/S** | Ja | Xbox Wireless Controller | Smart Delivery, Vibrationsunterstützung |
+| **Xbox Cloud** | Ja | Beliebiger Bluetooth-Controller | Optimierung der Eingabelatenz |
+
+<Callout type="success" title="Hinweis zum Konsolenstart">
+Die Versionen für PS5 und Xbox Series X|S wurden am 25. Juni 2026 veröffentlicht und enthalten alle Features von Version 1.3, wie z. B. den plattformübergreifenden Mehrspielermodus und die neuen Segen des Salzgottes.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="PC-Setup: Steam Input aktivieren">
+
+Für PC-Spieler erfordert die ordnungsgemäße Funktion der **Abyssus-Controller-Unterstützung** oft einen kurzen Ausflug in die Steam-Einstellungen. Obwohl das Spiel über native Treiber für viele Geräte verfügt, Steam Input fungiert als universeller Übersetzer für ältere oder Nischen-Gamepads.
+
+<Steps>
+  <Step num="1" title="Controller-Einstellungen aufrufen">
+    Klicken Sie in Ihrer Steam-Bibliothek mit der rechten Maustaste auf **Abyssus**, wählen Sie **Eigenschaften** und navigieren Sie zum Reiter **Controller**.
+  </Step>
+  <Step num="2" title="Überschreibung für Abyssus">
+    Stellen Sie das Dropdown-Menü „Überschreibung für Abyssus“ auf **Steam Input aktivieren**. Dies stellt sicher, dass Steam die API-Übersetzung übernimmt.
+  </Step>
+  <Step num="3" title="Kalibrierung im Spiel">
+    Starten Sie das Spiel und gehen Sie zu **Einstellungen > Steuerung**. Passen Sie Ihre Blickempfindlichkeit und Totzonen an den Widerstand Ihrer Sticks an.
+  </Step>
+  <Step num="4" title="Layout-Überprüfung">
+    Überprüfen Sie, ob die Bildschirmanzeigen mit Ihrem Controller übereinstimmen (z. B. ABXY für Xbox oder Symbole für PlayStation).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tipp zur Eingabelatenz">
+Wenn Sie auf dem PC ein „schwammiges“ Zielen bemerken, deaktivieren Sie V-Sync in den Videoeinstellungen. Dies verringert oft die wahrgenommene Eingabelatenz bei der Verwendung eines Controllers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Standard-Tastenbelegung und Steuerung">
+
+Die Brinepunk-Kämpfe in Abyssus sind rasant und erfordern ständige Bewegung und den Wechsel von Fähigkeiten. Das Standard-Layout ist so konzipiert, dass Ihre Daumen so weit wie möglich auf den Sticks bleiben, während die Schultertasten und Trigger für häufige Aktionen genutzt werden.
+
+| Aktion | Xbox-Eingabe | PlayStation-Eingabe | Kampf-Priorität |
+| :--- | :--- | :--- | :--- |
+| **Primärfeuer** | RT | R2 | **Hoch** - Haupt-DPS |
+| **Sekundärfeuer** | LT | L2 | **Mittel** - Waffenmodifikationen |
+| **Ausweichen / Sprinten** | B | Kreis | **Kritisch** - Überleben |
+| **Springen / Doppelsprung** | A | Kreuz | **Hoch** - Vertikalität |
+| **Fähigkeiten** | RB / LB | R1 / L1 | **Hoch** - Fertigkeitenbaum-Fähigkeiten |
+| **Interagieren / Nachladen** | X | Viereck | **Niedrig** - Nutzen |
+| **Ultimativ / Götterkraft** | Y | Dreieck | **Mittel** - Burst-Schaden |
+
+<CardGrid cols={2}>
+  <Card title="Fokus auf Bewegung">
+    - **Totzonen-Tuning**: Stellen Sie 0,05–0,10 für schnelle Drehungen ein.
+    - **Automatisches Sprinten**: Aktivieren Sie dies, um das Drücken des linken Sticks zu entlasten.
+  </Card>
+  <Card title="Fokus auf Kampf">
+    - **Zielhilfe**: Auf Konsolen stärker eingestellt, um bei schnellen Projektilen zu helfen.
+    - **Zielaufschaltung**: Kann für Präzisionswaffen wie den Brine-Revolver ein- oder ausgeschaltet werden.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Optimierung für plattformübergreifenden Koop">
+
+Update 1.3 führte den vollständigen plattformübergreifenden Mehrspielermodus ein, sodass Spieler auf Steam, PS5 und Xbox jetzt gemeinsam auf die Jagd gehen können. In einer gemischten Lobby hilft die **Abyssus-Controller-Unterstützung**, die Lücke zwischen Mauspräzision und analoger Bewegung zu schließen.
+
+| Feature | Unterstützungsstufe | Auswirkung auf Controller |
+| :--- | :--- | :--- |
+| **Matchmaking** | Volles Crossplay | Schnelles Spiel findet alle Plattformen |
+| **Sprachchat** | Integriert | PTT standardmäßig auf dem Steuerkreuz |
+| **Gruppeneinladungen** | In-Game-System | Einheitliche Freundesliste über IDs hinweg |
+| **Fortschritt** | Plattformübergreifend | Play Anywhere (Xbox/PC) |
+
+<Callout type="tip" title="Teamsynergie">
+Im Koop-Modus für 4 Spieler glänzen Controller-Spieler oft in den Rollen „Tank“ oder „Brawler“ mit der Schrotflinte oder der Tesla-Kanone, bei denen eine 360-Grad-Bewegung wertvoller ist als präzise Schüsse auf große Distanz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung bei häufigen Eingabeproblemen">
+
+Selbst mit den robusten Updates für 2026 kann es zu kleineren Problemen mit Ihrem Gamepad kommen. Verwenden Sie diese Checkliste, um Ihre Verbindung vor dem Start eines Tiefsee-Runs zu überprüfen.
+
+<Checklist
+  id="controller-troubleshoot"
+  title="Verbindungs-Checkliste vor dem Start:"
+  items={[
+    "Überprüfen Sie, ob der Controller verbunden ist, bevor Sie die ausführbare Spieldatei starten",
+    "Suchen Sie nach Firmware-Updates über die Xbox-Zubehör-App oder das PS5-Systemmenü",
+    "Deaktivieren Sie externe Belegungssoftware wie DS4Windows, um Doppeleingaben zu vermeiden",
+    "Stellen Sie sicher, dass Steam Input aktiviert ist, wenn Sie ein nicht standardmäßiges Bluetooth-Gerät verwenden",
+    "Setzen Sie die Eingabeeinstellungen im Spiel auf die Standardwerte zurück, wenn Tasten nicht reagieren"
+  ]}
+/>
+
+<Callout type="info" title="Hardware-Unterstützung">
+Die offizielle Unterstützung umfasst Xbox One/Series, DualShock 4, DualSense und die meisten X-Input-kompatiblen Gamepads. Generische Direct-Input-Controller erfordern möglicherweise eine Steam-Input-Übersetzung.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Gibt es in Abyssus eine Zielhilfe für Controller-Spieler auf dem PC?",
+    answer: "Ja, Abyssus enthält eine einstellbare Zielhilfe für Controller auf dem PC, um ein faires Spielerlebnis im plattformübergreifenden Koop-Modus mit Maus- und Tastaturspielern zu gewährleisten."
+  },
+  {
+    question: "Kann ich einen PS5 DualSense-Controller in der Steam-Version verwenden?",
+    answer: "Absolut. Über Steam Input wird der DualSense vollständig unterstützt, obwohl die nativen haptischen Feedback-Funktionen auf der PS5-Konsolenversion am stärksten ausgeprägt sind."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, die Tastenbelegung in Abyssus zu ändern?",
+    answer: "Ja, das Update 1.3 bietet ein vollständiges Menü zur Tastenbelegung unter Einstellungen > Steuerung für alle Plattformen, sodass Sie Ihr Brinepunk-Erlebnis anpassen können."
+  },
+  {
+    question: "Unterstützt die Xbox-Version Maus und Tastatur?",
+    answer: "Derzeit ist Abyssus auf der Xbox Series X|S für die Controller-Steuerung optimiert. Für das Spielen mit Maus und Tastatur wird die Steam-PC-Version empfohlen."
+  }
+]} />
+
+</Section>

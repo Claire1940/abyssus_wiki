@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Builds: Leitfaden für die besten Loadouts & Waffen-Mods",
+  description: "Meistere Abyssus-Builds mit unserem Guide zu Waffen-Mods, Upgrades der Uralten Schmiede und elementaren Segnungen für Solo- und 4-Spieler-Koop-Sitzungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Builds+Guide",
+  date: "2026-06-27",
+  author: "Abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Abyssus-Builds** basieren auf der Synergie zwischen 9 Waffen, 54 Waffen-Mods und über 250 Zaubern (Charms) oder Segnungen.
+- **Waffenumbauten** über die Uralte Schmiede (Ancient Forge) sind unerlässlich, um den Schaden in tieferen Runs zu skalieren.
+- **Elementares Stapeln** wie Feuer, Eis und Blitz sollte an die Feuerrate deiner Waffe angepasst werden, um maximale Effekte (Procs) zu erzielen.
+- **Koop-Rollen** in der Meta von 2026 bevorzugen eine Mischung aus Crowd Control (Tesla) und hohem Burst-Boss-Schaden (Revolver).
+- **Update 1.3** hat das Maschinen-Areal eingeführt, das neue Elite-Mods und einen erweiterten Talentbaum bietet.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Builds und Kernsysteme verstehen">
+
+Das Erstellen effektiver **Abyssus-Builds** erfordert ein tiefes Verständnis dafür, wie modulare Systeme innerhalb des Brinepunk-Ökosystems interagieren. Im Gegensatz zu traditionellen Shootern, bei denen die Werte einer Waffe statisch sind, nutzt dieses Spiel ein vielschichtiges Fortschrittssystem. Dein Loadout beginnt mit einer Basiswaffe, wird aber durch die in der Uralten Schmiede angewendeten Modifikationen und die während eines Runs gesammelten göttlichen Segnungen definiert.
+
+Das Fundament jedes Builds besteht aus vier Hauptpfeilern: dem Waffengehäuse (Chassis), der Waffen-Mod, dem Umbau in der Uralten Schmiede und den aktiven Segnungen. Mit über 140 verfügbaren Schmiede-Mods (Stand: Update Juni 2026) können Spieler das Verhalten von Projektilen grundlegend verändern – beispielsweise ein Einzelschussgewehr in ein Projektil-Sperrfeuer-Werkzeug verwandeln.
+
+| Build-Komponente | Funktion | Hauptquelle |
+| :--- | :--- | :--- |
+| **Waffengehäuse** | Basis-Feuerverhalten und Munitionstyp | Start-Loadout |
+| **Waffen-Mods** | Fügt einzigartige Feuermodi oder Nutzen hinzu | 54 freischaltbare Mods |
+| **Uralte Schmiede** | Werteskalierung und Verhaltensänderungen | Schmiedestationen |
+| **Segnungen** | Elementare und mystische Statuseffekte | Altäre / Götter |
+| **Zauber (Charms)** | Passive Werte-Boosts und Run-Regeln | Truhen / Belohnungen |
+
+<Callout type="tip" title="Synergie-Geheimnis">
+Stimme den Auslöser deiner Segnung immer auf die Feuerrate deiner Waffe ab. Waffen mit hoher Feuerrate wie die Tesla-Gun glänzen mit „Chance bei Treffer“-Effekten, während schwere Geschütze wie der Plasmawerfer mehr von „Bei Eliminierung“- oder „Bereichseffekt“-Explosionen profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Erstklassige Waffen-Archetypen für Solo und Koop">
+
+Die Meta der **Abyssus-Builds** für 2026 hat sich um drei Hauptarchetypen herum eingependelt. Egal, ob du dich solo ins Abenteuer stürzt oder in einer 4-Spieler-Gruppe spielst: Dein Build sollte eine bestimmte Kampfrolle erfüllen, um das Überleben gegen die 12 bestätigten Bosse zu sichern.
+
+<CardGrid cols={3}>
+  <Card title="Der Statuseffekt-Verteiler">
+    - **Kernwaffe**: Tesla-Gun
+    - **Fokus**: Kettenblitze und Status-Procs
+    - **Ideal für**: Schnelles Ausschalten von über 36 Gegnertypen
+  </Card>
+  <Card title="Der Boss-Jäger">
+    - **Kernwaffe**: Sole-Revolver (Brine Revolver)
+    - **Fokus**: Präziser Schwachstellen-Schaden
+    - **Ideal für**: Elite-Gegner und Bosse mit viel Lebensenergie
+  </Card>
+  <Card title="Der Zonen-Beherrscher">
+    - **Kernwaffe**: Plasmawerfer
+    - **Fokus**: Explosiver Flächenschaden (AOE) und Crowd Control
+    - **Ideal für**: Arena-Gefahren und enge Korridore
+  </Card>
+</CardGrid>
+
+Jede Waffe kann weiter spezialisiert werden. Zum Beispiel dient das Motorgewehr (Engine Rifle) als zuverlässiger Allrounder für Anfänger, während die Harpunenkanone (hinzugefügt in Update 1.2) fortgeschrittenes Timing erfordert, aber eine beispiellose Kontrolle über Einzelziele bietet.
+
+| Waffen-Tier | Rolle | Beste Build-Synergie |
+| :--- | :--- | :--- |
+| **S-Tier** | Tesla-Gun | Bogenblitz + Fähigkeits-Abklingzeit |
+| **S-Tier** | Sole-Revolver | Kritischer Schaden + Schatten-Debuffs |
+| **A-Tier** | Plasmawerfer | Bereichsgröße + Brand-Effekte |
+| **A-Tier** | Kampfbogen | Skalierender Schaden + Geschützturm-Unterstützung |
+| **B-Tier** | Motorgewehr | Stabilität + Konsistentes Nachladen |
+
+<Callout type="success" title="Koop-Optimierung">
+Stelle im 4-Spieler-Koop sicher, dass mindestens ein Spieler einen „Kontroll“-Build mit Eis- oder Tentakel-Segnungen spielt, um Gegner zu verlangsamen. So können die Schadensverursacher ihre DPS-Laufzeit sicher maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Segnungen, Zauber und elementare Synergien">
+
+Mit über 250 Zaubern und Segnungen ist die Vielfalt bei den **Abyssus-Builds** immens. Segnungen sind aktive Modifikatoren, die an dein primäres Feuer, sekundäres Feuer oder deine Fähigkeiten gekoppelt werden. Das Stapeln desselben Elements führt oft zu „Wogen“-Effekten (Surge), die den gesamten Bildschirm im Handumdrehen leerräumen.
+
+Zu den derzeit verfügbaren Elementen gehören Feuer (Verbrennung), Eis (Einfrieren), Blitz (Bogen), Ozean (Beschwörungen), Schatten (Debuffs) und Geister (Rachsucht-Schaden). Nach Update 1.3 fügt der neue Sole-Gott 15 maschinenbezogene Segnungen hinzu, die sich auf Rüstungsschreddern und Projektilgeschwindigkeit konzentrieren.
+
+| Element | Haupteffekt | Ideal für |
+| :--- | :--- | :--- |
+| **Feuer** | Schaden über Zeit (Verbrennung) | Ziele mit viel Lebensenergie |
+| **Eis** | Verlangsamt und friert ein | Crowd-Management |
+| **Blitz** | Springt zwischen Zielen | Gegnergruppen |
+| **Ozean** | Beschwört Tentakel/Wasser | Zonen-Beherrschung |
+| **Schatten** | Erhöht erlittenen Schaden | Boss-Verwundbarkeit |
+
+<Callout type="warning" title="Build-Falle">
+Vermeide es, in einem einzigen Run zu viele verschiedene Elemente zu mischen. Konzentriere dich auf zwei kompatible Elemente (wie Eis und Schatten), um spezifische Synergie-Zauber auszulösen, die nur aktiv werden, wenn mehrere Debuffs auf einem einzelnen Ziel liegen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt für Schritt: Deinen ersten Build erstellen">
+
+Wenn du neu im versunkenen Königreich bist, befolge diese Schritte, um sicherzustellen, dass deine **Abyssus-Builds** im späten Spielverlauf richtig skalieren.
+
+<Steps>
+  <Step num="1" title="Wähle dein Basis-Gehäuse">
+    Wähle eine Waffe, die zu deiner bevorzugten Reichweite passt. Anfänger sollten mit dem Motorgewehr oder der Tesla-Gun beginnen, um das Zielen bei hektischen Bewegungen zu erleichtern.
+  </Step>
+  <Step num="2" title="Wende eine funktionale Mod an">
+    Besuche den Ausrüstungsbildschirm, um eine der 54 Waffen-Mods auszurüsten. Füge beispielsweise deinem Revolver eine „Split-Shot“-Mod hinzu, wenn du Probleme mit Gegnergruppen hast.
+  </Step>
+  <Step num="3" title="Suche nach der Uralten Schmiede">
+    Finde eine Schmiedestation innerhalb der ersten 10 Level. Priorisiere Mods, die die Schwächen deiner Waffe ausgleichen (wie Nachladegeschwindigkeit oder Magazinkapazität), bevor du dich auf reinen Schaden konzentrierst.
+  </Step>
+  <Step num="4" title="Lege dich auf einen elementaren Pfad fest">
+    Sobald du deine erste Segnung an einem Altar ausgewählt hast, versuche, bei den Angeboten dieses Gottes zu bleiben. Das Stapeln höherer Stufen desselben Elements ist meist effektiver, als fünf verschiedene Effekte auf Stufe 1 zu haben.
+  </Step>
+  <Step num="5" title="Schließe mit der Meta-Progression ab">
+    Nutze die aus gescheiterten Runs gesammelten Ressourcen, um deinen Talentbaum aufzuwerten. Update 1.3 hat diesen Baum erweitert und ermöglicht permanente Boosts für die Aktivitätszeit von Fähigkeiten und die Startgesundheit.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Bewegung ist alles">
+Kein Build kann dich retten, wenn du stillstehst. Ausweichen, Springen und Doppelsprünge sind deine wichtigsten Verteidigungswerkzeuge. Nutze deinen Build, um deine Mobilität zu verbessern – wähle beispielsweise Zauber, die dir nach einer Eliminierung Geschwindigkeits-Boosts gewähren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checkliste für Überleben und Fortschritt">
+
+Um **Abyssus-Builds** zu meistern, musst du offensive Kraft mit Überlebensfähigkeit in Einklang bringen. Je tiefer du in die über 70 handgefertigten Levels vordringst, desto aggressiver werden die 36 Gegnertypen. Nutze diese Checkliste, um sicherzustellen, dass dein Build bereit für die finalen Boss-Tore ist.
+
+<Checklist
+  id="build-readiness"
+  title="Anforderungen für den End-Game-Build:"
+  items={[
+    "Mindestens eine zuverlässige Schadensquelle für Flächenschaden (AOE)",
+    "Eine dedizierte Einzelziel-Lösung für Boss-Phasen",
+    "Mindestens zwei auf Überleben ausgerichtete Zauber (Lebensenergie oder Schild)",
+    "Eine vollständig aufgewertete Primärwaffen-Mod aus der Uralten Schmiede",
+    "Ein synergisierter Elementarpfad mit mindestens Segnungen der Stufe 3"
+  ]}
+/>
+
+<Callout type="info" title="Patch 1.3 Update">
+Das in Patch 1.3 eingeführte Maschinen-Areal bietet Gegner mit hoher Rüstung. Stelle sicher, dass dein Build „Rüstungsschreddern“- oder „Korrosions“-Effekte enthält, um die Schadenseffizienz in diesen neuen Zonen aufrechterhalten zu können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abyssus-Builds FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich mehr Waffen-Mods für meine Builds frei?",
+    answer: "Waffen-Mods werden durch Meta-Progression und das Abschließen bestimmter Erfolge freigeschaltet. Es gibt insgesamt 54 Mods, die vor dem Start eines Runs in deinem Loadout ausgetauscht werden können."
+  },
+  {
+    question: "Kann ich meinen Build mitten in einem Run ändern?",
+    answer: "Du kannst deine Segnungen und Zauber ändern, wenn du neue findest, aber deine Basiswaffe und deine anfängliche Mod sind für die Dauer der Expedition gesperrt. Du kannst deine Waffe an den Stationen der Uralten Schmiede jedoch weiter umbauen."
+  },
+  {
+    question: "Was ist der beste Build für Solo-Spieler in Abyssus?",
+    answer: "Die Tesla-Gun in Kombination mit Eis-Segnungen wird für das Solo-Spiel dringend empfohlen. Die automatische Zielerfassung der Tesla-Gun ermöglicht es dir, dich auf das Ausweichen zu konzentrieren, während Eis-Effekte die Gegner auf Distanz halten."
+  },
+  {
+    question: "Funktionieren Builds im plattformübergreifenden Koop anders?",
+    answer: "Die Mechaniken bleiben gleich, aber das Crossplay von Update 1.3 ermöglicht es Spielern auf Steam, PS5 und Xbox, Rollen aufzuteilen. Am besten sprecht ihr euch ab, damit sich eure Builds ergänzen, anstatt dieselben Elemente zu überschneiden."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Erfolg in Abyssus hängt von Anpassungsfähigkeit ab. Auch wenn du mit einem Plan startest, zwingen dich die prozedural generierten Räume oft zum Umdenken. Die besten Spieler sind diejenigen, die zufällige Segnungen nutzen und sie in eine stimmige, schlagkräftige Schadensmaschine verwandeln.
+</Callout>
+
+</Section>

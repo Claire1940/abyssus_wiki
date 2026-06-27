@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Niveles de Abyssus: Guía de Progresión y Mecánicas de Salas",
+  description: "Domina los niveles de Abyssus generados procedimentalmente. Aprende a navegar por las zonas, gestionar los objetivos de las salas y desbloquear mejoras en partidas en solitario o cooperativas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Levels+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "niveles de abyssus, guía de progresión, mecánicas de salas, roguelite brinepunk"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Dominar los niveles de Abyssus** requiere entender cómo se secuencian procedimentalmente las salas diseñadas a mano durante cada incursión.
+- **Identifica los símbolos de las salas** para priorizar mejoras esenciales, estaciones de curación o desafíos de combate de élite.
+- **Utiliza el movimiento vertical**, como los saltos dobles y los impulsos, para sobrevivir en las cámaras más profundas llenas de peligros.
+- **Coordina los equipamientos del equipo** en partidas cooperativas para equilibrar el control de masas y el daño elevado a un solo objetivo.
+</Callout>
+
+<Section icon={Map} title="Niveles de Abyssus: Generación Procedimental y Estructuras de Salas">
+
+Entender cómo se generan los **niveles de Abyssus** es el primer paso para sobrevivir en las profundidades. Desarrollado por DoubleMoose Games y publicado por The Arcade Crew, este roguelite brinepunk presenta un diseño de niveles híbrido. El juego utiliza más de 70 diseños de salas hechos a mano que se secuencian procedimentalmente durante cada expedición. Esto significa que, aunque la geometría de las cámaras individuales resulta familiar una vez aprendida, la secuencia, la aparición de enemigos y la ubicación de las mejoras varían en cada partida. Esta estructura de diseño garantiza que los jugadores deban adaptarse a circunstancias cambiantes en lugar de simplemente memorizar un único camino.
+
+Al entrar en una cámara, analiza el entorno de inmediato. Las salas van desde arenas de combate abiertas hasta pasillos estrechos, y cada una plantea exigencias tácticas únicas. El generador procedimental puebla estos espacios con diversos objetivos, lo que requiere que los jugadores despejen oleadas, protejan activos o naveguen por peligros ambientales antes de continuar.
+
+| Tipo de Sala | Objetivo Principal | Recompensas Clave |
+| :--- | :--- | :--- |
+| Arena de Combate | Despejar todas las oleadas de enemigos | Modificaciones de armas, Bendiciones |
+| Estación de Mejora | Interactuar con la Forja | Mejoras de armas y habilidades |
+| Sala del Altar | Seleccionar un favor divino | Bendiciones, Amuletos |
+| Puerta del Jefe | Derrotar al guardián de la zona | Recursos de metaprogresión |
+
+<Callout type="tip" title="Consejo Profesional">
+Busca siempre en las cornisas altas y los huecos ocultos de las salas despejadas. Los cofres menores y los objetos de curación suelen aparecer lejos del camino principal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de Niveles y Zonas Ambientales">
+
+Las expediciones se estructuran en torno a distintas zonas ambientales, cada una con una dificultad y complejidad creciente. A medida que los jugadores avanzan hacia lo más profundo, los enemigos se vuelven más agresivos, los peligros se multiplican y los diseños de las salas exigen un movimiento preciso. El lanzamiento en consolas en junio de 2026, junto con la Actualización 1.3, introdujo una nueva área jugable temática basada en maquinaria brinepunk, ampliando la variedad de entornos.
+
+Cada zona presenta peligros específicos que requieren enfoques tácticos distintos. Por ejemplo, los niveles iniciales se centran en el posicionamiento básico, mientras que los niveles posteriores introducen plataformas complejas y sistemas de defensa automatizados.
+
+| Nombre de la Zona | Tema Visual | Peligros Principales | Calificación de Dificultad |
+| :--- | :--- | :--- | :--- |
+| Ruinas Sumergidas | Piedra antigua, coral | Pinchos, cornisas que se desmoronan | ★★☆☆☆ |
+| Cavernas de Salmuera | Turquesa neón, cuevas estrechas | Pozas de salmuera ácida, rocas que caen | ★★★☆☆ |
+| Sector de Maquinaria | Engranajes brinepunk, tuberías | Rejillas de vapor, redes láser | ★★★★☆ |
+| Núcleo Profundo | Latón oscuro, tecnología antigua | Pozos de gravedad, trampas aplastantes | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Estrategia para las Ruinas Sumergidas">
+    Mantén la distancia con las paredes y usa el espacio abierto para moverte en círculos alrededor de los primeros tipos de enemigos.
+  </Card>
+  <Card title="Estrategia para las Cavernas de Salmuera">
+    Ten cuidado por dónde pisas para evitar las pozas ácidas y usa armas con retroceso para empujar a los enemigos hacia los peligros.
+  </Card>
+  <Card title="Estrategia para el Sector de Maquinaria">
+    El tiempo lo es todo. Memoriza los intervalos de las rejillas de vapor y los láseres antes de enfrentarte a los escuadrones enemigos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Notas de Actualización de Zona">
+El Sector de Maquinaria añadido en la Actualización 1.3 presenta diseños muy verticales, lo que hace que las mejoras de salto doble e impulso sean esenciales para la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegación por Peligros de Nivel y Arenas de Combate">
+
+La supervivencia en las cámaras más profundas depende en gran medida del movimiento. Quedarse quieto es una forma garantizada de terminar una partida prematuramente. Los peligros de nivel, como las rejillas de vapor, las redes láser y las pozas de salmuera ácida, pueden agotar tu salud más rápido que los enemigos estándar. Los jugadores deben integrar el movimiento vertical en sus ciclos ofensivos para evitar daños mientras mantienen sus armas activas.
+
+Despejar con éxito arenas de alta dificultad requiere un enfoque sistemático. Al priorizar los objetivos y gestionar el espacio de la arena, los jugadores pueden minimizar el daño recibido y maximizar las oportunidades de mejora.
+
+<Steps>
+  <Step num="1" title="Localizar Zonas de Peligro">
+    Identifica trampas activas, redes láser y pozas peligrosas inmediatamente al entrar en una nueva sala.
+  </Step>
+  <Step num="2" title="Priorizar Amenazas a Distancia">
+    Elimina a los enemigos tipo torreta y a los francotiradores situados en cornisas altas antes de ocuparte de las hordas cuerpo a cuerpo.
+  </Step>
+  <Step num="3" title="Gestión de Puntos de Estrangulamiento">
+    Atrae a las turbas cuerpo a cuerpo hacia pasillos estrechos o peligros de nivel activos para maximizar tu daño de área de efecto.
+  </Step>
+  <Step num="4" title="Asegurar la Estación de Mejora">
+    Una vez despejada la sala, interactúa con la estación de mejora local o el altar antes de pasar a la siguiente cámara.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerta de Peligro">
+Algunas trampas se activan automáticamente cuando los enemigos pasan sobre ellas, lo que puede dañarte accidentalmente si estás demasiado cerca.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Puertas de Jefes y Encuentros de Élite">
+
+En intervalos clave dentro de la secuencia de niveles, los jugadores encuentran Puertas de Jefes. Estas cámaras son arenas dedicadas donde debes enfrentarte a poderosos guardianes. El Parche 1.2 introdujo patrones de ataque renovados para jefes como Golemancer, Kri'Su y Un'glu, mientras que la Actualización 1.3 introdujo un encuentro con un jefe completamente nuevo en el área temática de maquinaria.
+
+Estos encuentros exigen un reconocimiento preciso de patrones y una gestión de la arena. Cada jefe utiliza ataques de área de efecto únicos y fases de peligro que obligan a los jugadores a utilizar todo su kit de movimiento.
+
+| Nombre del Jefe | Estilo de Ataque Principal | Estrategia Clave en la Arena | Arma Recomendada |
+| :--- | :--- | :--- | :--- |
+| Golemancer | Golpes contra el suelo, ondas | Usa saltos dobles para evitar anillos | Pistola Tesla |
+| Kri'Su | Proyectiles rápidos, teletransporte | Busca cobertura tras los pilares | Revólver de Salmuera |
+| Un'glu | Escupitajo tóxico, control de área | Rota constantemente por la arena | Lanzador de Plasma |
+| Jefe de Maquinaria | Barridos láser, peligros de red | Impúlsate por los huecos de los rayos | Arco de Combate |
+
+<Callout type="success" title="Recompensa de Progresión">
+Derrotar a los jefes desbloquea divisas de metaprogresión de alto nivel, lo que te permite mejorar permanentemente tu árbol de habilidades entre incursiones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Escalamiento de Niveles Cooperativo vs Solitario">
+
+El juego admite juego en solitario y cooperativo en línea de hasta 4 jugadores. El escalamiento de nivel se ajusta dinámicamente según el tamaño del grupo. En cooperativo, la salud de los enemigos aumenta y las apariciones de élites se vuelven más frecuentes. Esto hace que la coordinación del equipo y la sinergia de los equipamientos sean vitales para despejar las cámaras más profundas.
+
+Para asegurar el éxito en partidas multijugador, los equipos deben coordinar sus builds y la división del trabajo. Compartir recursos y comunicar las prioridades de los objetivos evita que el equipo se vea abrumado en espacios reducidos.
+
+<Checklist
+  id="abyssus-level-prep"
+  title="Lista de Verificación de Niveles Multijugador:"
+  items={[
+    "Coordinar los roles de las armas para asegurar que tanto el control de masas como el daño a un solo objetivo estén cubiertos.",
+    "Compartir recursos de curación y coordinar las visitas a las estaciones de mejora.",
+    "Usar habilidades de control de masas como congelación o aturdimiento para gestionar a los enemigos de élite en salas estrechas.",
+    "Permanecer juntos durante los combates intensos en la arena para evitar que los jugadores queden aislados."
+  ]}
+/>
+
+<Callout type="tip" title="Sinergia Cooperativa">
+Haz que al menos un jugador se concentre completamente en los efectos de estado (como congelación o descarga) para controlar las salas llenas de gente mientras los demás infligen daño puro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos niveles de Abyssus hay en el juego?",
+    answer: "Tras la Actualización 1.3, el juego cuenta con más de 70 diseños de niveles hechos a mano que se secuencian procedimentalmente durante cada incursión."
+  },
+  {
+    question: "¿Los niveles escalan según el número de jugadores?",
+    answer: "Sí, la salud de los enemigos, el daño y las tasas de aparición de élites escalan dinámicamente dependiendo de si juegas en solitario o en cooperativo de hasta 4 jugadores."
+  },
+  {
+    question: "¿Qué sucede cuando despejas un nivel?",
+    answer: "Despejar un nivel te permite elegir una mejora (como modificaciones de armas, Bendiciones o Amuletos) antes de avanzar a través de la siguiente Puerta de Jefe."
+  }
+]} />
+
+<Callout type="info" title="Recursos Adicionales">
+Para más detalles sobre las actualizaciones del juego y la disponibilidad en plataformas, consulta la página oficial de [Abyssus en Steam](https://store.steampowered.com/app/1721110/Abyssus/) o el portal de la [PlayStation Store](https://store.playstation.com/en-us/concept/10016582).
+</Callout>
+
+</Section>

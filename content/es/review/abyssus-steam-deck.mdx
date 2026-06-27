@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus: Consejos de Juego y Guía de Progresión 2026",
+  description: "Domina Abyssus con nuestra guía experta que cubre niveles de armas, builds esenciales, estrategias de jefes y tácticas cooperativas para el lanzamiento en consolas y PC en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/081b1f/26b8aa?text=Abyssus+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "Abyssus, guía de juego, consejos, armas, multijugador, jefes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Abyssus** es un **FPS roguelite brinepunk** de ritmo rápido que admite juego en solitario y cooperativo de hasta 4 jugadores.
+- Concéntrate en el **movimiento y el posicionamiento** para sobrevivir a los intensos encuentros de combate en arenas.
+- Crea consistencia acumulando **Bendiciones, Amuletos y modificaciones de la Forja Antigua** para lograr sinergia.
+- Utiliza el **juego multiplataforma** para formar escuadrones con amigos en Steam, PS5 y Xbox.
+- Prioriza las **mejoras de supervivencia** al principio de tu partida para alcanzar encuentros con jefes más avanzados.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos en Abyssus">
+
+Abyssus exige reflejos rápidos y una gestión inteligente del equipamiento. Ya sea que te sumerjas solo o te unas a un equipo de 4 jugadores, entender el ciclo principal —limpiar salas diseñadas a mano, gestionar el calor y seleccionar las mejoras adecuadas— es esencial para la supervivencia a largo plazo.
+
+**Puntos destacados del video:**
+- Resumen de las mecánicas de movimiento del FPS brinepunk
+- Demostración de la modificación de armas al inicio del juego
+- Estrategias básicas de encuentros con jefes para nuevos jugadores
+
+<YouTubeEmbed videoId="jkDOLIRLJpU" title="Resumen de la jugabilidad de Abyssus" />
+
+El juego cuenta con 9 armas principales y un profundo sistema de modificación. El éxito depende de tu capacidad para leer el diseño de las salas y adaptar tu equipo a los desafíos específicos de cada bioma.
+
+| Sistema | Descripción | Importancia |
+| :--- | :--- | :--- |
+| Movimiento | Dash, salto, doble salto | Crítico para la supervivencia |
+| Combate | Modos de disparo principal/secundario | Daño principal |
+| Mejoras | Bendiciones y Forja Antigua | Poder que define la partida |
+| Meta | Progresión del árbol de habilidades | Consistencia a largo plazo |
+
+<Callout type="tip" title="Consejo de Pro">
+Considera el movimiento como tu principal herramienta defensiva. En Abyssus, quedarse quieto es la forma más rápida de convertirte en marisco decorativo. Mantén siempre a tu personaje en movimiento mientras gestionas los ciclos de recarga y calor de tu arma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Niveles de Armas y Builds">
+
+Elegir el arma adecuada es la piedra angular de cualquier partida exitosa. Aunque la preferencia personal importa, ciertas armas proporcionan una mejor utilidad para limpiar salas o dañar jefes.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Mejores Opciones">
+    - **Tesla Gun**: La mejor para limpiar salas
+    - **Brine Revolver**: Alto DPS a un solo objetivo
+    - **Plasma Launcher**: Ráfaga de área fiable
+  </Card>
+  <Card title="Nivel A: Fiables">
+    - **Combat Bow**: Daño de precisión escalable
+    - **Fish Deity**: Builds potentes basadas en efectos
+    - **Engine Rifle**: Inicial versátil
+  </Card>
+  <Card title="Avanzado: Especialista">
+    - **Shotgun**: Ráfaga a corta distancia
+    - **Disc Thrower**: Control de proyectiles
+    - **Harpoon Gun**: Utilidad específica para jefes
+  </Card>
+</CardGrid>
+
+| Arma | Mejor Rol | Enfoque de Sinergia |
+| :--- | :--- | :--- |
+| Tesla Gun | Control de masas | Bendiciones de arco/rayo |
+| Brine Revolver | Daño a jefes | Amuletos de puntos débiles |
+| Plasma Launcher | Limpieza de salas | Mods de explosión/fuego |
+| Engine Rifle | Todoterreno para principiantes | Reducción de enfriamiento |
+
+<Callout type="warning" title="Advertencia de Sinergia de Build">
+Evita elegir mejoras al azar. Una build poderosa en Abyssus se basa en un ciclo de "activación-efecto": elige una acción constante (como tu disparo principal) y acumula Bendiciones y Amuletos que se activen con esa acción específica.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión y Tácticas contra Jefes">
+
+Con más de 12 jefes y más de 70 niveles diseñados a mano, el juego mantiene el combate fresco a través de partidas secuenciadas procedimentalmente. Entender los patrones de los enemigos es más efectivo que confiar solo en las estadísticas puras.
+
+<Steps>
+  <Step num="1" title="Analiza los Patrones del Jefe">
+    Observa al jefe durante la primera fase. Busca ventanas de invulnerabilidad y señales de ataques de área.
+  </Step>
+  <Step num="2" title="Asigna Roles Cooperativos">
+    En grupos de 4 jugadores, asegúrate de que un jugador se concentre en el control de masas mientras otros priorizan el daño al jefe o el apoyo.
+  </Step>
+  <Step num="3" title="Invierte en Meta-Progresión">
+    Usa los recursos de las partidas fallidas para desbloquear nodos en el árbol de habilidades, aumentando permanentemente tu supervivencia y daño para futuros intentos.
+  </Step>
+</Steps>
+
+| Encuentro con Jefe | Mecánica Clave | Estrategia |
+| :--- | :--- | :--- |
+| Golemancer | Invocación/Esbirros | Enfócate primero en los esbirros |
+| Kri'Su | Peligros de la arena | Usa herramientas de movimiento |
+| Un'glu | Fases de invulnerabilidad | Sincroniza tu daño de ráfaga |
+
+<Callout type="success" title="Éxito Cooperativo">
+El multijugador multiplataforma permite un juego en equipo fluido. Cuando juegues con otros, coordina tus Bendiciones para asegurar que tienes una mezcla de efectos elementales (Fuego, Hielo, Rayo) para manejar las diferentes resistencias de los enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soporte Multiplataforma y Multijugador">
+
+Abyssus está diseñado para jugarse en varias plataformas. Desde la actualización 1.3, el juego multiplataforma está totalmente integrado, lo que hace que sea más fácil que nunca agruparse.
+
+| Función | Steam | PS5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| Juego en Solitario | Soportado | Soportado | Soportado |
+| Grupo Máximo | 4 Jugadores | 4 Jugadores | 4 Jugadores |
+| Juego Cruzado | Sí | Sí | Sí |
+| Suscripción | N/A | Requiere PS Plus | Requiere Game Pass |
+
+<Checklist
+  id="multiplayer-goals"
+  title="Lista de Verificación Multijugador:"
+  items={[
+    "Activa el juego cruzado en los ajustes",
+    "Coordina los equipamientos con tus compañeros",
+    "Usa el juego rápido para un emparejamiento veloz",
+    "Comparte recursos de curación en cooperativo"
+  ]}
+/>
+
+<Callout type="info" title="Nota de Plataforma">
+Los jugadores de Xbox pueden acceder al juego a través de Game Pass Ultimate y PC Game Pass. Asegúrate de que los servicios en línea de tu plataforma estén activos para utilizar las funciones de emparejamiento de manera efectiva.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es mejor Abyssus en solitario o en cooperativo?",
+    answer: "Ambos son viables. El juego en solitario es excelente para aprender patrones, mientras que el cooperativo de 4 jugadores permite sinergias de builds más profundas y tácticas de equipo coordinadas."
+  },
+  {
+    question: "¿Cómo desbloqueo más armas?",
+    answer: "Desbloqueas armas y habilidades a través del árbol de habilidades de meta-progresión, que se expande recolectando recursos durante tus partidas."
+  },
+  {
+    question: "¿Admite Abyssus el juego multiplataforma?",
+    answer: "Sí, la Actualización 1.3 introdujo el multijugador multiplataforma completo entre Steam, PlayStation 5 y Xbox Series X|S."
+  },
+  {
+    question: "¿Cuál es la mejor manera de manejar las peleas contra jefes?",
+    answer: "Concéntrate en el movimiento y en aprender los patrones de ataque. Usa tu dash y el doble salto para evitar el daño, y reserva tus habilidades de alto daño para las ventanas seguras después de los ataques del jefe."
+  }
+]} />
+
+</Section>

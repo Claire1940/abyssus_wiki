@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Levels: Progression Guide & Room Mechanics",
+  description: "Master procedurally sequenced Abyssus levels. Learn how to navigate zones, manage room objectives, and unlock upgrades in solo or co-op runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Levels+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mastering abyssus levels** requires understanding how handcrafted rooms are procedurally sequenced during each run.
+- **Identify room symbols** to prioritize essential upgrades, healing stations, or elite combat challenges.
+- **Utilize vertical movement** like double-jumps and dashes to survive hazard-heavy deeper chambers.
+- **Coordinate team loadouts** in co-op runs to balance crowd control and high single-target damage.
+</Callout>
+
+<Section icon={Map} title="Abyssus Levels: Procedural Generation & Room Structures">
+
+Understanding how **abyssus levels** generate is the first step to surviving the deep. Developed by DoubleMoose Games and published by The Arcade Crew, this brinepunk roguelite features a hybrid level design. The game utilizes over 70 handcrafted room layouts that are procedurally sequenced during each expedition. This means while the geometry of individual chambers remains familiar once learned, the sequence, enemy spawns, and upgrade placements vary with every run. This layout structure ensures players must adapt to changing circumstances rather than simply memorizing a single path.
+
+When entering a chamber, analyze the environment immediately. Rooms range from open combat arenas to tight corridors, and each poses unique tactical demands. The procedural generator populates these spaces with diverse objectives, requiring players to clear waves, protect assets, or navigate environmental hazards before proceeding.
+
+| Room Type | Primary Objective | Key Rewards |
+| :--- | :--- | :--- |
+| Combat Arena | Clear all enemy waves | Weapon mods, Blessings |
+| Upgrade Station | Interact with the Forge | Weapon and skill upgrades |
+| Altar Room | Select a divine favor | Blessings, Charms |
+| Boss Gate | Defeat the zone guardian | Meta-progression resources |
+
+<Callout type="tip" title="Pro Tip">
+Always search high ledges and hidden alcoves in cleared rooms. Minor chests and healing pickups frequently spawn away from the main path.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Level Progression & Environmental Zones">
+
+Expeditions are structured around distinct environmental zones, each escalating in difficulty and complexity. As players progress deeper, enemies become more aggressive, hazards multiply, and room layouts demand precise movement. The console release in June 2026 alongside Update 1.3 introduced a brand-new playable area themed around brinepunk machinery, expanding the variety of environments.
+
+Each zone features specific hazards that require distinct tactical approaches. For instance, early levels focus on basic positioning, while later levels introduce complex platforming and automated defense systems.
+
+| Zone Name | Visual Theme | Primary Hazards | Difficulty Rating |
+| :--- | :--- | :--- | :--- |
+| Sunken Ruins | Ancient stone, coral | Spikes, crumbling ledges | ★★☆☆☆ |
+| Brine Caverns | Neon teal, narrow caves | Acidic brine pools, falling rocks | ★★★☆☆ |
+| Machinery Sector | Brinepunk gears, pipes | Steam vents, laser grids | ★★★★☆ |
+| Deep Core | Dark brass, ancient tech | Gravity wells, crushing traps | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Sunken Ruins Strategy">
+    Keep distance from walls and use the open space to circle-strafe early enemy types.
+  </Card>
+  <Card title="Brine Caverns Strategy">
+    Watch your footing to avoid acidic pools, and use knockback weapons to push enemies into hazards.
+  </Card>
+  <Card title="Machinery Sector Strategy">
+    Timing is everything. Memorize the intervals of steam vents and lasers before engaging enemy squads.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Zone Update Notes">
+The Machinery Sector added in Update 1.3 features highly vertical layouts, making double-jump and dash upgrades essential for survival.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigating Level Hazards & Combat Arenas">
+
+Survival in deeper chambers relies heavily on movement. Standing still is a guaranteed way to end a run prematurely. Level hazards like steam vents, laser grids, and acidic brine pools can deplete your health faster than standard enemies. Players must integrate vertical movement into their offensive cycles to avoid damage while keeping their weapons active.
+
+Successfully clearing high-difficulty arenas requires a systematic approach. By prioritizing targets and managing the arena space, players can minimize damage taken and maximize upgrade opportunities.
+
+<Steps>
+  <Step num="1" title="Locate Hazard Zones">
+    Identify active traps, laser grids, and hazardous pools immediately upon entering a new room.
+  </Step>
+  <Step num="2" title="Prioritize Ranged Threats">
+    Eliminate turret-type enemies and snipers positioned on high ledges before dealing with melee swarms.
+  </Step>
+  <Step num="3" title="Choke-Point Management">
+    Lead melee mobs into narrow corridors or active level hazards to maximize your area-of-effect damage.
+  </Step>
+  <Step num="4" title="Secure Upgrade Station">
+    Once the room is clear, interact with the local upgrade station or altar before moving to the next chamber.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hazard Alert">
+Some traps trigger automatically when enemies walk over them, which can accidentally damage you if you are standing too close.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Gates & Elite Encounters">
+
+At key intervals within the level sequence, players encounter Boss Gates. These chambers are dedicated arenas where you must face powerful guardians. Patch 1.2 introduced revamped attack patterns for bosses like Golemancer, Kri'Su, and Un'glu, while Update 1.3 introduced an entirely new boss encounter in the machinery-themed area.
+
+These encounters demand precise pattern recognition and arena management. Each boss utilizes unique area-of-effect attacks and hazard phases that force players to utilize their full movement kit.
+
+| Boss Name | Primary Attack Style | Key Arena Strategy | Recommended Weapon |
+| :--- | :--- | :--- | :--- |
+| Golemancer | Ground slams, shockwaves | Use double-jumps to avoid rings | Tesla Gun |
+| Kri'Su | Rapid projectiles, teleporting | Seek cover behind pillars | Brine Revolver |
+| Un'glu | Toxic spit, area control | Constantly rotate around the arena | Plasma Launcher |
+| Machinery Boss | Laser sweeps, grid hazards | Dash through beam gaps | Combat Bow |
+
+<Callout type="success" title="Progression Reward">
+Defeating bosses unlocks high-tier meta-progression currencies, allowing you to permanently upgrade your skill tree between runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-Op vs Solo Level Scaling">
+
+The game supports solo play and up to 4-player online co-op. Level scaling adjusts dynamically based on the party size. In co-op, enemy health pools increase, and elite spawns become more frequent. This makes team coordination and loadout synergy vital for clearing deeper chambers.
+
+To ensure success in multiplayer runs, teams should coordinate their builds and division of labor. Sharing resources and communicating target priorities prevents the team from being overwhelmed in tight spaces.
+
+<Checklist
+  id="abyssus-level-prep"
+  title="Multiplayer Level Checklist:"
+  items={[
+    "Coordinate weapon roles to ensure both crowd control and single-target damage are covered.",
+    "Share healing resources and coordinate visits to upgrade stations.",
+    "Use crowd-control abilities like freeze or stun to manage elite enemies in narrow rooms.",
+    "Stick together during intense arena fights to prevent players from getting isolated."
+  ]}
+/>
+
+<Callout type="tip" title="Co-op Synergy">
+Have at least one player focus entirely on status effects (like freeze or shock) to control crowded rooms while others deal raw damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many abyssus levels are in the game?",
+    answer: "Following Update 1.3, the game features over 70 handcrafted level layouts that are procedurally sequenced during each run."
+  },
+  {
+    question: "Do levels scale based on the number of players?",
+    answer: "Yes, enemy health, damage, and elite spawn rates scale dynamically depending on whether you are playing solo or in up to 4-player co-op."
+  },
+  {
+    question: "What happens when you clear a level?",
+    answer: "Clearing a level allows you to choose an upgrade (such as weapon mods, Blessings, or Charms) before advancing through the next Boss Gate."
+  }
+]} />
+
+<Callout type="info" title="Additional Resources">
+For more details on game updates and platform availability, check out the official [Abyssus on Steam](https://store.steampowered.com/app/1721110/Abyssus/) page or the [PlayStation Store](https://store.playstation.com/en-us/concept/10016582) portal.
+</Callout>
+
+</Section>

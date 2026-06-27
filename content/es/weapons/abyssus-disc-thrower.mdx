@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Lanzador de Discos de Abyssus: Guía de la Mejor Build y Tácticas de Proyectiles",
+  description: "Domina el Lanzador de Discos de Abyssus con nuestra guía sobre las mejores modificaciones, mejoras de la Forja Ancestral y sinergias de bendiciones elementales para un combate brinepunk de alta habilidad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Disc+Thrower+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Lanzador de Discos de Abyssus**: Un arma de proyectiles de alta habilidad centrada en la geometría de la sala y las mecánicas de rebote.
+- **Mecánica Principal**: Los proyectiles se pueden redirigir y regresar al jugador para infligir un daño secundario masivo.
+- **Mejor Estrategia**: Prioriza las modificaciones que mejoren la redirección y el daño de retorno para maximizar la cobertura del área de efecto.
+- **Consejo Crítico**: Combínalo con bendiciones de Congelación o Sombra para ralentizar a los enemigos, convirtiéndolos en objetivos más fáciles para los discos que regresan.
+- **La Mejor Opción**: Ideal para jugadores avanzados que prefieren el posicionamiento táctico en lugar de disparar a lo loco.
+</Callout>
+
+<Section icon={Target} title="Lanzador de Discos de Abyssus: Resumen y Mecánicas del Arma">
+
+El **lanzador de discos de abyssus** destaca como una de las armas más únicas y desafiantes del arsenal de los Cazadores de Salmuera (Brinehunters). A diferencia de la cadencia de fuego directa del Rifle de Motor o del poder explosivo bruto del Lanzador de Plasma, el Lanzador de Discos depende de la conciencia espacial y la gestión de proyectiles. Está clasificado como un arma "Avanzada", lo que significa que su efectividad escala directamente con la capacidad del jugador para interpretar la distribución de las salas y predecir los patrones de movimiento de los enemigos.
+
+En la actualización 1.3, el Lanzador de Discos recibió un ajuste significativo en su velocidad de proyectil base y su arco de retorno. El arma dispara discos dentados de alta velocidad que pueden rebotar en las paredes y en los peligros del entorno. Esto lo hace excepcionalmente potente en los más de 70 niveles diseñados a mano que presentan pasillos estrechos o compleja maquinaria brinepunk. Dominar esta arma requiere comprender que el disparo inicial es solo la mitad de la batalla; el viaje de regreso del disco a menudo inflige más daño si se posiciona correctamente.
+
+| Característica | Especificación | Impacto en el Estilo de Juego |
+|:--- |:--- |:--- |
+| **Tipo de Daño** | Cinético/Dentado | Alto potencial de sangrado al impactar |
+| **Comportamiento del Proyectil** | Rebote/Retorno | Recompensa el posicionamiento geométrico |
+| **Límite de Habilidad** | Avanzado | Curva de aprendizaje alta, gran recompensa |
+| **Mejor Alcance** | Alcance Medio | Óptimo para gestionar los arcos de retorno |
+| **Limpieza de Salas** | Excelente | Limpia grupos de enemigos con la redirección |
+
+<Callout type="info" title="Perspectiva de la Mecánica">
+El Lanzador de Discos no utiliza munición tradicional de la misma manera que las armas de escaneo de impactos (hitscan). En su lugar, gestionas el "Calor" y el "Ritmo" de tus lanzamientos. Atrapar un disco que regresa puede restablecer instantáneamente los tiempos de reutilización de ciertas habilidades si tienes equipados los amuletos correctos.
+</Callout>
+
+Aunque el arma puede parecer lenta para los principiantes, la profundidad que ofrecen las 54 modificaciones de arma y las más de 140 modificaciones de la Forja Ancestral le permite transformarse en un monstruo de limpieza de salas. A medida que desciendes a las profundidades del reino hundido, la capacidad de golpear a los enemigos desde detrás de una cobertura utilizando el rebote del disco se convierte en una táctica que salva vidas.
+
+</Section>
+
+<Section icon={Swords} title="Mejores Modificaciones y Mejoras de la Forja Ancestral">
+
+Para desbloquear verdaderamente el potencial del **lanzador de discos de abyssus**, debes utilizar la Forja Ancestral al máximo. Las modificaciones para esta arma generalmente se dividen en tres categorías: Redirección, Velocidad y Utilidad. Debido a que el arma depende de que el disco regrese al Cazador de Salmuera, cualquier modificación que aumente el "Magnetismo" o la "Velocidad de Retorno" se considera una opción de alta prioridad para un DPS constante.
+
+La actualización 1.3 introdujo varias modificaciones nuevas diseñadas específicamente para sinergizar con el árbol de habilidades ampliado. Estas modificaciones permiten que el Lanzador de Discos actúe más como una herramienta de control que como un simple generador de daño, lo cual es vital al enfrentarse a los 36 tipos de enemigos diferentes que se encuentran en las expediciones más profundas.
+
+| Nombre de la Modificación | Tipo | Efecto Clave |
+|:--- |:--- |:--- |
+| **Redirección Cinética** | Mod de Arma | Mejora la redirección del disco tras impactar contra una pared |
+| **Retorno Dentado** | Forja Ancestral | Aumenta el daño infligido en el vuelo de regreso |
+| **Atrape Magnético** | Forja Ancestral | Amplía el radio de captura para los discos que regresan |
+| **Fragmentos Teledirigidos** | Mod de Arma | Los discos liberan pequeños fragmentos al impactar |
+| **Válvula de Presión** | Mod de Habilidad | Aumenta la cadencia de fuego a medida que sube el calor de la habilidad |
+
+<Callout type="success" title="Configuración Optimizada">
+Para una build centrada en el retorno, prioriza **Retorno Dentado** y **Atrape Magnético**. Esta combinación garantiza que incluso si tu puntería inicial falla por poco, el disco encontrará el camino de regreso hacia ti, destrozando todo a su paso.
+</Callout>
+
+Más allá de los aumentos de daño estándar, busca modificaciones que ajusten la "Vida útil del proyectil". Una vida útil más larga permite que el disco rebote más veces, lo cual es esencial para limpiar encuentros con enemigos de élite o gestionar los patrones de jefes como el Golemante (Golemancer). Si estás jugando en una sesión cooperativa de 4 jugadores, considera modificaciones que apliquen efectos negativos al impactar, permitiendo que tus compañeros aprovechen el caos que crean tus discos.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Sinergias de Build: Bendiciones y Amuletos">
+
+La creación de builds en Abyssus es un proceso por capas. Para el Lanzador de Discos, tu elección de Bendiciones y Amuletos determina si serás un atacante de primera línea o un especialista de apoyo en la retaguardia. Con más de 250 Amuletos y Bendiciones disponibles, las combinaciones son casi infinitas, pero ciertos efectos elementales se adaptan mejor a la trayectoria única del disco.
+
+<CardGrid cols={3}>
+  <Card title="La Build de Control de Hielo">
+    - **Enfoque**: Congelación y Ralentización
+    - **Bendición**: Efectos de Congelación de Hielo
+    - **Resultado**: Mantiene a los enemigos inmóviles para recibir múltiples impactos de disco.
+  </Card>
+  <Card title="El Invocador del Océano">
+    - **Enfoque**: Presión de masas
+    - **Bendición**: Tentáculos del Océano
+    - **Resultado**: Los tentáculos distraen a los enemigos mientras los discos rebotan libremente.
+  </Card>
+  <Card title="El Asesino de las Sombras">
+    - **Enfoque**: Alto Daño de Ráfaga
+    - **Bendición**: Efectos Negativos de Sombra
+    - **Resultado**: Aumenta el daño recibido por los enemigos alcanzados por el arco de retorno.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Sinergia Pro">
+La bendición "Espíritus Vengativos" es particularmente efectiva con el Lanzador de Discos. Cada vez que un disco elimina a un enemigo en su viaje de regreso, tiene una mayor probabilidad de generar un espíritu, creando un bucle autosostenible de destrucción durante las limpiezas de salas de alta intensidad.
+</Callout>
+
+La interacción entre los Amuletos y el Lanzador de Discos es igualmente importante. Los amuletos que proporcionan "Soporte para el tiempo de reutilización de habilidades" son vitales porque el Lanzador de Discos a menudo depende de modos de disparo secundarios o habilidades de utilidad para reposicionar a los enemigos en la trayectoria del disco. En la actualización 1.3, el nuevo Dios de la Salmuera otorga 15 bendiciones específicas que mejoran las armas de "Maquinaria", que incluyen los componentes mecánicos del Lanzador de Discos.
+
+| Tipo de Bendición | Calificación de Sinergia | Razón |
+|:--- |:--- |:--- |
+| **Hielo/Congelación** | ★★★★★ | Los objetivos inmóviles reciben impactos de ambos arcos |
+| **Rayo/Arco** | ★★★★☆ | Propaga el daño entre grupos de enemigos |
+| **Fuego/Quemadura** | ★★★☆☆ | Bueno para daño en el tiempo (DOT) pero carece de control |
+| **Océano/Invocación** | ★★★★★ | Proporciona la distracción necesaria para preparar los ataques |
+| **Sombra/Espíritu** | ★★★★☆ | Recompensa la precisión y las rachas de bajas |
+
+</Section>
+
+<Section icon={Map} title="Tácticas de Combate: Dominio Paso a Paso">
+
+Usar el **lanzador de discos de abyssus** de manera efectiva requiere más que solo apretar el gatillo. Debes tratar cada sala como un rompecabezas. Los siguientes pasos describen el flujo de combate óptimo para una expedición estándar, ya sea que juegues en solitario o en un escuadrón cooperativo de 4 jugadores.
+
+<Steps>
+  <Step num="1" title="Analiza la Geometría">
+    Antes de entablar combate, identifica las paredes y los obstáculos. Busca "puntos de estrangulamiento" donde un solo disco pueda rebotar varias veces entre dos superficies.
+  </Step>
+  <Step num="2" title="Inicia con Control">
+    Usa tu disparo secundario o una habilidad basada en control (como la Lanza Castigadora) para agrupar a los enemigos. Esto asegura que tu primer lanzamiento impacte a la mayor cantidad de objetivos.
+  </Step>
+  <Step num="3" title="Posiciónate para el Retorno">
+    Inmediatamente después de lanzar, muévete a una posición donde el disco que regresa pase a través de la mayor cantidad de enemigos. No te quedes quieto; usa el esquive (dash) y el doble salto para ajustar el ángulo de retorno.
+  </Step>
+  <Step num="4" title="Gestiona el Calor y las Recargas">
+    Vigila el medidor de calor de tu arma. Sobrecalentarse en el momento equivocado te dejará indefenso. Usa el "Atrape Magnético" para restablecer tu ritmo y mantener la presión.
+  </Step>
+  <Step num="5" title="Aprovecha las Ventanas de los Jefes">
+    Durante las peleas contra jefes como Kri'Su o Un'glu, espera a que terminen sus fases de invulnerabilidad. Usa el rebote del disco para golpear a los jefes desde detrás de sus escudos o placas de armadura.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conciencia de Peligros">
+Ten cuidado en las salas con peligros explosivos. Un rebote desviado de tu Lanzador de Discos puede activar barriles o fugas de salmuera antes de tiempo, lo que podría dañarte a ti o a tus compañeros de equipo. Apunta siempre lejos de los elementos volátiles a menos que tengas la intención de detonarlos.
+</Callout>
+
+En el juego cooperativo, tu rol suele ser el de "Denegación de Área". Al mantener múltiples discos en el aire, creas una zona de peligro que evita que los enemigos más pequeños abrumen a tus compañeros de equipo. Coordínate con un jugador que use la Pistola Tesla para aturdir a los enemigos, convirtiéndolos en blancos fáciles para tus proyectiles dentados.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Dominio">
+
+Dominar el Lanzador de Discos es un objetivo a largo plazo para cualquier Cazador de Salmuera dedicado. A medida que progreses en el juego y desbloquees más partes del árbol de habilidades en la actualización 1.3, verás que el poder del arma escala significativamente con la metaprogresión. Utiliza la siguiente lista de verificación para realizar un seguimiento de tu dominio de esta compleja arma.
+
+<Checklist
+  id="disc-thrower-mastery"
+  title="Hitos del Lanzador de Discos:"
+  items={[
+    "Desbloquea la modificación de la Forja Ancestral 'Atrape Magnético'",
+    "Completa con éxito un nivel usando únicamente el arco de daño de retorno",
+    "Alcanza el nivel 10 de maestría con el Lanzador de Discos para desbloquear aspectos únicos",
+    "Derrota al jefe Golemante usando una build centrada en rebotes",
+    "Completa una expedición cooperativa de 4 jugadores con la puntuación de 'Control' más alta",
+    "Equipa un conjunto completo de bendiciones de 'Maquinaria' del Dios de la Salmuera de la versión 1.3"
+  ]}
+/>
+
+<Callout type="tip" title="Nota de Progresión">
+No te desanimes por los primeros intentos fallidos. El Lanzador de Discos se vuelve exponencialmente mejor una vez que desbloqueas los nodos de metaprogresión de nivel medio que aumentan la velocidad de los proyectiles y el tiempo de actividad de las habilidades. Cada fallo proporciona los recursos necesarios para que la siguiente partida sea más fluida.
+</Callout>
+
+La actualización 1.3 también añadió dos nuevos cantos marinos (sea shanties) y un árbol de habilidades renovado. Asegúrate de invertir puntos en la rama de "Control de Proyectiles" del árbol para maximizar la efectividad de tus discos. Esta rama otorga bonificaciones pasivas al daño por rebote y reduce la penalización por fallar una captura.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Lanzador de Discos de Abyssus">
+
+<FAQ items={[
+  {
+    question: "¿Es bueno el Lanzador de Discos de Abyssus para jugar en solitario?",
+    answer: "Sí, pero requiere de gran habilidad. Destaca en la limpieza de salas, pero debes dominar el movimiento para evitar ser abrumado mientras esperas a que los discos regresen."
+  },
+  {
+    question: "¿Contra qué jefe es más fácil luchar con el Lanzador de Discos?",
+    answer: "El Golemante suele ser el más fácil debido a sus grandes áreas de impacto y movimiento predecible, lo que permite preparar rebotes con facilidad."
+  },
+  {
+    question: "¿Cómo desbloqueo el Lanzador de Discos?",
+    answer: "El Lanzador de Discos se desbloquea a través de la progresión estándar a medida que completas las primeras expediciones y reúnes los recursos suficientes para fabricarlo en el nexo central."
+  },
+  {
+    question: "¿Cuál es la mejor arma secundaria para combinar con el Lanzador de Discos?",
+    answer: "El Revólver de Salmuera es una excelente opción para el daño a un solo objetivo contra jefes, cubriendo la ligera debilidad del Lanzador de Discos en ráfagas concentradas de alta velocidad."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+El **lanzador de discos de abyssus** es una opción táctica y gratificante para los jugadores que disfrutan de "pensar" su camino a través de un combate. Con las modificaciones y bendiciones adecuadas, transforma las caóticas arenas brinepunk en un entorno controlado donde cada rebote conduce a la victoria.
+</Callout>
+
+</Section>

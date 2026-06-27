@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Harpunengewehr Build: Beste Mods & Spezialisten-Setup-Guide",
+  description: "Meistere den Abyssus Harpunengewehr-Build mit unserem Guide zu den besten Mods, Segen und Spezialistentaktiken für Solo- und Koop-Brinepunk-Runs im Jahr 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Harpoon+Gun+Build+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Abyssus Harpunengewehr-Build**: Dieses Spezialisten-Setup konzentriert sich auf hohe Präzision, erstklassige Crowd Control und massiven Schaden gegen Einzelziele.
+- **Update 1.2 Inhalte**: Das Harpunengewehr wurde im **Brinefrost**-Update (Januar 2026) als freischaltbares Spezialisten-Werkzeug eingeführt.
+- **Kern-Synergie**: Kombiniere die Waffe mit **Eis- oder Schattensegen**, um die Wirkung der langsamen Feuerrate zu maximieren.
+- **Mod-Priorität**: Konzentriere dich auf **Mods der Uralten Schmiede**, die die Nachladezeit verkürzen oder Projektildurchschlag hinzufügen.
+- **Spielstil**: Bestens geeignet für Spieler, die eine „Scharfschützen“-Rolle im 4-Spieler-Koop oder einen taktischen Kiting-Stil in Solo-Runs bevorzugen.
+</Callout>
+
+<Section icon={Swords} title="Die Mechaniken des Harpunengewehrs verstehen">
+
+Das Harpunengewehr in Abyssus stellt den Höhepunkt der Spezialistenbewaffnung dar. Es wurde während der **Update 1.2 Brinefrost**-Erweiterung Anfang 2026 hinzugefügt und verschob die Meta weg von schnellen „Spray-and-Pray“-Taktiken hin zu einem kalkulierteren Kampfrhythmus mit hohem Risiko. Im Gegensatz zum Engine-Gewehr oder der Tesla-Kanone erfordert das Harpunengewehr ein tiefes Verständnis der Projektilflugzeit und der gegnerischen Schwachstellen.
+
+In der aktuellen Meta von 2026 behandelt ein effektiver **Abyssus Harpunengewehr-Build** die Waffe nicht nur als Schadensverursacher, sondern als Werkzeug zur Schlachtfeldmanipulation. Das primäre Feuer verschießt ein schweres, physisches Projektil, das selbst Elite-Gegner ins Taumeln bringen kann, während die sekundären Funktionen oft auf Fesselung oder massive Blutungseffekte setzen, abhängig von den ausgerüsteten Mods.
+
+| Attribut | Basiswert | Build-Auswirkung |
+|:---|:---|:---|
+| **Waffen-Rang** | Fortgeschritten | Erfordert Präzision und Timing |
+| **Munitionstyp** | Schwere Bolzen | Begrenzte Kapazität, hoher Wert pro Schuss |
+| **Effektive Reichweite** | Lang | Ideal, um Ziele auszuschalten, bevor sie näher kommen |
+| **Nachladegeschwindigkeit** | Langsam | Muss durch Talismane oder Mods kompensiert werden |
+| **Krit-Multiplikator** | 2,5x | Belohnt Treffer an Schwachstellen massiv |
+
+<Callout type="warning" title="Spezialisten-Warnung">
+Das Harpunengewehr wird nicht für Erstspieler empfohlen. Die langsame Nachladezeit und die hohen Präzisionsanforderungen können in überfüllten Arenen schnell zum Tod führen, wenn man die Dash- und Doppelsprung-Systeme noch nicht meisterhaft beherrscht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kern-Build-Komponenten: Mods und Schmiede-Upgrades">
+
+Um einen **Abyssus Harpunengewehr-Build** für tiefe Expeditionen lebensfähig zu machen, musst du die Uralte Schmiede und die 54 verfügbaren Waffen-Mods nutzen. Da das Harpunengewehr von Natur aus langsam ist, sollte deine Mod-Auswahl darauf abzielen, entweder jeden Schuss zählen zu lassen oder die Ausfallzeit zwischen den Bolzen drastisch zu reduzieren.
+
+<CardGrid cols={3}>
+  <Card title="Das Penetrator-Setup">
+    - **Primäre Mod**: Durchschlagende Spitze
+    - **Schmiede-Fokus**: Projektilgeschwindigkeit
+    - **Ideal für**: Das Säubern enger Korridore und das Aufreihen mehrerer Kills.
+  </Card>
+  <Card title="Der Boss-Killer">
+    - **Primäre Mod**: Widerhaken
+    - **Schmiede-Fokus**: Kritischer Schaden
+    - **Ideal für**: Massiven Blutungsschaden bei den 12 Primärbossen.
+  </Card>
+  <Card title="Der Crowd-Controller">
+    - **Primäre Mod**: Beschwerte Kette
+    - **Schmiede-Fokus**: Statusdauer
+    - **Ideal für**: Das Fesseln von Gegnern am Boden für AOE-Folgeangriffe.
+  </Card>
+</CardGrid>
+
+Die Uralte Schmiede ermöglicht über 140 verschiedene Modifikationen. Für das Harpunengewehr nutzen die erfolgreichsten Builds von 2026 „Surge-betriebene“ Upgrades, die mit Patch 1.2 eingeführt wurden, um Angriffsmuster zu überarbeiten.
+
+| Mod-Name | Typ | Effektbeschreibung |
+|:---|:---|:---|
+| **Sole-gekühlte Spitze** | Elementar | Fügt jedem Harpunentreffer Frost-Aufbau hinzu |
+| **Auto-Rückholer** | Utility | Geringe Chance auf sofortiges Nachladen bei einem Kill |
+| **Explosive Ladung** | Schaden | Harpunen detonieren 1,5 Sekunden nach dem Aufprall |
+| **Anker-Leine** | Kontrolle | Sekundärfeuer erzeugt beim Aufprall einen Gravitationsbrunnen |
+| **Fokuslinse** | Stat | Erhöht den Schaden, je weiter das Projektil fliegt |
+
+<Callout type="tip" title="Build-Strategie">
+Verwende im 4-Spieler-Koop die Mod **Anker-Leine**. Sie ermöglicht es deinen Teammitgliedern mit dem Plasmawerfer oder der Tesla-Kanone, gruppierte Gegner zu schmelzen, während du dich auf Ziele mit hoher Priorität konzentrierst.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Synergien von Segen und Talismanen">
+
+Mit über 250 verfügbaren Talismanen und Segen in Abyssus ist die Synergie-Schleife das, was eine mittelmäßige Waffe in ein Kraftpaket für den gesamten Run verwandelt. Bei einem Harpunengewehr-Build solltest du dich auf „One-Shot“-Synergien konzentrieren – Effekte, die bei einem einzelnen Treffer mit hohem Schaden ausgelöst werden oder damit skalieren, anstatt auf Schnellfeuer-Trigger zu setzen.
+
+**Beste Segen-Wahl für Harpunen-Nutzer:**
+- **Eis (Brinefrost):** Da das Harpunengewehr hart trifft, ermöglicht das Auftragen eines massiven Frost-Stacks mit einem Schuss ein sicheres Nachladen, während der Gegner zerschmettert wird.
+- **Schatten:** Nutze Schatten-Debuffs, um den erlittenen Schaden des Ziels zu erhöhen. Ein Harpunentreffer auf eine schattenmarkierte Elite-Einheit führt oft zu einem sofortigen Kill.
+- **Blitz:** Obwohl normalerweise für schnelle Waffen gedacht, verketten bestimmte Blitz-Segen den Schaden vom Aufprallpunkt aus, was dem Harpunengewehr bei seiner Schwäche gegen Schwärme hilft.
+
+| Segen-Typ | Synergie-Level | Praktischer Anwendungsfall |
+|:---|:---|:---|
+| **Ozean (Tentakel)** | ★★★★☆ | Beschwörungen halten den Druck fern, während du nachlädst |
+| **Feuer (Verbrennen)** | ★★☆☆☆ | Geringe Synergie aufgrund langsamer Applikationsrate |
+| **Geist (Rachsüchtig)** | ★★★★★ | Hohe Schadensskalierung für Einzelzieltreffer |
+| **Frost (Eis)** | ★★★★★ | Am besten für Überleben und Elite-Kontrolle |
+
+<Callout type="success" title="Meta-Wahl">
+Seit Juni 2026 kombiniert der beliebteste High-Level-Build **Eissegen** mit **Krit-Schaden-Talismanen**. Dieser „Gefrorener Scharfschütze“-Archetyp ist der Goldstandard für das Säubern der neuen Brinepunk-Maschinenbereiche, die in Update 1.3 hinzugefügt wurden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt: Dein Harpunen-Build einrichten">
+
+Folge diesen Schritten, um von einem Standard-Loadout zu einem spezialisierten **Abyssus Harpunengewehr-Build** zu wechseln. Diese Progression stellt sicher, dass du die notwendige Meta-Progression und Freischaltungen hast, um tiefere Runs zu überleben.
+
+<Steps>
+  <Step num="1" title="Schalte das Harpunengewehr frei">
+    Schließe die „Brinerot“-Herausforderungen ab oder erreiche den erforderlichen Meilenstein im Update 1.2 Inhaltspfad. Stelle sicher, dass du genug Meta-Währung hast, um die Basiswaffe im Hub zu kaufen.
+  </Step>
+  <Step num="2" title="Investiere in den Fertigkeitenbaum">
+    Priorisiere die Knoten „Präzision“ und „Nachlade-Effizienz“ im erweiterten 1.3 Fertigkeitenbaum. Diese passiven Buffs sind essenziell, um die natürliche Schwerfälligkeit der Harpune auszugleichen.
+  </Step>
+  <Step num="3" title="Suche nach Mods der Uralten Schmiede">
+    Begib dich in Runs gezielt auf die Suche nach Schmiede-Stationen. Dein Ziel ist es, früh die Mods **Durchschlagende Spitze** oder **Auto-Rückholer** zu finden, um das Säubern von Räumen handhabbar zu machen.
+  </Step>
+  <Step num="4" title="Stapele Krit-Talismane">
+    Ignoriere während deines Runs Talismane für die „Feuerrate“. Wähle stattdessen jeden Talisman, der „Schwachpunktschaden“ oder „Schaden beim ersten Schuss“ erhöht.
+  </Step>
+  <Step num="5" title="Meistere das Sekundärfeuer">
+    Übe das Timing des Sekundärfeuers der Harpune. Ob es sich um eine Fesselung oder einen Detonator handelt, diese Fähigkeit ist dein primäres Werkzeug im Umgang mit den 36 verschiedenen Gegnertypen im Spiel.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Expertenrat">
+Hab keine Angst davor, in frühen Runs zu scheitern. Die Roguelite-Meta-Progression in Abyssus ist darauf ausgelegt, dass sich diese fortgeschrittenen Waffen deutlich besser anfühlen, sobald du ein paar wichtige passive Upgrades im Hub freigeschaltet hast.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebenstaktiken für Spezialisten">
+
+Einen Spezialisten-Build zu spielen bedeutet, dass du es dir nicht leisten kannst, stillzustehen. In Abyssus ist Bewegung deine primäre Verteidigung. Wenn du das Harpunengewehr benutzt, sollte dein Kampfrhythmus dem Muster „Schießen – Dashen – Nachladen – Springen“ folgen.
+
+**Taktischer Vergleich: Harpune vs. andere fortgeschrittene Waffen**
+
+| Merkmal | Harpunengewehr | Diskuswerfer | Kampfbogen |
+|:---|:---|:---|:---|
+| **Primäre Stärke** | Einzelziel-Burst | Raumgeometrie-Clear | Skalierender Geschützturm-DPS |
+| **Benutzerfreundlichkeit** | Niedrig | Mittel | Hoch |
+| **Koop-Rolle** | Elite/Boss-Töter | Gebietsverweigerer | Beständiger Support |
+| **Bester Segen** | Eis / Geist | Schatten / Blitz | Ozean / Feuer |
+
+<Checklist
+  id="harpoon-survival"
+  title="Überlebens-Checkliste für Harpunen-Nutzer:"
+  items={[
+    "Halte nach dem Schießen immer eine Dash-Ladung bereit.",
+    "Ziele gezielt auf die Schwachstellen von Golemancern oder Un'glu.",
+    "Nutze das Sekundärfeuer, um Gegner von deinen Teammitgliedern fernzuhalten.",
+    "Priorisiere das Töten von 'Explodierer'-Gegnern aus der Distanz.",
+    "Lade niemals nach, während du offen in der Arena stehst."
+  ]}
+/>
+
+<Callout type="warning" title="Boss-Muster lesen">
+Während Bosskämpfen wie gegen Kri'Su kann die lange Animationszeit beim Feuern des Harpunengewehrs tödlich sein. Feuere nur, wenn du sicher bist, dass der Boss in einem Erholungsfenster oder einer Unverwundbarkeitsphase ist.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abyssus Build FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie erhalte ich das Harpunengewehr in Abyssus?",
+    answer: "Das Harpunengewehr ist eine freischaltbare Waffe, die in Update 1.2 (Brinefrost) eingeführt wurde. Du musst spezifische Kampfherausforderungen in den neuen Frost-Gebieten abschließen oder es mit Meta-Progressionswährung im Haupt-Hub kaufen, nachdem du den erforderlichen Rang erreicht hast."
+  },
+  {
+    question: "Was ist der beste Segen für einen Abyssus Harpunengewehr-Build?",
+    answer: "Eis (Frost) gilt weithin als der beste Segen. Da das Harpunengewehr hohen Schaden mit einzelnen Treffern verursacht, kann es 'Zerschmettern'- oder 'Einfrieren'-Effekte zuverlässiger auslösen als schnell feuernde Waffen, was dir Zeit gibt, die langsame Nachladezeit der Waffe zu managen."
+  },
+  {
+    question: "Kann ich das Harpunengewehr für Solo-Runs verwenden?",
+    answer: "Ja, aber es ist herausfordernd. Für das Solospiel musst du dich auf Mods konzentrieren, die Crowd Control bieten (wie Fesselung oder Durchschlag), und Segen wählen, die Verbündete beschwören (wie Ozean-Tentakel), um Gegner abzulenken, während du deine Schüsse ausrichtest."
+  },
+  {
+    question: "Funktioniert das Harpunengewehr mit den Inhalten von Update 1.3?",
+    answer: "Absolut. Update 1.3 fügte weitere Mods der Uralten Schmiede und einen erweiterten Fertigkeitenbaum hinzu, der speziell Spezialistenwaffen wie dem Harpunengewehr hilft, in den neuen maschinenbasierten Endgame-Bereichen wettbewerbsfähig zu bleiben."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus multiplataforma: Guía de configuración multijugador y emparejamiento",
+  description: "Aprende cómo funciona el multijugador multiplataforma de Abyssus. Conéctate con jugadores de Steam, PS5 y Xbox Series X|S usando nuestra guía de configuración y consejos de emparejamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Cross+Platform+Multiplayer",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- El multijugador **multiplataforma de Abyssus** es totalmente compatible con Steam, PlayStation 5 y Xbox Series X|S.
+- La **Actualización 1.3**, lanzada el 25 de junio de 2026, introdujo el juego cruzado completo y un emparejamiento optimizado.
+- El **multijugador en línea** requiere suscripciones activas a las plataformas, como PS Plus o Xbox Game Pass Core.
+- Las **partidas rápidas y las salas** permiten que hasta 4 jugadores cooperen en desafiantes incursiones brinepunk.
+- Los **códigos de sala** facilitan compartir invitaciones de manera sencilla entre diferentes plataformas de juego.
+</Callout>
+
+<Section icon={Map} title="Descripción general del juego multiplataforma de Abyssus">
+
+Abyssus es un FPS roguelite brinepunk de ritmo rápido desarrollado por DoubleMoose Games y publicado por The Arcade Crew y Dotemu [00基础信息]. Cuando se lanzó por primera vez en Steam el 12 de agosto de 2025, los jugadores elogiaron su movimiento fluido, su profunda personalización de armas y su atmosférico entorno submarino [00首页信息-1]. Sin embargo, el lanzamiento en consolas el 25 de junio de 2026 para PlayStation 5 y Xbox Series X|S marcó un hito histórico: la llegada oficial del multijugador **multiplataforma de Abyssus** [00基础信息, 00首页信息-2]. 
+
+Esta función se introdujo junto con la Actualización 1.3, unificando a los jugadores de PC y consolas en un único grupo de emparejamiento [00首页信息-2]. Ya sea que te sumerjas desde una PC de gama alta o descanses en una consola, puedes formar equipo con amigos para enfrentaros juntos a las profundidades del reino sumergido [00首页信息-2]. El juego admite un modo cooperativo en línea de hasta 4 jugadores, adaptando la dificultad de forma dinámica al tamaño de tu grupo [00首页信息-1, 00首页信息-2].
+
+Para ayudarte a entender cómo interactúan las diferentes plataformas, hemos recopilado una matriz de compatibilidad que detalla las funciones de juego cruzado y las opciones de emparejamiento en todos los sistemas compatibles.
+
+| Plataforma | Soporte de juego cruzado | Opciones de emparejamiento | Juego portátil / en la nube |
+| :--- | :--- | :--- | :--- |
+| Steam PC | Compatible | Partida rápida, Códigos de sala | Compatible con Steam Deck |
+| PlayStation 5 | Compatible | Partida rápida, Códigos de sala | Transmisión en la nube de PS5 |
+| Xbox Series X\|S | Compatible | Partida rápida, Códigos de sala | Xbox Cloud Gaming |
+
+<Callout type="info" title="Hitos de la Actualización 1.3">
+El lanzamiento en consolas el 25 de junio de 2026 unificó a toda la comunidad de jugadores, permitiendo que los cazadores de PC y consolas formen equipo sin problemas en la nueva zona de juego inspirada en maquinaria brinepunk [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo configurar el juego cruzado multijugador">
+
+Configurar el multijugador entre diferentes plataformas es muy sencillo gracias al sistema de salas optimizado que se introdujo en el parche de lanzamiento para consolas [00首页信息-2]. En lugar de depender de listas de amigos específicas de cada plataforma, el juego utiliza un sistema universal de Códigos de sala [00首页信息-2]. Esto evita la necesidad de vincular cuentas externas, lo que te permite unirte rápidamente a partidas con jugadores de otros dispositivos [00首页信息-2].
+
+Para garantizar una conexión estable, asegúrate de que todos los jugadores hayan actualizado su cliente de juego a la última versión (Actualización 1.3 o superior) [00首页信息-2]. Las versiones desincronizadas del juego son la causa principal de los fallos de conexión en las salas.
+
+<Steps>
+  <Step num="1" title="Activar el juego cruzado en los ajustes">
+    Inicia el juego y ve al menú de opciones. En la pestaña de Red, asegúrate de que la opción de emparejamiento multiplataforma esté establecida en Activado. Todos los jugadores del grupo deben tener activada esta opción.
+  </Step>
+  <Step num="2" title="Acceder a la Terminal Multijugador">
+    Desde el área central principal, dirígete a la Terminal Multijugador. Interactúa con ella para abrir el menú de emparejamiento, donde podrás elegir entre crear una sala privada, unirte a una sala existente o buscar partidas públicas.
+  </Step>
+  <Step num="3" title="Crear o unirse mediante Códigos de sala">
+    Si eres el anfitrión, selecciona Crear sala privada para generar un Código de sala único de 6 dígitos que se mostrará en tu pantalla. Comparte este código con tus amigos. Si te vas a unir, selecciona Introducir código de sala y escribe el código del anfitrión.
+  </Step>
+  <Step num="4" title="Iniciar la expedición">
+    Una vez que todos los jugadores hayan entrado en la sala y seleccionado su estado de listos, el anfitrión podrá elegir el destino. Asegúrate de que tu equipamiento de cazador de salmuera (brinehunter), habilidades y trajes estén listos antes de comenzar la inmersión.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de conexión">
+El uso de Códigos de sala directos evita las restricciones de emparejamiento regional, lo que garantiza tiempos de conexión rápidos y salas estables entre diferentes continentes [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de plataforma y reglas de suscripción">
+
+Aunque el juego **multiplataforma de Abyssus** está totalmente integrado, las reglas de suscripción en línea y las opciones de compra varían según la plataforma elegida [00首页信息-2]. Los jugadores de Steam disfrutan de multijugador en línea gratuito, pero los jugadores de consola deben cumplir con los requisitos de red premium de sus respectivas plataformas [00首页信息-2]. 
+
+Además, los jugadores pueden elegir entre la Edición Estándar (Standard Edition) y la Edición Salmuera (Brine Edition) [00首页信息-1]. La Brine Edition incluye el juego base junto con varios paquetes de expansión cosméticos, incluidos los paquetes Brinehunter, Brineguard, Brinefrost y Brinerot [00首页信息-1, 00首页信息-2]. Estos cosméticos son completamente opcionales y no afectan al equilibrio del juego ni a la compatibilidad del emparejamiento [00首页信息-2].
+
+La siguiente tabla detalla los requisitos exactos, precios y disponibilidad de suscripciones para cada plataforma.
+
+| Plataforma | Requisito de suscripción | Estado en Game Pass | Ediciones disponibles |
+| :--- | :--- | :--- | :--- |
+| Steam PC | Ninguno (En línea gratuito) | No disponible | Edición Estándar / Edición Salmuera |
+| PlayStation 5 | Requiere PS Plus | No disponible | Edición Estándar / Edición Salmuera |
+| Xbox Series X\|S | Xbox Game Pass Core/Ultimate | Incluido en Game Pass | Edición Estándar / Edición Salmuera |
+
+<Callout type="warning" title="Requisitos de consola">
+Los jugadores de consola deben tener una suscripción en línea activa (PlayStation Plus o Xbox Game Pass Core/Ultimate) para unirse a salas multiplataforma, incluso cuando jueguen con amigos de Steam [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Composición de equipo cooperativo y sinergias de builds">
+
+Sobrevivir a las fosas marinas de Abyssus requiere algo más que reflejos rápidos: exige equipamientos coordinados y sinergias entre las distintas builds [00首页信息-1]. Con un arsenal de 9 armas únicas, 54 modificaciones de armas, más de 140 modificaciones de la Forja Antigua y más de 250 amuletos y bendiciones, las posibilidades de personalización son inmensas [00基础信息, 00首页信息-1]. En una partida cooperativa de 4 jugadores, cada integrante debería especializarse en un rol concreto en lugar de que todos busquen la misma configuración de daño puro [00首页信息-1].
+
+Una composición de equipo equilibrada suele constar de diferentes roles que cubren el control de masas, el daño a un solo objetivo y el apoyo de utilidad [00首页信息-1].
+
+<CardGrid cols={3}>
+  <Card title="Especialista en limpieza">
+    - **Arma principal**: Pistola Tesla o Lanzador de plasma [00首页信息-1]
+    - **Enfoque**: Propagar estados alterados e infligir un daño masivo en área (AOE) [00首页信息-1]
+    - **Mejores bendiciones**: Arcos eléctricos, quemaduras de fuego e invocaciones oceánicas [00首页信息-1, 00首页信息-2]
+  </Card>
+  <Card title="Asesino de jefes">
+    - **Arma principal**: Revólver de salmuera o Pistola de arpón [00首页信息-1, 00首页信息-2]
+    - **Enfoque**: Daño de precisión elevado a un solo objetivo en puntos débiles [00首页信息-1]
+    - **Mejores bendiciones**: Multiplicadores de daño basados en precisión y mejoras críticas [00首页信息-1]
+  </Card>
+  <Card title="Apoyo y control">
+    - **Arma principal**: Arco de combate o Escopeta [00首页信息-1]
+    - **Enfoque**: Ralentizar enemigos, atraer la atención de los rivales (aggro) y revivir aliados [00首页信息-1]
+    - **Mejores bendiciones**: Efectos de congelación y perjuicios de sombra [00首页信息-1, 00首页信息-2]
+  </Card>
+</CardGrid>
+
+Para maximizar la eficiencia de tu equipo, coordina tus modificaciones de armas activas y bendiciones elementales [00首页信息-1]. Por ejemplo, si un jugador aplica un efecto de congelación o un perjuicio de sombra, los causantes de daño podrán activar un daño de fragmentación masivo o aprovechar bonificaciones de daño por explotación [00首页信息-1, 00首页信息-2].
+
+| Arma | Rol principal | Bendición recomendada | Mejor compañero cooperativo |
+| :--- | :--- | :--- | :--- |
+| Pistola Tesla | Control de masas | Arco eléctrico / Congelación | Revólver de salmuera |
+| Revólver de salmuera | Daño por segundo (DPS) a un objetivo | Quemadura de fuego / Precisión | Pistola Tesla |
+| Lanzador de plasma | Daño de área | Explosión / Invocaciones oceánicas | Arco de combate |
+| Arco de combate | Daño progresivo | Perjuicio de sombra / Espíritus | Lanzador de plasma |
+
+<Callout type="tip" title="Estrategia de sinergia">
+En partidas cooperativas de 4 jugadores, evita que todos lleven configuraciones de daño puro. Al menos un jugador debería centrarse en el control de masas y en aplicar perjuicios elementales para mantener la arena bajo control [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de progresión y lista de verificación">
+
+Jugar en modo cooperativo multiplataforma hace que avanzar por la desafiante metaprogresión del juego sea mucho más llevadero [00首页信息-1]. Las incursiones fallidas siguen otorgando recursos valiosos que se pueden gastar en la base principal para expandir tu árbol de habilidades permanente [00首页信息-1]. La Actualización 1.3 renovó el árbol de habilidades, introduciendo nuevas destrezas y opciones de preparación que hacen que las expediciones más profundas sean sumamente consistentes [00首页信息-2].
+
+Trabaja con tu escuadrón multiplataforma para completar estos hitos esenciales del multijugador.
+
+<Checklist
+  id="multiplayer-goals"
+  title="Hitos de multijugador:"
+  items={[
+    "Completar una expedición multiplataforma completa de 4 jugadores",
+    "Desbloquear la Pistola de arpón según los requisitos de la actualización Brinefrost",
+    "Derrotar a las variantes renovadas de los jefes Golemancer, Kri'Su y Un'glu",
+    "Llenar al máximo el árbol de habilidades ampliado de la Actualización 1.3",
+    "Coleccionar más de 100 amuletos y bendiciones únicos a lo largo de tus incursiones"
+  ]}
+/>
+
+<Callout type="success" title="Metaprogresión">
+Las incursiones fallidas en cooperativo siguen otorgando recursos para tu árbol de habilidades permanente, lo que facilita enormemente las futuras expediciones para todo el escuadrón [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+Para ayudarte a aprovechar al máximo tus sesiones multijugador, hemos recopilado respuestas a las preguntas más frecuentes sobre las funciones de red del juego.
+
+<FAQ items={[
+  {
+    question: "¿Admite Abyssus la progresión multiplataforma?",
+    answer: "La progresión cruzada es limitada. Aunque el juego cruzado te permite jugar con amigos en Steam, PS5 y Xbox Series X|S, tus archivos de guardado, armas desbloqueadas y el progreso del árbol de habilidades siguen vinculados a la cuenta de tu plataforma local."
+  },
+  {
+    question: "¿Está Abyssus disponible en Xbox Game Pass?",
+    answer: "Sí, Abyssus está disponible en Xbox Series X|S y PC a través de los niveles de Game Pass compatibles, incluido el juego en la nube (Cloud Gaming), lo que lo hace muy accesible para grupos multiplataforma."
+  },
+  {
+    question: "¿Cuántos jugadores pueden unirse a una sesión cooperativa en línea?",
+    answer: "Hasta 4 jugadores pueden unirse a una misma sala cooperativa en línea para realizar expediciones multiplataforma, y la dificultad se adaptará de forma dinámica según el tamaño del grupo."
+  },
+  {
+    question: "¿Qué ocurre con el ajuste de dificultad en el multijugador?",
+    answer: "La salud de los enemigos, la frecuencia de aparición y la cantidad de peligros se adaptan dinámicamente según la cantidad de jugadores activos en la sala para mantener un desafío constante."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de emparejamiento">
+La Actualización 1.3 introdujo la partida rápida y un emparejamiento optimizado para reducir drásticamente los tiempos de espera en las salas y facilitar la búsqueda de grupos abiertos [00首页信息-2].
+</Callout>
+
+</Section>

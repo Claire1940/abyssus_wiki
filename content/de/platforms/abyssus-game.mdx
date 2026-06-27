@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users, RefreshCw, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus-Spiel: Leitfaden 2026 für Waffen, Builds & Bosse",
+  description: "Meistere Abyssus mit unserem Leitfaden für 2026. Entdecke Waffen-Tier-Lists, die besten Builds, Boss-Strategien und Koop-Tipps für Steam, PS5 und Xbox Series X|S.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Abyssus+Ultimate+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Abyssus** ist ein rasantes Brinepunk-Koop-FPS-Roguelite, das auf Steam, PS5 und Xbox Series X|S verfügbar ist.
+- Das **Kern-Gameplay** dreht sich um Expeditionen für 1–4 Spieler durch über 70 handgefertigte, prozedural aneinandergereihte Level.
+- **Build-Synergien** werden durch die Kombination von 9 Basiswaffen mit 54 Mods und über 250 Talismanen (Charms) und Segen (Blessings) erzielt.
+- Die **Updates von 2026** führten einen vollständigen plattformübergreifenden Multiplayer und die riesige Inhaltserweiterung 1.3 „Brinerot“ ein.
+- Der **Konsolen-Launch** am 25. Juni 2026 brachte das Spiel auf die PlayStation 5 und für Xbox Game Pass-Abonnenten.
+</Callout>
+
+<Section icon={Map} title="Launch-Infos, Plattformen und Game Pass">
+
+Abyssus hat seine Reichweite in der Gaming-Landschaft offiziell vergrößert. Ursprünglich am 12. August 2025 auf Steam veröffentlicht, feierte das Spiel am 25. Juni 2026 sein mit Spannung erwartetes Debüt auf PlayStation 5 und Xbox Series X|S. Dieser Konsolen-Launch fiel mit dem massiven Update 1.3 zusammen, das die Spielerbasis durch vollständige plattformübergreifende Multiplayer-Unterstützung vereinte. Für Spieler im Xbox-Ökosystem ist das Spiel eine bedeutende Bereicherung der Game Pass-Bibliothek und unterstützt Cloud-, Konsolen- und PC-Spiele.
+
+**Video-Highlights:**
+- Offizieller Einblick in die Brinepunk-Ästhetik und die rasanten FPS-Kämpfe.
+- Demonstration verschiedener Waffen-Mods und elementarer Segenseffekte.
+- Vorschau auf die Koop-Dynamik für 1–4 Spieler in hochgradig fordernden Arenen.
+- Einblick in das handgefertigte Leveldesign und die Bossbegegnungen.
+
+<YouTubeEmbed videoId="jkDOLIRLJpU" title="Abyssus | Launch-Trailer" />
+
+| Plattform | Veröffentlichungsdatum | Preis/Verfügbarkeit | Hauptmerkmale |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | 12. August 2025 | 24,99 $ / Standard | Erfolge, Cloud-Speicherstände, Family Sharing |
+| **PlayStation 5** | 25. Juni 2026 | 24,99 $ / Brine Edition | 4,59/5 Spielerbewertung, PS Plus Koop |
+| **Xbox Series X|S** | 25. Juni 2026 | Game Pass / 24,99 $ | Play Anywhere, Smart Delivery, Cloud-Gaming |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn du auf Xbox oder PC spielst, prüfe, ob du ein aktives Game Pass Ultimate-Abonnement hast. Abyssus ist seit Juni 2026 in der Bibliothek enthalten, sodass du ohne zusätzliche Kosten direkt einsteigen kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Einsteiger-Leitfaden: Überleben in den Brinehunter-Prüfungen">
+
+Das Betreten der Welt von Abyssus erfordert ein Umdenken im Vergleich zu traditionellen Shootern. Als Brinehunter hängt dein Überleben vom Meistern des „Run-Loops“ ab. Jede Expedition beginnt mit der Auswahl deiner Startausrüstung, aber die wahre Macht kommt von den Upgrades, die du in den versunkenen Ruinen findest. Bewegung ist dein wichtigstes Verteidigungswerkzeug; Stillstehen ist der schnellste Weg, einen Run zu beenden.
+
+<CardGrid cols={3}>
+  <Card title="Solo-Spiel">
+    - **Fokus**: Mustererkennung
+    - **Vorteil**: Volle Kontrolle über Upgrades
+    - **Tipp**: Am besten geeignet, um Boss-Mechaniken zu lernen
+  </Card>
+  <Card title="Koop-Spiel">
+    - **Fokus**: Rollenspezialisierung
+    - **Vorteil**: Wiederbelebungsmechaniken und Synergien
+    - **Tipp**: Elementarsegen miteinander abstimmen
+  </Card>
+  <Card title="Meta-Fortschritt">
+    - **Fokus**: Freischaltungen im Fähigkeitsbaum
+    - **Vorteil**: Permanente Attributsverbesserungen
+    - **Tipp**: Ressourcen zwischen gescheiterten Runs ausgeben
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Zuerst die Bewegung meistern">
+    Nutze Dash, Doppelsprung und die Vertikalität der Arena. Die meisten Gegner nutzen projektilbasierte Angriffe, denen du durch ständige Positionswechsel ausweichen kannst.
+  </Step>
+  <Step num="2" title="Raumziele identifizieren">
+    In den Räumen geht es nicht nur ums Töten; manche erfordern das Beschützen von Knotenpunkten oder das Überleben von Wellen. Achte auf der Benutzeroberfläche auf bestimmte „Clear“-Bedingungen.
+  </Step>
+  <Step num="3" title="Heilstationen priorisieren">
+    Leben regeneriert sich nicht automatisch. Plane deine Route frühzeitig in einem tiefen Run in Richtung von Heilaltären oder Überlebenstalismanen.
+  </Step>
+  <Step num="4" title="Mit der Uralten Schmiede interagieren">
+    Nutze diese Stationen, um deine Waffen zu modifizieren. Eine einzige Modifikation kann ein Standardgewehr in ein hocheffizientes Werkzeug zur Massenvernichtung verwandeln.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtig">
+Im Koop-Modus für 4 Spieler skaliert die Gesundheit der Gegner erheblich. Entferne dich nicht allein von der Gruppe; bleibe in Sichtweite deiner Teammitglieder, um die Effizienz von Unterstützungssegen zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Tier-List und Kampfrollen">
+
+Mit 9 Basiswaffen und 54 einzigartigen Waffen-Mods ist das Kampfsystem in Abyssus extrem anpassbar. Jede Waffe erfüllt eine bestimmte Rolle, vom hochpräzisen Brine-Revolver bis zum chaotischen Plasma-Werfer. Die „S-Tier“-Waffen dominieren derzeit die Meta aufgrund ihrer Vielseitigkeit sowohl beim Säubern von Räumen als auch beim Schaden gegen Bosse.
+
+| Tier | Waffenname | Primäre Rolle | Beste Kombination |
+| :--- | :--- | :--- | :--- |
+| **S** | **Tesla-Gewehr** | Gruppenkontrolle | Kettenblitz / Bogen-Segen |
+| **S** | **Brine-Revolver** | Boss-DPS | Präzisions- / Schwachpunkt-Mods |
+| **A** | **Plasma-Werfer** | Gebietskontrolle | Feuer- / Explosions-Talismane |
+| **A** | **Kampfbogen** | Skalierender Schaden | Geschützturm- / Beschwörungsfähigkeiten |
+| **B** | **Engine-Gewehr** | Allrounder | Hitze-Management-Mods |
+| **B** | **Schrotflinte** | Berstschaden | Mobilitäts- / Schild-Segen |
+
+<Callout type="info" title="Waffenanpassung">
+Das **Tesla-Gewehr** gilt weithin als die beste Einsteigerwaffe für Update 1.3. Seine Fähigkeit, Statuseffekte auf mehrere Ziele zu verteilen, macht es unschätzbar wertvoll für die neuen, von Maschinen geprägten Gegnergruppen in den späteren Gebieten.
+</Callout>
+
+### Mods der Uralten Schmiede
+Die Uralte Schmiede ermöglicht über 140 verschiedene Modifikationen. Dabei handelt es sich nicht nur um reine Werte-Buffs; sie können das Verhalten einer Waffe grundlegend verändern. Beispielsweise kann ein „Diskuswerfer“ so modifiziert werden, dass er zum Spieler zurückkehrt und auf beiden Wegen Schaden verursacht, oder sich beim Aufprall auf eine Oberfläche in mehrere Projektile aufteilt.
+
+</Section>
+
+<Section icon={Sparkles} title="Build-Erstellung: Segen, Talismane und Synergien">
+
+Die Erstellung von Builds ist das Herzstück des Abyssus-Erlebnisses. Bei einem erfolgreichen Run geht es selten um ein einzelnes Item; entscheidend ist der „Synergie-Loop“ zwischen deiner Waffe, deinen Fähigkeiten und deinen gesammelten Upgrades. Mit über 250 verfügbaren Talismanen und Segen ist die Vielfalt an Builds gigantisch.
+
+| Upgrade-Typ | Funktion | Auswirkung auf den Build |
+| :--- | :--- | :--- |
+| **Segen** | Fügt Elementareffekte hinzu | Wandelt rohen Schaden in Verbrennung, Einfrieren oder Bogen um |
+| **Talismane** | Passive Regeländerungen | Verkürzt Abklingzeiten oder erhöht die Überlebenschancen |
+| **Fähigkeiten** | Aktive Fähigkeiten | Bietet Geschütztürme, Speere oder Köder |
+| **Gunst der Götter** | Hochwertige Buffs | Bietet spielverändernde Mechaniken (z. B. 15 neue Segen in 1.3) |
+
+<CardGrid cols={2}>
+  <Card title="Der „Eiswand“-Build">
+    - **Waffe**: Schrotflinte oder Tesla-Gewehr
+    - **Segen**: Frost-/Einfriereffekte
+    - **Strategie**: Friere Gegner an Ort und Stelle ein und nutze dann das sekundäre Feuer mit hohem Berstschaden, um sie für massiven Flächenschaden (AOE) zu zerschmettern.
+  </Card>
+  <Card title="Der „Beschwörer“-Build">
+    - **Waffe**: Kampfbogen
+    - **Segen**: Ozeantentakel / Rachsüchtige Geister
+    - **Strategie**: Platziere Geschütztürme und lass deine Beschwörungen die Aufmerksamkeit der Gegner auf sich ziehen, während du Ziele mit hoher Priorität aus der Ferne ausschaltest.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta-Build-Tipp">
+Kombiniere **Schatten-Debuffs** mit Waffen mit hoher Feuerrate wie dem Engine-Gewehr. Die Debuffs stapeln sich schnell, sodass Gegner exponentiell mehr Schaden erleiden, je länger du das Feuer aufrechterhältst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss-Strategien und Fortschritt">
+
+Abyssus bietet 12 einzigartige Bosse, die jeweils eine spezielle taktische Herangehensweise erfordern. Der Fortschritt wird durch diese Begegnungen blockiert, und das Meistern ihrer Muster ist unerlässlich, um tiefere Expeditionsrouten freizuschalten. Die Updates 1.2 und 1.3 führten „Surge“-Versionen bekannter Bosse ein, die neue Angriffsmuster bieten, um selbst erfahrene Spieler auf Trab zu halten.
+
+### Essenzielle Boss-Taktiken
+- **Golemancer**: Konzentriere dich während der „Aufladephase“ auf den leuchtenden Kern. Weiche den Schockwellen des Bodenschlags aus, indem du im letzten Moment springst.
+- **Kri'Su**: Dieser Boss verlässt sich auf Gefahren in der Arena. Behalte den Boden im Auge, um den steigenden Brine-Pfützen auszuweichen, während du Abstand hältst.
+- **Un'glu**: Ein sehr bewegungsintensiver Kampf. Un'glu nutzt Schadensringe mit Flächenwirkung, die präzises Dashen erfordern.
+
+<Checklist
+  id="boss-prep"
+  title="Checkliste vor dem Bosskampf:"
+  items={[
+    "Sicherstellen, dass das sekundäre Feuer vollständig aufgeladen ist",
+    "Überprüfen, ob deine aktuellen Segen der Elementarschwäche des Bosses entsprechen",
+    "Rollen (Kontrolle vs. DPS) im Koop-Modus koordinieren",
+    "Alle kleineren Gegner in der Arena eliminieren, bevor der Boss fokussiert wird",
+    "Bestätigen, dass die Bewegungsfähigkeiten aller Teammitglieder bereit (nicht im Cooldown) sind"
+  ]}
+/>
+
+<Callout type="warning" title="Boss-Varianten">
+Patch 1.2 führte überarbeitete Angriffe für den Golemancer und Kri'Su ein. Wenn du seit dem Launch 2025 nicht mehr gespielt hast, stelle dich auf schnellere Projektile und kürzere Unverwundbarkeitsfenster ein.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Multiplayer, Crossplay, und Updates">
+
+Das Update vom Juni 2026 (1.3) war ein Wendepunkt für die Abyssus-Community. Durch die Einführung des vollständigen plattformübergreifenden Multiplayers wurden die Spielerbasen von Steam, PlayStation und Xbox erfolgreich zusammengeführt. Die Spielersuche wurde optimiert, und die neue „Quickplay“-Funktion ermöglicht es dir, sofort aktiven Lobbys beizutreten.
+
+| Feature | Steam (PC) | PS5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| **Crossplay** | Unterstützt (1.3) | Unterstützt (1.3) | Unterstützt (1.3) |
+| **Gruppengröße** | 1–4 Spieler | 1–4 Spieler | 1–4 Spieler |
+| **Abonnement** | Keines | PS Plus erforderlich | Game Pass / Core |
+| **Cloud-Gaming** | Nein | Nur Premium | Nur Ultimate |
+
+<Steps>
+  <Step num="1" title="Crossplay aktivieren">
+    Gehe in das Einstellungsmenü und stelle sicher, dass „Plattformübergreifender Multiplayer“ eingeschaltet ist, um auf den größten Spielerpool zuzugreifen.
+  </Step>
+  <Step num="2" title="Quickplay nutzen">
+    Wenn du keine feste Gruppe hast, nutze Quickplay, um ein Squad zu finden. Das system priorisiert Lobbys mit ähnlichem Spielniveau.
+  </Step>
+  <Step num="3" title="Ausrüstung abstimmen">
+    Nutze den Lobby-Chat im Spiel, um sicherzustellen, dass dein Team nicht komplett dieselben Elementarsegen verwendet. Diversifizierung ist der Schlüssel zu erfolgreichen Runs.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Inhalte von Patch 1.3">
+Update 1.3 bietet nicht nur technische Fehlerbehebungen. Es fügte ein von Maschinen geprägtes Gebiet, einen neuen Gott mit 15 Segen und das kosmetische Paket „Brinerot“ hinzu. Dies ist das größte Inhalts-Update seit dem ursprünglichen Launch.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Abyssus FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist Abyssus im Xbox Game Pass verfügbar?",
+    answer: "Ja, seit dem 25. Juni 2026 ist Abyssus im Xbox Game Pass für Konsole, PC und Cloud enthalten. Es unterstützt Smart Delivery und Xbox Play Anywhere."
+  },
+  {
+    question: "Unterstützt das Spiel plattformübergreifendes Spielen?",
+    answer: "Ein vollständiger plattformübergreifender Multiplayer wurde mit Update 1.3 hinzugefügt. Spieler auf Steam, PlayStation 5 und Xbox Series X|S können alle zusammen in denselben 4-Spieler-Squads spielen."
+  },
+  {
+    question: "Wie viele Waffen und Bosse gibt es im Spiel?",
+    answer: "Nach dem Update 1.3 bietet Abyssus 9 einzigartige Basiswaffen, 12 anspruchsvolle Bosse und über 70 handgefertigte Levels."
+  },
+  {
+    question: "Gibt es aktive Codes für kostenlose Gegenstände?",
+    answer: "Abyssus nutzt derzeit kein System für einlösbare Codes. Alle Waffen, Mods und kosmetischen Gegenstände werden durch den Spielfortschritt oder spezielle Editions-Bundles wie die Brine Edition freigeschaltet."
+  }
+]} />
+
+</Section>

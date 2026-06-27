@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Leitfaden: Beste Builds, Waffen & Komplettlösung 2026",
+  description: "Meistern Sie die Tiefsee mit unserem Experten-Leitfaden für Abyssus. Erfahren Sie alles über die besten Builds, Waffen-Tier-Lists, Boss-Strategien, Koop-Taktiken und den Fortschritt in Update 1.3.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Haupt-Keyword**: Dieser umfassende **Abyssus-Leitfaden** deckt Plattformen, Waffen, Builds und Fortschrittssysteme ab.
+- **Kern-Loop**: Wählen Sie Ihre Ausrüstung, schließen Sie prozedural sequenzierte Räume ab, stapeln Sie Segen und besiegen Sie Bosse.
+- **Bester Build**: Kombinieren Sie schnell feuernde Waffen wie die Tesla-Kanone mit Kettenblitzen oder Einfriereffekten.
+- **Koop-Strategie**: Koordinieren Sie die Spielerrollen mit verschiedenen Waffentypen und Unterstützungsfähigkeiten.
+- **Inhalte von Update 1.3**: Genießen Sie volles Crossplay, eine neue Maschinen-Zone, einen neuen Gott und überarbeitete Talentbäume.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Release, Plattformen und Game Pass-Details">
+
+Abyssus ist ein rasantes Brinepunk-FPS-Roguelite für 1 bis 4 Spieler, das von DoubleMoose Games entwickelt und von The Arcade Crew und Dotemu veröffentlicht wurde [web: base-info]. Das Spiel fordert die Spieler heraus, als Brinenjäger in Unterwasserruinen abzutauchen und gegen Tiefseemonster, antike Wächter und kolossale Bosse zu kämpfen [web: base-info]. 
+
+Das Spiel wurde zuerst am 12. August 2025 auf dem PC via Steam veröffentlicht [web: base-info]. Nach dem erfolgreichen PC-Launch expandierte das Spiel auf Konsolenplattformen und erschien am 25. Juni 2026 für PlayStation 5 und Xbox Series X|S [web: base-info]. Der Konsolen-Release erfolgte zeitgleich mit dem großen Update 1.3, das einen vollständigen plattformübergreifenden Multiplayer, ein optimiertes Matchmaking und eine Fülle neuer Inhalte einführte [web: homepage-modules-1, web: homepage-modules-2]. 
+
+Für Spieler im Xbox-Ökosystem ist das Spiel über Xbox Game Pass Ultimate, Game Pass Premium und PC Game Pass erhältlich [web: homepage-modules-1]. Xbox-Spieler profitieren außerdem von Smart Delivery, Xbox Play Anywhere und Xbox-Cloud-Streaming [web: homepage-modules-1]. PlayStation 5-Spieler können das Spiel über den PlayStation Store erwerben, wobei Cloud-Streaming exklusiv für PlayStation Plus Premium-Abonnenten unterstützt wird [web: homepage-modules-2].
+
+| Plattform | Veröffentlichungsdatum | Im Game Pass enthalten | Crossplay-Unterstützung |
+| Xbox Series X|S | 25. Juni 2026 | Ja (Ultimate/Premium) | Volles Crossplay |
+| PlayStation 5 | 25. Juni 2026 | Nein | Volles Crossplay |
+| Steam (PC) | 12. August 2025 | Nein (PC Game Pass separat) | Volles Crossplay |
+
+<Callout type="info" title="Game Pass-Tipp">
+Abonnenten des Xbox Game Pass Ultimate können Abyssus auf PC, Xbox Series X|S oder über Xbox Cloud Gaming spielen, wobei der Spielfortschritt plattformübergreifend geteilt wird [web: homepage-modules-1].
+</Callout>
+
+Das Spiel wird in zwei Haupteditionen verkauft [web: homepage-modules-1]. Die Standard Edition enthält das Hauptspiel, während die Brine Edition das Hauptspiel mit mehreren kosmetischen Add-ons bündelt, darunter die Kosmetikpakete „Brinehunter“, „Brineguard“, „Brinefrost“ und „Brinerot“ [web: homepage-modules-1, web: homepage-modules-2].
+
+</Section>
+
+<Section icon={Target} title="Abyssus-Einsteigerleitfaden und Kern-Run-Loop">
+
+Jede Expedition in Abyssus dreht sich um einen strukturierten Roguelite-Loop [web: homepage-modules-1]. Um erfolgreich zu sein, müssen Sie Bewegung, das Klären von Räumen, Ressourcenmanagement und die Auswahl von Upgrades meistern [web: homepage-modules-1]. Runs finden in handgefertigten Levels statt, die prozedural sequenziert sind. Das bedeutet, dass das Layout der einzelnen Räume konsistent bleibt, sich aber die Reihenfolge, in der Sie auf sie treffen, bei jedem Run ändert [web: homepage-modules-1, web: homepage-modules-2].
+
+Während Sie in einem Run fortschreiten, stoßen Sie auf Upgrade-Stationen, göttliche Altäre und Heilungsmöglichkeiten [web: homepage-modules-1]. Die Verwaltung Ihrer Gesundheit ist von entscheidender Bedeutung, da die Heilungsquellen begrenzt sind und frühe Fehler Ihren Run schnell beenden können [web: homepage-modules-1]. 
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihre Ausrüstung">
+    Wählen Sie Ihre Startwaffen, aktiven Fähigkeiten und Ihren Anzug, bevor Sie sich in den Run stürzen [web: homepage-modules-1]. Wenn Sie im Koop-Modus spielen, koordinieren Sie sich mit Ihrem Team, um überschneidende Rollen zu vermeiden [web: homepage-modules-1].
+  </Step>
+  <Step num="2" title="Meistern Sie die Brinepunk-Bewegung">
+    Betrachten Sie Bewegung als Ihr primäres Verteidigungswerkzeug [web: homepage-modules-1]. Nutzen Sie Dashes, Doppelsprünge und den vertikalen Raum der Arena, um gegnerischen Projektilen und Gefahrenzonen auszuweichen [web: homepage-modules-1].
+  </Step>
+  <Step num="3" title="Klären Sie sequenzierte Räume">
+    Betreten Sie Kampf-Arenen und schließen Sie bestimmte Ziele ab [web: homepage-modules-2]. Achten Sie auf explodierende Gegner, halten Sie Abstand und suchen Sie zwischen den Kämpfen nach Upgrade-Stationen [web: homepage-modules-1].
+  </Step>
+  <Step num="4" title="Synergisieren Sie Segen und Mods">
+    Wenden Sie elementare Segen auf Ihr primäres Feuer, sekundäres Feuer und Ihre aktiven Fähigkeiten an [web: homepage-modules-1]. Suchen Sie nach Upgrades, die sich gegenseitig ergänzen, anstatt zufällige Werte zu wählen [web: homepage-modules-1].
+  </Step>
+  <Step num="5" title="Bezwingen Sie das Boss-Tor">
+    Stellen Sie sich mächtigen Wächtern am Ende jedes Sektors [web: homepage-modules-2]. Studieren Sie deren Angriffsmuster, weichen Sie Flächeneffekt-Gefahren aus und nutzen Sie Ihr gesamtes Arsenal, um sie zu besiegen [web: homepage-modules-1, web: homepage-modules-2].
+  </Step>
+</Steps>
+
+| Run-Phase | Primäres Ziel | Hauptgefahr | Empfohlene Strategie |
+| Früher Sektor | Einfache Upgrades sammeln | Explodierende Nahkampfeinheiten | Abstand halten und schnell feuernde Waffen nutzen |
+| Mittlerer Sektor | Elementare Synergien festigen | Elite-Minibosse | Auf Statuseffekte und Crowd Control konzentrieren |
+| Später Sektor | Waffen-Mods maximieren | Hoher Umgebungsschaden | Bewegungswerkzeuge nutzen, um Gefahren zu umgehen |
+
+<Callout type="warning" title="Überlebenswarnung">
+Stehen Sie im Kampf niemals still. Die Tiefsee-Arenen sind stark vertikal ausgerichtet, und die Gegner sind darauf ausgelegt, Spieler zu bestrafen, die versuchen, aus statischer Deckung heraus zu spielen [web: homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Tier-List und Build-Synergien">
+
+Abyssus bietet 9 verschiedene Waffen, 54 Waffen-Mods und über 140 „Ancient Forge“-Mods (Uralte Schmiede), was eine tiefgehende Anpassung ermöglicht [web: base-info, web: homepage-modules-1]. Die Waffen sind in primäre und sekundäre Feuerarten unterteilt, und ihre Leistung skaliert basierend auf den Segen und Talismanen (Charms), die Sie während Ihres Runs erwerben [web: homepage-modules-1].
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Top-Picks zum Tragen des Runs">
+    - **Tesla-Kanone**: Hervorragend geeignet zum Klären von Räumen und zum Verbreiten elementarer Statuseffekte [web: homepage-modules-1].
+    - **Brinen-Revolver**: Hoher Burst-Schaden gegen Einzelziele, perfekt für Boss-Schwachstellen [web: homepage-modules-1].
+    - **Plasma-Werfer**: Schwerer Explosionsschaden mit Flächenwirkung für überfüllte Arenen [web: homepage-modules-1].
+  </Card>
+  <Card title="A-Tier: Zuverlässige Kernwaffen">
+    - **Kampfbogen**: Skalierbarer Schaden, der gut zu geschützturmfokussierten Setups passt [web: homepage-modules-1].
+    - **Fischgottheit**: Einzigartige Projektilmuster, die Gegnergruppen in Kettenreaktionen verwandeln [web: homepage-modules-1].
+    - **Maschinen-Gewehr**: Ein stabiles, anfängerfreundliches automatisches Gewehr mit kontrollierbarer Hitzeentwicklung [web: homepage-modules-1].
+  </Card>
+  <Card title="Fortgeschritten: Spezialisten-Picks">
+    - **Schrotflinte**: Hoher Burst-Schaden auf kurze Distanz, erfordert jedoch eine aggressive Positionierung [web: homepage-modules-1].
+    - **Diskuswerfer**: Lässt Projektile von Wänden abprallen, was geometrisches Verständnis erfordert [web: homepage-modules-1].
+    - **Harpunen-Gewehr**: Präzise Spezialistenwaffe, freigeschaltet in Update 1.2 [web: homepage-modules-1, web: homepage-modules-2].
+  </Card>
+</CardGrid>
+
+Um Ihren Schaden zu maximieren, müssen Sie Ihre Waffenwahl mit kompatiblen Mods kombinieren [web: homepage-modules-1]. Zum Beispiel sind schnell feuernde Waffen wie die Tesla-Kanone ideal für das Auftragen statusverändernder Segen, während langsame, spielentscheidende Waffen wie der Brinen-Revolver am meisten von rohen Schadensmultiplikatoren und Schwachstellen-Boni profitieren [web: homepage-modules-1].
+
+| Waffenname | Primäre Feuerart | Bester Build-Fokus | Leistungsbewertung |
+| Tesla-Kanone | Kontinuierlicher elektrischer Strahl | Kettenblitz & Statusverbreitung | S-Tier (Exzellent) |
+| Brinen-Revolver | Halbautomatische Präzision | Schwachstellenschaden & kritische Treffer | S-Tier (Exzellent) |
+| Plasma-Werfer | Explosive Projektile | Flächenschaden & Feuerschaden | S-Tier (Exzellent) |
+| Kampfbogen | Geladene Projektilschüsse | Geschützturm-Unterstützung & Distanzskalierung | A-Tier (Sehr gut) |
+| Fischgottheit | Feuerstöße von Projektilen | Kettenreaktionen & Explosionen | A-Tier (Sehr gut) |
+| Maschinen-Gewehr | Vollautomatisches Feuer | Hitzemanagement & stabiles Nachladen | A-Tier (Sehr gut) |
+| Schrotflinte | Streuung auf kurze Distanz | Rückstoß & Bewegungsgeschwindigkeit | B-Tier (Gut) |
+| Diskuswerfer | Abprallende Scheiben | Abprall-Umlenkung & Mehrfachtreffer | B-Tier (Gut) |
+| Harpunen-Gewehr | Bolzen mit hoher Durchschlagskraft | Boss-Timing & Präzisionsschüsse | B-Tier (Gut) |
+
+<Callout type="tip" title="Synergie-Tipp">
+Wenn Sie die Tesla-Kanone verwenden, priorisieren Sie Segen, die Schaden auf nahegelegene Gegner übertragen [web: homepage-modules-1]. Dies verwandelt die Waffe in ein verheerendes Werkzeug, das ganze Räume in Sekundenschnelle klären kann [web: homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Segen, Talismane und Uralte-Schmiede-Mods">
+
+Die Stärke Ihres Charakters skaliert während eines Runs dynamisch über drei Hauptsysteme: Segen, Talismane (Charms) und „Ancient Forge“-Mods (Uralte Schmiede) [web: homepage-modules-1, web: homepage-modules-2]. Zusammen bieten diese Systeme über 250 Talismane und Segen sowie über 140 Uralte-Schmiede-Upgrades [web: base-info, web: homepage-modules-2].
+
+Segen werden von göttlichen Wesen gewährt und verleihen Ihren Angriffen elementare oder magische Eigenschaften [web: homepage-modules-2]. Dazu gehören Feuer (Verbrennen), Eis (Einfrieren), Blitz (Kettenblitze), Ozean (Tentakelbeschwörung), Schatten (Debuffs) und Geist-Effekte [web: homepage-modules-2]. Das Stapeln von Segen aus derselben Elementarfamilie löst mächtige Statusexplosionen und Synergieeffekte aus [web: homepage-modules-2].
+
+Talismane wirken als passive Modifikatoren, welche die Regeln Ihres Runs verändern [web: homepage-modules-2]. Sie können die Abklingzeiten Ihrer Fähigkeiten verringern, Ihre Bewegungsgeschwindigkeit erhöhen oder Überlebensboni gewähren [web: homepage-modules-2]. Uralte-Schmiede-Mods hingegen verbessern Ihre Waffen und Fähigkeiten direkt und verändern deren Verhalten, anstatt nur ihre reinen Werte zu erhöhen [web: homepage-modules-2].
+
+| Systemtyp | Primäre Beschaffung | Haupteffekt | Maximale Auswirkung |
+| Segen | Göttliche Altäre | Fügt Angriffen elementare Effekte hinzu | Hoch (Build-definierend) |
+| Talismane | Sektor-Belohnungen | Passive Regeländerungen und Nutzen | Mittel (Werteskalierung) |
+| Schmiede-Mods | Schmiede-Stationen | Verändert Waffen- und Fähigkeitsverhalten | Hoch (Waffenüberholung) |
+| Talentbaum | Fortschritt nach dem Run | Permanente Charakter-Upgrades | Persistent (Meta-Erleichterung) |
+
+<Checklist
+  id="build-goals"
+  title="Build-Meilensteine:"
+  items={[
+    "Rüsten Sie eine Waffe für Crowd Control und eine für Schaden gegen Einzelziele aus [web: homepage-modules-1].",
+    "Stapeln Sie Segen aus derselben Elementarfamilie, um Statusexplosionen auszulösen [web: homepage-modules-2].",
+    "Wenden Sie mindestens zwei Uralte-Schmiede-Mods auf Ihre Primärwaffe an, um deren Verhalten zu ändern [web: homepage-modules-2].",
+    "Schalten Sie zwischen den Runs permanente Überlebensknoten im Talentbaum frei [web: homepage-modules-2]."
+  ]}
+/>
+
+<Callout type="success" title="Meta-Erfolg">
+Ein beliebter End-Game-Build kombiniert Geschützturm-Fähigkeiten mit ozeanischen Segen [web: homepage-modules-2]. Dadurch können Ihre Geschütztürme greifende Tentakel beschwören, die Gegner an Ort und Stelle festhalten, während Sie aus der Ferne massiven Schaden anrichten [web: homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bosskämpfe und Level-Fortschritt">
+
+Abyssus bietet über 70 handgefertigte Levels, 36 verschiedene Gegnertypen und 12 unterschiedliche Bosse [web: base-info, web: homepage-modules-2]. Je tiefer Sie in das versunkene Königreich hinabsteigen, desto aggressiver werden die Umweltgefahren und Gegner erhalten neue Angriffsmuster [web: homepage-modules-1, web: homepage-modules-2].
+
+Update 1.3 führte ein brandnew, maschinenbasiertes spielbares Gebiet ein, komplett mit frischen Gegnertypen, einer neuen Elite-Begegnung und einem völlig neuen Bosskampf [web: homepage-modules-2]. Dieses Update brachte auch einen neuen Gott, der 15 einzigartige Segen anbietet, sowie 5 neue Segen für jeden der bestehenden Götter [web: homepage-modules-2].
+
+| Bossname | Primäre Angriffsbedrohung | Empfohlene Konterstrategie |
+| Golemancer | Bodengestützte Schockwellen & Schläge | Mit Doppelsprung über Ringe springen; Schwachstellen auf dem Rücken beschießen [web: homepage-modules-2] |
+| Kri'Su | Schnelle Projektilsalven & -streuungen | Distanz wahren; durch enge Kugel-Muster dashen [web: homepage-modules-2] |
+| Un'glu | Unverwundbarkeitsphasen & Diener-Beschwörungen | Zuerst Diener eliminieren; Burst-Schaden für Phasenöffnungen aufsparen [web: homepage-modules-2] |
+
+Um diese Bosse zu besiegen, müssen Sie sich darauf konzentrieren, ihre Angriffsmuster zu lernen, anstatt zu versuchen, sie mit rohem Schaden zu überwältigen [web: homepage-modules-1]. Boss-Arenen weisen oft Gefahren wie steigendes Wasser, elektrifizierte Böden oder herabfallende Trümmer auf, was erfordert, dass Sie Ihren Dash und Doppelsprung kontinuierlich einsetzen [web: homepage-modules-1, web: homepage-modules-2].
+
+<Callout type="warning" title="Muster-Warnung">
+Die Updates 1.2 und 1.3 haben die Angriffsmuster für Golemancer, Kri'Su und Un'glu überarbeitet und „Surge-betriebene“ Varianten dieser Kämpfe eingeführt [web: homepage-modules-2]. Stellen Sie sich auf schnellere Angriffe und engere Projektilstreuungen ein [web: homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Koop-, Crossplay- und Matchmaking-FAQs">
+
+Obwohl Abyssus komplett solo gespielt werden kann, ist das Spiel darauf ausgelegt, im Online-Koop für 1 bis 4 Spieler zu glänzen [web: base-info, web: homepage-modules-1]. Im Koop-Modus ist die Teamsynergie entscheidend [web: homepage-modules-1]. Spieler sollten ihre Waffen, aktiven Fähigkeiten und Anzüge koordinieren, um sicherzustellen, dass die Gruppe eine ausgewogene Mischung aus Crowd Control, Einzelzielschaden und Überlebensfähigkeit besitzt [web: homepage-modules-1].
+
+Update 1.3 fügte einen vollständigen plattformübergreifenden Multiplayer hinzu, der es Spielern auf Steam, PlayStation 5 und Xbox Series X|S ermöglicht, nahtlos Teams zu bilden [web: homepage-modules-2]. Das Update führte außerdem ein optimiertes Matchmaking und eine Quickplay-Option ein, was den Beitritt zu aktiven Lobbys so einfach wie nie zuvor macht [web: homepage-modules-2].
+
+<FAQ items={[
+  {
+    question: "Unterstützt Abyssus Crossplay?",
+    answer: "Ja. Ein vollständiger plattformübergreifender Multiplayer wurde in Update 1.3 hinzugefügt, sodass Spieler auf Steam, PlayStation 5 und Xbox Series X|S nahtlos zusammenspielen können [web: homepage-modules-2]."
+  },
+  {
+    question: "Ist Abyssus im Xbox Game Pass verfügbar?",
+    answer: "Ja. Abyssus ist im Xbox Game Pass Ultimate, Game Pass Premium und PC Game Pass enthalten [web: homepage-modules-1]. Es unterstützt außerdem Cloud-Streaming und Xbox Play Anywhere [web: homepage-modules-1]."
+  },
+  {
+    question: "Wie viele Spieler können im Koop spielen?",
+    answer: "Abyssus unterstützt bis zu 4 Spieler im Online-Koop [web: base-info, web: homepage-modules-1]. Spieler können das gesamte Spiel auch solo spielen [web: base-info, web: homepage-modules-1]."
+  },
+  {
+    question: "Gibt es permanente Upgrades in Abyssus?",
+    answer: "Ja. Das Spiel verfügt über einen persistenten Talentbaum, mit dem Sie zwischen den Runs permanente Upgrades, neue Fähigkeiten und Waffenoptionen freischalten können [web: homepage-modules-1, web: homepage-modules-2]."
+  }
+]} />
+
+<Callout type="info" title="Multiplayer-Info">
+Online-Multiplayer auf Konsolen erfordert ein aktives Abonnement [web: homepage-modules-2]. PlayStation 5-Spieler benötigen PlayStation Plus, während Xbox Series X|S-Spieler Xbox Game Pass Core, Standard oder Ultimate benötigen [web: homepage-modules-2].
+</Callout>
+
+</Section>

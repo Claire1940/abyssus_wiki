@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Konsole: Release, Crossplay und Setup-Guide",
+  description: "Erfahren Sie Details zum Abyssus Konsolen-Release, der Game Pass Verfügbarkeit, Crossplay-Mechaniken und Einsteiger-Tipps für PlayStation 5 und Xbox Series X|S.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Console+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus, Konsole, PS5, Xbox, Crossplay, Game Pass, Guide, Brinepunk"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Abyssus Konsolenversionen** wurden am 25. Juni 2026 veröffentlicht und bringen den Brinepunk-FPS auf PlayStation 5 und Xbox Series X|S.
+- **Cross-Plattform-Multiplayer** wird zwischen Steam, PS5 und Xbox Series X|S vollständig unterstützt.
+- **Xbox Game Pass** enthält das Spiel ab dem ersten Tag auf Konsole, PC und Cloud.
+- Die Inhalte von **Update 1.3** sind in die Konsolenversion integriert und bieten über 70 Level und 12 Bosse.
+</Callout>
+
+<Section icon={Map} title="Abyssus Konsolen-Launch und Plattform-Spezifikationen">
+
+Der lang erwartete **Abyssus Konsolen-Release** erfolgte offiziell am 25. Juni 2026 und erweitert die dunklen Brinepunk-Tiefen des kooperativen Roguelite-FPS von DoubleMoose Games auf PlayStation 5 und Xbox Series X|S [1]. Dieser Konsolen-Launch fiel mit dem massiven Update 1.3 zusammen, was sicherstellt, dass Konsolenspieler vom ersten Tag an die am stärksten verfeinerte und inhaltsreichste Version des Spiels erhielten [1].
+
+Die Performance auf Konsolen der aktuellen Generation wurde stark optimiert. Sowohl die PlayStation 5 als auch die Xbox Series X zielen auf flüssige 60 Bilder pro Sekunde bei 4K-Auflösung ab, um die schnelle Reaktionsfähigkeit zu gewährleisten, die für die geschossreichen Arenen des Spiels erforderlich ist. Die Xbox Series S läuft stabil mit 60 Bildern pro Sekunde bei 1440p. Hochgeschwindigkeits-SSDs auf allen Konsolenplattformen reduzieren die Ladezeiten zwischen den prozedural sequenzierten Räumen drastisch und halten die kooperative Action kontinuierlich aufrecht.
+
+| Plattform | Veröffentlichungsdatum | Basispreis | Game Pass | Grafikmodi |
+| :--- | :--- | :--- | :--- | :--- |
+| Steam PC | 12. August 2025 | 24,99 $ | Nein | Unbegrenzte FPS, Ultra |
+| PlayStation 5 | 25. Juni 2026 | 24,99 $ | Nein | Ziel 60 FPS, 4K |
+| Xbox Series X | 25. Juni 2026 | 24,99 $ | Ja | Ziel 60 FPS, 4K |
+| Xbox Series S | 25. Juni 2026 | 24,99 $ | Ja | Ziel 60 FPS, 1440p |
+
+Preislich ist die Standard Edition des Spiels für 24,99 $ in allen Stores erhältlich [1]. Für Spieler, die das komplette visuelle Erlebnis suchen, wird die Brine Edition für 34,99 $ im PlayStation Store und Xbox Marketplace angeboten [1]. Diese Premium-Edition bündelt das Basisspiel mit vier Kosmetik-Paketen: den Brinehunter-, Brineguard-, Brinefrost- und den neu veröffentlichten Brinerot-Kosmetik-Packs [1].
+
+<Callout type="warning" title="Abonnement-Anforderungen">
+Das Spielen von Online-Koop auf Konsolen erfordert aktive Plattform-Abonnements. PlayStation 5-Spieler benötigen PlayStation Plus, während Xbox Series X|S-Spieler Xbox Game Pass Core oder Ultimate benötigen, um auf Multiplayer-Lobbys zuzugreifen [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Koop, Matchmaking und Crossplay-Systeme">
+
+Der Mehrspielermodus ist das Herzstück des Spiels und ermöglicht es bis zu vier Spielern, Trupps zu bilden und gemeinsam in die Ruinen der Tiefsee abzutauchen [1]. Mit dem Start der Konsolenversionen führten die Entwickler einen vollständigen Cross-Plattform-Multiplayer ein [1]. Das bedeutet, dass Steam-, PlayStation 5- und Xbox Series X|S-Spieler nahtlos Matchmaking betreiben und ohne Plattformbarrieren zusammen spielen können [1].
+
+Das Matchmaking-System wurde in Update 1.3 komplett überarbeitet [1]. Das Spiel verfügt nun über eine optimierte Quickplay-Option, die darauf ausgelegt ist, Spieler sofort in aktive Lobbys zu bringen [1]. Wenn Sie lieber mit einer bestimmten Gruppe von Freunden über verschiedene Plattformen hinweg spielen möchten, können Sie das spielinterne Raum-ID-System nutzen, um plattformspezifische Freundeslisten zu umgehen.
+
+| Feature | Steam PC | PlayStation 5 | Xbox Series X\|S | Crossplay-Kompatibilität |
+| :--- | :--- | :--- | :--- | :--- |
+| Max. Gruppengröße | 4 Spieler | 4 Spieler | 4 Spieler | Auf allen unterstützt |
+| Matchmaking | Quickplay, Einladung | Quickplay, Einladung | Quickplay, Einladung | Einheitlicher Matchmaking-Pool |
+| Cloud-Speicherstände | Steam Cloud | PlayStation Plus | Xbox Smart Delivery | Cross-Progression nicht unterstützt |
+
+Beim Spielen im Koop-Modus skalieren die Gesundheit der Gegner und die Spawn-Raten dynamisch basierend auf Ihrer Gruppengröße. Kommunikation und die Abstimmung der Loadouts sind entscheidend; wenn sich Spieler auf verschiedene Kampfrollen wie Crowd Control, Einzelziel-Boss-Schaden und Support spezialisieren, erhöht dies die Erfolgsquote bei Expeditionen mit hohem Schwierigkeitsgrad erheblich.
+
+<Callout type="info" title="Crossplay ein-/ausschalten">
+Wenn Sie es vorziehen, nur mit Spielern auf Ihrer spezifischen Konsolenplattform gematcht zu werden, können Sie Crossplay im Menü für die Gameplay-Einstellungen deaktivieren. Beachten Sie, dass das Deaktivieren von Crossplay die Warteschlangenzeit im Matchmaking verlängern kann.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fortschrittsschritte für Konsolen-Einsteiger">
+
+Das Navigieren durch den herausfordernden Roguelite-Loop des Spiels kann für neue Konsolenspieler entmutigend sein. Der Standard-Run-Loop erfordert, dass Sie ein Start-Loadout wählen, handgefertigte Räume säubern, die prozedural aneinandergereiht sind, elementare Segnungen sammeln, Elite-Gegner besiegen und letztendlich Tiefsee-Bosse bezwingen. Um Ihre ersten Abstiege zu überleben, folgen Sie diesen wesentlichen Fortschrittsschritten.
+
+<Steps>
+  <Step num="1" title="Konsoleneinstellungen konfigurieren">
+    Bevor Sie in die Tiefe abtauchen, passen Sie Ihre Controller-Empfindlichkeit an und aktivieren Sie Crossplay im Hauptmenü. Das Anpassen der Deadzone-Einstellungen kann Ihre Zielgenauigkeit mit Analogsticks in hektischen Begegnungen erheblich verbessern.
+  </Step>
+  <Step num="2" title="Ein ausgewogenes Starter-Loadout wählen">
+    Beginnen Sie Ihre Reise mit einer zuverlässigen, einsteigerfreundlichen Waffe wie dem Motorgewehr (Engine Rifle) [1]. Konzentrieren Sie sich darauf, die Hitze-Mechanik der Waffe und das Timing beim Nachladen zu lernen, anstatt bei Ihren ersten Durchläufen komplexen Mod-Kombinationen nachzujagen.
+  </Step>
+  <Step num="3" title="Dash und Arena-Bewegung meistern">
+    Mobilität ist Ihr primärer Schutz. Üben Sie den Einsatz von Dashes, Doppelsprüngen und der vertikalen Ebene der Arena, um ankommenden Projektilen auszuweichen. Stillstand in Kampfräumen verwandelt Ihren Taucher schnell in dekorative Meeresfrüchte.
+  </Step>
+  <Step num="4" title="Kern-Segnungen und Charms priorisieren">
+    Wählen Sie während der Runs elementare Segnungen, die zum Schusstyp Ihrer Waffe passen. Das Stapeln von Status-verursachenden Segnungen wie Eis oder Blitz auf Schnellfeuerwaffen ist unglaublich effektiv für das Säubern von Räumen.
+  </Step>
+  <Step num="5" title="In den Meta-Fortschritt-Skillbaum investieren">
+    Fehlgeschlagene Runs sind keine Zeitverschwendung. Nutzen Sie die während Ihrer Expeditionen gesammelten Materialien, um permanente Upgrades im überarbeiteten Skillbaum freizuschalten, die Ihre Gesundheit, Heilungseffizienz und Startressourcen verbessern [1].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Bewegungs-Tipp">
+Behalten Sie immer mindestens eine Dash-Ladung in Reserve. Viele Bosse nutzen plötzliche, weiträumige Flächenangriffe, über die man nicht springen kann. Hier ist ein perfekt getimter Dash erforderlich, um durch die Schadens-Frames zu gleiten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Waffenklassen und beste Builds">
+
+Das Spiel bietet 9 verschiedene Waffen, 54 einzigartige Waffen-Mods, über 140 Mods der Uralten Schmiede und mehr als 250 Charms und Segnungen [1]. Dieser massive Pool an Upgrades ermöglicht es Spielern, hochspezialisierte Builds zu erstellen. Auf Konsolen fühlen sich das Zielen und die Waffenhandhabung anders an, was bestimmte Builds für das Spielen mit dem Controller besonders attraktiv macht.
+
+<CardGrid cols={3}>
+  <Card title="Der Sturmbringer-Build">
+    - **Primärwaffe**: Tesla-Gewehr
+    - **Kern-Mod**: Kettenblitz
+    - **Beste Segnung**: Blitzbögen
+    - **Spielstil**: Perfekt für Controller-Spieler; visiert automatisch nahegelegene Feinde an, um Gruppen zu schmelzen.
+  </Card>
+  <Card title="Der Riesentöter-Build">
+    - **Primärwaffe**: Brine-Revolver
+    - **Kern-Mod**: Präzisions-Crit
+    - **Beste Segnung**: Feuerbrand
+    - **Spielstil**: High-Skill, High-Reward Build, um Schwachstellen von Bossen auszunutzen.
+  </Card>
+  <Card title="Der Demolition-Build">
+    - **Primärwaffe**: Plasma-Werfer
+    - **Kern-Mod**: Cluster-Bombe
+    - **Beste Segnung**: Meeresbeschwörung
+    - **Spielstil**: Massiver Flächenschaden, der ganze Engpässe mit Leichtigkeit säubert.
+  </Card>
+</CardGrid>
+
+Um die Effektivität Ihres Builds zu maximieren, müssen Sie die Waffen-Tiers verstehen. Obwohl jede Waffe in Kombination mit den richtigen Mods der Uralten Schmiede lebensfähig ist, bieten einige eine viel höhere Beständigkeit und Benutzerfreundlichkeit auf Konsolen-Controllern.
+
+| Waffe | Tier | Kampfrolle | Beste Synergie-Mod |
+| :--- | :--- | :--- | :--- |
+| Tesla-Gewehr | S | Raum-Klärung, Status-Verteilung | Kettenblitz, Überladung |
+| Brine-Revolver | S | Boss & Elite Einzelziel | Präzisions-Crit, Hitzeabfuhr |
+| Plasma-Werfer | S | Schwere AOE-Gegnerkontrolle | Cluster-Bombe, Brand-Verbreitung |
+| Kampfbogen | A | Skalierende Reichweite, Turm-Builds | Schussrhythmus, Giftpfeil |
+| Fischgottheit | A | Kettenreaktions-Klärung | Explosions-Boost, Meeresbeschwörung |
+| Motorgewehr | A | Stabiler Allrounder für Anfänger | Rückstoßkontrolle, Feuerrate |
+| Schrotflinte | B | Kurzstrecken-Burst-Schaden | Rückstoß, Schildladung |
+| Diskuswerfer | B | Projektil-Abpraller, Geometrie | Umleitung, Rückkehrschaden |
+| Harpunenkanone | B | Spezialisierte Präzisionskontrolle | Durchschlagender Bolzen, Verlangsamung |
+
+<Callout type="success" title="Die Synergie-Regel">
+Ein perfekter Build basiert auf dem Synergie-Loop: Passen Sie den Archetyp Ihrer Waffe an eine entsprechende Segnung und einen Charm an. Kombinieren Sie beispielsweise eine Waffe mit hoher Feuerrate mit einer Segnung, die bei jedem Treffer ausgelöst wird, um Ihren Status-Output zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Inhalts-Meilensteine und Roadmap-Checkliste">
+
+Seit seiner ursprünglichen PC-Veröffentlichung wurde das Spiel durch große kostenlose Inhalts-Updates erweitert. Konsolenspieler haben sofortigen Zugriff auf alle vorherigen Updates, einschließlich der Inhalte von Update 1.2 „Brinefrost“ und der massiven Features von Update 1.3 [1]. Das Verfolgen Ihrer Meilensteine ist der Schlüssel, um alles zu erleben, was das Spiel zu bieten hat.
+
+| Update-Name | Veröffentlichungsdatum | Hinzugefügte Hauptfeatures | Kosmetik-Packs |
+| :--- | :--- | :--- | :--- |
+| Launch-Version | 12. August 2025 | 9 Waffen, Kern-Level, Koop | Brinehunter-Pack |
+| Update 1.2 | 12. Januar 2026 | Harpunenkanone, Strafspeer | Brinefrost-Pack |
+| Update 1.3 | 25. Juni 2026 | Maschinen-Bereich, Crossplay, neuer Gott | Brinerot-Pack |
+
+Um sicherzustellen, dass Sie alles erleben, was der Meeresboden zu bieten hat, nutzen Sie diese Checkliste, um Ihren Fortschritt durch die wichtigsten Meilensteine des Spiels zu verfolgen.
+
+<Checklist
+  id="abyssus-console-progression"
+  title="Fortschrittsziele für Konsole:"
+  items={[
+    "Schalten Sie alle 9 Waffen in der Uralten Schmiede frei",
+    "Besiegen Sie den neuen Maschinen-Boss aus Update 1.3",
+    "Maximieren Sie Ihre bevorzugten Pfade im überarbeiteten Skillbaum",
+    "Schließen Sie eine 4-Spieler-Crossplay-Expedition ab",
+    "Sammeln und testen Sie alle 15 Segnungen des neuen Brine-Gottes"
+  ]}
+/>
+
+<Callout type="info" title="Update 1.3 Inhalte">
+Update 1.3 fügte ein spielbares Areal im Maschinen-Stil, eine neue Elite-Begegnung, eine neue Boss-Begegnung, einen neuen Gott mit 15 einzigartigen Segnungen sowie 5 zusätzliche Segnungen für jeden der bereits existierenden Götter hinzu [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Abyssus Konsole FAQs">
+
+Hier sind die am häufigsten gestellten Fragen zu den Konsolenversionen, der Performance und den Multiplayer-Setups.
+
+<FAQ items={[
+  {
+    question: "Ist Abyssus im Xbox Game Pass verfügbar?",
+    answer: "Ja. Abyssus wurde am 25. Juni 2026 im Xbox Game Pass veröffentlicht. Es ist für Xbox Series X|S, PC und Cloud Gaming über Game Pass Ultimate verfügbar."
+  },
+  {
+    question: "Unterstützt die Konsolenversion Crossplay mit PC-Spielern?",
+    answer: "Absolut. Der vollständige Cross-Plattform-Multiplayer wurde zusammen mit dem Konsolen-Launch in Update 1.3 eingeführt, sodass Steam-, PS5- und Xbox Series X|S-Spieler gemeinsam Teams bilden können."
+  },
+  {
+    question: "Was ist in der Abyssus Brine Edition enthalten?",
+    answer: "Die Brine Edition kostet 34,99 $ und bündelt das Basisspiel mit vier Kosmetik-Paketen: Brinehunter, Brineguard, Brinefrost und dem neu veröffentlichten Brinerot-Pack."
+  },
+  {
+    question: "Wie viele Bosse und Level sind auf Konsolen verfügbar?",
+    answer: "Die Konsolenversion enthält alle Inhalte nach Update 1.3 und bietet über 70 handgefertigte Level, 36 einzigartige Gegnertypen und 12 herausfordernde Boss-Begegnungen."
+  }
+]} />
+
+<Callout type="tip" title="Controller-Layouts">
+Wenn Sie das Standard-Controller-Layout als unkomfortabel empfinden, können Sie alle Tasten im Menü für die Controller-Einstellungen vollständig neu belegen. Das Verschieben der Dash-Taste auf eine Schultertaste kann die Bewegung deutlich flüssiger machen.
+</Callout>
+
+</Section>

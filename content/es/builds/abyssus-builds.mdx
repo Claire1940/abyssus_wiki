@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Builds de Abyssus: Guía de los Mejores Equipamientos y Mods de Armas",
+  description: "Domina las builds de Abyssus con nuestra guía sobre mods de armas, mejoras de la forja antigua y bendiciones elementales para juego en solitario y cooperativo de 4 jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Builds+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "builds de abyssus, mods de armas, forja antigua, bendiciones elementales, guía cooperativa"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **builds de Abyssus** se basan en la sinergia entre 9 armas, 54 mods de armas y más de 250 amuletos o bendiciones.
+- El **Reforjado de Armas** a través de la Forja Antigua es esencial para escalar el daño en incursiones más profundas.
+- El **Apilamiento Elemental** como Fuego, Hielo y Rayo debe coincidir con la cadencia de tiro de tu arma para maximizar las activaciones.
+- Los **Roles Cooperativos** en el meta de 2026 favorecen una mezcla de control de masas (Tesla) y daño explosivo a jefes (Revólver).
+- La **Actualización 1.3** introdujo el área de Maquinaria, añadiendo nuevos mods de nivel élite y un árbol de habilidades expandido.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las Builds de Abyssus y los Sistemas Centrales">
+
+Crear **builds de Abyssus** efectivas requiere una comprensión profunda de cómo interactúan los sistemas modulares dentro del ecosistema brinepunk. A diferencia de los shooters tradicionales donde las estadísticas de un arma son estáticas, este juego utiliza un sistema de progresión por capas. Tu equipamiento comienza con un arma base, pero se define por las modificaciones aplicadas en la Forja Antigua y las Bendiciones divinas recolectadas durante una partida.
+
+La base de cualquier build consta de cuatro pilares principales: el chasis del arma, el mod del arma, el reforjado de la Forja Antigua y las Bendiciones activas. Con más de 140 mods de la Forja Antigua disponibles a partir de la actualización de junio de 2026, los jugadores pueden alterar fundamentalmente el comportamiento de un proyectil, como convertir un rifle de un solo disparo en una herramienta de ráfaga multiproyectil.
+
+| Componente de la Build | Función | Fuente Primaria |
+| :--- | :--- | :--- |
+| **Chasis del Arma** | Comportamiento de disparo base y tipo de munición | Equipamiento Inicial |
+| **Mods de Arma** | Añade modos de disparo únicos o utilidad | 54 Mods Desbloqueables |
+| **Forja Antigua** | Escalamiento de estadísticas y reforjado de comportamiento | Estaciones de Forja |
+| **Bendiciones** | Efectos de estado elementales y místicos | Altares / Dioses |
+| **Amuletos** | Potenciadores pasivos y reglas de la partida | Cofres / Recompensas |
+
+<Callout type="tip" title="Secreto de Sinergia">
+Haz que el tipo de activación de tu Bendición coincida siempre con la cadencia de tiro de tu arma. Las armas de alta velocidad como la Pistola Tesla destacan con efectos de "Probabilidad al Impactar", mientras que las armas pesadas como el Lanzaplasma se benefician más de explosiones "Al Matar" o "Impacto de Área".
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Armas de Nivel Superior para Solitario y Cooperativo">
+
+El meta de 2026 para las **builds de Abyssus** se ha estabilizado en torno a tres arquetipos principales. Ya sea que te sumerjas solo o en un escuadrón de 4 jugadores, tu build debe cumplir un rol de combate específico para asegurar la supervivencia contra los 12 jefes confirmados.
+
+<CardGrid cols={3}>
+  <Card title="El Esparcidor de Estados">
+    - **Arma Principal**: Pistola Tesla
+    - **Enfoque**: Rayos en cadena y activaciones de estado
+    - **Ideal para**: Eliminar rápidamente más de 36 tipos de enemigos
+  </Card>
+  <Card title="El Asesino de Jefes">
+    - **Arma Principal**: Revólver de Salmuera
+    - **Enfoque**: Daño de precisión en puntos débiles
+    - **Ideal para**: Encuentros con élites y jefes de mucha vida
+  </Card>
+  <Card title="El Denegador de Área">
+    - **Arma Principal**: Lanzaplasma
+    - **Enfoque**: Daño de área explosivo y control de masas
+    - **Ideal para**: Gestionar peligros en la arena y pasillos estrechos
+  </Card>
+</CardGrid>
+
+Cada arma puede especializarse aún más. Por ejemplo, el Rifle de Motor sirve como un todoterreno confiable para principiantes, mientras que la Pistola de Arpones (añadida en la Actualización 1.2) requiere una sincronización avanzada pero ofrece un bloqueo de objetivos individuales sin igual.
+
+| Nivel de Arma | Rol | Mejor Sinergia de Build |
+| :--- | :--- | :--- |
+| **Rango S** | Pistola Tesla | Rayo de Arco + Enfriamiento de Habilidades |
+| **Rango S** | Revólver de Salmuera | Daño Crítico + Debilitamientos de Sombra |
+| **Rango A** | Lanzaplasma | Tamaño de Área + Efectos de Quemadura de Fuego |
+| **Rango A** | Arco de Combate | Escalamiento de Daño + Soporte de Torretas |
+| **Rango B** | Rifle de Motor | Estabilidad + Recargas Constantes |
+
+<Callout type="success" title="Optimización Cooperativa">
+En el cooperativo de 4 jugadores, asegúrate de que al menos un jugador use una build de "Control" con bendiciones de Hielo o Tentáculos para ralentizar a los enemigos, permitiendo que los jugadores de "Daño" maximicen su tiempo de DPS de forma segura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones, Amuletos y Sinergias Elementales">
+
+Con más de 250 Amuletos y Bendiciones, la variedad en las **builds de Abyssus** es inmensa. Las Bendiciones son modificadores activos que se acoplan a tu disparo principal, secundario o habilidades. Apilar el mismo elemento a menudo conduce a efectos de "Sobrecarga", que proporcionan un poder masivo para limpiar la pantalla.
+
+Los elementos disponibles actualmente incluyen Fuego (Quemadura), Hielo (Congelación), Rayo (Arco), Océano (Invocaciones), Sombra (Debilitamientos) y Espíritus (Daño vengativo). Tras la Actualización 1.3, el nuevo Dios de la Salmuera añade 15 bendiciones con temática de maquinaria que se centran en la trituración de armadura y la velocidad de los proyectiles.
+
+| Elemento | Efecto Primario | Ideal para |
+| :--- | :--- | :--- |
+| **Fuego** | Daño en el tiempo (Quemadura) | Objetivos con mucha vida |
+| **Hielo** | Ralentiza y Congela | Gestión de multitudes |
+| **Rayo** | Salta entre objetivos | Enemigos agrupados |
+| **Océano** | Invoca tentáculos/agua | Denegación de área |
+| **Sombra** | Aumenta el daño recibido | Vulnerabilidad de jefes |
+
+<Callout type="warning" title="Trampa de Build">
+Evita mezclar demasiados elementos diferentes en una sola partida. Concéntrate en dos elementos compatibles (como Hielo y Sombra) para activar amuletos de sinergia específicos que solo se activan cuando hay múltiples debilitamientos presentes en un solo objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Construyendo tu Primera Build">
+
+Si eres nuevo en el reino sumergido, sigue estos pasos para asegurar que tus **builds de Abyssus** escalen adecuadamente hacia los niveles finales del juego.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Chasis Base">
+    Elige un arma que coincida con tu rango preferido. Los principiantes deben comenzar con el Rifle de Motor o la Pistola Tesla para apuntar más fácilmente durante el movimiento de alta intensidad.
+  </Step>
+  <Step num="2" title="Aplica un Mod Funcional">
+    Visita la pantalla de equipamiento para equipar uno de los 54 mods de armas. Por ejemplo, añade un mod de "Disparo Dividido" a tu Revólver si tienes dificultades con los grupos.
+  </Step>
+  <Step num="3" title="Busca la Forja Antigua">
+    Encuentra una estación de Forja dentro de los primeros 10 niveles. Prioriza los mods que corrijan las debilidades de tu arma, como la velocidad de recarga o la capacidad del cargador, antes de buscar daño puro.
+  </Step>
+  <Step num="4" title="Comprométete con una Senda Elemental">
+    Una vez que elijas tu primera Bendición en un altar, intenta mantenerte con las ofrendas de ese Dios. Apilar niveles más altos del mismo elemento suele ser más efectivo que tener cinco efectos diferentes de Nivel 1.
+  </Step>
+  <Step num="5" title="Finaliza con Meta-Progresión">
+    Usa los recursos recolectados en las partidas fallidas para mejorar tu Árbol de Habilidades. La Actualización 1.3 expandió este árbol, permitiendo mejoras permanentes en el tiempo de actividad de las habilidades y la salud inicial.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="El Movimiento es el Rey">
+Ninguna build puede salvarte si te quedas quieto. El impulso, el salto y el doble salto son tus principales herramientas defensivas. Usa tu build para mejorar el movimiento, como elegir Amuletos que otorguen aumentos de velocidad tras una muerte exitosa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Supervivencia y Progresión">
+
+Para dominar las **builds de Abyssus**, debes equilibrar el poder ofensivo con la supervivencia. Cuanto más profundo te adentres en los más de 70 niveles creados a mano, más agresivos se vuelven los 36 tipos de enemigos. Usa esta lista para asegurar que tu build esté lista para las puertas del jefe final.
+
+<Checklist
+  id="build-readiness"
+  title="Requisitos de Build para el Final del Juego:"
+  items={[
+    "Al menos una fuente confiable de daño de Área de Efecto (AOE)",
+    "Una solución dedicada de objetivo único para las fases de Jefe",
+    "Mínimo de dos Amuletos enfocados en la supervivencia (Salud o Escudo)",
+    "Mod de arma principal completamente mejorado en la Forja Antigua",
+    "Senda elemental sinergizada con al menos Bendiciones de Nivel 3"
+  ]}
+/>
+
+<Callout type="info" title="Actualización del Parche 1.3">
+El área de Maquinaria introducida en el Parche 1.3 presenta enemigos con armadura alta. Asegúrate de que tu build incluya efectos de "Trituración de Armadura" o "Corrosión" para mantener la eficiencia del daño en estas nuevas zonas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre Builds de Abyssus">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo más mods de armas para mis builds?",
+    answer: "Los mods de armas se desbloquean a través de la meta-progresión y al completar logros específicos. Hay 54 mods en total que se pueden intercambiar en tu equipamiento antes de comenzar una partida."
+  },
+  {
+    question: "¿Puedo cambiar mi build en medio de una partida?",
+    answer: "Puedes cambiar tus Bendiciones y Amuletos a medida que encuentres nuevos, pero tu arma base y el mod inicial están bloqueados durante la duración de la expedición. Puedes refinar aún más tu arma en las estaciones de la Forja Antigua."
+  },
+  {
+    question: "¿Cuál es la mejor build para jugadores solitarios en Abyssus?",
+    answer: "La Pistola Tesla combinada con Bendiciones de Hielo es muy recomendable para jugar en solitario. La naturaleza de auto-apuntado de la Pistola Tesla te permite concentrarte en esquivar, mientras que los efectos de Hielo mantienen a los enemigos a distancia."
+  },
+  {
+    question: "¿Las builds funcionan de manera diferente en el cooperativo multiplataforma?",
+    answer: "Las mecánicas siguen siendo las mismas, pero el juego cruzado de la Actualización 1.3 permite a los jugadores de Steam, PS5 y Xbox compartir roles. Es mejor comunicarse para que sus builds se complementen entre sí en lugar de solapar los mismos elementos."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El éxito en Abyssus se trata de la adaptación. Aunque puedes comenzar con un plan, las salas secuenciadas proceduralmente a menudo te obligarán a pivotar. Los mejores jugadores son aquellos que pueden tomar Bendiciones aleatorias y convertirlas en un motor cohesivo de alto daño.
+</Callout>
+
+</Section>

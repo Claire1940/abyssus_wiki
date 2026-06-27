@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Abyssus: mejores builds, armas y recorrido de 2026",
+  description: "Domina las profundidades marinas con nuestra guía experta de Abyssus. Conoce las mejores builds, listas de niveles de armas, estrategias de jefes, tácticas cooperativas y la progresión de la Actualización 1.3.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabras clave principales**: Esta completa **guía de Abyssus** cubre plataformas, armas, builds y sistemas de progresión.
+- **Bucle principal**: Elige tu equipamiento, despeja salas secuenciadas de forma procedimental, acumula bendiciones y derrota a los jefes.
+- **Mejor build**: Combina armas de alta cadencia como la Pistola Tesla con efectos de rayo encadenado o congelación.
+- **Estrategia cooperativa**: Coordina los roles de los jugadores con distintos tipos de armas y habilidades de apoyo.
+- **Contenido de la Actualización 1.3**: Disfruta de juego cruzado completo, una nueva zona de maquinaria, un nuevo Dios y árboles de habilidades renovados.
+</Callout>
+
+<Section icon={Map} title="Lanzamiento de Abyssus, plataformas y detalles de Game Pass">
+
+Abyssus es un vertiginoso roguelite de disparos en primera persona (FPS) estilo brinepunk para 1 a 4 jugadores, desarrollado por DoubleMoose Games y publicado por The Arcade Crew y Dotemu [web: base-info]. El juego desafía a los jugadores a sumergirse en ruinas submarinas como Cazadores de Salmuera (Brinehunters), luchando contra monstruos de las profundidades marinas, guardianes ancestrales y jefes colosales [web: base-info]. 
+
+El juego se lanzó primero en PC a través de Steam el 12 de agosto de 2025 [web: base-info]. Tras su exitoso lanzamiento en PC, el juego se expandió a plataformas de consola, llegando a PlayStation 5 y Xbox Series X|S el 25 de junio de 2026 [web: base-info]. El lanzamiento en consolas llegó junto con la importante Actualización 1.3, que introdujo multijugador multiplataforma completo, emparejamiento optimizado y una gran cantidad de contenido nuevo [web: homepage-modules-1, web: homepage-modules-2]. 
+
+Para los jugadores del ecosistema Xbox, el juego está disponible a través de Xbox Game Pass Ultimate, Game Pass Premium y PC Game Pass [web: homepage-modules-1]. Los jugadores de Xbox también se benefician de Smart Delivery, Xbox Play Anywhere y la transmisión en la nube de Xbox [web: homepage-modules-1]. Los jugadores de PlayStation 5 pueden adquirir el juego a través de la PlayStation Store, con transmisión en la nube compatible exclusivamente para los suscriptores de PlayStation Plus Premium [web: homepage-modules-2].
+
+| Plataforma | Fecha de lanzamiento | Game Pass incluido | Soporte de juego cruzado |
+| --- | --- | --- | --- |
+| Xbox Series X|S | 25 de junio de 2026 | Sí (Ultimate/Premium) | Juego cruzado completo |
+| PlayStation 5 | 25 de junio de 2026 | No | Juego cruzado completo |
+| Steam (PC) | 12 de agosto de 2025 | No (PC Game Pass por separado) | Juego cruzado completo |
+
+<Callout type="info" title="Consejo de Game Pass">
+Los suscriptores de Xbox Game Pass Ultimate pueden jugar a Abyssus en PC, Xbox Series X|S o mediante Xbox Cloud Gaming con progresión compartida entre plataformas [web: homepage-modules-1].
+</Callout>
+
+El juego se vende en dos ediciones principales [web: homepage-modules-1]. La Edición Estándar incluye el juego base, mientras que la Edición Brine (Brine Edition) incluye el juego base junto con varios complementos cosméticos, incluidos los paquetes cosméticos Cazador de Salmuera (Brinehunter), Guardia de Salmuera (Brineguard), Escarcha de Salmuera (Brinefrost) y Putrefacción de Salmuera (Brinerot) [web: homepage-modules-1, web: homepage-modules-2].
+
+</Section>
+
+<Section icon={Target} title="Guía para principiantes de Abyssus y bucle de juego principal">
+
+Cada expedición en Abyssus gira en torno a un bucle roguelite estructurado [web: homepage-modules-1]. Para tener éxito, debes dominar el movimiento, el despeje de salas, la gestión de recursos y la selección de mejoras [web: homepage-modules-1]. Las partidas se desarrollan en niveles diseñados a mano que están secuenciados de forma procedimental, lo que significa que el diseño de las salas individuales sigue siendo el mismo, pero el orden en que las encuentras cambia en cada partida [web: homepage-modules-1, web: homepage-modules-2].
+
+A medida que avanzas en una partida, encontrarás estaciones de mejora, altares divinos y oportunidades de curación [web: homepage-modules-1]. Gestionar tu salud es crucial, ya que las fuentes de curación son limitadas y los errores tempranos pueden poner fin rápidamente a tu partida [web: homepage-modules-1]. 
+
+<Steps>
+  <Step num="1" title="Selecciona tu equipamiento">
+    Elige tus armas iniciales, habilidades activas y traje antes de sumergirte en la partida [web: homepage-modules-1]. Si juegas en cooperativo, coordínate con tu equipo para evitar la duplicidad de roles [web: homepage-modules-1].
+  </Step>
+  <Step num="2" title="Domina el movimiento Brinepunk">
+    Trata el movimiento como tu principal herramienta defensiva [web: homepage-modules-1]. Utiliza esquives, saltos dobles y el espacio vertical de la arena para evitar los proyectiles enemigos y las zonas de peligro [web: homepage-modules-1].
+  </Step>
+  <Step num="3" title="Despeja salas secuenciadas">
+    Entra en arenas de combate y completa objetivos específicos [web: homepage-modules-2]. Presta atención a los enemigos explosivos, mantén la distancia y localiza las estaciones de mejora entre combates [web: homepage-modules-1].
+  </Step>
+  <Step num="4" title="Crea sinergias entre bendiciones y modificaciones">
+    Aplica bendiciones elementales a tu disparo principal, disparo secundario y habilidades activas [web: homepage-modules-1]. Busca mejoras que se complementen entre sí en lugar de elegir estadísticas al azar [web: homepage-modules-1].
+  </Step>
+  <Step num="5" title="Conquista la puerta del jefe">
+    Enfréntate a poderosos guardianes al final de cada sector [web: homepage-modules-2]. Estudia sus patrones de ataque, evita los peligros de área de efecto y usa todo tu arsenal para derrotarlos [web: homepage-modules-1, web: homepage-modules-2].
+  </Step>
+</Steps>
+
+| Fase de la partida | Objetivo principal | Peligro clave | Estrategia recomendada |
+| --- | --- | --- | --- |
+| Sector inicial | Reunir mejoras básicas | Unidades cuerpo a cuerpo explosivas | Mantener la distancia y usar armas de alta cadencia |
+| Sector medio | Asegurar sinergia elemental | Minijefes de élite | Enfocarse en efectos de estado y control de masas |
+| Sector final | Maximizar mods de armas | Alto daño ambiental | Usar herramientas de movimiento para sortear peligros |
+
+<Callout type="warning" title="Advertencia de supervivencia">
+Nunca te quedes quieto durante el combate. Las arenas de las profundidades marinas son muy verticales y los enemigos están diseñados para castigar a los jugadores que intentan jugar desde coberturas estáticas [web: homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de armas y sinergias de builds">
+
+Abyssus cuenta con 9 armas distintas, 54 modificaciones de armas y más de 140 modificaciones de la Forja Ancestral, lo que permite una personalización profunda [web: base-info, web: homepage-modules-1]. Las armas se dividen en estilos de disparo principal y secundario, y su rendimiento escala en función de las bendiciones y amuletos que adquieras durante tu partida [web: homepage-modules-1].
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: mejores opciones para liderar la partida">
+    - **Pistola Tesla**: Excelente para despejar salas y propagar efectos de estado elementales [web: homepage-modules-1].
+    - **Revólver de salmuera**: Alto daño de ráfaga a un solo objetivo, perfecto para los puntos débiles de los jefes [web: homepage-modules-1].
+    - **Lanzador de plasma**: Daño explosivo pesado en área de efecto para arenas abarrotadas [web: homepage-modules-1].
+  </Card>
+  <Card title="Nivel A: armas principales confiables">
+    - **Arco de combate**: Daño escalable que combina bien con configuraciones centradas en torretas [web: homepage-modules-1].
+    - **Deidad pez**: Patrones de proyectiles únicos que convierten a los grupos de enemigos en reacciones en cadena [web: homepage-modules-1].
+    - **Fusil de motor**: Un fusil automático estable y apto para principiantes con calor manejable [web: homepage-modules-1].
+  </Card>
+  <Card title="Avanzado: opciones para especialistas">
+    - **Escopeta**: Alta ráfaga a corto alcance, pero exige un posicionamiento agresivo [web: homepage-modules-1].
+    - **Lanzador de discos**: Rebota proyectiles en las paredes, lo que requiere conciencia geométrica [web: homepage-modules-1].
+    - **Pistola de arpones**: Arma de precisión para especialistas desbloqueada en la Actualización 1.2 [web: homepage-modules-1, web: homepage-modules-2].
+  </Card>
+</CardGrid>
+
+Para maximizar tu daño, debes combinar tu elección de arma con modificaciones compatibles [web: homepage-modules-1]. Por ejemplo, las armas de disparo rápido como la Pistola Tesla son ideales para aplicar bendiciones que infligen estados, mientras que las armas lentas y pesadas como el Revólver de salmuera se benefician más de los multiplicadores de daño bruto y las bonificaciones de puntos débiles [web: homepage-modules-1].
+
+| Nombre del arma | Estilo de disparo principal | Mejor enfoque de build | Calificación de rendimiento |
+| --- | --- | --- | --- |
+| Pistola Tesla | Haz eléctrico continuo | Rayos encadenados y propagación de estados | Nivel S (Excelente) |
+| Revólver de salmuera | Precisión semiautomática | Daño en puntos débiles y golpes críticos | Nivel S (Excelente) |
+| Lanzador de plasma | Proyectiles explosivos | Área de efecto y daño de fuego | Nivel S (Excelente) |
+| Arco de combate | Disparos de proyectiles cargados | Soporte de torretas y escalado de distancia | Nivel A (Muy bueno) |
+| Deidad pez | Proyectiles de disparo en ráfaga | Reacciones en cadena y explosiones | Nivel A (Muy bueno) |
+| Fusil de motor | Disparo totalmente automático | Gestión del calor y recarga estable | Nivel A (Muy bueno) |
+| Escopeta | Dispersión de perdigones a corta distancia | Retroceso y velocidad de movimiento | Nivel B (Bueno) |
+| Lanzador de discos | Discos que rebotan | Redirección de rebotes y múltiples impactos | Nivel B (Bueno) |
+| Pistola de arpones | Pernos de alta penetración | Sincronización con jefes y disparos de precisión | Nivel B (Bueno) |
+
+<Callout type="tip" title="Consejo de sinergia">
+Si estás usando la Pistola Tesla, prioriza las bendiciones que encadenen daño a los enemigos cercanos [web: homepage-modules-1]. Esto convierte al arma en una herramienta devastadora que puede despejar salas enteras en segundos [web: homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones, amuletos y modificaciones de la Forja Ancestral">
+
+El poder de tu personaje escala dinámicamente durante una partida a través de tres sistemas principales: bendiciones, amuletos y modificaciones de la Forja Ancestral [web: homepage-modules-1, web: homepage-modules-2]. Juntos, estos sistemas ofrecen más de 250 amuletos y bendiciones, y más de 140 mejoras de la Forja Ancestral [web: base-info, web: homepage-modules-2].
+
+Las bendiciones son otorgadas por entidades divinas y añaden propiedades elementales o mágicas a tus ataques [web: homepage-modules-2]. Estas incluyen efectos de fuego (quemadura), hielo (congelación), rayo (arcos encadenados), océano (invocación de tentáculos), sombra (debilitamientos) y espíritu [web: homepage-modules-2]. Acumular bendiciones de la misma familia elemental desata poderosas explosiones de estado y efectos de sinergia [web: homepage-modules-2].
+
+Los amuletos actúan como modificadores pasivos que alteran las reglas de tu partida [web: homepage-modules-2]. Pueden disminuir los tiempos de reutilización de tus habilidades, aumentar tu velocidad de movimiento o conceder bonificaciones de supervivencia [web: homepage-modules-2]. Por otro lado, las modificaciones de la Forja Ancestral mejoran directamente tus armas y habilidades, alterando su comportamiento en lugar de limitarse a aumentar sus estadísticas brutas [web: homepage-modules-2].
+
+| Tipo de sistema | Obtención principal | Efecto principal | Impacto máximo |
+| --- | --- | --- | --- |
+| Bendiciones | Altares divinos | Añade efectos elementales a los ataques | Alto (Define la build) |
+| Amuletos | Recompensas de sector | Cambios pasivos de reglas y utilidad | Medio (Escalado de estadísticas) |
+| Mods de la Forja | Estaciones de forja | Altera el comportamiento de armas y habilidades | Alto (Reforma del arma) |
+| Árbol de habilidades | Progresión pospartida | Mejoras permanentes de personaje | Persistente (Facilidad en el meta) |
+
+<Checklist
+  id="build-goals"
+  title="Objetivos de la build:"
+  items={[
+    "Equipa un arma para control de masas y otra para daño a un solo objetivo [web: homepage-modules-1].",
+    "Acumula bendiciones de la misma familia elemental para desatar explosiones de estado [web: homepage-modules-2].",
+    "Aplica al menos dos modificaciones de la Forja Ancestral a tu arma principal para alterar su comportamiento [web: homepage-modules-2].",
+    "Desbloquea nodos permanentes de supervivencia en el árbol de habilidades entre partidas [web: homepage-modules-2]."
+  ]}
+/>
+
+<Callout type="success" title="Éxito en el meta">
+Una build popular para el final del juego consiste en combinar habilidades de torreta con bendiciones temáticas del Océano [web: homepage-modules-2]. Esto permite que tus torretas invoquen tentáculos que atrapan y sujetan a los enemigos en su lugar mientras infliges un daño masivo desde la distancia [web: homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Batallas contra jefes y progresión de niveles">
+
+Abyssus cuenta con más de 70 niveles diseñados a mano, 36 tipos diferentes de enemigos y 12 jefes distintos [web: base-info, web: homepage-modules-2]. As que desciendes más profundamente en el reino sumergido, los peligros ambientales se vuelven más agresivos y los enemigos adquieren nuevos patrones de ataque [web: homepage-modules-1, web: homepage-modules-2].
+
+La Actualización 1.3 introdujo una nueva área de juego temática de maquinaria, con nuevos tipos de enemigos, un nuevo encuentro de élite y una batalla contra un jefe completamente nueva [web: homepage-modules-2]. Esta actualización también presentó a un nuevo Dios que ofrece 15 bendiciones únicas, junto con 5 nuevas bendiciones para cada uno de los Dioses existentes [web: homepage-modules-2].
+
+| Nombre del jefe | Principal amenaza de ataque | Estrategia de contraataque recomendada |
+| --- | --- | --- |
+| Golemancer | Ondas de choque terrestres y golpes | Saltar doble sobre los anillos; disparar a los puntos débiles traseros [web: homepage-modules-2] |
+| Kri'Su | Ráfagas y dispersiones rápidas de proyectiles | Mantener la distancia; esquivar a través de patrones cerrados de balas [web: homepage-modules-2] |
+| Un'glu | Fases de invulnerabilidad e invocación de esbirros | Despejar los esbirros primero; reservar el daño de ráfaga para las aperturas de fase [web: homepage-modules-2] |
+
+Para derrotar a estos jefes, debes concentrarte en aprender sus patrones de ataque en lugar de intentar superarlos con daño bruto [web: homepage-modules-1]. Las arenas de los jefes a menudo presentan peligros como agua que sube, suelos electrificados o escombros que caen, lo que requiere que utilices tus esquives y saltos dobles de manera continua [web: homepage-modules-1, web: homepage-modules-2].
+
+<Callout type="warning" title="Advertencia de patrón">
+Las Actualizaciones 1.2 y 1.3 renovaron los patrones de ataque de Golemancer, Kri'Su y Un'glu, introduciendo variantes potenciadas por Oleada (Surge) en estos combates [web: homepage-modules-2]. Prepárate para ataques más rápidos y dispersiones de proyectiles más cerradas [web: homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre cooperativo, juego cruzado y emparejamiento">
+
+Aunque Abyssus se puede jugar completamente en solitario, el juego está diseñado para brillar en cooperativo en línea de 1 a 4 jugadores [web: base-info, web: homepage-modules-1]. En el modo cooperativo, la sinergia del equipo es vital [web: homepage-modules-1]. Los jugadores deben coordinar sus armas, habilidades activas y trajes para garantizar que el grupo tenga un equilibrio de control de masas, daño a un solo objetivo y supervivencia [web: homepage-modules-1].
+
+La Actualización 1.3 añadió multijugador multiplataforma completo, lo que permite a los jugadores de Steam, PlayStation 5 y Xbox Series X|S formar equipo sin problemas [web: homepage-modules-2]. La actualización también introdujo un emparejamiento optimizado y una opción de partida rápida, lo que hace que sea más fácil que nunca unirse a salas activas [web: homepage-modules-2].
+
+<FAQ items={[
+  {
+    question: "¿Soporta Abyssus juego cruzado?",
+    answer: "Sí. El multijugador multiplataforma completo se añadió en la Actualización 1.3, lo que permite a los jugadores de Steam, PlayStation 5 y Xbox Series X|S jugar juntos sin problemas [web: homepage-modules-2]."
+  },
+  {
+    question: "¿Está disponible Abyssus en Xbox Game Pass?",
+    answer: "Sí. Abyssus está incluido con Xbox Game Pass Ultimate, Game Pass Premium y PC Game Pass [web: homepage-modules-1]. También es compatible con la transmisión en la nube y Xbox Play Anywhere [web: homepage-modules-1]."
+  },
+  {
+    question: "¿Cuántos jugadores pueden jugar en cooperativo?",
+    answer: "Abyssus admite hasta 4 jugadores en cooperativo en línea [web: base-info, web: homepage-modules-1]. Los jugadores también pueden optar por jugar todo el juego en solitario [web: base-info, web: homepage-modules-1]."
+  },
+  {
+    question: "¿Hay mejoras permanentes en Abyssus?",
+    answer: "Sí. El juego cuenta con un árbol de habilidades persistente que te permite desbloquear mejoras permanentes, nuevas habilidades y opciones de armas entre partidas [web: homepage-modules-1, web: homepage-modules-2]."
+  }
+]} />
+
+<Callout type="info" title="Información de multijugador">
+El multijugador en línea en consolas requiere una suscripción activa [web: homepage-modules-2]. Los jugadores de PlayStation 5 necesitan PlayStation Plus, mientras que los de Xbox Series X|S necesitan Xbox Game Pass Core, Standard o Ultimate [web: homepage-modules-2].
+</Callout>
+
+</Section>

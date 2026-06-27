@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Monitor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Soporte de Mando en Abyssus: Guía de Configuración para PC y Consolas",
+  description: "Domina el soporte de mando en Abyssus con nuestra guía de configuración de 2026. Aprende mapeos de botones, consejos para Steam Input y controles cooperativos multiplataforma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Controller+Support+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "Abyssus, mando, soporte de control, configuración PC, PS5, Xbox, Steam Input"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **soporte de mando en Abyssus** es nativo para Xbox Series X|S y PS5 desde el lanzamiento en junio de 2026.
+- Los **jugadores de PC** en Steam deben habilitar Steam Input para garantizar la compatibilidad total con DualSense y mandos genéricos.
+- El **cooperativo multiplataforma** permite que los jugadores con mando y teclado/ratón se unan sin problemas en sesiones de 1 a 4 jugadores.
+- La **reasignación personalizada** está disponible en el menú de ajustes para optimizar los tiempos de deslizamiento y habilidades.
+</Callout>
+
+<Section icon={Monitor} title="Compatibilidad de Plataformas y Soporte Nativo">
+
+Con el lanzamiento de la Actualización 1.3 el 25 de junio de 2026, el **soporte de mando en Abyssus** ha alcanzado la paridad total en todas las plataformas principales. Ya sea que te sumerjas en las profundidades brinepunk en un PC de alta gama o en el hardware de consola más reciente, el juego reconoce una amplia variedad de dispositivos de entrada. La transición desde el lanzamiento en Steam en agosto de 2025 hasta la expansión a consolas en 2026 ha refinado la asistencia de apuntado y las zonas muertas de movimiento para una experiencia más fluida.
+
+| Plataforma | Soporte Nativo | Mando Recomendado | Características |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | Sí (vía Steam Input) | Xbox Wireless / DualSense | Reasignación completa, soporte para Steam Deck |
+| **PlayStation 5** | Sí | DualSense | Retroalimentación háptica, gatillos adaptativos |
+| **Xbox Series X/S** | Sí | Mando Inalámbrico Xbox | Smart Delivery, soporte de vibración |
+| **Xbox Cloud** | Sí | Cualquier mando Bluetooth | Optimización de entrada de baja latencia |
+
+<Callout type="success" title="Nota sobre el Lanzamiento en Consolas">
+Las versiones de PS5 y Xbox Series X|S se lanzaron el 25 de junio de 2026, incluyendo todas las características de la versión 1.3, como el multijugador multiplataforma y las nuevas bendiciones del Dios de la Salmuera.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuración en PC: Habilitar Steam Input">
+
+Para los jugadores de PC, asegurarse de que el **soporte de mando en Abyssus** funcione correctamente a menudo requiere una visita rápida a los ajustes de Steam. Aunque el juego tiene controladores nativos para muchos dispositivos, Steam Input actúa como un traductor universal para mandos antiguos o específicos.
+
+<Steps>
+  <Step num="1" title="Acceder a los Ajustes del Mando">
+    Haz clic derecho en **Abyssus** en tu biblioteca de Steam, selecciona **Propiedades** y navega hasta la pestaña **Mando**.
+  </Step>
+  <Step num="2" title="Anular para Abyssus">
+    Establece el menú desplegable "Anular para Abyssus" en **Habilitar Steam Input**. Esto asegura que Steam gestione la traducción de la API.
+  </Step>
+  <Step num="3" title="Calibración en el Juego">
+    Inicia el juego y ve a **Ajustes > Entrada**. Ajusta la sensibilidad de la mirada y las zonas muertas para que coincidan con la tensión de tus sticks.
+  </Step>
+  <Step num="4" title="Verificación del Diseño">
+    Comprueba que las indicaciones en pantalla coincidan con tu mando (por ejemplo, ABXY para Xbox o figuras para PlayStation).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Consejo para el Retraso de Entrada">
+Si experimentas un apuntado "flotante" en PC, desactiva la Sincronización Vertical (V-Sync) en los ajustes de vídeo. Esto suele reducir la latencia de entrada percibida al usar un mando.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mapeo de Botones Predeterminado y Controles">
+
+El combate brinepunk en Abyssus es trepidante y requiere un movimiento constante y el uso cíclico de habilidades. El diseño predeterminado está pensado para mantener los pulgares en los sticks el mayor tiempo posible, utilizando los botones superiores y gatillos para acciones de alta frecuencia.
+
+| Acción | Entrada Xbox | Entrada PlayStation | Prioridad de Combate |
+| :--- | :--- | :--- | :--- |
+| **Disparo Principal** | RT | R2 | **Alta** - DPS Principal |
+| **Disparo Secundario** | LT | L2 | **Media** - Mods de Arma |
+| **Deslizar / Evadir** | B | Círculo | **Crítica** - Supervivencia |
+| **Saltar / Doble Salto** | A | Equis | **Alta** - Verticalidad |
+| **Habilidades** | RB / LB | R1 / L1 | **Alta** - Árbol de Habilidades |
+| **Interactuar / Recargar** | X | Cuadrado | **Baja** - Utilidad |
+| **Definitiva / Poder Divino** | Y | Triángulo | **Media** - Daño de Ráfaga |
+
+<CardGrid cols={2}>
+  <Card title="Enfoque en el Movimiento">
+    - **Ajuste de Zona Muerta**: Establécelo entre 0.05 y 0.10 para giros rápidos.
+    - **Esprint Automático**: Habilítalo para liberar el clic del stick izquierdo.
+  </Card>
+  <Card title="Enfoque en el Combate">
+    - **Asistencia de Apuntado**: Más fuerte en consola para ayudar con proyectiles rápidos.
+    - **Fijación de Objetivo**: Se puede activar para armas de precisión como el Revólver de Salmuera.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Optimización para Cooperativo Multiplataforma">
+
+La actualización 1.3 introdujo el multijugador multiplataforma completo, lo que significa que los jugadores de Steam, PS5 y Xbox ahora pueden cazar juntos. Al jugar en una sala mixta, el **soporte de mando en Abyssus** ayuda a cerrar la brecha entre la precisión del ratón y el movimiento analógico.
+
+| Característica | Nivel de Soporte | Impacto en el Mando |
+| :--- | :--- | :--- |
+| **Emparejamiento** | Crossplay Total | La partida rápida encuentra todas las plataformas |
+| **Chat de Voz** | Integrado | PTT asignado al D-Pad por defecto |
+| **Invitaciones de Grupo** | Sistema Interno | Lista de amigos unificada mediante IDs |
+| **Progreso** | Multiplataforma | Play Anywhere (Xbox/PC) |
+
+<Callout type="tip" title="Sinergia de Equipo">
+ En el cooperativo de 4 jugadores, los usuarios de mando suelen destacar en roles de "Tanque" o "Luchador" usando la Escopeta o el Arma Tesla, donde el movimiento de 360 grados es más valioso que los disparos de precisión a larga distancia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de Problemas Comunes de Entrada">
+
+Incluso con las robustas actualizaciones de 2026, podrías encontrar pequeños fallos con tu mando. Usa esta lista de verificación para verificar tu conexión antes de comenzar una incursión en las profundidades.
+
+<Checklist
+  id="controller-troubleshoot"
+  title="Lista de Verificación antes de la Incursión:"
+  items={[
+    "Verifica que el mando esté conectado antes de iniciar el ejecutable del juego",
+    "Busca actualizaciones de firmware a través de Accesorios de Xbox o el menú del sistema de PS5",
+    "Desactiva software de reasignación externo como DS4Windows para evitar entradas dobles",
+    "Asegúrate de que Steam Input esté habilitado si usas un dispositivo Bluetooth no estándar",
+    "Restablece los ajustes de entrada del juego a los predeterminados si los botones no responden"
+  ]}
+/>
+
+<Callout type="info" title="Soporte de Hardware">
+El soporte oficial incluye Xbox One/Series, DualShock 4, DualSense y la mayoría de los mandos compatibles con X-Input. Los mandos genéricos Direct-Input pueden requerir la traducción de Steam Input.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Tiene Abyssus asistencia de apuntado para jugadores con mando en PC?",
+    answer: "Sí, Abyssus incluye asistencia de apuntado ajustable para mandos en PC para garantizar una experiencia justa durante el cooperativo multiplataforma con jugadores de teclado y ratón."
+  },
+  {
+    question: "¿Puedo usar un mando DualSense de PS5 en la versión de Steam?",
+    answer: "Absolutamente. A través de Steam Input, el DualSense es totalmente compatible, aunque las funciones nativas de retroalimentación háptica son más prominentes en la versión de la consola PS5."
+  },
+  {
+    question: "¿Hay alguna forma de reasignar los botones en Abyssus?",
+    answer: "Sí, la Actualización 1.3 proporciona una suite completa de reasignación en el menú Ajustes > Entrada para todas las plataformas, permitiéndote personalizar tu experiencia brinepunk."
+  },
+  {
+    question: "¿La versión de Xbox admite teclado y ratón?",
+    answer: "Actualmente, Abyssus en Xbox Series X|S está optimizado para el soporte de mando. Para jugar con teclado y ratón, la versión de Steam para PC es la plataforma recomendada."
+  }
+]} />
+
+</Section>

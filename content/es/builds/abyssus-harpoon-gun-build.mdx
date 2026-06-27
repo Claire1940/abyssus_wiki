@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de Lanzapuntas de Abyssus: Mejores Mods y Guía de Especialista",
+  description: "Domina la build del lanzapuntas de Abyssus con nuestra guía sobre los mejores mods, bendiciones y tácticas de especialista para incursiones brinepunk en solitario y cooperativo en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Harpoon+Gun+Build+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "build, lanzapuntas, abyssus, guía, mods, bendiciones, especialista, brinepunk"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build de lanzapuntas de Abyssus**: Esta configuración de especialista se centra en la alta precisión, el control de masas de élite y un daño masivo a un solo objetivo.
+- **Contenido de la Actualización 1.2**: El Lanzapuntas se introdujo en la actualización **Brinefrost** (enero de 2026) como una herramienta de especialista desbloqueable.
+- **Sinergia Principal**: Combina el arma con **Bendiciones de Hielo o Sombras** para maximizar el impacto de su baja cadencia de fuego.
+- **Prioridad de Mods**: Céntrate en los **mods de la Forja Antigua** que reducen el tiempo de recarga o añaden perforación de proyectiles.
+- **Estilo de Juego**: Ideal para jugadores que prefieren un rol de "Francotirador" en cooperativo de 4 jugadores o un estilo táctico de kiting en incursiones en solitario.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo las Mecánicas del Lanzapuntas">
+
+El Lanzapuntas en Abyssus representa la cúspide del armamento de especialista. Añadido durante la expansión **Update 1.2 Brinefrost** a principios de 2026, cambió el meta de las tácticas de disparo rápido a un ritmo de combate más calculado y de alto riesgo. A diferencia del Rifle de Motor o la Pistola Tesla, el Lanzapuntas requiere una comprensión profunda del tiempo de viaje del proyectil y los puntos débiles de los enemigos.
+
+En el meta actual de 2026, una **build de lanzapuntas de Abyssus** eficaz trata el arma no solo como un repartidor de daño, sino como una herramienta para la manipulación del campo de batalla. Su disparo principal lanza un proyectil físico pesado que puede aturdir incluso a enemigos de élite, mientras que sus funciones secundarias suelen girar en torno al anclaje o efectos de sangrado masivo dependiendo de los mods equipados.
+
+| Atributo | Valor Base | Impacto en la Build |
+|:---|:---|:---|
+| **Nivel de Arma** | Avanzado | Requiere precisión y sincronización |
+| **Tipo de Munición** | Pernos Pesados | Capacidad limitada, alto valor por disparo |
+| **Rango Efectivo** | Largo | Ideal para eliminar objetivos antes de que se acerquen |
+| **Velocidad de Recarga** | Lenta | Debe mitigarse mediante Amuletos o Mods |
+| **Multiplicador Crítico** | 2.5x | Recompensa enormemente los golpes en puntos débiles |
+
+<Callout type="warning" title="Advertencia de Especialista">
+El Lanzapuntas no se recomienda para jugadores en su primera partida. Su recarga lenta y el alto requisito de precisión pueden llevar a muertes rápidas en arenas llenas de enemigos si no has dominado los sistemas de movimiento de deslizamiento y doble salto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Componentes Clave de la Build: Mods y Mejoras de la Forja">
+
+Para que una **build de lanzapuntas de Abyssus** sea viable en expediciones profundas, debes aprovechar la Forja Antigua y los 54 mods de armas disponibles. Dado que el Lanzapuntas es intrínsecamente lento, tu selección de mods debe priorizar que cada disparo cuente o reducir drásticamente el tiempo de inactividad entre pernos.
+
+<CardGrid cols={3}>
+  <Card title="Configuración Penetradora">
+    - **Mod Principal**: Punta Perforante
+    - **Enfoque de Forja**: Velocidad de Proyectil
+    - **Ideal para**: Limpiar pasillos estrechos y alinear múltiples bajas.
+  </Card>
+  <Card title="Asesino de Jefes">
+    - **Mod Principal**: Gancho de Púas
+    - **Enfoque de Forja**: Daño Crítico
+    - **Ideal para**: Infligir daño de sangrado masivo a los 12 jefes principales.
+  </Card>
+  <Card title="Controlador de Masas">
+    - **Mod Principal**: Cadena Pesada
+    - **Enfoque de Forja**: Duración de Estado
+    - **Ideal para**: Anclar enemigos al suelo para seguimientos de área (AOE).
+  </Card>
+</CardGrid>
+
+La Forja Antigua permite más de 140 modificaciones diferentes. Para el Lanzapuntas, las builds más exitosas de 2026 utilizan mejoras "potenciadas por sobretensión" introducidas en el Parche 1.2 para renovar los patrones de ataque.
+
+| Nombre del Mod | Tipo | Descripción del Efecto |
+|:---|:---|:---|
+| **Punta de Salmuera Gélida** | Elemental | Añade acumulación de Congelación a cada impacto de arpón |
+| **Recuperador Automático** | Utilidad | Pequeña probabilidad de recargar instantáneamente al matar |
+| **Carga Explosiva** | Daño | Los arpones detonan tras 1,5 segundos de impacto |
+| **Ancla de Sujeción** | Control | El disparo secundario crea un pozo de gravedad al impactar |
+| **Lente de Enfoque** | Estadística | Aumenta el daño cuanto más lejos viaja el proyectil |
+
+<Callout type="tip" title="Estrategia de Build">
+Si juegas en cooperativo de 4 jugadores, usa el mod **Ancla de Sujeción**. Permite que tus compañeros con el Lanzador de Plasma o la Pistola Tesla derritan a los enemigos agrupados mientras tú te enfocas en objetivos de alta prioridad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergias de Bendiciones y Amuletos">
+
+Con más de 250 Amuletos y Bendiciones disponibles en Abyssus, el bucle de sinergia es lo que convierte un arma mediocre en una potencia capaz de cargar con la partida. Para una build de Lanzapuntas, querrás centrarte en sinergias de "un solo disparo": efectos que se activan o escalan en función de un único golpe de alto daño en lugar de activadores de disparo rápido.
+
+**Mejores opciones de Bendiciones para usuarios de Lanzapuntas:**
+- **Hielo (Brinefrost):** Dado que el Lanzapuntas golpea fuerte, aplicar una acumulación masiva de Congelación en un solo disparo te permite recargar con seguridad mientras el enemigo se hace añicos.
+- **Sombra:** Usa debuffs de sombra para aumentar el daño recibido por el objetivo. Un impacto de Lanzapuntas en un élite marcado por sombras a menudo puede resultar en una muerte instantánea.
+- **Rayo:** Aunque suele ser para armas rápidas, ciertas bendiciones de Rayo encadenan daño desde el punto de impacto, ayudando al Lanzapuntas con su debilidad contra las hordas.
+
+| Tipo de Bendición | Nivel de Sinergia | Caso de Uso Práctico |
+|:---|:---|:---|
+| **Océano (Tentáculos)** | ★★★★☆ | Las invocaciones ayudan a mantener la presión alejada mientras recargas |
+| **Fuego (Quemadura)** | ★★☆☆☆ | Baja sinergia debido a la lenta tasa de aplicación |
+| **Espíritu (Vengativo)** | ★★★★★ | Alto escalado de daño para impactos a un solo objetivo |
+| **Congelación (Escarcha)** | ★★★★★ | Lo mejor para la supervivencia y el control de élites |
+
+<Callout type="success" title="Elección del Meta">
+A partir de junio de 2026, la build de alto nivel más popular combina **Bendiciones de Hielo** con **Amuletos de Daño Crítico**. Este arquetipo de "Francotirador Gélido" es el estándar de oro para limpiar las nuevas áreas de maquinaria brinepunk añadidas en la Actualización 1.3.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Paso a Paso: Configurando tu Build de Lanzapuntas">
+
+Sigue estos pasos para pasar de un equipo estándar a una **build de lanzapuntas de Abyssus** especializada. Esta progresión asegura que tengas la meta-progresión y los desbloqueos necesarios para sobrevivir en incursiones más profundas.
+
+<Steps>
+  <Step num="1" title="Desbloquea el Lanzapuntas">
+    Completa los desafíos de "Brinerot" o alcanza el hito requerido en la ruta de contenido de la Actualización 1.2. Asegúrate de tener suficiente moneda meta para comprar el arma base en el nexo.
+  </Step>
+  <Step num="2" title="Invierte en el Árbol de Habilidades">
+    Prioriza los nodos de "Precisión" y "Eficiencia de Recarga" en el árbol de habilidades ampliado de la 1.3. Estas mejoras pasivas son esenciales para compensar la tosquedad natural del Lanzapuntas.
+  </Step>
+  <Step num="3" title="Busca Mods de la Forja Antigua">
+    Entra en incursiones buscando específicamente estaciones de Forja. Tu objetivo es encontrar los mods de **Punta Perforante** o **Recuperador Automático** temprano para que la limpieza de salas sea manejable.
+  </Step>
+  <Step num="4" title="Acumula Amuletos Críticos">
+    Durante tu incursión, ignora los amuletos de "Cadencia de Fuego". En su lugar, elige cada amuleto que aumente el "Daño en Puntos Débiles" o el "Daño del Primer Disparo".
+  </Step>
+  <Step num="5" title="Domina el Disparo Secundario">
+    Practica la sincronización del disparo secundario del Lanzapuntas. Ya sea un anclaje o un detonador, esta habilidad es tu herramienta principal para manejar los 36 tipos de enemigos diferentes del juego.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Experto">
+No tengas miedo de fallar en las primeras incursiones. La meta-progresión roguelite en Abyssus está diseñada para que estas armas avanzadas se sientan significativamente mejor una vez que hayas desbloqueado algunas mejoras pasivas clave en el nexo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia para Jugadores Especialistas">
+
+Jugar con una build de especialista significa que no puedes permitirte quedarte quieto. En Abyssus, el movimiento es tu defensa principal. Al usar el Lanzapuntas, tu bucle de combate debe seguir un ritmo de "Disparar - Deslizarse - Recargar - Saltar".
+
+**Comparación Táctica: Lanzapuntas vs. Otras Armas Avanzadas**
+
+| Característica | Lanzapuntas | Lanzadiscos | Arco de Combate |
+|:---|:---|:---|:---|
+| **Fortaleza Principal** | Ráfaga a un Solo Objetivo | Limpieza por Geometría | DPS de Torreta Escalable |
+| **Facilidad de Uso** | Baja | Media | Alta |
+| **Rol Cooperativo** | Asesino de Élites/Jefes | Denegador de Área | Soporte Consistente |
+| **Mejor Bendición** | Hielo / Espíritu | Sombra / Rayo | Océano / Fuego |
+
+<Checklist
+  id="harpoon-survival"
+  title="Lista de Supervivencia para Usuarios de Lanzapuntas:"
+  items={[
+    "Siempre ten lista una carga de deslizamiento para después de disparar.",
+    "Apunta específicamente a los puntos débiles del Golemancer o de Un'glu.",
+    "Usa el disparo secundario para alejar a los enemigos de tus compañeros.",
+    "Prioriza matar a los enemigos 'Explosivos' desde la distancia.",
+    "Nunca recargues mientras estés parado en el suelo de una arena abierta."
+  ]}
+/>
+
+<Callout type="warning" title="Lectura de Patrones de Jefes">
+Durante las peleas contra jefes como Kri'Su, el largo tiempo de compromiso del Lanzapuntas durante la animación de disparo puede ser mortal. Solo dispara cuando estés seguro de que el jefe está en una ventana de recuperación o en una fase de vulnerabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Build de Abyssus">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo el Lanzapuntas en Abyssus?",
+    answer: "El Lanzapuntas es un arma desbloqueable introducida en la Actualización 1.2 (Brinefrost). Debes completar desafíos de combate específicos relacionados con las nuevas áreas temáticas de escarcha o comprarlo usando moneda de meta-progresión en el nexo principal tras alcanzar el rango requerido."
+  },
+  {
+    question: "¿Cuál es la mejor bendición para una build de lanzapuntas de Abyssus?",
+    answer: "Hielo (Escarcha) se considera ampliamente la mejor bendición. Debido a que el Lanzapuntas inflige un alto daño en impactos individuales, puede activar efectos de 'Fragmentación' o 'Congelación' de manera más confiable que las armas de disparo rápido, dándote tiempo para gestionar la lenta velocidad de recarga del arma."
+  },
+  {
+    question: "¿Puedo usar el Lanzapuntas para incursiones en solitario?",
+    answer: "Sí, pero es un desafío. Para jugar en solitario, debes centrarte en mods que proporcionen control de masas (como Anclaje o Perforación) y bendiciones que invoquen aliados (como los tentáculos del Océano) para distraer a los enemigos mientras alineas tus disparos."
+  },
+  {
+    question: "¿Funciona el Lanzapuntas con el contenido de la Actualización 1.3?",
+    answer: "Absolutamente. La Actualización 1.3 añadió más mods de la Forja Antigua y un árbol de habilidades ampliado que ayuda específicamente a las armas de especialista como el Lanzapuntas a mantenerse competitivas en las nuevas áreas de juego final temáticas de maquinaria."
+  }
+]} />
+
+</Section>

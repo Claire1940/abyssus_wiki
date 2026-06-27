@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Level: Fortschritts-Leitfaden & Raummechaniken",
+  description: "Meistern Sie die prozedural sequenzierten Abyssus-Level. Erfahren Sie, wie Sie Zonen durchqueren, Raumziele verwalten und Upgrades in Solo- oder Koop-Runs freischalten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Levels+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus, Level-Leitfaden, Roguelite, Fortschritt, Raummechaniken, Koop"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Das Meistern der Abyssus-Level** erfordert ein Verständnis dafür, wie handgefertigte Räume während jeder Expedition prozedural aneinandergereiht werden.
+- **Identifizieren Sie Raumsymbole**, um wichtige Upgrades, Heilstationen oder Elite-Kampfherausforderungen zu priorisieren.
+- **Nutzen Sie vertikale Bewegungen** wie Doppelsprünge und Dashes, um in gefahrenreichen tieferen Kammern zu überleben.
+- **Koordinieren Sie die Team-Ausrüstungen** in Koop-Runs, um Crowd Control und hohen Schaden gegen Einzelziele auszubalancieren.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Level: Prozedurale Generierung & Raumstrukturen">
+
+Zu verstehen, wie **Abyssus-Level** generiert werden, ist der erste Schritt, um in der Tiefe zu überleben. Entwickelt von DoubleMoose Games und veröffentlicht von The Arcade Crew, bietet dieser Brinepunk-Roguelite ein hybrides Leveldesign. Das Spiel nutzt über 70 handgefertigte Raumlayouts, die während jeder Expedition prozedural sequenziert werden. Das bedeutet, dass die Geometrie einzelner Kammern zwar vertraut bleibt, sobald man sie gelernt hat, die Abfolge, die Gegner-Spawns und die Platzierung von Upgrades jedoch bei jedem Durchgang variieren. Diese Layout-Struktur stellt sicher, dass sich die Spieler an wechselnde Umstände anpassen müssen, anstatt einfach nur einen einzigen Pfad auswendig zu lernen.
+
+Analysieren Sie beim Betreten einer Kammer sofort die Umgebung. Die Räume reichen von offenen Kampfarenen bis hin zu engen Korridoren, und jeder stellt einzigartige taktische Anforderungen. Der prozedurale Generator füllt diese Räume mit verschiedenen Zielen, bei denen die Spieler Wellen klären, Vermögenswerte schützen oder Umweltgefahren navigieren müssen, bevor sie fortfahren können.
+
+| Raumtyp | Hauptziel | Wichtigste Belohnungen |
+| :--- | :--- | :--- |
+| Kampfarena | Alle Gegnerwellen eliminieren | Waffen-Mods, Segnungen |
+| Upgrade-Station | Mit der Schmiede interagieren | Waffen- und Skill-Upgrades |
+| Altar-Raum | Eine göttliche Gunst wählen | Segnungen, Amulette |
+| Boss-Tor | Den Zonenwächter besiegen | Meta-Fortschrittsressourcen |
+
+<Callout type="tip" title="Profi-Tipp">
+Suchen Sie in geräumten Räumen immer nach hohen Vorsprüngen und versteckten Nischen. Kleinere Truhen und Heilgegenstände spawnen häufig abseits des Hauptpfades.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Levelfortschritt & Umweltzonen">
+
+Expeditionen sind um verschiedene Umweltzonen herum strukturiert, deren Schwierigkeitsgrad und Komplexität stetig zunehmen. Je tiefer die Spieler vordringen, desto aggressiver werden die Gegner, desto zahlreicher werden die Gefahren und desto präzisere Bewegungen erfordern die Raumlayouts. Die Konsolenveröffentlichung im Juni 2026 zusammen mit Update 1.3 führte ein brandneues spielbares Gebiet ein, das sich um Brinepunk-Maschinen dreht und die Vielfalt der Umgebungen erweitert.
+
+Jede Zone weist spezifische Gefahren auf, die unterschiedliche taktische Ansätze erfordern. Während sich frühe Level beispielsweise auf die grundlegende Positionierung konzentrieren, führen spätere Level komplexe Platforming-Elemente und automatisierte Verteidigungssysteme ein.
+
+| Zonenname | Visuelles Thema | Hauptgefahren | Schwierigkeitsgrad |
+| :--- | :--- | :--- | :--- |
+| Versunkene Ruinen | Alter Stein, Korallen | Stacheln, zerbröckelnde Vorsprünge | ★★☆☆☆ |
+| Sole-Höhlen | Neon-Türkis, enge Höhlen | Säurehaltige Sole-Pools, herabfallende Felsen | ★★★☆☆ |
+| Maschinen-Sektor | Brinepunk-Zahnräder, Rohre | Dampfaustritte, Lasergitter | ★★★★☆ |
+| Tiefer Kern | Dunkles Messing, antike Technik | Gravitationsbrunnen, Quetschfallen | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Strategie: Versunkene Ruinen">
+    Halten Sie Abstand zu Wänden und nutzen Sie den offenen Raum, um frühe Gegnertypen zu umkreisen.
+  </Card>
+  <Card title="Strategie: Sole-Höhlen">
+    Achten Sie auf Ihren Tritt, um säurehaltige Pools zu vermeiden, und nutzen Sie Rückstoßwaffen, um Gegner in Gefahren zu stoßen.
+  </Card>
+  <Card title="Strategie: Maschinen-Sektor">
+    Timing ist alles. Merken Sie sich die Intervalle der Dampfaustritte und Laser, bevor Sie gegnerische Trupps angreifen.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Zonen-Update-Notizen">
+Der in Update 1.3 hinzugefügte Maschinen-Sektor bietet stark vertikale Layouts, wodurch Doppelsprung- und Dash-Upgrades für das Überleben unerlässlich sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigieren durch Levelgefahren & Kampfarenen">
+
+Das Überleben in tieferen Kammern hängt stark von der Bewegung ab. Stillzustehen ist ein garantierter Weg, einen Run vorzeitig zu beenden. Levelgefahren wie Dampfaustritte, Lasergitter und säurehaltige Sole-Pools können Ihre Gesundheit schneller aufzehren als Standardgegner. Spieler müssen vertikale Bewegungen in ihre Offensivzyklen integrieren, um Schaden zu vermeiden, während sie ihre Waffen aktiv halten.
+
+Das erfolgreiche Klären von Arenen mit hohem Schwierigkeitsgrad erfordert ein systematisches Vorgehen. Durch das Priorisieren von Zielen und das Verwalten des Arena-Raums können Spieler den erlittenen Schaden minimieren und die Upgrade-Möglichkeiten maximieren.
+
+<Steps>
+  <Step num="1" title="Gefahrenzonen lokalisieren">
+    Identifizieren Sie aktive Fallen, Lasergitter und gefährliche Pools sofort beim Betreten eines neuen Raums.
+  </Step>
+  <Step num="2" title="Fernkampf-Bedrohungen priorisieren">
+    Eliminieren Sie Geschützturm-Gegner und Scharfschützen auf hohen Vorsprüngen, bevor Sie sich um die Nahkampf-Schwärme kümmern.
+  </Step>
+  <Step num="3" title="Engpass-Management">
+    Locken Sie Nahkampf-Mobs in enge Korridore oder aktive Levelgefahren, um Ihren Flächenschaden zu maximieren.
+  </Step>
+  <Step num="4" title="Upgrade-Station sichern">
+    Sobald der Raum geräumt ist, interagieren Sie mit der lokalen Upgrade-Station oder dem Altar, bevor Sie zur nächsten Kammer weiterziehen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gefahrenwarnung">
+Einige Fallen lösen automatisch aus, wenn Gegner über sie laufen, was Sie versehentlich verletzen kann, wenn Sie zu nah stehen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss-Tore & Elite-Begegnungen">
+
+In bestimmten Intervallen innerhalb der Level-Sequenz stoßen Spieler auf Boss-Tore. Diese Kammern sind dedizierte Arenen, in denen Sie mächtigen Wächtern gegenüberstehen müssen. Patch 1.2 führte überarbeitete Angriffsmuster für Bosse wie Golemant, Kri'Su und Un'glu ein, während Update 1.3 eine völlig neue Boss-Begegnung im Maschinen-Gebiet einführte.
+
+Diese Begegnungen erfordern präzise Mustererkennung und Arena-Management. Jeder Boss nutzt einzigartige Flächenangriffe und Gefahrenphasen, die die Spieler zwingen, ihr gesamtes Bewegungsrepertoire zu nutzen.
+
+| Boss-Name | Primärer Angriffsstil | Wichtigste Arena-Strategie | Empfohlene Waffe |
+| :--- | :--- | :--- | :--- |
+| Golemant | Bodenschläge, Schockwellen | Doppelsprünge nutzen, um Ringen auszuweichen | Tesla-Gewehr |
+| Kri'Su | Schnelle Projektile, Teleportation | Deckung hinter Säulen suchen | Sole-Revolver |
+| Un'glu | Toxische Spucke, Gebietskontrolle | Ständig um die Arena rotieren | Plasma-Werfer |
+| Maschinen-Boss | Laser-Sweeps, Gittergefahren | Durch Strahlenlücken dashen | Kampfbogen |
+
+<Callout type="success" title="Fortschrittsbelohnung">
+Das Besiegen von Bossen schaltet hochrangige Meta-Fortschrittswährungen frei, mit denen Sie Ihren Skillbaum zwischen den Runs dauerhaft verbessern können.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Koop vs. Solo Level-Skalierung">
+
+Das Spiel unterstützt Solo-Spiel und Online-Koop für bis zu 4 Spieler. Die Level-Skalierung passt sich dynamisch an die Gruppengröße an. Im Koop-Modus erhöhen sich die Lebenspunkte der Gegner, und Elite-Spawns treten häufiger auf. Dies macht Teamkoordination und Synergien bei der Ausrüstung lebenswichtig, um tiefere Kammern zu klären.
+
+Um den Erfolg in Multiplayer-Runs sicherzustellen, sollten Teams ihre Builds und die Arbeitsteilung koordinieren. Das Teilen von Ressourcen und das Kommunizieren von Zielprioritäten verhindert, dass das Team in engen Räumen überwältigt wird.
+
+<Checklist
+  id="abyssus-level-prep"
+  title="Multiplayer-Level-Checkliste:"
+  items={[
+    "Koordinieren Sie die Waffen-Rollen, um sicherzustellen, dass sowohl Crowd Control als auch Einzielschaden abgedeckt sind.",
+    "Teilen Sie Heilressourcen und koordinieren Sie Besuche an Upgrade-Stationen.",
+    "Nutzen Sie Crowd-Control-Fähigkeiten wie Einfrieren oder Betäuben, um Elite-Gegner in engen Räumen zu kontrollieren.",
+    "Bleiben Sie während intensiver Arenakämpfe zusammen, um zu verhindern, dass Spieler isoliert werden."
+  ]}
+/>
+
+<Callout type="tip" title="Koop-Synergie">
+Lassen Sie mindestens einen Spieler sich vollständig auf Statuseffekte (wie Einfrieren oder Schock) konzentrieren, um überfüllte Räume zu kontrollieren, während andere rohen Schaden austeilen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie viele Abyssus-Level gibt es im Spiel?",
+    answer: "Nach Update 1.3 bietet das Spiel über 70 handgefertigte Level-Layouts, die während jedes Runs prozedural sequenziert werden."
+  },
+  {
+    question: "Skalieren die Level basierend auf der Anzahl der Spieler?",
+    answer: "Ja, die Gesundheit der Gegner, der Schaden und die Elite-Spawnraten skalieren dynamisch, je nachdem, ob Sie solo oder im Koop mit bis zu 4 Spielern spielen."
+  },
+  {
+    question: "Was passiert, wenn man ein Level abschließt?",
+    answer: "Das Abschließen eines Levels ermöglicht es Ihnen, ein Upgrade (wie Waffen-Mods, Segnungen oder Amulette) zu wählen, bevor Sie durch das nächste Boss-Tor voranschreiten."
+  }
+]} />
+
+<Callout type="info" title="Zusätzliche Ressourcen">
+Weitere Details zu Spiel-Updates und Plattformverfügbarkeit finden Sie auf der offiziellen [Abyssus auf Steam](https://store.steampowered.com/app/1721110/Abyssus/)-Seite oder im [PlayStation Store](https://store.playstation.com/en-us/concept/10016582)-Portal.
+</Callout>
+
+</Section>

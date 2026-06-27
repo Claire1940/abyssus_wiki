@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus: Gameplay Tips & 2026 Progression Guide",
+  description: "Master Abyssus with our expert guide covering weapon tiers, essential builds, boss strategies, and co-op tactics for the 2026 console and PC launch.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/081b1f/26b8aa?text=Abyssus+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus** is a fast-paced **brinepunk roguelite FPS** supporting solo and 4-player co-op.
+- Focus on **movement and positioning** to survive intense arena-based combat encounters.
+- Build consistency by stacking **Blessings, Charms, and Ancient Forge mods** for synergy.
+- Utilize **cross-platform play** to squad up with friends across Steam, PS5, and Xbox.
+- Prioritize **survivability upgrades** early in your run to reach deeper boss encounters.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Abyssus">
+
+Abyssus demands quick reflexes and smart loadout management. Whether you are diving solo or joining a 4-player team, understanding the core loop—clearing handcrafted rooms, managing heat, and selecting the right upgrades—is essential for long-term survival.
+
+**Video Highlights:**
+- Overview of brinepunk FPS movement mechanics
+- Demonstration of early-game weapon modding
+- Basic boss encounter strategies for new players
+
+<YouTubeEmbed videoId="jkDOLIRLJpU" title="Abyssus Gameplay Overview" />
+
+The game features 9 primary weapons and a deep modification system. Success depends on your ability to read room layouts and adapt your equipment to the specific challenges of each biome.
+
+| System | Description | Importance |
+| :--- | :--- | :--- |
+| Movement | Dash, jump, double-jump | Critical for survival |
+| Combat | Primary/Secondary fire modes | Core damage output |
+| Upgrades | Blessings & Ancient Forge | Run-defining power |
+| Meta | Skill Tree progression | Long-term consistency |
+
+<Callout type="tip" title="Pro Tip">
+Treat movement as your primary defensive tool. In Abyssus, standing still is the fastest way to become decorative seafood. Always keep your character mobile while managing your weapon's reload and heat cycles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Weapon Tier List and Builds">
+
+Choosing the right weapon is the cornerstone of any successful run. While personal preference matters, certain weapons provide better utility for room clearing or boss damage.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Top Picks">
+    - **Tesla Gun**: Best for room clear
+    - **Brine Revolver**: High single-target DPS
+    - **Plasma Launcher**: Reliable AOE burst
+  </Card>
+  <Card title="A-Tier: Reliable">
+    - **Combat Bow**: Scaling precision damage
+    - **Fish Deity**: Strong effect-heavy builds
+    - **Engine Rifle**: Versatile starter
+  </Card>
+  <Card title="Advanced: Specialist">
+    - **Shotgun**: Close-range burst
+    - **Disc Thrower**: Projectile control
+    - **Harpoon Gun**: Boss-specific utility
+  </Card>
+</CardGrid>
+
+| Weapon | Best Role | Synergy Focus |
+| :--- | :--- | :--- |
+| Tesla Gun | Crowd Control | Arc/Lightning blessings |
+| Brine Revolver | Boss Damage | Weak-point charms |
+| Plasma Launcher | Room Clear | Explosion/Fire mods |
+| Engine Rifle | Beginner All-rounder | Cooldown reduction |
+
+<Callout type="warning" title="Build Synergy Warning">
+Avoid picking random upgrades. A powerful build in Abyssus is built on a "trigger-effect" loop: pick one consistent action (like your primary fire) and stack Blessings and Charms that trigger off that specific action.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progression and Boss Tactics">
+
+With over 12 bosses and 70+ handcrafted levels, the game keeps combat fresh through procedurally sequenced runs. Understanding enemy patterns is more effective than relying on raw stats.
+
+<Steps>
+  <Step num="1" title="Analyze Boss Patterns">
+    Observe the boss during the first phase. Look for invulnerability windows and telegraphs for area-of-effect attacks.
+  </Step>
+  <Step num="2" title="Assign Co-op Roles">
+    In 4-player groups, ensure one player focuses on crowd control while others prioritize boss damage or support.
+  </Step>
+  <Step num="3" title="Invest in Meta Progression">
+    Use resources from failed runs to unlock nodes in the skill tree, permanently increasing your survivability and damage for future attempts.
+  </Step>
+</Steps>
+
+| Boss Encounter | Key Mechanic | Strategy |
+| :--- | :--- | :--- |
+| Golemancer | Summoning/Minions | Focus minions first |
+| Kri'Su | Arena Hazards | Use movement tools |
+| Un'glu | Invulnerability Phases | Time your burst damage |
+
+<Callout type="success" title="Co-op Success">
+Cross-platform multiplayer allows for seamless team play. When playing with others, coordinate your Blessings to ensure you have a mix of elemental effects (Fire, Ice, Lightning) to handle different enemy resistances.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multiplayer and Platform Support">
+
+Abyssus is designed to be played across various platforms. Since the 1.3 update, cross-platform play is fully integrated, making it easier than ever to group up.
+
+| Feature | Steam | PS5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| Solo Play | Supported | Supported | Supported |
+| Max Party | 4 Players | 4 Players | 4 Players |
+| Crossplay | Yes | Yes | Yes |
+| Subscription | N/A | PS Plus req | Game Pass req |
+
+<Checklist
+  id="multiplayer-goals"
+  title="Multiplayer Checklist:"
+  items={[
+    "Enable crossplay in settings",
+    "Coordinate loadouts with teammates",
+    "Use quickplay for fast matchmaking",
+    "Share healing resources in co-op"
+  ]}
+/>
+
+<Callout type="info" title="Platform Note">
+Xbox players can access the game via Game Pass Ultimate and PC Game Pass. Ensure your platform's online services are active to utilize matchmaking features effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Abyssus better solo or in co-op?",
+    answer: "Both are viable. Solo play is excellent for learning patterns, while 4-player co-op allows for deeper build synergies and coordinated team tactics."
+  },
+  {
+    question: "How do I unlock more weapons?",
+    answer: "You unlock weapons and abilities through the meta-progression skill tree, which is expanded by collecting resources during your runs."
+  },
+  {
+    question: "Does Abyssus support cross-platform play?",
+    answer: "Yes, Update 1.3 introduced full cross-platform multiplayer between Steam, PlayStation 5, and Xbox Series X|S."
+  },
+  {
+    question: "What is the best way to handle boss fights?",
+    answer: "Focus on movement and learning attack patterns. Use your dash and double-jump to avoid damage, and save your high-damage abilities for safe windows after the boss attacks."
+  }
+]} />
+
+</Section>

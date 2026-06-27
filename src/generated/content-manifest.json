@@ -1,1 +1,690 @@
-{}
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "abyssus-best-build",
+        "file": "abyssus-best-build"
+      },
+      {
+        "slug": "abyssus-best-builds",
+        "file": "abyssus-best-builds"
+      },
+      {
+        "slug": "abyssus-bow-build",
+        "file": "abyssus-bow-build"
+      },
+      {
+        "slug": "abyssus-builds",
+        "file": "abyssus-builds"
+      },
+      {
+        "slug": "abyssus-engine-rifle-build",
+        "file": "abyssus-engine-rifle-build"
+      },
+      {
+        "slug": "abyssus-harpoon-gun-build",
+        "file": "abyssus-harpoon-gun-build"
+      },
+      {
+        "slug": "abyssus-plasma-launcher-build",
+        "file": "abyssus-plasma-launcher-build"
+      },
+      {
+        "slug": "abyssus-revolver-build",
+        "file": "abyssus-revolver-build"
+      },
+      {
+        "slug": "abyssus-status-effect-build",
+        "file": "abyssus-status-effect-build"
+      },
+      {
+        "slug": "abyssus-turret-build",
+        "file": "abyssus-turret-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "abyssus-achievements",
+        "file": "abyssus-achievements"
+      },
+      {
+        "slug": "abyssus-bosses",
+        "file": "abyssus-bosses"
+      },
+      {
+        "slug": "abyssus-endings",
+        "file": "abyssus-endings"
+      },
+      {
+        "slug": "abyssus-final-boss",
+        "file": "abyssus-final-boss"
+      },
+      {
+        "slug": "abyssus-guide",
+        "file": "abyssus-guide"
+      },
+      {
+        "slug": "abyssus-levels",
+        "file": "abyssus-levels"
+      },
+      {
+        "slug": "abyssus-tips",
+        "file": "abyssus-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "abyssus-console",
+        "file": "abyssus-console"
+      },
+      {
+        "slug": "abyssus-controller-support",
+        "file": "abyssus-controller-support"
+      },
+      {
+        "slug": "abyssus-cross-platform",
+        "file": "abyssus-cross-platform"
+      },
+      {
+        "slug": "abyssus-crossplay",
+        "file": "abyssus-crossplay"
+      },
+      {
+        "slug": "abyssus-game-pass",
+        "file": "abyssus-game-pass"
+      },
+      {
+        "slug": "abyssus-game",
+        "file": "abyssus-game"
+      },
+      {
+        "slug": "abyssus-ps5",
+        "file": "abyssus-ps5"
+      },
+      {
+        "slug": "abyssus-release-date",
+        "file": "abyssus-release-date"
+      },
+      {
+        "slug": "abyssus-steam",
+        "file": "abyssus-steam"
+      },
+      {
+        "slug": "abyssus-xbox",
+        "file": "abyssus-xbox"
+      }
+    ],
+    "review": [
+      {
+        "slug": "abyssus-before-you-buy",
+        "file": "abyssus-before-you-buy"
+      },
+      {
+        "slug": "abyssus-gameplay",
+        "file": "abyssus-gameplay"
+      },
+      {
+        "slug": "abyssus-player-count",
+        "file": "abyssus-player-count"
+      },
+      {
+        "slug": "abyssus-review",
+        "file": "abyssus-review"
+      },
+      {
+        "slug": "abyssus-solo-play",
+        "file": "abyssus-solo-play"
+      },
+      {
+        "slug": "abyssus-steam-deck",
+        "file": "abyssus-steam-deck"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "abyssus-best-weapon",
+        "file": "abyssus-best-weapon"
+      },
+      {
+        "slug": "abyssus-best-weapons",
+        "file": "abyssus-best-weapons"
+      },
+      {
+        "slug": "abyssus-disc-thrower",
+        "file": "abyssus-disc-thrower"
+      },
+      {
+        "slug": "abyssus-fish-deity",
+        "file": "abyssus-fish-deity"
+      },
+      {
+        "slug": "abyssus-harpoon-gun",
+        "file": "abyssus-harpoon-gun"
+      },
+      {
+        "slug": "abyssus-plasma-launcher",
+        "file": "abyssus-plasma-launcher"
+      },
+      {
+        "slug": "abyssus-weapons",
+        "file": "abyssus-weapons"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "abyssus-best-build",
+        "file": "abyssus-best-build"
+      },
+      {
+        "slug": "abyssus-best-builds",
+        "file": "abyssus-best-builds"
+      },
+      {
+        "slug": "abyssus-bow-build",
+        "file": "abyssus-bow-build"
+      },
+      {
+        "slug": "abyssus-builds",
+        "file": "abyssus-builds"
+      },
+      {
+        "slug": "abyssus-engine-rifle-build",
+        "file": "abyssus-engine-rifle-build"
+      },
+      {
+        "slug": "abyssus-harpoon-gun-build",
+        "file": "abyssus-harpoon-gun-build"
+      },
+      {
+        "slug": "abyssus-plasma-launcher-build",
+        "file": "abyssus-plasma-launcher-build"
+      },
+      {
+        "slug": "abyssus-revolver-build",
+        "file": "abyssus-revolver-build"
+      },
+      {
+        "slug": "abyssus-status-effect-build",
+        "file": "abyssus-status-effect-build"
+      },
+      {
+        "slug": "abyssus-turret-build",
+        "file": "abyssus-turret-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "abyssus-achievements",
+        "file": "abyssus-achievements"
+      },
+      {
+        "slug": "abyssus-bosses",
+        "file": "abyssus-bosses"
+      },
+      {
+        "slug": "abyssus-endings",
+        "file": "abyssus-endings"
+      },
+      {
+        "slug": "abyssus-final-boss",
+        "file": "abyssus-final-boss"
+      },
+      {
+        "slug": "abyssus-guide",
+        "file": "abyssus-guide"
+      },
+      {
+        "slug": "abyssus-levels",
+        "file": "abyssus-levels"
+      },
+      {
+        "slug": "abyssus-tips",
+        "file": "abyssus-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "abyssus-console",
+        "file": "abyssus-console"
+      },
+      {
+        "slug": "abyssus-controller-support",
+        "file": "abyssus-controller-support"
+      },
+      {
+        "slug": "abyssus-cross-platform",
+        "file": "abyssus-cross-platform"
+      },
+      {
+        "slug": "abyssus-crossplay",
+        "file": "abyssus-crossplay"
+      },
+      {
+        "slug": "abyssus-game-pass",
+        "file": "abyssus-game-pass"
+      },
+      {
+        "slug": "abyssus-game",
+        "file": "abyssus-game"
+      },
+      {
+        "slug": "abyssus-ps5",
+        "file": "abyssus-ps5"
+      },
+      {
+        "slug": "abyssus-release-date",
+        "file": "abyssus-release-date"
+      },
+      {
+        "slug": "abyssus-steam",
+        "file": "abyssus-steam"
+      },
+      {
+        "slug": "abyssus-xbox",
+        "file": "abyssus-xbox"
+      }
+    ],
+    "review": [
+      {
+        "slug": "abyssus-before-you-buy",
+        "file": "abyssus-before-you-buy"
+      },
+      {
+        "slug": "abyssus-gameplay",
+        "file": "abyssus-gameplay"
+      },
+      {
+        "slug": "abyssus-player-count",
+        "file": "abyssus-player-count"
+      },
+      {
+        "slug": "abyssus-review",
+        "file": "abyssus-review"
+      },
+      {
+        "slug": "abyssus-solo-play",
+        "file": "abyssus-solo-play"
+      },
+      {
+        "slug": "abyssus-steam-deck",
+        "file": "abyssus-steam-deck"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "abyssus-best-weapon",
+        "file": "abyssus-best-weapon"
+      },
+      {
+        "slug": "abyssus-best-weapons",
+        "file": "abyssus-best-weapons"
+      },
+      {
+        "slug": "abyssus-disc-thrower",
+        "file": "abyssus-disc-thrower"
+      },
+      {
+        "slug": "abyssus-fish-deity",
+        "file": "abyssus-fish-deity"
+      },
+      {
+        "slug": "abyssus-harpoon-gun",
+        "file": "abyssus-harpoon-gun"
+      },
+      {
+        "slug": "abyssus-plasma-launcher",
+        "file": "abyssus-plasma-launcher"
+      },
+      {
+        "slug": "abyssus-weapons",
+        "file": "abyssus-weapons"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "abyssus-best-build",
+        "file": "abyssus-best-build"
+      },
+      {
+        "slug": "abyssus-best-builds",
+        "file": "abyssus-best-builds"
+      },
+      {
+        "slug": "abyssus-bow-build",
+        "file": "abyssus-bow-build"
+      },
+      {
+        "slug": "abyssus-builds",
+        "file": "abyssus-builds"
+      },
+      {
+        "slug": "abyssus-engine-rifle-build",
+        "file": "abyssus-engine-rifle-build"
+      },
+      {
+        "slug": "abyssus-harpoon-gun-build",
+        "file": "abyssus-harpoon-gun-build"
+      },
+      {
+        "slug": "abyssus-plasma-launcher-build",
+        "file": "abyssus-plasma-launcher-build"
+      },
+      {
+        "slug": "abyssus-revolver-build",
+        "file": "abyssus-revolver-build"
+      },
+      {
+        "slug": "abyssus-status-effect-build",
+        "file": "abyssus-status-effect-build"
+      },
+      {
+        "slug": "abyssus-turret-build",
+        "file": "abyssus-turret-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "abyssus-achievements",
+        "file": "abyssus-achievements"
+      },
+      {
+        "slug": "abyssus-bosses",
+        "file": "abyssus-bosses"
+      },
+      {
+        "slug": "abyssus-endings",
+        "file": "abyssus-endings"
+      },
+      {
+        "slug": "abyssus-final-boss",
+        "file": "abyssus-final-boss"
+      },
+      {
+        "slug": "abyssus-guide",
+        "file": "abyssus-guide"
+      },
+      {
+        "slug": "abyssus-levels",
+        "file": "abyssus-levels"
+      },
+      {
+        "slug": "abyssus-tips",
+        "file": "abyssus-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "abyssus-console",
+        "file": "abyssus-console"
+      },
+      {
+        "slug": "abyssus-controller-support",
+        "file": "abyssus-controller-support"
+      },
+      {
+        "slug": "abyssus-cross-platform",
+        "file": "abyssus-cross-platform"
+      },
+      {
+        "slug": "abyssus-crossplay",
+        "file": "abyssus-crossplay"
+      },
+      {
+        "slug": "abyssus-game-pass",
+        "file": "abyssus-game-pass"
+      },
+      {
+        "slug": "abyssus-game",
+        "file": "abyssus-game"
+      },
+      {
+        "slug": "abyssus-ps5",
+        "file": "abyssus-ps5"
+      },
+      {
+        "slug": "abyssus-release-date",
+        "file": "abyssus-release-date"
+      },
+      {
+        "slug": "abyssus-steam",
+        "file": "abyssus-steam"
+      },
+      {
+        "slug": "abyssus-xbox",
+        "file": "abyssus-xbox"
+      }
+    ],
+    "review": [
+      {
+        "slug": "abyssus-before-you-buy",
+        "file": "abyssus-before-you-buy"
+      },
+      {
+        "slug": "abyssus-gameplay",
+        "file": "abyssus-gameplay"
+      },
+      {
+        "slug": "abyssus-player-count",
+        "file": "abyssus-player-count"
+      },
+      {
+        "slug": "abyssus-review",
+        "file": "abyssus-review"
+      },
+      {
+        "slug": "abyssus-solo-play",
+        "file": "abyssus-solo-play"
+      },
+      {
+        "slug": "abyssus-steam-deck",
+        "file": "abyssus-steam-deck"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "abyssus-best-weapon",
+        "file": "abyssus-best-weapon"
+      },
+      {
+        "slug": "abyssus-best-weapons",
+        "file": "abyssus-best-weapons"
+      },
+      {
+        "slug": "abyssus-disc-thrower",
+        "file": "abyssus-disc-thrower"
+      },
+      {
+        "slug": "abyssus-fish-deity",
+        "file": "abyssus-fish-deity"
+      },
+      {
+        "slug": "abyssus-harpoon-gun",
+        "file": "abyssus-harpoon-gun"
+      },
+      {
+        "slug": "abyssus-plasma-launcher",
+        "file": "abyssus-plasma-launcher"
+      },
+      {
+        "slug": "abyssus-weapons",
+        "file": "abyssus-weapons"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "abyssus-best-build",
+        "file": "abyssus-best-build"
+      },
+      {
+        "slug": "abyssus-best-builds",
+        "file": "abyssus-best-builds"
+      },
+      {
+        "slug": "abyssus-bow-build",
+        "file": "abyssus-bow-build"
+      },
+      {
+        "slug": "abyssus-builds",
+        "file": "abyssus-builds"
+      },
+      {
+        "slug": "abyssus-engine-rifle-build",
+        "file": "abyssus-engine-rifle-build"
+      },
+      {
+        "slug": "abyssus-harpoon-gun-build",
+        "file": "abyssus-harpoon-gun-build"
+      },
+      {
+        "slug": "abyssus-plasma-launcher-build",
+        "file": "abyssus-plasma-launcher-build"
+      },
+      {
+        "slug": "abyssus-revolver-build",
+        "file": "abyssus-revolver-build"
+      },
+      {
+        "slug": "abyssus-status-effect-build",
+        "file": "abyssus-status-effect-build"
+      },
+      {
+        "slug": "abyssus-turret-build",
+        "file": "abyssus-turret-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "abyssus-achievements",
+        "file": "abyssus-achievements"
+      },
+      {
+        "slug": "abyssus-bosses",
+        "file": "abyssus-bosses"
+      },
+      {
+        "slug": "abyssus-endings",
+        "file": "abyssus-endings"
+      },
+      {
+        "slug": "abyssus-final-boss",
+        "file": "abyssus-final-boss"
+      },
+      {
+        "slug": "abyssus-guide",
+        "file": "abyssus-guide"
+      },
+      {
+        "slug": "abyssus-levels",
+        "file": "abyssus-levels"
+      },
+      {
+        "slug": "abyssus-tips",
+        "file": "abyssus-tips"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "abyssus-console",
+        "file": "abyssus-console"
+      },
+      {
+        "slug": "abyssus-controller-support",
+        "file": "abyssus-controller-support"
+      },
+      {
+        "slug": "abyssus-cross-platform",
+        "file": "abyssus-cross-platform"
+      },
+      {
+        "slug": "abyssus-crossplay",
+        "file": "abyssus-crossplay"
+      },
+      {
+        "slug": "abyssus-game-pass",
+        "file": "abyssus-game-pass"
+      },
+      {
+        "slug": "abyssus-game",
+        "file": "abyssus-game"
+      },
+      {
+        "slug": "abyssus-ps5",
+        "file": "abyssus-ps5"
+      },
+      {
+        "slug": "abyssus-release-date",
+        "file": "abyssus-release-date"
+      },
+      {
+        "slug": "abyssus-steam",
+        "file": "abyssus-steam"
+      },
+      {
+        "slug": "abyssus-xbox",
+        "file": "abyssus-xbox"
+      }
+    ],
+    "review": [
+      {
+        "slug": "abyssus-before-you-buy",
+        "file": "abyssus-before-you-buy"
+      },
+      {
+        "slug": "abyssus-gameplay",
+        "file": "abyssus-gameplay"
+      },
+      {
+        "slug": "abyssus-player-count",
+        "file": "abyssus-player-count"
+      },
+      {
+        "slug": "abyssus-review",
+        "file": "abyssus-review"
+      },
+      {
+        "slug": "abyssus-solo-play",
+        "file": "abyssus-solo-play"
+      },
+      {
+        "slug": "abyssus-steam-deck",
+        "file": "abyssus-steam-deck"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "abyssus-best-weapon",
+        "file": "abyssus-best-weapon"
+      },
+      {
+        "slug": "abyssus-best-weapons",
+        "file": "abyssus-best-weapons"
+      },
+      {
+        "slug": "abyssus-disc-thrower",
+        "file": "abyssus-disc-thrower"
+      },
+      {
+        "slug": "abyssus-fish-deity",
+        "file": "abyssus-fish-deity"
+      },
+      {
+        "slug": "abyssus-harpoon-gun",
+        "file": "abyssus-harpoon-gun"
+      },
+      {
+        "slug": "abyssus-plasma-launcher",
+        "file": "abyssus-plasma-launcher"
+      },
+      {
+        "slug": "abyssus-weapons",
+        "file": "abyssus-weapons"
+      }
+    ]
+  }
+}

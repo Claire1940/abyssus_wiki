@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de lanzador de plasma de abyssus: Guía de configuración de daño en área de nivel S",
+  description: "Domina la build de Lanzador de Plasma en Abyssus. Descubre las mejores modificaciones de armas, Bendiciones, Amuletos y mejoras de la Forja Ancestral para maximizar el daño en área (AoE).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Plasma+Launcher+Build",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Build de lanzador de plasma de abyssus**: Esta configuración se centra en el daño explosivo en área (AoE) y en la limpieza rápida de salas.
+- **Prioridad de estadísticas principales**: Prioriza el tamaño del área, el aumento de la cadencia de fuego y la aplicación de estados elementales.
+- **Mejores Bendiciones**: Los efectos de quemadura de Fuego y los tentáculos de Océano ofrecen las sinergias explosivas más potentes.
+- **Amuleto clave**: Selecciona reducción de enfriamiento de habilidades y alivio de presión de supervivencia para mantener la defensa activa.
+- **Modificaciones de nivel S**: Equipa modificaciones de armas que dividan los proyectiles o activen explosiones secundarias.
+</Callout>
+
+<Section icon={Swords} title="Las mecánicas principales de la build de lanzador de plasma de abyssus">
+
+Crear una **build de lanzador de plasma de abyssus** dominante es la mejor manera de derretir arenas abarrotadas y limpiar expediciones profundas. Con el lanzamiento de la Actualización 1.3 el 25 de junio de 2026, que trajo el modo multijugador multiplataforma completo y un árbol de habilidades renovado, las armas explosivas han cobrado un gran protagonismo. El Lanzador de Plasma se sitúa firmemente en el nivel S de nuestra clasificación de armas debido a su inigualable potencial de limpieza de salas y su gran daño de ráfaga.
+
+El disparo principal del Lanzador de Plasma lanza esferas de plasma a gran velocidad que detonan al impactar, infligiendo un daño masivo en área a los enemigos agrupados. Sin embargo, esta gran potencia de fuego conlleva una desventaja: una alta generación de calor y una cadencia de fuego base más lenta. Para mitigar estos inconvenientes, tu configuración debe centrarse en equilibrar el aumento de la cadencia de fuego, la reducción de calor y las modificaciones en el comportamiento de los proyectiles.
+
+Al estructurar tu equipamiento, debes entender cómo interactúa el arma base con tus modificaciones equipadas. La siguiente tabla describe las características principales del Lanzador de Plasma y las modificaciones iniciales recomendadas para optimizar su rendimiento.
+
+| Característica | Detalle | Modificación recomendada | Calificación |
+| :--- | :--- | :--- | :--- |
+| Daño base | Alto impacto explosivo | Heavy Shells | ★★★★★ |
+| Cadencia de fuego | Moderada, requiere mejora | Rapid Trigger | ★★★★☆ |
+| Área de efecto | Gran radio de explosión | Splitter Core | ★★★★★ |
+| Disparo secundario | Explosión personalizable | Cluster Munitions | ★★★★☆ |
+
+Al seleccionar la modificación Splitter Core, tus esferas de plasma principales se dividen en tres bombas de racimo más pequeñas al detonar. Esto aumenta drásticamente tu área de cobertura general, haciendo que sea increíblemente fácil aplicar efectos de estado a docenas de enemigos simultáneamente.
+
+<Callout type="warning" title="Gestión de munición y calor">
+El Lanzador de Plasma genera un calor significativo y consume munición rápidamente. Combina siempre tu disparo principal con modificaciones de cadencia de fuego o enfriamiento para evitar quedarte indefenso en arenas de alta presión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergias de Bendiciones y Amuletos">
+
+En *Abyssus*, las partidas se definen por lo bien que combines tu elección de arma con el repertorio de más de 250 Amuletos y Bendiciones del juego. Para una **build de lanzador de plasma de abyssus** exitosa, tu objetivo es seleccionar Bendiciones elementales que se activen con el daño por salpicadura o con las bajas múltiples. Debido a que el Lanzador de Plasma golpea a múltiples objetivos a la vez, las Bendiciones que aplican estados escalan de forma exponencial.
+
+La sinergia elemental más poderosa para esta configuración es el Fuego. Acumular efectos de quemadura convierte cada explosión de plasma en un campo de daño en el tiempo persistente, derritiendo tanto a enemigos de élite como a jefes. Alternativamente, las bendiciones de Océano son muy efectivas; te permiten invocar tentáculos de asistencia en combate cada vez que consigues una baja con daño explosivo.
+
+La siguiente tabla compara las mejores Bendiciones elementales y su efectividad al combinarse con las explosiones de gran radio del Lanzador de Plasma.
+
+| Elemento | Efecto | Calificación de sinergia | Caso de uso principal |
+| :--- | :--- | :--- | :--- |
+| Fuego | Aplica daño por quemadura acumulativo | Excelente (5/5) | Derretir jefes y DPS sostenido |
+| Hielo | Congela a los enemigos en el radio de la explosión | Muy buena (4/5) | Control de masas y supervivencia en solitario |
+| Océano | Invoca tentáculos con bajas por impacto | Excelente (5/5) | Distracción de oleadas de enemigos |
+| Rayo | Transmite daño en cadena a los objetivos restantes | Buena (4/5) | Destrucción de escudos y reacciones en cadena |
+
+Dependiendo de si juegas en solitario o te coordinas con un equipo cooperativo de 4 jugadores, puedes adaptar tu configuración a diferentes roles. A continuación, se presentan tres variantes de build de nivel S diseñadas para maximizar el potencial del Lanzador de Plasma.
+
+<CardGrid cols={3}>
+  <Card title="El Piromante">
+    - **Elemento principal**: Fuego / Quemadura
+    - **Enfoque**: Acumulación de daño en el tiempo
+    - **Ideal para**: Derretir jefes con mucha salud como Golemancer
+  </Card>
+  <Card title="El Controlador Criogénico">
+    - **Elemento principal**: Hielo / Congelación
+    - **Enfoque**: Control de masas y seguridad
+    - **Ideal para**: Partidas en solitario de alta dificultad
+  </Card>
+  <Card title="El Invocador de la Salmuera">
+    - **Elemento principal**: Océano / Tentáculos
+    - **Enfoque**: Generación de aliados en el campo de batalla
+    - **Ideal para**: Distracción en cooperativo y control de área
+  </Card>
+</CardGrid>
+
+Los Amuletos deben seleccionarse para respaldar la variante de build elegida. Para "El Piromante", busca Amuletos que aumenten la duración del daño elemental. Para "El Controlador Criogénico", prioriza los Amuletos que reduzcan el tiempo de reutilización de las habilidades, lo que te permitirá usar herramientas de movimiento defensivo con más frecuencia mientras los enemigos están congelados.
+
+<Callout type="tip" title="Combo de sinergia">
+Combina los tentáculos de Océano con las bendiciones de quemadura de Fuego. Los tentáculos distraerán a los enemigos, manteniéndolos perfectamente agrupados para que tus enormes explosiones de plasma apliquen daño por quemadura acumulativo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modificaciones de la Forja Ancestral y mejoras del árbol de habilidades">
+
+Para llevar tu **build de lanzador de plasma de abyssus** al juego tardío, debes utilizar la Forja Ancestral. Con más de 140 modificaciones de la Forja Ancestral disponibles, puedes alterar fundamentalmente el comportamiento de tu arma. Para las configuraciones explosivas, debes priorizar las modificaciones que aumenten el radio de explosión, agreguen retroceso o activen explosiones secundarias.
+
+La mejor modificación de la Forja para esta configuración es, sin duda, *Chain Reaction*. Esta modificación hace que cualquier enemigo derrotado por una explosión de plasma detone, provocando una mini-explosión secundaria. En salas muy concurridas, un solo disparo puede desencadenar una cascada de explosiones que limpia toda la arena al instante.
+
+Revisa la siguiente tabla para conocer las modificaciones esenciales de la Forja Ancestral que debes buscar durante tus partidas.
+
+| Modificación de la Forja | Efecto | Prioridad de mejora | Combinaciones recomendadas |
+| :--- | :--- | :--- | :--- |
+| Blast Radius Expansion | Aumenta el tamaño de la explosión en un 25% | Alta | Splitter Core |
+| Thermal Recycler | Reduce la generación de calor al eliminar enemigos | Media | Rapid Trigger |
+| Kinetic Impact | Añade un gran retroceso a las esferas de plasma | Alta | Bendiciones de Hielo |
+| Chain Reaction | Las bajas activan una mini-explosión secundaria | Nivel S | Bendiciones de Fuego |
+
+Más allá de las modificaciones específicas de armas, el árbol de habilidades de meta-progresión ampliado en la Actualización 1.3 ofrece valiosas mejoras permanentes. Enfoca tus puntos de habilidad en los nodos que aumentan el daño explosivo, expanden la probabilidad de estado elemental y mejoran tu salud inicial. Esto garantiza que incluso si tienes mala suerte con las Bendiciones al principio de una partida, tu arma base siga siendo sumamente letal.
+
+<Callout type="success" title="Mejoras de la Actualización 1.3">
+La Actualización 1.3 amplió el árbol de habilidades con nuevos nodos que potencian directamente el daño explosivo y la aplicación de estados elementales, haciendo que el Lanzador de Plasma sea aún más letal.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia paso a paso para la partida">
+
+Llevar a cabo una partida exitosa requiere más que solo mantener presionado el gatillo. Debido a que el Lanzador de Plasma tiene una velocidad de proyectil más lenta, debes anticipar el movimiento de los enemigos y utilizar el entorno para canalizar a los objetivos hacia tus zonas de explosión. Sigue estos pasos para maximizar tu eficiencia desde el inicio de una expedición hasta la puerta del jefe final.
+
+<Steps>
+  <Step num="1" title="Selecciona tu equipamiento">
+    Antes de comenzar la partida, equipa el Lanzador de Plasma como tu arma principal. Combínalo con un traje orientado a la supervivencia y una habilidad activa como un escudo defensivo o un impulso de movimiento para ayudarte a escapar del peligro a corta distancia.
+  </Step>
+  <Step num="2" title="Reúne Bendiciones tempranas">
+    Durante las primeras salas, prioriza las rutas que recompensen con Bendiciones elementales. Intenta asegurar al menos una bendición de Fuego u Océano desde el principio para establecer tu sinergia principal de propagación de estados.
+  </Step>
+  <Step num="3" title="Localiza la Forja Ancestral">
+    Busca estaciones de la Forja Ancestral en las salas generadas procedimentalmente. Prioriza mejorar tu Lanzador de Plasma con la modificación Chain Reaction para desbloquear su verdadero potencial de limpieza de salas.
+  </Step>
+  <Step num="4" title="Domina el posicionamiento en la arena">
+    Nunca te quedes quieto. Usa tu impulso, doble salto y la verticalidad de la arena para mantener la distancia con los enemigos rápidos. Apunta tus esferas de plasma al centro de los grupos de enemigos o al suelo cerca de sus pies para garantizar el daño por salpicadura.
+  </Step>
+  <Step num="5" title="Ejecuta estrategias contra jefes">
+    Durante los combates contra jefes principales como Golemancer o Kri'Su, concéntrate en aprender sus patrones de ataque. Espera a que terminen sus fases de invulnerabilidad y luego desata las municiones de racimo de tu disparo secundario durante sus ventanas de recuperación para infligir un daño de ráfaga masivo.
+  </Step>
+</Steps>
+
+En el juego cooperativo, la comunicación es vital. Asegúrate de que tus compañeros de equipo conozcan tus capacidades explosivas para que puedan agrupar a los enemigos usando habilidades de control, permitiéndote eliminarlos en un solo ataque coordinado.
+
+<Callout type="info" title="Posicionamiento cooperativo">
+En el juego cooperativo, deja que tus compañeros de equipo con la Tesla Gun o el Brine Revolver se concentren en los puntos débiles de un solo objetivo mientras tú te posicionas para acabar con las oleadas de enemigos que se aproximan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de progresión y lista de verificación">
+
+Para optimizar por completo tu equipamiento explosivo, debes intentar completar hitos de progresión específicos. Dominar esta arma requiere desbloquear todo su conjunto de modificaciones y probar tu configuración contra los encuentros más difíciles del juego. Visita la [página oficial de Abyssus en Steam](https://store.steampowered.com/app/1721110/Abyssus/) o la [PlayStation Store](https://store.playstation.com/en-us/concept/10016582) para realizar un seguimiento de tus logros a medida que avanzas.
+
+Usa la siguiente lista de verificación para seguir tu progreso hacia la perfección de esta build.
+
+<Checklist
+  id="plasma-launcher-milestones"
+  title="Objetivos de la build:"
+  items={[
+    "Desbloquear las 4 modificaciones principales del Lanzador de Plasma",
+    "Adquirir la modificación de nivel S Chain Reaction de la Forja Ancestral en una sola partida",
+    "Maximizar los nodos de daño explosivo en el árbol de habilidades de la Actualización 1.3",
+    "Derrotar a Golemancer, Kri'Su y Un'glu usando esta configuración explosiva",
+    "Completar una partida cooperativa de 4 jugadores en dificultad alta con más del 50% de las bajas del equipo"
+  ]}
+/>
+
+Completar estos objetivos no solo te convertirá en un temible Brinehunter, sino que también te ayudará a desbloquear varios de los 119 logros disponibles en el juego.
+
+<Callout type="tip" title="Desbloqueo de logros">
+Esta build explosiva es muy eficaz para desbloquear logros que requieren bajas múltiples rápidas o limpiar salas dentro de límites de tiempo estrictos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Para ayudarte a aprovechar al máximo tu equipamiento explosivo, hemos recopilado respuestas a las preguntas más comunes sobre este estilo de juego.
+
+<FAQ items={[
+  {
+    question: "¿Por qué se considera de nivel S la build de lanzador de plasma de abyssus?",
+    answer: "Proporciona un daño en área inigualable, lo que permite a los jugadores limpiar salas enteras de enemigos agrupados al instante mientras se mantienen a salvo desde la distancia."
+  },
+  {
+    question: "¿Qué bendiciones elementales funcionan mejor con esta build?",
+    answer: "Las bendiciones de Fuego (para acumular daño por quemadura) y las bendiciones de Océano (para invocar tentáculos que ayudan en el combate) son las mejores opciones."
+  },
+  {
+    question: "¿Cómo afecta la Actualización 1.3 al Lanzador de Plasma?",
+    answer: "La Actualización 1.3 amplió el árbol de habilidades, introdujo nuevas bendiciones elementales y añadió juego multiplataforma completo, lo que facilita la coordinación de builds explosivas en cooperativo."
+  },
+  {
+    question: "¿Es esta configuración viable para jugar en solitario?",
+    answer: "Sí. Al combinar el Lanzador de Plasma con Bendiciones de Hielo para el control de masas, los jugadores en solitario pueden congelar y destrozar fácilmente las oleadas de enemigos de forma segura."
+  }
+]} />
+
+<Callout type="info" title="Soporte y actualizaciones">
+Para ver las últimas notas del parche, consulta el punto de encuentro de la comunidad oficial en Steam o sigue las actualizaciones de desarrollo de DoubleMoose Games.
+</Callout>
+
+</Section>

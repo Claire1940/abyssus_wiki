@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Steam: Guía Completa de Armas, Builds y Cooperativo",
+  description: "Domina Abyssus en Steam y consolas. Sumérgete en nuestra lista definitiva de niveles de armas, las mejores builds, bendiciones, estrategias contra jefes y consejos de juego cruzado cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Steam+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus",
+  keywords: "Abyssus, Steam, guía, armas, builds, cooperativo, jefes, bendiciones"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Plataforma Principal**: El juego se lanzó primero en **abyssus steam** el 12 de agosto de 2025, antes de expandirse a las consolas.
+- **Mejores Armas**: Concéntrate en armas de nivel S como la Tesla Gun para el control de masas y el Brine Revolver para el daño a un solo objetivo.
+- **Ciclo de Sinergia**: Aumenta tu poder acumulando Bendiciones elementales, Amuletos pasivos y modificaciones de la Forja Antigua en una sola acción de alta frecuencia.
+- **Estrategia Cooperativa**: Coordina roles en salas de 1 a 4 jugadores utilizando el emparejamiento multiplataforma recientemente implementado.
+</Callout>
+
+<Section icon={Map} title="Lanzamiento de Abyssus en Steam, Plataformas y Game Pass">
+
+Desde su lanzamiento inicial en **abyssus steam** el 12 de agosto de 2025, el shooter brinepunk de DoubleMoose Games ha captado la atención de los fans de los roguelites. El juego amplió su alcance a PlayStation 5 y Xbox Series X|S el 25 de junio de 2026, junto con la masiva Actualización 1.3. Esta expansión unificó a la base de jugadores al introducir el modo multijugador multiplataforma completo, permitiendo que los buceadores de diferentes sistemas formen escuadrones sin problemas.
+
+Para los jugadores que deciden dónde comprar o jugar, el juego está disponible en múltiples tiendas digitales. Los jugadores de Xbox y PC reciben un beneficio adicional a través de los servicios de suscripción, mientras que los jugadores de PlayStation disfrutan de funciones localizadas y una optimización de alto rendimiento para consolas.
+
+| Plataforma | Fecha de Lanzamiento | Precio Base | Game Pass | Características |
+| :--- | :--- | :--- | :--- | :--- |
+| **Steam (PC)** | 12 de agosto de 2025 | $24.99 | No | Logros de Steam, Steam Cloud, Préstamo Familiar |
+| **PlayStation 5** | 25 de junio de 2026 | $24.99 | No | Calificación de 4.59/5, Cooperativo Online PS Plus |
+| **Xbox Series X\|S** | 25 de junio de 2026 | $24.99 | Sí | Play Anywhere, Juego en la Nube, Smart Delivery |
+
+La edición estándar ofrece la experiencia base completa, mientras que la edición premium Brine Edition (con un precio de $34.99 en las tiendas de consolas) incluye el juego base junto con varios paquetes de expansión cosmética, que incluyen los cosméticos Brinehunter, Brineguard, Brinefrost y Brinerot.
+
+<Callout type="warning" title="Requisitos de Suscripción">
+Aunque los jugadores de PC en Steam no requieren una suscripción activa para el cooperativo en línea, los jugadores de consola en PlayStation 5 deben tener PlayStation Plus, y los jugadores de Xbox requieren Xbox Game Pass Core o Ultimate para acceder al emparejamiento en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Armas y Mejores Builds">
+
+El éxito en las profundidades requiere comprender el arsenal de 9 armas únicas del juego. Cada arma cuenta con modos de disparo primario y secundario distintos, que pueden modificarse utilizando 54 modificaciones de armas diferentes y más de 140 mejoras de la Forja Antigua. Elegir el arma adecuada para tu estilo de juego es el primer paso para sobrevivir a las profundidades.
+
+<CardGrid cols={3}>
+  <Card title="Tesla Gun (Nivel S)">
+    - **Rol Ideal**: Limpieza de salas y propagación de estados
+    - **Disparo Primario**: Electricidad en arco
+    - **Mejor Sinergia**: Mods de rayos en cadena y propagación elemental
+  </Card>
+  <Card title="Brine Revolver (Nivel S)">
+    - **Rol Ideal**: Jefes y daño a un solo objetivo
+    - **Disparo Primario**: Disparos de precisión de alta exactitud
+    - **Mejor Sinergia**: Daño en puntos débiles y modificadores críticos
+  </Card>
+  <Card title="Plasma Launcher (Nivel S)">
+    - **Rol Ideal**: Control de área y daño de ráfaga
+    - **Disparo Primario**: Energía de plasma explosiva
+    - **Mejor Sinergia**: Radio de explosión y mejoras de cadencia de fuego
+  </Card>
+</CardGrid>
+
+Aunque las armas de nivel S dominan el meta, otras opciones ofrecen estilos de juego muy fiables dependiendo de la composición de tu equipo. La siguiente tabla detalla las características de rendimiento y las rutas de mejora para las armas principales.
+
+| Arma | Nivel | Rol Ideal | Mod Recomendado | Mejor Pareja de Bendición |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tesla Gun** | **S** | Control de Masas | Rayos en Cadena | Arcos Eléctricos |
+| **Brine Revolver** | **S** | DPS contra Jefes | Golpe Crítico | Quemadura de Fuego |
+| **Plasma Launcher** | **S** | AOE Pesado | Radio de Explosión | Debilitamientos de Sombra |
+| **Combat Bow** | **A** | Precisión a Distancia | Velocidad de Tensado | Colocación de Torretas |
+| **Fish Deity** | **A** | Reacciones en Cadena | Detonador de Explosión | Invocaciones del Océano |
+| **Engine Rifle** | **A** | Equilibrado Multiuso | Disipación de Calor | Congelación de Hielo |
+| **Shotgun** | **B** | Ráfaga de Corto Alcance | Retroceso | Congelación de Hielo |
+| **Disc Thrower** | **B** | Geometría de Salas | Rebote | Debilitamientos de Sombra |
+| **Harpoon Gun** | **B** | DPS Especialista | Punta de Precisión | Espíritus Vengativos |
+
+Para crear un equipamiento potente, concéntrate en escalar un tipo de daño principal. Por ejemplo, combinar la **Tesla Gun** con Bendiciones de temática de rayos y Amuletos de enfriamiento de habilidades crea una build que derrite salas enteras de enemigos en segundos.
+
+<Callout type="tip" title="Regla de Sinergia de Armas">
+No diversifiques demasiado tus mejoras. Un arma especializada con tres modificaciones sinérgicas superará a un equipamiento donde las modificaciones están dispersas en múltiples tipos elementales no relacionados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones, Amuletos y Modificaciones de la Forja Antigua">
+
+Las expediciones están moldeadas por Bendiciones divinas y Amuletos pasivos. Con más de 250 Amuletos y Bendiciones compartidos en el grupo, no hay dos partidas que se sientan idénticas. Las Bendiciones aplican efectos elementales o místicos directamente a tu disparo primario, disparo secundario y habilidades activas, mientras que los Amuletos modifican el comportamiento base de tu personaje, los enfriamientos y la supervivencia.
+
+La Forja Antigua te permite reajustar armas y habilidades a mitad de la partida, adaptando tu equipo a las Bendiciones que hayas acumulado. La Actualización 1.3 amplió este sistema introduciendo un nuevo Dios de la Salmuera, trayendo 15 Bendiciones exclusivas junto con 5 nuevas Bendiciones para cada una de las deidades existentes.
+
+| Elemento / Dios | Efecto Primario | Mejor Pareja de Arma | Estrategia de Build |
+| :--- | :--- | :--- | :--- |
+| **Fuego** | Daño en el tiempo (Quemadura) | Brine Revolver, Engine Rifle | Acumula cargas de quemadura en objetivos con mucha salud |
+| **Hielo** | Control de masas (Congelar) | Shotgun, Combat Bow | Congela enemigos de élite para crear ventanas de seguridad |
+| **Rayo** | Daño en cadena (Arco) | Tesla Gun, Disc Thrower | Maximiza el daño de área en arenas abarrotadas |
+| **Océano** | Soporte de esbirros (Invocaciones) | Combat Bow, Plasma Launcher | Despliega tentáculos para distraer y dañar a los enemigos |
+| **Sombra** | Vulnerabilidad (Debilitamientos) | Harpoon Gun, Engine Rifle | Aplica debilitamientos antes de iniciar ataques pesados |
+| **Espíritus** | Rastreo automatizado (Proyectiles) | Fish Deity, Brine Revolver | Deja que los espíritus teledirigidos eliminen a los rezagados |
+
+Al combinar estos elementos con Amuletos pasivos (como la reducción del enfriamiento de habilidades o la recuperación de escudo al matar), puedes especializarte en roles dedicados. Esto es especialmente útil en el cooperativo, donde un jugador puede centrarse en el control basado en el hielo mientras otro se centra en el daño basado en el fuego.
+
+<Callout type="success" title="El Ciclo de Sinergia Dorado">
+Las builds más efectivas utilizan un ciclo simple: selecciona una acción principal (como tu disparo secundario), añade una Bendición que aplique un estado, equipa un Amuleto que se active con ese estado específico y utiliza modificaciones de la Forja Antigua para reducir el enfriamiento de esa acción.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía para Principiantes: Ciclo de Partida Paso a Paso">
+
+Entrar en las ruinas del océano profundo puede ser abrumador para los nuevos Brinehunters. Para completar expediciones de manera constante y retener tus recursos para la metaprogresión, sigue esta guía de pasos estructurada.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Equipamiento Inicial">
+    Antes de sumergirte, elige un arma inicial como el Engine Rifle. Si juegas en cooperativo, coordina con tu equipo para asegurar que tengan una mezcla de control de masas y daño a un solo objetivo.
+  </Step>
+  <Step num="2" title="Domina el Espaciado y el Movimiento">
+    Trata el movimiento como tu herramienta defensiva principal. Utiliza las mecánicas de carrera, salto y doble salto para mantenerte en el aire y moverte en círculos alrededor de las hordas enemigas. Nunca te quedes quieto durante el combate.
+  </Step>
+  <Step num="3" title="Limpia Salas y Prioriza Objetivos">
+    Cada partida consiste en salas diseñadas a mano y secuenciadas procedimentalmente. Prioriza primero a los enemigos a distancia y explosivos para mantener la arena limpia, luego concéntrate en los objetivos de élite más resistentes.
+  </Step>
+  <Step num="4" title="Invierte en Altares y Mejoras">
+    Localiza estaciones de mejora, altares y pozos de curación entre las fases de combate. Gasta la moneda recolectada en Bendiciones que complementen el tipo elemental principal de tu arma.
+  </Step>
+  <Step num="5" title="Utiliza la Metaprogresión en el Nexo">
+    Cuando termine una partida, usa los recursos ganados en el nexo para desbloquear habilidades permanentes, nuevas armas y estaciones de mejora avanzadas. Esto hace que los descensos posteriores sean significativamente más fáciles.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Escalado Solo vs. Cooperativo">
+La salud de los enemigos y las tasas de aparición escalan dinámicamente según el tamaño de tu grupo. En el juego en solitario, concéntrate mucho en la autopreservación y el movimiento. En el cooperativo, asigna a un jugador para que se centre en la curación y el apoyo defensivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Batallas contra Jefes y Progresión de Niveles">
+
+Abyssus presenta un sólido sistema de progresión que consta de más de 70 niveles diseñados a mano, 36 tipos de enemigos distintos y 12 jefes desafiantes. La Actualización 1.3 introdujo una nueva área con temática de maquinaria brinepunk, completa con nuevos enemigos, un encuentro de élite y una nueva batalla contra un jefe devastador.
+
+Las batallas contra jefes en este juego requieren una ejecución precisa, reconocimiento de patrones y un posicionamiento cuidadoso. A diferencia de las salas estándar, los jefes utilizan patrones de bullet-hell, escudos de invulnerabilidad y peligros ambientales.
+
+| Nombre del Jefe | Patrón de Ataque Principal | Peligro Clave | Arma Recomendada | Calificación de Dificultad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Golemante** | Ondas de choque y golpes | Ondulaciones en el suelo | Brine Revolver | ★★★☆☆ (Moderada) |
+| **Kri'Su** | Proyectiles de mortero | Charcos de fuego | Tesla Gun | ★★★★☆ (Difícil) |
+| **Un'glu** | Fases de carga con escudo | Paredes de la arena | Plasma Launcher | ★★★★☆ (Difícil) |
+| **Nuevo Jefe 1.3** | Rejillas láser de maquinaria | Rayos móviles | Combat Bow | ★★★★★ (Muy Difícil) |
+
+Para llegar a estos jefes y completar los desafíos definitivos del juego, intenta cumplir estos hitos durante tu viaje de progresión.
+
+<Checklist
+  id="abyssus-milestones"
+  title="Hitos de Progresión:"
+  items={[
+    "Desbloquea las 9 armas base en el nexo",
+    "Derrota al Golemante, Kri'Su y Un'glu en dificultad estándar",
+    "Maximiza tu rama preferida del árbol de habilidades recientemente ampliado en la 1.3",
+    "Completa una partida cooperativa de 4 jugadores utilizando el emparejamiento multiplataforma",
+    "Derrota a una variante de jefe potenciada por Oleada en dificultad de alto nivel"
+  ]}
+/>
+
+<Callout type="warning" title="Cuidado con los Patrones de Oleada de los Jefes">
+Los parches 1.2 y 1.3 introdujeron patrones de ataque renovados para el Golemante, Kri'Su y Un'glu. Los jugadores que regresen deben esperar velocidades de proyectil más rápidas y ventanas de seguridad más cortas durante estos encuentros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cooperativo, Juego Cruzado y Emparejamiento">
+
+La forma definitiva de experimentar el juego es a través de su modo multijugador, que admite hasta 4 jugadores. Con el lanzamiento de la Actualización 1.3, se admite el juego cruzado completo entre PC (Steam), PlayStation 5 y Xbox Series X|S. La actualización también simplificó el proceso de emparejamiento, introduciendo una función de partida rápida que permite a los jugadores saltar directamente a salas activas.
+
+Cuando se juega en grupo, la sinergia del equipamiento se convierte en el factor decisivo entre una partida exitosa y una derrota rápida. Los jugadores deben comunicarse para asegurar que sus habilidades activas y Bendiciones elementales no se sobrescriban ni interfieran entre sí, sino que se complementen para crear combinaciones devastadoras.
+
+<FAQ items={[
+  {
+    question: "¿Es Abyssus completamente jugable en modo solitario?",
+    question_id: "solo-play",
+    answer: "Sí. Aunque el juego está diseñado pensando en el cooperativo de 1 a 4 jugadores, el juego en solitario es totalmente compatible. La salud de los enemigos y las tasas de aparición se reducen para adaptarse a los jugadores individuales."
+  },
+  {
+    question: "¿Cómo funciona el juego cruzado entre los jugadores de Steam y los de consola?",
+    question_id: "crossplay-mechanics",
+    answer: "El juego cruzado está habilitado por defecto a partir de la Actualización 1.3. Puedes invitar a amigos de otras plataformas usando un código de sesión en el juego o usar el sistema de emparejamiento de partida rápida para encontrar salas abiertas en Steam, PlayStation y Xbox."
+  },
+  {
+    question: "¿Hay recompensas exclusivas en la versión de Steam de Abyssus?",
+    question_id: "steam-exclusives",
+    answer: "No hay armas ni objetos exclusivos para el juego. Sin embargo, el juego en Steam cuenta con 119 logros únicos, soporte para Steam Cloud e integración con el centro de la comunidad que son específicos del ecosistema de PC."
+  },
+  {
+    question: "¿Qué incluye la Brine Edition?",
+    question_id: "brine-edition",
+    answer: "La Brine Edition incluye el juego base junto con paquetes de DLC que son solo cosméticos, incluyendo los paquetes Brinehunter, Brineguard, Brinefrost y Brinerot. Estos paquetes proporcionan cascos alternativos, aspectos de armadura, gestos y marcos de retrato."
+  }
+]} />
+
+<Callout type="info" title="Consejo para el Emparejamiento Rápido">
+Si tienes problemas para encontrar una sala, asegúrate de que tu juego esté actualizado a la versión más reciente (Actualización 1.3 o superior) y que el juego cruzado esté activado en el menú de ajustes de juego.
+</Callout>
+
+</Section>

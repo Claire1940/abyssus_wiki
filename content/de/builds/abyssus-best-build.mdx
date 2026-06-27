@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Bester Build: Tier List & Waffen-Setup-Guide",
+  description: "Meistern Sie die Tiefsee mit unserem Guide zum besten Abyssus-Build. Vergleichen Sie Waffen-Tiers, Elementarsegnungen und Ancient Forge-Mods, um Co-op-Runs zu dominieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0d2226/fff?text=Abyssus+Best+Build+Guide",
+  date: "2026-06-27",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptfokus des Builds**: Synergieren Sie Ihre Primärwaffe, Waffen-Mods, Elementar-Segnungen und passive Charms, um den Schadensausstoß zu maximieren.
+- **Top-Tier-Waffe**: Die **Tesla-Kanone** herrscht oberstes Gebot bei der Raumklärung und Statusverteilung, was sie zu einem Standard für hochrangige Runs macht.
+- **Kernmechanik**: Nutzen Sie die **Ancient Forge** (Uralte Schmiede), um das Waffenverhalten grundlegend zu verändern, anstatt nur die reinen Statuswerte zu verbessern.
+- **Verteidigungspriorität**: Balancieren Sie Glass-Cannon-Schadensbuilds mit schildgenerierenden und abklingzeitverringernden **Charms** aus, um Late-Game-Bosse zu überleben.
+- **Koop-Strategie**: Koordinieren Sie die Rollen mit Ihren Teammitgliedern, um eine Mischung aus Crowd Control, Einzelziel-DPS und Support-Fähigkeiten sicherzustellen.
+</Callout>
+
+<Section icon={Swords} title="Abyssus Bester Build: Kernsynergie-Mechaniken">
+
+Der Erfolg in den Tiefen des Meeres dieses Brinepunk-Roguelites erfordert mehr als nur schnelle Reflexe. Das Finden und Perfektionieren des **besten Abyssus-Builds** ist entscheidend für das Überleben von Runs mit hohem Schwierigkeitsgrad, insbesondere nach den Herausforderungen, die mit dem Konsolen-Release im Juni 2026 eingeführt wurden. Ein erfolgreicher Build besteht nicht nur darin, die seltenste Waffe zu wählen; es geht darum, eine kohärente Synergieschleife zwischen Ihrer gewählten Schusswaffe, Waffen-Mods, aktiven Fähigkeiten und passiven Upgrades zu schaffen.
+
+Das Spiel verfügt über ein umfangreiches Anpassungs-Ökosystem, das aus 9 Basiswaffen, 54 Waffen-Mods, über 140 Ancient Forge-Mods und mehr als 250 Charms und Segnungen besteht. Das Stapeln zufälliger Upgrades wird in tieferen Expeditionen schnell zu gescheiterten Runs führen. Stattdessen müssen sich Spieler auf Elementar-Trigger und Verhaltensmodifikationen konzentrieren, die einander ergänzen.
+
+| Archetyp | Kernwaffe | Schlüsselsegnung | Beste Mod | Spielstil |
+|---|---|---|---|---|
+| Kettenblitz | Tesla-Kanone | Blitzbögen | Kettenradius | Schnelle AOE-Raumklärung |
+| Boss-Schmelzer | Brine-Revolver | Feuerbrand | Schwachpunkt-Boost | Hoher Einzelziel-DPS |
+| Crowd-Controller | Plasma-Werfer | Eis-Einfrieren | Explosionsradius | Defensive Gebietsverweigerung |
+| Beschwörer-Elite | Fisch-Gottheit | Ozean-Tentakel | Abklingzeitverringerung | Geschütz- & Pet-Schaden |
+
+<Callout type="tip" title="Synergie-Regel">
+Richten Sie Ihre Elementar-Segnungen immer an der Feuerrate Ihrer Waffe aus. Schnell feuernde Waffen wie die Tesla-Kanone eignen sich hervorragend zum Auftragen von stapelbaren Statuseffekten, während langsame, schwerfällige Waffen wie der Brine-Revolver mehr von Modifikatoren für hohen Einzelschlag-Schaden profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Waffen-Tier-List & Meta-Loadouts">
+
+Waffen bilden den Grundpfeiler Ihres Builds. Mit der Veröffentlichung von Update 1.3 hat sich das Waffenbalancing in deutliche Tiers gefestigt, basierend auf Vielseitigkeit, Benutzerfreundlichkeit und Skalierungspotenzial. Während jede Waffe mit den richtigen Upgrades lebensfähig sein kann, bieten S-Tier-Optionen den beständigsten Weg zum Sieg.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Run-Carries">
+    - **Tesla-Kanone**: Unübertroffene Crowd Control und Elementar-Anwendung.
+    - **Brine-Revolver**: Elite-Einzelziel-Burst-Schaden für Bossphasen.
+    - **Plasma-Werfer**: Massiver Flächenschaden zur Klärung voller Arenen.
+  </Card>
+  <Card title="A-Tier: Zuverlässiger Kern">
+    - **Kampfbogen**: Exzellente Skalierung und Sicherheit durch Distanz.
+    - **Fisch-Gottheit**: Einzigartige Mechaniken, die mächtige Kettenreaktionen auslösen.
+    - **Maschinen-Gewehr**: Einsteigerfreundlicher Allrounder mit stabiler Handhabung.
+  </Card>
+  <Card title="Fortgeschritten: Spezialisten">
+    - **Schrotflinte**: Hohes Risiko, Burst-Schaden auf kurze Distanz.
+    - **Diskuswerfer**: Hoher Skill-Ceiling durch Nutzung von Abprall-Geometrie.
+    - **Harpunenkanone**: Präzisions-Spezialwaffe, freigeschaltet in Update 1.2.
+  </Card>
+</CardGrid>
+
+Berücksichtigen Sie beim Erstellen Ihres Loadouts, wie Ihre Waffe mit verschiedenen Kampfszenarien umgeht. Ein Build, der hervorragend darin ist, kleinere Gegner zu eliminieren, könnte gegen die 12 furchterregenden Bosse des Spiels Schwierigkeiten haben. Umgekehrt kann ein dedizierter Boss-Killer-Build in überfüllten Arenen leicht überwältigt werden.
+
+| Waffe | Basisrolle | Primäre Segnung | Schmiede-Priorität | Bewertung |
+|---|---|---|---|---|
+| Tesla-Kanone | Raumklärung & Status | Blitzbögen | Kettenschaden-Skalierung | ★★★★★ |
+| Brine-Revolver | Boss- & Einzelzielschaden | Feuerbrand | Schwachpunkt-Multiplikator | ★★★★★ |
+| Plasma-Werfer | Flächenschaden & Explosion | Eis-Einfrieren | Explosionsradiuserweiterung | ★★★★☆ |
+| Kampfbogen | Skalierender Schaden | Schatten-Debuffs | Aufladezeitverkürzung | ★★★★☆ |
+| Maschinen-Gewehr | Einsteiger-Allrounder | Variabel | Nachladegeschwindigkeit | ★★★☆☆ |
+
+<Callout type="info" title="Koop-Team-Balance">
+Im 4-Spieler-Koop sollten Spieler vermeiden, identische Builds zu spielen. Wenn ein Spieler für Crowd Control (mit dem Plasma-Werfer oder der Tesla-Kanone) zuständig ist und ein anderer sich auf Bossschaden (mit dem Brine-Revolver) konzentriert, erhöht dies die Überlebensrate des Teams drastisch.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Setup für den Tesla-Kanonen-Build">
+
+Der Tesla-Kanonen-Build gilt weithin als eine der mächtigsten Konfigurationen für Solo- und Koop-Spiele. Er zeichnet sich dadurch aus, dass er riesige Räume voller Brinepunk-Maschinen und Seemonster schnell klärt und den Druck vom Spieler nimmt. Folgen Sie diesen Schritten, um dieses dominante Setup während Ihres nächsten Runs zusammenzustellen.
+
+<Steps>
+  <Step num="1" title="Wählen Sie die Tesla-Kanone und Basis-Mods">
+    Rüsten Sie die Tesla-Kanone als Primärwaffe aus. Konzentrieren Sie Ihre anfängliche Wahl der Waffen-Mods auf die Erhöhung der Feuerrate und der Munitionskapazität. Dies stellt sicher, dass Sie kontinuierlich Statuseffekte ohne häufige Nachladeunterbrechungen anwenden können.
+  </Step>
+  <Step num="2" title="Priorisieren Sie Blitzbogen-Segnungen">
+    Suchen Sie nach Elementaraltären oder Opfergaben der Brine-Götter, um Blitzbogen-Segnungen zu erhalten. Diese Segnungen bewirken, dass Ihre Angriffe auf benachbarte Feinde überspringen, was Ihren Schadensausstoß in überfüllten Räumen exponentiell vervielfacht.
+  </Step>
+  <Step num="3" title="Wenden Sie Ancient Forge-Upgrades an">
+    Sobald Sie eine Ancient Forge-Station finden, aktualisieren Sie das Verhalten Ihrer Waffe. Suchen Sie nach Mods, die die Anzahl der maximalen Kettenziele erhöhen oder sekundäre Explosionen auslösen, wenn ein Feind durch Blitzschaden besiegt wird.
+  </Step>
+  <Step num="4" title="Stapeln Sie Abklingzeit-Charms">
+    Vervollständigen Sie Ihren Build, indem Sie passive Charms ausrüsten, die die Abklingzeit aktiver Fähigkeiten verringern. Dies ermöglicht es Ihnen, Support-Fähigkeiten wie Verteidigungsschilde oder Ablenkungsgeschütze mit minimaler Ausfallzeit einzusetzen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build Abgeschlossen">
+Vollständig zusammengebaut erlaubt diese Konfiguration, ganze Kampf-Arenen in Sekunden zu klären. Der Kettenblitz visiert automatisch versteckte oder entfernte Feinde an und schützt Sie vor Bedrohungen außerhalb des Bildschirms.
+</Callout>
+
+| Mod-Name | Typ | Primäreffekt | Upgrade-Priorität |
+|---|---|---|---|
+| Leitfähige Spulen | Waffen-Mod | Erhöht Blitzreichweite um 25% | Hoch |
+| Überladung | Forge-Mod | Löst bei jedem dritten Treffer Explosion aus | Hoch |
+| Schnelle Entladung | Waffen-Mod | Erhöht Feuerrate um 15% | Mittel |
+| Statik-Schild | Charm | Gewährt Schild bei Nutzung aktiver Skills | Mittel |
+
+</Section>
+
+<Section icon={Shield} title="Checkliste für Verteidigungs- und Utility-Charms">
+
+Während die Maximierung des Schadens befriedigend ist, erfordert das Überleben in Late-Game-Arenen ein solides Verteidigungsfundament. Das Stapeln rein offensiver Upgrades kann Sie anfällig für AOE-Angriffe mit hohem Schaden von Elite-Gegnern und Bossen machen. Die Integration von Utility- und Verteidigungs-Charms in Ihren Build ist für die Konsistenz des Runs unerlässlich.
+
+<Checklist
+  id="run-survival"
+  title="Run-Überlebens-Checkliste:"
+  items={[
+    "Rüsten Sie mindestens einen schildgenerierenden Charm aus, um plötzlichen Burst-Schaden zu absorbieren",
+    "Schalten Sie Tier-3-Upgrades für maximale Gesundheit über die Meta-Progression frei",
+    "Identifizieren Sie Boss-Angriffsindikatoren und sparen Sie Dash-Ladungen zum Ausweichen auf",
+    "Koordinieren Sie aktive Support-Fähigkeiten mit Teammitgliedern in Koop-Lobbys",
+    "Halten Sie eine Crowd-Control-Fähigkeit bereit, um aggressive Elite-Feinde zu unterbrechen"
+  ]}
+/>
+
+Verteidigungsentscheidungen sollten Ihren Bewegungsstil ergänzen. Wenn Sie einen Kampf mit hoher Mobilität bevorzugen, priorisieren Sie Charms, die Ihren Dash verbessern oder temporäre Unverwundbarkeits-Frames gewähren. Wenn Sie einen langsameren, bedachteren Spielstil bevorzugen, konzentrieren Sie sich auf reine Gesundheitspools und Schildregeneration.
+
+| Charm-Typ | Hauptvorteil | Beste Synergie | Tier-Bewertung |
+|---|---|---|---|
+| Aegis-Kern | Temporärer Schild bei niedriger Gesundheit | Hochmobile Setups | Exzellent |
+| Kinetischer Lader | Schnellere Dash-Abklingzeit | Nahkampf-Schrotflinten-Builds | Großartig |
+| Vitalitäts-Rune | Erhöht maximalen Gesundheitspool | Solo-Überlebens-Runs | Gut |
+| Katalysator-Ring | Verlängert Elementarstatus-Dauer | Tesla-Kanone oder Feuer-Builds | Exzellent |
+
+<Callout type="warning" title="Glass-Cannon-Gefahr">
+Vermeiden Sie die Versuchung, Verteidigungs-Upgrades komplett zu ignorieren. In hochrangigen Expeditionen kann ein einziger Fehler gegen einen Late-Game-Boss Ihren Run sofort beenden, wenn Ihnen grundlegende Schild- oder Gesundheitsbuffer fehlen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Boss-Fortschritt & Build-Anpassungen">
+
+Boss-Begegnungen in diesem Brinepunk-Shooter dienen als wichtige Fortschrittsschranken, die von den Spielern verlangen, ihre Offensivstrategien spontan anzupassen. Update 1.2 und Update 1.3 führten überarbeitete Angriffsmuster und Surge-betriebene Varianten für Schlüsselbosse wie Golemancer, Kri'Su und Un'glu ein. Ihr Build muss genügend Flexibilität aufweisen, um diese mechanischen Verschiebungen zu bewältigen.
+
+Während Bosskämpfen werden Arenagefahren und Unverwundbarkeitsphasen Ihre Möglichkeiten einschränken, direkten Schaden zuzufügen. Builds, die darauf basieren, stillzustehen und zu schießen, werden schnell scheitern. Konzentrieren Sie sich stattdessen auf hochmobile Waffen und Damage-over-Time-Statuseffekte, die weiterhin die Gesundheit des Bosses entziehen, während Sie sich auf das Ausweichen von Angriffen konzentrieren.
+
+| Boss-Name | Hauptbedrohung | Build-Anpassung | Empfohlene Waffe |
+|---|---|---|---|
+| Golemancer | Bodenschläge und Arenagefahren | Hohe Mobilität, Sprunghöhe | Kampfbogen |
+| Kri'Su | Schneller Projektil-Spam | Schild-Charms, Defensiv-Skills | Tesla-Kanone |
+| Un'glu | Unverwundbarkeitsphasen, Adds | Hohe AOE-Klärung, Crowd Control | Plasma-Werfer |
+
+<Callout type="tip" title="Bewegung ist Überleben">
+Sparen Sie sich Ihre Mobilitätsfähigkeiten, wie Dashes und Doppelsprünge, immer auf, um Boss-Flächenangriffen zu entkommen, anstatt sie nur zur Neupositionierung zu nutzen. Mobil zu bleiben ist Ihre beste Verteidigung.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist der absolut beste Build für Solospieler?",
+    answer: "Der absolut beste Build für Solospieler ist der Tesla-Kanonen-Build in Kombination mit Blitzbogen-Segnungen und schildgenerierenden Charms. Dieses Setup bietet unübertroffene Crowd Control und eine hohe Überlebensfähigkeit, wenn man ohne Team spielt."
+  },
+  {
+    question: "Wie unterscheiden sich Waffen-Mods von Ancient Forge-Mods?",
+    answer: "Waffen-Mods verändern grundlegende Waffenstatistiken wie Feuerrate, Nachladegeschwindigkeit und Magazinkapazität. Ancient Forge-Mods verändern grundlegend das Verhalten der Waffe, wie z.B. das Hinzufügen von Explosivgeschossen, gespaltenen Projektilen oder Kettenblitzeffekten."
+  },
+  {
+    question: "Kann ich meinen Build während eines Runs ändern?",
+    answer: "Während Sie Ihre Kernwaffe während eines Runs nicht ändern können, können Sie Ihren Build anpassen, indem Sie verschiedene Segnungen, Charms und Ancient Forge-Upgrades an Stationen wählen, die Sie in den Levels finden."
+  },
+  {
+    question: "Skaliert der Koop-Modus die Schwierigkeit der Bosskämpfe?",
+    answer: "Ja, die Gesundheit und der Schaden der Gegner skalieren basierend auf der Anzahl der aktiven Spieler in der Lobby. Koordinierte Builds und eine klare Rollenverteilung werden für 4-Spieler-Teams dringend empfohlen."
+  }
+]} />
+
+<Callout type="info" title="Patch-Updates">
+Balance-Anpassungen werden regelmäßig veröffentlicht. Stellen Sie sicher, dass Sie die neuesten Patch-Notizen lesen, da sich die Waffenskalierung und Mod-Synergien mit zukünftigen Updates verschieben können.
+</Callout>
+
+</Section>

@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users, RefreshCw, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus: Guía 2026 de Armas, Builds y Jefes",
+  description: "Domina Abyssus con nuestra guía de 2026. Explora tiers de armas, mejores builds, estrategias de jefes y consejos cooperativos para Steam, PS5 y Xbox Series X|S.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0d2226/26b8aa?text=Abyssus+Ultimate+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Abyssus** es un roguelite FPS cooperativo de ritmo rápido con estética brinepunk disponible en Steam, PS5 y Xbox Series X|S.
+- **La jugabilidad principal** gira en torno a expediciones de 1 a 4 jugadores a través de más de 70 niveles creados a mano y secuenciados de forma procedimental.
+- **La sinergia de builds** se logra combinando 9 armas base con 54 modificaciones y más de 250 amuletos (Charms) y bendiciones (Blessings).
+- **Las actualizaciones de 2026** introdujeron multijugador multiplataforma completo y la enorme expansión de contenido 1.3 "Brinerot".
+- **El lanzamiento en consolas** el 25 de junio de 2026 llevó el juego a PlayStation 5 y a los suscriptores de Xbox Game Pass.
+</Callout>
+
+<Section icon={Map} title="Información de lanzamiento, plataformas y Game Pass">
+
+Abyssus ha expandido oficialmente su alcance en el panorama de los videojuegos. Tras su lanzamiento original en Steam el 12 de agosto de 2025, el juego hizo su muy esperado debut en PlayStation 5 y Xbox Series X|S el 25 de junio de 2026. Este lanzamiento en consolas coincidió con la enorme Actualización 1.3, que unificó a la comunidad de jugadores mediante el soporte completo de multijugador multiplataforma. Para los jugadores del ecosistema de Xbox, el juego es una adición importante a la biblioteca de Game Pass, compatible con juego en la nube (Cloud), consola y PC.
+
+**Puntos destacados del video:**
+- Un vistazo oficial a la estética brinepunk y al rápido combate FPS.
+- Muestra de varias modificaciones de armas y efectos de bendiciones elementales.
+- Avance de la dinámica cooperativa de 1 a 4 jugadores en arenas de alta presión.
+- Un vistazo al diseño de niveles creados a mano y a los enfrentamientos con jefes.
+
+<YouTubeEmbed videoId="jkDOLIRLJpU" title="Abyssus | Tráiler de lanzamiento" />
+
+| Plataforma | Fecha de lanzamiento | Precio/Disponibilidad | Características clave |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | 12 de agosto de 2025 | $24.99 / Estándar | Logros, guardado en la nube, préstamo familiar |
+| **PlayStation 5** | 25 de junio de 2026 | $24.99 / Brine Edition | Calificación de jugadores de 4.59/5, cooperativo con PS Plus |
+| **Xbox Series X|S** | 25 de junio de 2026 | Game Pass / $24.99 | Play Anywhere, Smart Delivery, juego en la nube |
+
+<Callout type="tip" title="Consejo profesional">
+Si juegas en Xbox o PC, comprueba si tienes una suscripción activa a Game Pass Ultimate. Abyssus está incluido en la biblioteca desde junio de 2026, lo que te permite adentrarte en el juego sin realizar ninguna compra adicional.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía para principiantes: Sobrevivir a las Pruebas de Brinehunter">
+
+Entrar al mundo de Abyssus requiere un cambio de mentalidad en comparación con los shooters tradicionales. Como Brinehunter, tu supervivencia depende de dominar el "bucle de la partida" (Run Loop). Cada expedición comienza con la selección de tu equipamiento inicial, pero el verdadero poder proviene de las mejoras que encuentras dentro de las ruinas hundidas. El movimiento es tu principal herramienta defensiva; quedarse quieto es la forma más rápida de terminar una partida.
+
+<CardGrid cols={3}>
+  <Card title="Juego en solitario">
+    - **Enfoque**: Reconocimiento de patrones
+    - **Ventaja**: Control total sobre las mejoras
+    - **Consejo**: Ideal para aprender las mecánicas de los jefes
+  </Card>
+  <Card title="Juego cooperativo">
+    - **Enfoque**: Especialización de roles
+    - **Ventaja**: Mecánicas de reanimación y sinergia
+    - **Consejo**: Coordina las bendiciones elementales
+  </Card>
+  <Card title="Metaprogresión">
+    - **Enfoque**: Desbloqueos del árbol de habilidades
+    - **Ventaja**: Aumentos permanentes de estadísticas
+    - **Consejo**: Gasta recursos entre partidas fallidas
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Domina primero el movimiento">
+    Usa el esquive (dash), el doble salto y la verticalidad de la arena. La mayoría de los enemigos usan ataques basados en proyectiles que se pueden esquivar reposicionándote constantemente.
+  </Step>
+  <Step num="2" title="Identifica los objetivos de la sala">
+    Las salas no consisten solo en eliminar enemigos; algunas requieren proteger nodos o sobrevivir a oleadas. Revisa la interfaz de usuario para ver las condiciones específicas de "limpieza" (Clear).
+  </Step>
+  <Step num="3" title="Prioriza las estaciones de curación">
+    La salud no se regenera automáticamente. Traza tu ruta hacia los altares de curación o los amuletos (Charms) de supervivencia al principio de una partida profunda.
+  </Step>
+  <Step num="4" title="Interactúa con la Forja Ancestral">
+    Usa estas estaciones para modificar tus armas. Una sola modificación puede transformar un rifle estándar en una potencia para limpiar oleadas de enemigos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Importante">
+En el modo cooperativo de 4 jugadores, la salud de los enemigos aumenta considerablemente. No te alejes solo; mantente dentro de la línea de visión de tus compañeros de equipo para maximizar la eficiencia de las bendiciones (Blessings) de apoyo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de armas y roles de combate">
+
+Con 9 armas base y 54 modificaciones únicas, el combate en Abyssus es altamente personalizable. Cada arma cumple un rol específico, desde el revólver de salmuera (Brine Revolver) de alta precisión hasta el caótico lanzador de plasma (Plasma Launcher). Las armas de "Nivel S" (S-Tier) dominan actualmente el meta debido a su versatilidad tanto para limpiar salas como para infligir daño a los jefes.
+
+| Tier | Nombre del arma | Rol principal | Mejor combinación |
+| :--- | :--- | :--- | :--- |
+| **S** | **Tesla Gun** | Control de grupos | Rayos en cadena / Bendiciones de arco |
+| **S** | **Brine Revolver** | DPS contra jefes | Precisión / Mods de puntos débiles |
+| **A** | **Plasma Launcher** | Denegación de área | Amuletos de fuego / explosión |
+| **A** | **Combat Bow** | Daño progresivo | Habilidades de torreta / invocación |
+| **B** | **Engine Rifle** | Polivalente | Mods de gestión de calor |
+| **B** | **Shotgun** | Daño de ráfaga | Bendiciones de movilidad / escudo |
+
+<Callout type="info" title="Personalización de armas">
+La **Tesla Gun** es ampliamente considerada la mejor arma inicial para la Actualización 1.3. Su capacidad para propagar efectos de estado a múltiples objetivos la hace invaluable para los nuevos grupos de enemigos con temática de maquinaria que se encuentran en las áreas posteriores.
+</Callout>
+
+### Modificaciones de la Forja Ancestral
+La Forja Ancestral permite más de 140 modificaciones diferentes. Estas no son solo mejoras de estadísticas; pueden cambiar fundamentalmente el comportamiento de un arma. Por ejemplo, un "Lanzador de discos" (Disc Thrower) se puede modificar para que regrese al jugador, infligiendo daño en ambos trayectos, o para que se divida en múltiples proyectiles al golpear una superficie.
+
+</Section>
+
+<Section icon={Sparkles} title="Creación de Builds: Bendiciones, Amuletos y Sinergias">
+
+La creación de builds es el corazón de la experiencia de Abyssus. Una partida exitosa rara vez depende de un solo objeto; se trata del "bucle de sinergia" (Synergy Loop) entre tu arma, tus habilidades y las mejoras que recolectas. Con más de 250 amuletos (Charms) y bendiciones (Blessings) disponibles, la variedad de builds es asombrosa.
+
+| Tipo de mejora | Función | Impacto en la build |
+| :--- | :--- | :--- |
+| **Bendiciones** | Añade efectos elementales | Convierte el daño bruto en quemadura (Burn), congelación (Freeze) o arco (Arc) |
+| **Amuletos** | Cambios pasivos en las reglas | Reduce los tiempos de enfriamiento o aumenta las probabilidades de supervivencia |
+| **Habilidades** | Habilidades activas | Proporciona torretas, lanzas o señuelos |
+| **Favores Divinos** | Mejoras de alto nivel | Ofrece mecánicas que cambian el juego (por ejemplo, 15 nuevas bendiciones en la 1.3) |
+
+<CardGrid cols={2}>
+  <Card title="La Build de 'Muro de Hielo'">
+    - **Arma**: Shotgun o Tesla Gun
+    - **Bendición**: Efectos de frío/congelación
+    - **Estrategia**: Congela a los enemigos en su lugar y luego usa el disparo secundario de ráfaga alta para destrozarlos y causar un daño masivo en área (AOE).
+  </Card>
+  <Card title="La Build de 'Invocador'">
+    - **Arma**: Combat Bow
+    - **Bendición**: Tentáculos de océano / Espíritus vengativos
+    - **Estrategia**: Despliega torretas y deja que las invocaciones se encarguen de atraer a los enemigos (aggro) mientras eliminas a los objetivos de alta prioridad desde la distancia.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Meta Build">
+Combina **debilitamientos de sombra** (Shadow Debuffs) con armas de alta cadencia de fuego como el Engine Rifle. Los debilitamientos se acumulan rápidamente, lo que hace que los enemigos sufran exponencialmente más daño cuanto más tiempo mantengas el fuego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de jefes y progresión">
+
+Abyssus cuenta con 12 jefes únicos, cada uno de los cuales requiere un enfoque táctico específico. La progresión está bloqueada por estos enfrentamientos, y dominar sus patrones es esencial para desbloquear rutas de expedición más profundas. Las actualizaciones 1.2 and 1.3 introdujeron versiones "Surge" (Sobrecargadas) de jefes conocidos, añadiendo nuevos patrones de ataque para mantener alerta a los jugadores veteranos.
+
+### Tácticas esenciales contra jefes
+- **Golemancer**: Concéntrate en el núcleo brillante durante la fase de "recarga". Evita las ondas de choque de los golpes en el suelo saltando en el último segundo.
+- **Kri'Su**: Este jefe depende de los peligros de la arena. Mantén los ojos en el suelo para evitar los charcos de salmuera que suben mientras mantienes la distancia.
+- **Un'glu**: Una batalla con mucho movimiento. Un'glu utiliza anillos de daño de área que requieren esquives precisos para sortearlos.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de preparación antes del jefe:"
+  items={[
+    "Asegúrate de que el disparo secundario esté completamente cargado",
+    "Comprueba si tus bendiciones actuales coinciden con la debilidad elemental del jefe",
+    "Coordina los roles (Control vs. DPS) en el modo cooperativo",
+    "Elimina a todos los enemigos más pequeños en la arena antes de concentrarte en el jefe",
+    "Confirma que todos los compañeros de equipo tengan sus habilidades de movimiento listas (sin tiempo de reutilización)"
+  ]}
+/>
+
+<Callout type="warning" title="Variantes de jefes">
+El parche 1.2 introdujo ataques renovados para Golemancer y Kri'Su. Si no has jugado desde el lanzamiento en 2025, espera proyectiles más rápidos y ventanas de invulnerabilidad más estrechas.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Multijugador, juego cruzado y actualizaciones">
+
+La actualización de junio de 2026 (1.3) fue un punto de inflexión para la comunidad de Abyssus. Al introducir el multijugador multiplataforma completo, el juego fusionó con éxito las comunidades de Steam, PlayStation y Xbox. El emparejamiento se ha optimizado y la nueva función "Partida rápida" (Quickplay) te permite unirte a salas activas al instante.
+
+| Característica | Steam (PC) | PS5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| **Juego cruzado** | Soportado (1.3) | Soportado (1.3) | Soportado (1.3) |
+| **Tamaño del grupo** | 1-4 jugadores | 1-4 jugadores | 1-4 jugadores |
+| **Suscripción** | Ninguna | Requiere PS Plus | Game Pass / Core |
+| **Juego en la nube** | No | Solo Premium | Solo Ultimate |
+
+<Steps>
+  <Step num="1" title="Habilita el juego cruzado">
+    Ve al menú de ajustes y asegúrate de activar la opción "Multijugador multiplataforma" para acceder a la mayor comunidad de jugadores.
+  </Step>
+  <Step num="2" title="Usa la partida rápida">
+    Si no tienes un grupo dedicado, usa la Partida rápida (Quickplay) para encontrar un escuadrón. El sistema prioriza las salas con niveles de habilidad compatibles.
+  </Step>
+  <Step num="3" title="Sincroniza los equipamientos">
+    Usa el chat de la sala del juego para asegurarte de que tu equipo no lleve las mismas bendiciones elementales. La diversificación es clave para las partidas de alto nivel.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Contenido del parche 1.3">
+La Actualización 1.3 no se trata solo de correcciones técnicas. Añadió un área con temática de maquinaria, un nuevo Dios con 15 bendiciones y el paquete cosmético "Brinerot". Esta es la mayor entrega de contenido desde el lanzamiento original.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Preguntas frecuentes de Abyssus">
+
+<FAQ items={[
+  {
+    question: "¿Está disponible Abyssus en Xbox Game Pass?",
+    answer: "Sí, a partir del 25 de junio de 2026, Abyssus está incluido en Xbox Game Pass para consola, PC y la nube. Es compatible con Smart Delivery y Xbox Play Anywhere."
+  },
+  {
+    question: "¿Es compatible el juego con el juego cruzado?",
+    answer: "El multijugador multiplataforma completo se añadió en la Actualización 1.3. Los jugadores de Steam, PlayStation 5 y Xbox Series X|S pueden jugar juntos en los mismos escuadrones de 4 jugadores."
+  },
+  {
+    question: "¿Cuántas armas y jefes hay en el juego?",
+    answer: "Tras la actualización 1.3, Abyssus cuenta con 9 armas base únicas, 12 jefes desafiantes y más de 70 niveles creados a mano."
+  },
+  {
+    question: "¿Hay algún código activo para obtener objetos gratuitos?",
+    answer: "Abyssus no utiliza actualmente un sistema de códigos canjeables. Todas las armas, modificaciones y cosméticos se obtienen a través de la progresión del juego o mediante paquetes de ediciones específicas como la Brine Edition."
+  }
+]} />
+
+</Section>
