@@ -52,696 +52,243 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Abyssus Gameplay",
+    "description": "Abyssus is a fast-paced 1-to-4 player brinepunk co-op roguelite FPS. Stack weapon mods, elemental Blessings, and Charms as you fight through handcrafted runs and survive boss encounters on Steam, PS5, and Xbox."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Abyssus",
+    "titleHighlight": "Guides",
+    "subtitle": "Release info, reviews, beginner walkthroughs, and the best weapons and builds for Abyssus.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "CalendarClock",
+        "title": "Release & Platforms",
+        "description": "Steam, PS5, and Xbox launch dates, price, editions, and Game Pass"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Review Scores",
+        "description": "Steam, PlayStation, Metacritic, and press reception for Abyssus"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "icon": "BookOpen",
+        "title": "Beginner Guide",
+        "description": "Movement, loadouts, Blessings, upgrades, and boss patterns"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Swords",
+        "title": "Weapons Tier List",
+        "description": "9 weapons, 54 mods, and the best builds for every run"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "abyssusReleaseDatePlatformsAndGamePass": {
+      "eyebrow": "Release Info",
+      "title": "Abyssus Release Date, Platforms, Price, and Game Pass",
+      "subtitle": "Abyssus launched first on Steam, then expanded to PS5 and Xbox Series X|S with Game Pass support. Use this section to check where to play, what each store offers, and which edition fits your setup.",
+      "intro": "Abyssus is a fast-paced 1-to-4 player brinepunk FPS roguelite from DoubleMoose Games, published by The Arcade Crew and Dotemu. The PC version launched on Steam on August 12, 2025, while PS5 and Xbox Series X|S versions launched on June 25, 2026.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "PC Launch",
+          "value": "August 12, 2025",
+          "platforms": [
+            "Steam"
+          ],
+          "details": "The Steam version supports single-player, online co-op, Steam achievements, Steam Cloud, and Family Sharing.",
+          "price": "$24.99 base price"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Console Launch",
+          "value": "June 25, 2026",
+          "platforms": [
+            "PlayStation 5",
+            "Xbox Series X|S"
+          ],
+          "details": "Console versions launched for PS5 and Xbox Series X|S after the PC release.",
+          "price": "$24.99 base price"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "Xbox Game Pass",
+          "value": "Included",
+          "platforms": [
+            "Cloud",
+            "Xbox Series X|S",
+            "PC"
+          ],
+          "details": "Abyssus is available through Game Pass Ultimate, Game Pass Premium, and PC Game Pass. Xbox also lists cloud play, Smart Delivery, Xbox Play Anywhere, and Xbox cross-platform co-op.",
+          "price": "Included with supported Game Pass tiers"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Editions and Add-ons",
+          "value": "Standard and Brine Edition",
+          "platforms": [
+            "Steam",
+            "PS5",
+            "Xbox Series X|S"
+          ],
+          "details": "The base game is sold separately, while Brine Edition bundles cosmetic packs such as Brinehunter, Brineguard, Brinefrost, and Brinerot content.",
+          "price": "Brine Edition listed at $34.99 on PlayStation Store"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "abyssusReviewScoresAndPlayerRatings": {
+      "eyebrow": "Reviews",
+      "title": "Abyssus Review Scores and Player Ratings",
+      "subtitle": "Abyssus has a strong Steam user-review signal, solid PlayStation player ratings, and mixed-to-positive critic reception. The clearest audience fit is players who enjoy fast co-op shooters with roguelite build stacking.",
+      "intro": "This module compares store ratings, critic scores, and player reception across Steam, PlayStation Store, Metacritic, and PC-focused coverage. It keeps the homepage useful for searches like Abyssus review, Abyssus rating, and is Abyssus worth it.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "source": "Steam",
+          "score": "Very Positive",
+          "sample": "English reviews: 3,030 reviews; recent reviews: 110 reviews",
+          "details": "Steam lists English user reviews as Very Positive and recent reviews as Mostly Positive. The page also shows the game as a fast-paced 1-to-4 player FPS roguelite with online co-op support.",
+          "bestFor": "PC players checking broad user sentiment before buying."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "source": "PlayStation Store",
+          "score": "4.59 / 5",
+          "sample": "74 player ratings",
+          "details": "The PS5 store page lists a 4.59 average player rating and shows the game as a PS5 shooter with online features and multiple supported screen languages.",
+          "bestFor": "PS5 players checking console reception after launch."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "source": "Metacritic",
+          "score": "71 Metascore",
+          "sample": "15 critic reviews on PC",
+          "details": "Metacritic lists Abyssus with a 71 PC Metascore and a 6.5 user score. Review summaries praise the co-op roguelite shooting foundation while noting repetition and balance concerns.",
+          "bestFor": "Players who want a critic-score snapshot instead of only store reviews."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "source": "PC Gamer",
+          "score": "Positive feature coverage",
+          "sample": "Hands-on feature coverage",
+          "details": "PC Gamer highlights Abyssus as a quick, co-op-friendly roguelite FPS with snappy movement, power stacking, elemental blessings, and strong weeknight co-op appeal.",
+          "bestFor": "Co-op groups deciding whether Abyssus fits between larger long-term games."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "abyssusBeginnerGuide": {
+      "eyebrow": "Beginner Guide",
+      "title": "Abyssus Beginner Guide: What to Do First",
+      "subtitle": "Learn the basic run loop before the abyss turns you into decorative seafood. Start with movement, loadout choices, blessings, upgrades, and boss pattern reading.",
+      "intro": "Abyssus runs are built around choosing a loadout, clearing procedurally sequenced handcrafted rooms, upgrading weapons and abilities, and surviving boss encounters. Solo is supported, but co-op rewards coordinated loadouts, skills, suits, and weapon mods.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Choose solo or co-op before building your loadout",
+          "description": "Abyssus supports solo play and up to 4-player online co-op. In co-op, coordinate weapons, skills, suits, and weapon mods instead of everyone chasing the same damage role.",
+          "beginnerTip": "Start solo to learn movement and enemy patterns, then move into co-op once you understand room flow."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Treat movement as survival, not decoration",
+          "description": "Use dash, jump, double-jump, and arena spacing to avoid damage while keeping your weapon active. Early enemies and bosses reward constant repositioning rather than standing still.",
+          "beginnerTip": "Circle arenas, keep distance from exploding enemies, and save movement tools for boss area attacks."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Clear rooms while watching upgrade opportunities",
+          "description": "Runs move through handcrafted levels that are procedurally sequenced, so the room order changes while core combat rules stay familiar. Look for upgrade stations, altars, healing options, and build-defining rewards between fights.",
+          "beginnerTip": "Do not spend every upgrade on raw damage; survivability and ability uptime matter during longer runs."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Apply Blessings to primary fire, secondary fire, and abilities",
+          "description": "Blessings can add effects such as fire, ice, lightning, ocean-style summons, shadows, or spirits to your attacks and abilities. A strong build comes from stacking effects that work together.",
+          "beginnerTip": "For early runs, pick effects that control enemies or keep damage active while you move."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Use meta progression to make future runs easier",
+          "description": "Abyssus includes roguelite meta progression with advancements, rewards, and unlocks. Upgrades can expand your available tools, improve run consistency, and help you push deeper after failed attempts.",
+          "beginnerTip": "Failed runs still matter when they unlock better weapons, abilities, upgrade stations, or healing support."
+        },
+        {
+          "step": 6,
+          "title": "Read bosses like pattern fights",
+          "description": "Bosses use big area attacks, invulnerability moments, hazards, and pressure phases. Focus on learning attack patterns first, then build damage around safe windows.",
+          "beginnerTip": "In co-op, assign roles: one player handles control effects, another focuses boss damage, and others support area clear or survivability."
+        }
+      ]
+    },
+    "abyssusWeaponsTierListAndBestBuilds": {
+      "eyebrow": "Weapons and Builds",
+      "title": "Abyssus Weapons Tier List and Best Builds",
+      "subtitle": "Abyssus features 9 weapons, 54 weapon mods, over 140 Ancient Forge mods, and more than 250 Charms and Blessings. The best builds come from matching weapon role, mod choice, ability, and elemental effects.",
+      "intro": "This tier grid focuses on practical build roles for real runs: room clear, boss damage, beginner consistency, and high-skill specialist play. Weapon balance can shift with patches, but these roles map cleanly to Abyssus' confirmed weapon pool and current build systems.",
+      "tiers": [
+        {
+          "tier": "S",
+          "tierLabel": "Top Run-Carry Picks",
+          "weapons": [
+            {
+              "name": "Tesla Gun",
+              "role": "Room clear and status spread",
+              "bestBuild": "Pair with effects that spread damage or control groups, then add ability uptime through Charms and Forge mods.",
+              "whyUseIt": "Strong for clearing multiple enemies quickly and keeping pressure on crowded arenas."
+            },
+            {
+              "name": "Brine Revolver",
+              "role": "Boss and single-target damage",
+              "bestBuild": "Build around precision damage, weak-point windows, and effects that reward accurate shots during boss openings.",
+              "whyUseIt": "A strong choice when a run needs focused damage against high-health targets."
+            },
+            {
+              "name": "Plasma Launcher",
+              "role": "Area damage and explosive clear",
+              "bestBuild": "Stack area damage, fire-rate support, and explosion-friendly Charms to handle clustered enemies.",
+              "whyUseIt": "Best suited for players who want heavy room control and bursty area damage."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Reliable Core Weapons",
+          "weapons": [
+            {
+              "name": "Combat Bow",
+              "role": "Scaling damage and turret-friendly setups",
+              "bestBuild": "Use upgrades that improve firing rhythm, then pair with turret or control effects for steady damage.",
+              "whyUseIt": "Works well once upgraded and rewards players who can keep distance while aiming cleanly."
+            },
+            {
+              "name": "Fish Deity",
+              "role": "Enemy clear and effect-heavy builds",
+              "bestBuild": "Use damage-boosting mods and explosion-style effects to turn enemy packs into chain reactions.",
+              "whyUseIt": "A strong choice for players who want a stranger weapon style with real clearing power."
+            },
+            {
+              "name": "Engine Rifle",
+              "role": "Beginner-friendly all-rounder",
+              "bestBuild": "Use it as a stable early weapon while learning Heat, reload rhythm, and basic mod choices.",
+              "whyUseIt": "A safe starter pick that teaches Abyssus gunplay without demanding advanced positioning."
+            }
+          ]
+        },
+        {
+          "tier": "Advanced",
+          "tierLabel": "Skill and Mod-Dependent Picks",
+          "weapons": [
+            {
+              "name": "Shotgun",
+              "role": "Short-range burst damage",
+              "bestBuild": "Prioritize mobility, knockback, and survivability so close-range fights stay under control.",
+              "whyUseIt": "Useful for players who can manage spacing and punish enemies up close."
+            },
+            {
+              "name": "Disc Thrower",
+              "role": "Projectile control and sharp-room clear",
+              "bestBuild": "Pick mods that improve disc redirection, return damage, or enemy targeting, then add effects that reward repeated hits.",
+              "whyUseIt": "Better after players understand room geometry and enemy movement."
+            },
+            {
+              "name": "Harpoon Gun",
+              "role": "Specialist weapon slot",
+              "bestBuild": "Use after learning boss timing and positioning, then build around precision, control, and safe engagement windows.",
+              "whyUseIt": "Best treated as a specialist pick rather than a first-run comfort weapon."
+            }
+          ]
         }
       ]
     }
@@ -749,31 +296,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Abyssus before you dive in.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Abyssus?",
+        "answer": "Abyssus is a brinepunk co-op roguelite FPS from DoubleMoose Games. You play as a Brinehunter fighting through handcrafted runs, stacking weapon mods, Blessings, and Charms solo or with up to 4 players."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is Abyssus on?",
+        "answer": "Abyssus launched on Steam for PC on August 12, 2025, and reached PS5 and Xbox Series X|S on June 25, 2026. The Xbox version is also included with Game Pass."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Abyssus support co-op and crossplay?",
+        "answer": "Yes. Abyssus supports 1-to-4 player online co-op, and Xbox lists cross-platform co-op, so friends on PC and Xbox can play together through supported Game Pass and store setups."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Abyssus a roguelite or a roguelike?",
+        "answer": "Abyssus is a roguelite. Each run takes you through procedurally sequenced handcrafted rooms, and meta progression unlocks better weapons, abilities, and upgrades that carry forward between runs."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How long is Abyssus and how much content is there?",
+        "answer": "Abyssus ships with 70-plus handcrafted levels, 9 weapons, 54 weapon mods, over 140 Ancient Forge mods, more than 250 Charms and Blessings, 36 enemy types, and 12 bosses."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How well reviewed is Abyssus?",
+        "answer": "Abyssus holds a Very Positive rating on Steam, a 4.59 out of 5 player rating on the PlayStation Store, and a 71 Metascore on PC, with praise focused on its fast co-op shooting and build stacking."
       }
     ]
   },
@@ -802,17 +349,17 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Abyssus Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced Ancient Forge strategies. Master survival and crafting.",
+      "metaTitle": "Abyssus Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Abyssus guides covering beginner tips, Ancient Forge system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Ancient Forge crafting system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the Ancient Forge system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to survive and thrive in the surreal world",
         "step3Title": "Master Strategies",
@@ -822,13 +369,13 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "title": "Abyssus Crafting",
+      "description": "Master the Ancient Forge fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
+      "metaTitle": "Abyssus Crafting - Ancient Forge System & Recipes",
+      "metaDescription": "Master Abyssus Ancient Forge crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "The Ancient Forge system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
       "why": "Why master crafting?",
       "whySteps": {
         "step1Title": "Unlock Powerful Items",
@@ -842,17 +389,17 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Abyssus Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Abyssus Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Abyssus including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
       "why": "Why check item guides?",
       "whySteps": {
         "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Description": "Discover how to craft essential tools and weapons using Ancient Forge",
         "step2Title": "Optimize Equipment",
         "step2Description": "Choose the best items for your playstyle and progression stage",
         "step3Title": "Improve Survival",
@@ -862,10 +409,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Abyssus Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Abyssus Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Abyssus biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -882,10 +429,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "Abyssus Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "Abyssus Building - Qualia & Base Construction",
+      "metaDescription": "Master Abyssus building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -902,10 +449,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Abyssus Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Abyssus Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Abyssus including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
