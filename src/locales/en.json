@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Abyssus - Builds, Weapons & Bosses",
+      "description": "Abyssus covers builds, weapons, bosses, charms, blessings, co-op tips, achievements, and release info for Steam, PS5, and Xbox players.",
+      "keywords": "Abyssus, Steam, PS5, Xbox, builds, weapons, bosses, charms",
+      "ogTitle": "Abyssus - Builds, Weapons & Bosses",
+      "ogDescription": "Abyssus covers builds, weapons, bosses, charms, blessings, co-op tips, achievements, and release info for Steam, PS5, and Xbox players.",
+      "twitterTitle": "Abyssus - Builds, Weapons & Bosses",
+      "twitterDescription": "Abyssus wiki for builds, weapons, mods, blessings, charms, bosses, co-op tips, and achievements on Steam, PS5, and Xbox."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Co-op Brinepunk Roguelite FPS",
+    "title": "Abyssus Wiki",
+    "description": "Dive into Abyssus as a Brinehunter, fight through hand-crafted roguelite levels, build weapons with mods, collect charms and blessings, and survive solo or in 4-player co-op.",
+    "getFreeCodesCTA": "View Builds",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Very Positive",
+        "label": "Steam Reviews"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "119",
+        "label": "Steam Achievements"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "9",
+        "label": "Weapons"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "250+",
+        "label": "Charms & Blessings"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Dive into Abyssus?",
+    "description": "Join the Abyssus community on Discord for builds, co-op matchmaking, updates, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Abyssus Wiki",
+    "description": "Your complete resource hub for Abyssus builds, weapons, mods, blessings, charms, bosses, co-op, and achievements guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Abyssus Wiki. Not affiliated with the developers of Abyssus.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

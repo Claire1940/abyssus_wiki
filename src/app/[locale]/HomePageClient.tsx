@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.abyssus.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Abyssus Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Abyssus Wiki covering builds, weapons, mods, blessings, charms, bosses, co-op, achievements, and release info for the brinepunk co-op roguelite FPS on Steam, PS5, and Xbox.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Abyssus - Brinepunk Co-op Roguelite FPS",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Abyssus Wiki",
+        alternateName: "Abyssus",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Abyssus Wiki resource hub for builds, weapons, mods, blessings, charms, bosses, co-op, and achievements guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,24 +130,25 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Abyssus Wiki - Brinepunk Co-op Roguelite FPS",
         },
         sameAs: [
+          "https://www.thearcadecrew.com/",
           "https://store.steampowered.com/app/1721110/Abyssus/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://discord.gg/bvw5RPVPjp",
+          "https://x.com/PlayAbyssus",
+          "https://www.youtube.com/@TheArcadeCrew",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Abyssus",
+        gamePlatform: ["PC", "Steam", "PlayStation 5", "Xbox Series X|S"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["FPS", "Roguelite", "Co-op", "Action"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 4,
         },
         offers: {
           "@type": "Offer",
@@ -158,13 +159,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Abyssus | Launch Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Abyssus launch trailer from The Arcade Crew, showcasing the brinepunk co-op roguelite FPS gameplay.",
+        uploadDate: "2025-08-12",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/_YeAjcv3GOg",
+        url: "https://www.youtube.com/watch?v=_YeAjcv3GOg",
       },
     ],
   };
@@ -267,13 +268,6 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
-
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
         <div className="scroll-reveal container mx-auto max-w-5xl">
@@ -285,6 +279,13 @@ export default function HomePageClient({
           </div>
         </div>
       </section>
+
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
@@ -1325,7 +1326,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.gg/bvw5RPVPjp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1400,7 +1401,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.gg/bvw5RPVPjp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1411,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/PlayAbyssus"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1421,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://steamcommunity.com/app/1721110"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
