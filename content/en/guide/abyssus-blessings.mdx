@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus Blessings: Ultimate Guide to Powerful Builds",
+  description: "Master Abyssus blessings with our guide. Discover top-tier builds, gold strategies, and essential tips for clearing deep-sea expeditions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Blessings+Guide",
+  date: "2026-06-30",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus blessings** are the core mechanic for enhancing your combat effectiveness and survivability.
+- **Fortune blessings** provide infinite damage scaling based on your current gold reserves.
+- **Lightning and Spear** combinations are currently among the most potent setups for boss encounters.
+- **Healing syringes** should always be your top priority when visiting merchant rooms.
+- **Strategic un-equipping** of unwanted charms allows you to salvage them for extra gold.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Abyssus Blessings">
+
+Blessings in Abyssus are essential power-ups that drastically alter how your weapons and abilities function. Whether you are focusing on elemental damage or economy-based scaling, understanding how these modifiers interact is the key to conquering the deep.
+
+**Video Highlights:**
+- Learn why gold pots are the only ones worth breaking for loot.
+- Discover how to use the Fortune blessing to scale damage infinitely.
+- See the broken bow build in action for rapid boss clears.
+
+<YouTubeEmbed videoId="MFwAgPaL80g" title="10 Tips to ENHANCE Your Runs in Abyssus" />
+
+Blessings generally fall into specific categories, each offering unique tactical advantages. Players can mix and match these to create specialized loadouts suited for different biomes and boss mechanics.
+
+<Callout type="tip" title="Pro Tip">
+Always check your primary and secondary mods before a run. Synergy between your chosen blessing and your weapon's mod is more important than the raw stats of the blessing itself.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Blessing Category Overview">
+
+Different blessings provide distinct bonuses to your survivability and utility. Below is a comparison of some core blessing types you will encounter during your expeditions.
+
+| Blessing Type | Primary Focus | Best Usage |
+| --- | --- | --- |
+| Blood | Hemorrhage damage, Execute | High-health bosses |
+| Defender | Barrier gauge, Damage reduction | Survival/Tank builds |
+| Fortune | Gold scaling, Goldburst | Infinite scaling DPS |
+| Frost | Slowing, Freeze damage | Crowd control |
+| Lightning | Chain damage, Criticals | Clearing trash mobs |
+
+<Callout type="success" title="Success Strategy">
+Combining the **Defender** blessing with **Radiating Barrier** allows you to maintain aggressive positioning while keeping your defensive stats high, making it perfect for challenging boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimizing Your Build">
+
+To succeed in higher difficulty levels, you must align your gear with the right blessings. The following table outlines how specific blessings impact your core gameplay stats.
+
+| Blessing Effect | Benefit | Recommended Build |
+| --- | --- | --- |
+| Goldrush | Fire rate/Reload speed | Fortune-based DPS |
+| Empowering Barrier | 35% damage boost | Defender/Tank |
+| Weakening Flames | 50% weakspot damage | Fire/DoT focus |
+| Charged Bounty | Drop items on Crit | Lightning/Luck |
+| Team Tentacles | More summons | Ocean/Support |
+
+<Steps>
+  <Step num="1" title="Select Your Core">
+    Identify a weapon you are comfortable with and unlock its primary and secondary mods.
+  </Step>
+  <Step num="2" title="Pick Primary Blessing">
+    Choose a blessing that complements your weapon's firing style, such as Lightning for fast-firing weapons.
+  </Step>
+  <Step num="3" title="Manage Economy">
+    Prioritize gold accumulation to maximize the effectiveness of Fortune-based modifiers.
+  </Step>
+  <Step num="4" title="Refine with Charms">
+    Use charms to fill gaps in your build, such as increasing dash speed or boss damage.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Warning">
+Avoid relying solely on short-range weapons for boss fights. Many bosses feature area-of-effect abilities that punish players for being in melee range, making long-range alternatives safer.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Essential Progression Checklist">
+
+Follow this checklist to ensure you are effectively managing your resources and blessing progression during each run.
+
+<Checklist
+  id="progression-goals"
+  title="Run Optimization Goals:"
+  items={[
+    "Unlock starting funds on the soul wheel",
+    "Prioritize healing syringes at the merchant",
+    "Salvage common charms for gold in emergencies",
+    "Focus on one primary blessing line per run",
+    "Unlock all primary and secondary mods for your main weapon"
+  ]}
+/>
+
+<CardGrid cols={3}>
+  <Card title="The Spear Meta">
+    Currently considered the most powerful ability for both direct damage and area-of-effect utility.
+  </Card>
+  <Card title="Healing Priority">
+    Always buy syringes first. They are the cheapest and most vital survival item in the shop.
+  </Card>
+  <Card title="Gold Management">
+    Don't waste time on standard pots; only target gold-filled pots to maximize your economy.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I get more gold for my Fortune blessings?",
+    answer: "Focus on picking up gold drops consistently and unlocking the Starting Funds tier on the soul wheel. You can also salvage charms for gold."
+  },
+  {
+    question: "Is the Spear better than the Anchor or Ancient Core?",
+    answer: "Yes, the Spear is widely considered the best overall ability due to its combination of high direct damage, area damage, and weapon damage scaling."
+  },
+  {
+    question: "Can I change my blessings during a run?",
+    answer: "Blessings are chosen during your run from chests or altars. Once selected, they are permanent for that expedition, so choose carefully."
+  },
+  {
+    question: "Why should I use the Fortune blessing?",
+    answer: "Fortune blessings offer infinite damage scaling. The more gold you possess, the higher your damage output becomes via the Goldburst mechanic."
+  }
+]} />
+
+</Section>

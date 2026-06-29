@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Zones: Enemy Variety & Progression Guide",
+  description: "Explore the unique mechanics of Abyssus zones, including enemy variety, depth meter progression, and boss encounter strategies for 2026 players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Zones+Guide",
+  date: "2026-06-30",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus zones** feature entirely unique enemy sets with zero carryover between areas, except for specific loot-based mobs.
+- **Progression** is tracked via a depth meter; reaching the 4th node typically triggers a major boss encounter.
+- **Enemy variety** increases significantly after the first zone, which serves primarily as a gameplay tutorial.
+- **Run modifiers** and the upgrade wheel are essential for surviving deeper zones and late-game boss fights.
+- **Completion stats** indicate that while the first boss is accessible, the difficulty spikes sharply in the third zone.
+</Callout>
+
+<Section icon={Map} title="Understanding Abyssus Zones & Progression">
+
+In the world of Abyssus, the environment is divided into distinct layers known as zones. Unlike many other roguelikes where enemies might be recolored or reused, **abyssus zones** are designed with strict boundaries. When you transition from the first area to the second, you are not just seeing a change in scenery; you are facing a completely new ecosystem of threats.
+
+The progression system relies heavily on the "Depth Meter." This UI element tracks your current position within a zone. As you clear encounters, you move along nodes. Most players identify the first few nodes as the "tutorial phase," where the mechanics are introduced through standard robot enemies. However, the real challenge begins once you hit the major milestones.
+
+| Zone Phase | Depth Node | Primary Objective | Difficulty Level |
+| :--- | :--- | :--- | :--- |
+| Tutorial | 1-2 | Learn movement and basic gunplay | Very Low |
+| Mid-Zone | 3 | Face first Elite encounter | Moderate |
+| Zone Peak | 4 | Boss Battle and Zone Transition | High |
+| Post-Game | 5+ | Cycle with modifiers and increased HP | Extreme |
+
+<Callout type="success" title="Progression Tip">
+Don't be discouraged if the first zone feels repetitive. The game is structured to hide its most complex enemies behind the first boss. Once you reach the second and third zones, the robot-centric combat is replaced with entirely different biological and mechanical entities.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Enemy Variety and Encounter Types">
+
+One of the most frequent questions from new players concerns the perceived lack of variety in the early game. It is important to distinguish between "Elites" and "Bosses." Many players mistake the flying orb enemies found at the third node for bosses, but these are actually high-tier elites meant to test your build before the real challenge at node four.
+
+Each of the **abyssus zones** operates on a "Zero Carryover" rule. This means that the mechanical grunts you fight in the first zone will not follow you into the second. The only exception to this rule is the "Loot Goblin" mob, a rare creature that can appear in any zone to provide high-tier rewards if defeated quickly.
+
+<CardGrid cols={3}>
+  <Card title="Zone 1: The Foundry">
+    - **Enemy Type**: Sentient Robots
+    - **Combat Style**: Predictable projectiles
+    - **Goal**: Master the dash mechanic
+  </Card>
+  <Card title="Zone 2: The Overgrowth">
+    - **Enemy Type**: Biological Horrors
+    - **Combat Style**: Melee rushes and AOE
+    - **Goal**: Crowd control management
+  </Card>
+  <Card title="Zone 3: The Void">
+    - **Enemy Type**: Ethereal Entities
+    - **Combat Style**: Teleportation and debuffs
+    - **Goal**: High precision accuracy
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Expert Observation">
+The enemy variety in Abyssus is back-loaded. While the first 20 minutes might feel uniform, the diversity of attacks and required strategies expands exponentially once you break past the first depth barrier.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Master Zone Transitions">
+
+Moving between **abyssus zones** requires more than just combat skill; it requires strategic planning via the "Upgrade Wheel." As the game progresses into 2026, the meta has shifted toward prioritizing permanent upgrades over temporary run-based buffs. If you find yourself dying consistently at the fourth node, it is a sign that your wheel upgrades are insufficient.
+
+<Steps>
+  <Step num="1" title="Clear the First Elite">
+    Reach the halfway point of Zone 1. Focus on surviving the flying orb's beam attacks. This unlocks the first tier of run-specific loot.
+  </Step>
+  <Step num="2" title="Defeat the Zone 1 Boss">
+    Located at the 4th depth node. This boss serves as the gatekeeper. Defeating it unlocks the transition to Zone 2 and saves your progress for future shortcuts.
+  </Step>
+  <Step num="3" title="Invest in the Upgrade Wheel">
+    Use the currency gathered from your runs to increase base health and damage. This is mandatory for surviving the enemy variety in Zone 2.
+  </Step>
+  <Step num="4" title="Apply Run Modifiers">
+    Once you are comfortable with the zones, add modifiers to increase the loot drop rate. This turns standard bosses into "True Bosses" with new move sets.
+  </Step>
+</Steps>
+
+| Encounter Type | Frequency | Loot Quality | Risk Level |
+| :--- | :--- | :--- | :--- |
+| Standard Mob | High | Common | Low |
+| Elite (Orb) | Once per node | Rare | Medium |
+| Loot Goblin | Random | Legendary | Low (Escapes) |
+| Zone Boss | Once per zone | Exotic | Very High |
+
+<Callout type="warning" title="Critical Warning">
+Bosses in Abyssus are not just "bullet sponges." They have distinct phases that trigger based on their remaining health. If you do not change your positioning during Phase 2, most Zone 1 bosses will trap you in a corner with floor hazards.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Global Progression Statistics">
+
+Understanding where you stand compared to the player base can help gauge the difficulty of different **abyssus zones**. Data from Steam community achievements and global stats in 2026 show a significant drop-off after the first zone, indicating a steep learning curve that rewards persistence and mechanical mastery.
+
+| Achievement Milestone | Player Completion % | Difficulty Barrier |
+| :--- | :--- | :--- |
+| Beat First Elite | 88% | Basic Mechanics |
+| Beat First Boss | 73% | Build Synergy |
+| Reach Zone 3 | 24% | Skill Ceiling |
+| Clear Final Boss | 12% | Meta Optimization |
+
+<Checklist
+  id="progression-checklist"
+  title="Preparation for Zone 2:"
+  items={[
+    "Unlock at least 3 permanent health nodes on the wheel",
+    "Master the parry/dash timing for projectile enemies",
+    "Identify the visual cues for the Loot Goblin spawn",
+    "Reach the 4th depth node at least three times to learn patterns"
+  ]}
+/>
+
+<Callout type="tip" title="Pro Strategy">
+If you are struggling with the variety of enemies in later zones, focus on "Effect Stacking." Combining fire and electrical damage can stun-lock most non-boss enemies, making transitions between zones much smoother.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Zone Mechanics & Modifiers">
+
+As you delve deeper into the **abyssus zones**, the game introduces "Modifiers." These are not just stat boosts for enemies; they change the fundamental behavior of the zone. For example, a "Gravity" modifier in Zone 2 might reduce your jump height, making the biological enemies much more dangerous.
+
+| Modifier Name | Effect on Zone | Recommended Counter |
+| :--- | :--- | :--- |
+| Overclocked | Enemies attack 20% faster | High-impact stagger weapons |
+| Shrouded | Map visibility is reduced | Short-range high-damage builds |
+| Volatile | Enemies explode on death | Long-range kiting strategy |
+| Siphoning | Bosses heal on hit | Perfectionist dodge playstyle |
+
+<Callout type="info" title="Modifier Insight">
+Modifiers are the key to the game's longevity. While the base zones provide the foundation, the combination of unique enemy sets and random modifiers ensures that no two runs through the same zone feel identical.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do enemies from the first zone appear in later abyssus zones?",
+    answer: "Generally, no. Abyssus uses a strict zone-based enemy system. Each zone has a unique set of enemies that do not carry over, with the sole exception of the Loot Goblin mob."
+  },
+  {
+    question: "How many nodes are in each zone before a boss appears?",
+    answer: "Most zones follow a 4-node structure. The first three nodes consist of standard encounters and elites, while the 4th node is reserved for the zone's primary boss."
+  },
+  {
+    question: "Is the first zone representative of the whole game's variety?",
+    answer: "No. The first zone acts as a tutorial with simpler robot enemies. The variety increases significantly in Zone 2 and beyond, introducing more complex mechanics and biological threats."
+  },
+  {
+    question: "What is the best way to prepare for a new zone?",
+    answer: "Invest heavily in the Upgrade Wheel. Permanent stat increases are the only way to keep up with the scaling health and damage of enemies in later abyssus zones."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+The depth of Abyssus lies in its progression. By treating each zone as a separate challenge with its own rules and enemy behaviors, the game offers a rewarding experience for those willing to push past the initial tutorial phases.
+</Callout>
+
+</Section>

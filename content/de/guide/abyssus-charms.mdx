@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Charms: Effekt-Rankings & Leitfaden zum Erwerb",
+  description: "Meistern Sie das Abyssus-Charms-System mit unserem Leitfaden für 2026. Erfahren Sie, wie Sie Hawkeye und Gun Meets Face farmen, um Ihre Expeditions-Builds zu optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Charms+Guide",
+  date: "2026-06-30",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus, Charms, Guide, Expeditionen, Hawkeye, Gun Meets Face"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Abyssus-Charms** sind wichtige Beutegegenstände, die speziell für **Expeditionen** ausgerüstet werden, um passive Kampf-Buffs zu gewähren.
+- Sie werden primär durch **Truhen**, **Elite-Drops** und das Besiegen von **Bossen** während der Durchläufe erworben.
+- **Hawkeye** und **Gun Meets Face** sind die zentralen gewöhnlichen Charms, die Fernkampf- und Nahkampf-Builds im frühen Spiel definieren.
+- Einige Charms, wie Hawkeye, erfordern den Abschluss spezifischer **Herausforderungen** (z. B. Schielen), um sie zu meistern oder weiteres Potenzial freizuschalten.
+- Überprüfen Sie immer Ihr **Logbuch**, um Ihren Sammelfortschritt zu verfolgen und zu sehen, welche Seltenheitsstufen Ihnen noch fehlen.
+</Callout>
+
+<Section icon={Map} title="Verständnis der Abyssus-Charms und deren Erwerb">
+
+In der Welt von **Abyssus** wird Ihre Macht nicht nur durch Ihre Primärwaffen oder Ihr Level bestimmt. **Abyssus-Charms** stellen eine entscheidende Ebene der Anpassung dar, die Ihre Leistung während risikoreicher Expeditionen erheblich verändern kann. Diese Gegenstände fungieren als passive Modifikatoren und gewähren einzigartige Boni, die spezifische Spielstile belohnen – vom Scharfschützen auf große Distanz bis hin zum aggressiven Nahkampf.
+
+Im Gegensatz zu permanenter Ausrüstung sind Charms oft die Belohnung für Tapferkeit innerhalb des Expeditionszyklus. Egal, ob Sie in **Surge-Fissuren** vordringen oder einen **Fortune Blessing** suchen: Zu verstehen, wo diese Gegenstände droppen, ist der erste Schritt zur Meisterung der Meta.
+
+| Quellentyp | Drop-Häufigkeit | Am besten für | Wichtige Belohnungen |
+| :--- | :--- | :--- | :--- |
+| **Elite-Gegner** | Hoch | Konsistentes Farmen | Gewöhnliche/Seltene Charms |
+| **Boss-Begegnungen** | Garantiert | Hochwertige Upgrades | Einzigartige/Epische Charms |
+| **Expeditions-Truhen** | Moderat | Ressourcensammeln | Charms zufälliger Seltenheit |
+| **Logbuch-Meilensteine** | Festgelegt | Einmalige Freischaltungen | Herausforderungsspezifische Charms |
+
+<Callout type="tip" title="Profi-Tipp: Truhen-Priorisierung">
+Wenn Sie Expeditionen durchführen, priorisieren Sie Räume mit mehreren Truhen-Spawns, wenn Ihr Ziel darin besteht, Ihre Charm-Sammlung zu vervollständigen. Während Eliten mehr Kampferfahrung bieten, enthalten Truhen oft eine größere Vielfalt an Utility-Charms.
+</Callout>
+
+Charms sind in Ihrem Logbuch in der Reihenfolge aufgeführt, in der sie erscheinen, was es einfach macht, zu identifizieren, welche Sie noch entdecken müssen. Dieses System fördert die Erkundung und wiederholte Durchläufe durch verschiedene Expeditions-Biome, um jede mögliche Variante zu finden.
+
+</Section>
+
+<Section icon={Shield} title="Charm-Mechaniken und Seltenheitsstufen">
+
+Die Wirksamkeit von **Abyssus-Charms** ist oft an ihre Seltenheit gebunden. Während aktuelle Daten mehrere **Gewöhnliche** Optionen hervorheben, ist das System darauf ausgelegt, mit zunehmendem Fortschritt in schwierigeren Inhalten zu skalieren. Jede Seltenheitsstufe erhöht typischerweise die Potenz des Effekts oder fügt sekundäre Attribute hinzu, die mit Ihrem bestehenden Build synergieren.
+
+<CardGrid cols={3}>
+  <Card title="Fernkampf-Spezialist">
+    - **Fokus**: Distanz-Skalierung
+    - **Kern-Charm**: Hawkeye
+    - **Vorteil**: Bis zu 30 % mehr Schaden
+  </Card>
+  <Card title="Nahkampf">
+    - **Fokus**: Nahkampf-Distanz
+    - **Kern-Charm**: Gun Meets Face
+    - **Vorteil**: 25 % Schadensboost innerhalb von 10m
+  </Card>
+  <Card title="Hybrid-Nutzen">
+    - **Fokus**: Ausgewogene Kämpfe
+    - **Kern-Charm**: Fortune Blessing
+    - **Vorteil**: Erhöhte Beute und Überlebensfähigkeit
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Wichtig: Kampfpositionierung">
+Der Charm "Gun Meets Face" basiert strikt auf Proximität. Wenn Sie sich über die 10-Meter-Schwelle hinausbewegen, verlieren Sie den 25 % Schadensbonus sofort. Überwachen Sie während Bosskämpfen immer Ihre Distanzmarkierungen.
+</Callout>
+
+Die meisten Charms sind mit einer spezifischen **Herausforderung** verknüpft. Beispielsweise ist der **Hawkeye**-Charm mit der Herausforderung **Schielen** verbunden. Das Abschließen dieser Herausforderungen ist oft notwendig, um den Nutzen des Charms zu maximieren oder seinen Eintrag im Logbuch für Vervollständigungs-Belohnungen freizuschalten.
+
+| Seltenheitsstufe | Symbolfarbe | Skalierungsfaktor | Verfügbarkeit |
+| :--- | :--- | :--- | :--- |
+| **Gewöhnlich** | Weiß/Grau | Basis (1x) | Alle Expeditionen |
+| **Selten** | Blau | Verbessert (1,5x) | Elite-Begegnungen |
+| **Episch** | Lila | Überlegen (2,0x) | Boss-Drops |
+| **Legendär** | Gold | Maximum (3,0x) | Endgame-Fissuren |
+
+</Section>
+
+<Section icon={Swords} title="Vollständige Abyssus-Charms-Datenbank">
+
+Die folgende Tabelle skizziert die derzeit bekannten **Abyssus-Charms**, die in der Version 2026 des Spiels verfügbar sind. Spieler sollten beachten, dass die aufgeführten Effekte auf der gewöhnlichen Basis-Seltenheit basieren und sich verbessern können, wenn höherstufige Versionen entdeckt werden.
+
+| Charm-Name | Seltenheit | Primärer Effekt | Herausforderung | Empfohlener Build |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hawkeye** | Gewöhnlich | Bis zu 30 % mehr Schaden basierend auf Distanz | Schielen | Sniper / Fernkampf |
+| **Gun Meets Face** | Gewöhnlich | 25 % mehr Schaden innerhalb von 10 Metern | Keine | Schrotflinte / Nahkampf / Tank |
+| **Night Blessing** | Selten | Erhöhte Tarnung und Krit-Chance bei Nacht | Schattengang | Assassine / Schurke |
+| **Blood Blessing** | Selten | Lebensraub bei kritischen Treffern | Vampir | Berserker / Ausdauer |
+| **Fortune Blessing** | Gewöhnlich | 10 % Erhöhung der Drop-Raten für Gegenstände | Gier | Farmen / Ökonomie |
+
+<Callout type="success" title="Meta-Empfehlung">
+Für die meisten Spieler, die ihre Expeditionsreise beginnen, gilt **Hawkeye** als die überlegene Wahl zum Ausschalten normaler Gegner aus sicherer Entfernung, während **Gun Meets Face** der unangefochtene König für aggressive Spieler im Nahkampf gegen Bosse ist.
+</Callout>
+
+Das Verständnis der Interaktion zwischen diesen Charms und anderen Mechaniken wie **Surge-Fissuren** ist lebenswichtig. Surge-Fissuren können die Effekte ausgerüsteter Charms oft vorübergehend verstärken, was zu massiven Schadensspitzen führt, wenn sie korrekt mit Ihren Fähigkeiten abgestimmt werden.
+
+</Section>
+
+<Section icon={Sparkles} title="Wie man Charms effektiv farmt">
+
+Das Farmen von **Abyssus-Charms** erfordert einen strategischen Ansatz für Expeditionen. Sie können nicht einfach zum Ende eilen; Sie müssen mit der Umgebung interagieren, um Ihre Drop-Chancen zu maximieren. Folgen Sie diesen Schritten, um Ihre Farming-Route zu optimieren.
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihre Expedition">
+    Wählen Sie ein Expeditionslevel, das Sie in unter 10 Minuten abschließen können. Geschwindigkeit ist wichtiger als Schwierigkeit, wenn Sie nach gewöhnlichen und seltenen Charms suchen.
+  </Step>
+  <Step num="2" title="Zielen Sie auf Elite-Packs ab">
+    Eliten haben eine deutlich höhere Drop-Rate für Charms im Vergleich zu Standardgegnern. Nutzen Sie Ihre Karte, um Elite-Spawns zu lokalisieren und schalten Sie diese zuerst aus.
+  </Step>
+  <Step num="3" title="Schließen Sie Nebenherausforderungen ab">
+    Halten Sie Ausschau nach Herausforderungen wie **Schielen**. Das Abschließen dieser während eines Laufs löst oft einen garantierten Charm-Drop aus oder schaltet einen neuen Logbuch-Eintrag frei.
+  </Step>
+  <Step num="4" title="Überprüfen Sie alle Truhen">
+    Überspringen Sie die Nebenräume nicht. Truhen in **Abyssus** haben ein "Pity-System", bei dem wiederholtes Öffnen ohne Charm-Drop schließlich einen garantiert.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Farming-Effizienz">
+Die Drop-Rate für Charms wird derzeit auf 15 % bei Eliten und 5 % bei Standardtruhen geschätzt. Bosse haben eine 100 % Drop-Rate für mindestens einen Charm der Qualität Selten oder höher.
+</Callout>
+
+| Aktivität | Zeitaufwand | Charm-Ertrag | Schwierigkeit |
+| :--- | :--- | :--- | :--- |
+| **Standard-Lauf** | 15 Min. | 1-2 Charms | Niedrig |
+| **Elite-Jagd** | 10 Min. | 2-3 Charms | Mittel |
+| **Fissuren-Klärung** | 20 Min. | 4-5 Charms | Hoch |
+| **Boss-Rushing** | 5 Min. | 1 High-Tier | Sehr Hoch |
+
+</Section>
+
+<Section icon={Trophy} title="Meisterschaft und Ziele für Komplettierer">
+
+Für den engagierten **Abyssus**-Spieler ist das Sammeln jedes Charms erst der Anfang. Meisterschaft beinhaltet das Abschließen jeder zugehörigen Herausforderung und das vollständige Ausfüllen des Logbuchs. Dies bietet permanente Account-Boni und Prestige-Belohnungen.
+
+<Checklist
+  id="charm-mastery"
+  title="Checkliste zur Charm-Meisterschaft:"
+  items={[
+    "Sammle alle gewöhnlichen Charms (Hawkeye, Gun Meets Face, etc.)",
+    "Schließe die Herausforderung 'Schielen' für Hawkeye ab",
+    "Erreiche 100 % Logbuch-Vervollständigung für die Kategorie Charms",
+    "Rüste ein volles Set aus seltenen oder höheren Charms aus",
+    "Schließe erfolgreich eine Surge-Fissur mit 3+ ausgerüsteten Charms ab"
+  ]}
+/>
+
+<Callout type="tip" title="Fortgeschrittene Strategie">
+Synergieren Sie Ihre Charms mit Ihren **Wartungsvorlagen**. Eine Vorlage speziell für "Charm-Farming" (Stapeln von Fortune Blessing) kann Ihre Sammelzeit um die Hälfte verkürzen.
+</Callout>
+
+Indem Sie sich auf diese Meilensteine konzentrieren, stellen Sie sicher, dass Ihr Charakter auf die Endgame-Inhalte vorbereitet ist, die in den Updates 2026 eingeführt wurden. Charms wie **Blood Blessing** und **Night Blessing** werden obligatorisch, wenn die Schwierigkeitskurve in späteren Expeditionen steil ansteigt.
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich mehrere Abyssus-Charms gleichzeitig ausrüsten?",
+    answer: "Ja, Spieler können mehrere Charms ausrüsten, aber die Anzahl der Slots ist durch Ihre aktuelle Expeditionsausrüstung und Ihren Levelfortschritt begrenzt. Die meisten Spieler starten mit 2 Slots."
+  },
+  {
+    question: "Stapeln sich Charm-Effekte, wenn ich zwei der gleichen Sorte habe?",
+    answer: "Nein, identische Charms stapeln ihre Effekte nicht. Es ist immer besser, verschiedene Charms auszurüsten, um verschiedene Kampfszenarien abzudecken, wie zum Beispiel einen für die Reichweite und einen für den Nutzen."
+  },
+  {
+    question: "Wie schalte ich den Hawkeye-Charm frei?",
+    answer: "Der Hawkeye-Charm ist ein gewöhnlicher Drop aus Truhen oder von Eliten. Um ihn jedoch vollständig zu meistern, müssen Sie die Herausforderung 'Schielen' während einer Expedition abschließen."
+  },
+  {
+    question: "Sind Charms permanente Gegenstände?",
+    answer: "Charms sind Beutegegenstände, die nach dem Fund in Ihrem Inventar bleiben. Sie können sie zwischen den Expeditionen an- und ablegen, aber Sie können sie nicht mehr ändern, sobald eine Expedition begonnen hat."
+  }
+]} />
+
+</Section>

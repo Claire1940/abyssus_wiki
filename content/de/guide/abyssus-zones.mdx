@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Zonen: Leitfaden zu Gegnervielfalt & Fortschritt",
+  description: "Erfahre mehr über die einzigartige Mechanik der Abyssus-Zonen, einschließlich Gegnervielfalt, Fortschritt auf dem Tiefenmesser und Bosskampf-Strategien für Spieler im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Zones+Guide",
+  date: "2026-06-30",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Abyssus-Zonen** bieten völlig einzigartige Gegnergruppen ohne Übertragung zwischen den Gebieten, mit Ausnahme bestimmter beutebasierter Mobs.
+- Der **Fortschritt** wird über einen Tiefenmesser verfolgt; das Erreichen des 4. Knotens löst normalerweise eine wichtige Bossbegegnung aus.
+- Die **Gegnervielfalt** nimmt nach der ersten Zone, die hauptsächlich als Gameplay-Tutorial dient, deutlich zu.
+- **Laufmodifikatoren** und das Upgrade-Rad sind unerlässlich, um tiefere Zonen und Bosskämpfe im Late-Game zu überleben.
+- **Abschlussstatistiken** zeigen, dass der erste Boss zwar zugänglich ist, der Schwierigkeitsgrad in der dritten Zone jedoch stark ansteigt.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Zonen & Fortschritt verstehen">
+
+In der Welt von Abyssus ist die Umgebung in verschiedene Schichten unterteilt, die als Zonen bekannt sind. Im Gegensatz zu vielen anderen Roguelikes, in denen Gegner oft nur umgefärbt oder wiederverwendet werden, sind **Abyssus-Zonen** mit strengen Grenzen gestaltet. Wenn du vom ersten in das zweite Gebiet wechselst, siehst du nicht nur eine andere Kulisse; du stehst einem völlig neuen Ökosystem von Bedrohungen gegenüber.
+
+Das Fortschrittssystem basiert stark auf dem „Tiefenmesser“. Dieses UI-Element verfolgt deine aktuelle Position innerhalb einer Zone. Während du Begegnungen abschließt, bewegst du dich entlang von Knotenpunkten. Die meisten Spieler bezeichnen die ersten paar Knoten als „Tutorial-Phase“, in der die Spielmechaniken durch Standard-Robotergegner eingeführt werden. Die eigentliche Herausforderung beginnt jedoch, sobald du die wichtigen Meilensteine erreichst.
+
+| Zonenphase | Tiefenknoten | Hauptziel | Schwierigkeitsgrad |
+| :--- | :--- | :--- | :--- |
+| Tutorial | 1-2 | Bewegung und grundlegendes Gunplay lernen | Sehr niedrig |
+| Mittlere Zone | 3 | Erste Elite-Begegnung bestreiten | Moderat |
+| Zonen-Höhepunkt | 4 | Bosskampf und Zonenübergang | Hoch |
+| Post-Game | 5+ | Zyklus mit Modifikatoren und erhöhten LP | Extrem |
+
+<Callout type="success" title="Fortschritts-Tipp">
+Lass dich nicht entmutigen, wenn sich die erste Zone eintönig anfühlt. Das Spiel ist so aufgebaut, dass seine komplexesten Gegner hinter dem ersten Boss verborgen sind. Sobald du die zweite und dritte Zone erreichst, wird der roboterlastige Kampf durch völlig andere biologische und mechanische Kreaturen ersetzt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gegnervielfalt und Begegnungsarten">
+
+Eine der häufigsten Fragen neuer Spieler betrifft den gefühlten Mangel an Vielfalt im frühen Spiel. Es ist wichtig, zwischen „Eliten“ und „Bossen“ zu unterscheiden. Viele Spieler halten die fliegenden Kugelgegner am dritten Knoten für Bosse, aber das sind in Wirklichkeit hochrangige Elitegegner, die deinen Build vor der echten Herausforderung an Knoten vier testen sollen.
+
+Jede der **Abyssus-Zonen** unterliegt einer „Keine Übertragung“-Regel. Das bedeutet, dass die mechanischen Handlanger, die du in der ersten Zone bekämpfst, dir nicht in die zweite folgen. Die einzige Ausnahme von dieser Regel ist der „Beute-Goblin“, eine seltene Kreatur, die in jeder Zone erscheinen kann, um bei schnellem Sieg hochwertige Belohnungen zu gewähren.
+
+<CardGrid cols={3}>
+  <Card title="Zone 1: Die Gießerei">
+    - **Gegnertyp**: Denkende Roboter
+    - **Kampfstil**: Vorhersehbare Projektile
+    - **Ziel**: Die Dash-Mechanik meistern
+  </Card>
+  <Card title="Zone 2: Das Überwuchern">
+    - **Gegnertyp**: Biologische Schrecken
+    - **Kampfstil**: Nahkampf-Anstürme und AoE
+    - **Ziel**: Crowd-Control-Management
+  </Card>
+  <Card title="Zone 3: Die Leere">
+    - **Gegnertyp**: Ätherische Wesen
+    - **Kampfstil**: Teleportation und Debuffs
+    - **Ziel**: Hohe Präzision
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Expertenbeobachtung">
+Die Gegnervielfalt in Abyssus entfaltet sich erst im späteren Verlauf. Während sich die ersten 20 Minuten einheitlich anfühlen mögen, erweitert sich die Vielfalt der Angriffe und erforderlichen Strategien exponentiell, sobald du die erste Tiefenbarriere durchbrichst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie man Zonenübergänge meistert">
+
+Der Wechsel zwischen den **Abyssus-Zonen** erfordert mehr als nur Kampffertigkeit; er erfordert strategische Planung über das „Upgrade-Rad“. Im Laufe des Jahres 2026 hat sich die Meta dahingehend verschoben, permanenten Upgrades den Vorzug vor temporären, laufbasierten Buffs zu geben. Wenn du ständig am vierten Knoten stirbst, ist das ein Zeichen dafür, dass deine Upgrades am Rad unzureichend sind.
+
+<Steps>
+  <Step num="1" title="Besiege den ersten Elitegegner">
+    Erreiche die Hälfte von Zone 1. Konzentriere dich darauf, die Strahlungsangriffe der fliegenden Kugel zu überleben. Dies schaltet die erste Stufe der laufspezifischen Beute frei.
+  </Step>
+  <Step num="2" title="Besiege den Boss von Zone 1">
+    Befindet sich am 4. Tiefenknoten. Dieser Boss dient als Wächter. Wenn du ihn besiegst, wird der Übergang zu Zone 2 freigeschaltet und dein Fortschritt für zukünftige Abkürzungen gespeichert.
+  </Step>
+  <Step num="3" title="Investiere in das Upgrade-Rad">
+    Nutze die aus deinen Läufen gesammelte Währung, um deine Basisgesundheit und deinen Schaden zu erhöhen. Dies ist zwingend erforderlich, um die Gegnervielfalt in Zone 2 zu überleben.
+  </Step>
+  <Step num="4" title="Wende Laufmodifikatoren an">
+    Sobald du dich in den Zonen wohlfühlst, füge Modifikatoren hinzu, um die Beutedroprate zu erhöhen. Dies verwandelt Standard-Bosse in „Echte Bosse“ mit neuen Bewegungsmustern.
+  </Step>
+</Steps>
+
+| Begegnungsart | Häufigkeit | Beutequalität | Risikostufe |
+| :--- | :--- | :--- | :--- |
+| Standard-Mob | Hoch | Gewöhnlich | Niedrig |
+| Elite (Kugel) | Einmal pro Knoten | Selten | Mittel |
+| Beute-Goblin | Zufällig | Legendär | Niedrig (flieht) |
+| Zonenboss | Einmal pro Zone | Exotisch | Sehr hoch |
+
+<Callout type="warning" title="Kritische Warnung">
+Bosse in Abyssus sind nicht just „Lebenspunkte-Schwämme“. Sie haben unterschiedliche Phasen, die basierend auf ihrer verbleibenden Gesundheit ausgelöst werden. Wenn du deine Positionierung in Phase 2 nicht anpasst, werden dich die meisten Bosse aus Zone 1 mit Bodengefahren in eine Ecke drängen.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Globale Fortschrittsstatistiken">
+
+Zu verstehen, wo du im Vergleich zur Spielerschaft stehst, kann helfen, den Schwierigkeitsgrad der verschiedenen **Abyssus-Zonen** einzuschätzen. Daten aus den Steam-Community-Erfolgen und globalen Statistiken im Jahr 2026 zeigen einen deutlichen Rückgang nach der ersten Zone, was auf eine steile Lernkurve hinweist, die Ausdauer und spielerisches Können belohnt.
+
+| Erfolgs-Meilenstein | Spieler-Abschluss % | Schwierigkeitsbarriere |
+| :--- | :--- | :--- |
+| Ersten Elitegegner besiegt | 88% | Grundlegende Mechaniken |
+| Ersten Boss besiegt | 73% | Build-Synergie |
+| Zone 3 erreicht | 24% | Skill-Limit |
+| Endboss besiegt | 12% | Meta-Optimierung |
+
+<Checklist
+  id="progression-checklist"
+  title="Vorbereitung auf Zone 2:"
+  items={[
+    "Schalte mindestens 3 permanente Gesundheitsknoten auf dem Rad frei",
+    "Meistere das Timing für Parade/Dash bei Projektilgegnern",
+    "Erkenne die visuellen Hinweise für das Erscheinen des Beute-Goblins",
+    "Erreiche den 4. Tiefenknoten mindestens dreimal, um die Muster zu lernen"
+  ]}
+/>
+
+<Callout type="tip" title="Profi-Strategie">
+Wenn du mit der Gegnervielfalt in späteren Zonen zu kämpfen hast, konzentriere dich auf „Effekt-Stapelung“. Die Kombination von Feuer- und Elektroschaden kann die meisten Nicht-Boss-Gegner dauerhaft betäuben, was die Übergänge zwischen den Zonen erheblich erleichtert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittliche Zonenmechaniken & Modifikatoren">
+
+Wenn du tiefer in die **Abyssus-Zonen** vordringst, führt das Spiel „Modifikatoren“ ein. Dies sind nicht nur Status-Boosts für Gegner; sie verändern das grundlegende Verhalten der Zone. Beispielsweise könnte ein „Schwerkraft“-Modifikator in Zone 2 deine Sprunghöhe verringern, wodurch die biologischen Gegner viel gefährlicher werden.
+
+| Modifikatorname | Effekt auf die Zone | Empfohlener Konter |
+| :--- | :--- | :--- |
+| Übertaktet | Gegner greifen 20 % schneller an | Waffen mit hoher Taumelwirkung |
+| Verhüllt | Kartensichtbarkeit ist verringert | Builds mit kurzer Reichweite und hohem Schaden |
+| Flüchtig | Gegner explodieren beim Tod | Kiting-Strategie auf lange Distanz |
+| Absaugend | Bosse heilen bei Treffern | Perfektionistischer Ausweich-Spielstil |
+
+<Callout type="info" title="Einblick in Modifikatoren">
+Modifikatoren sind der Schlüssel zur Langlebigkeit des Spiels. Während die Basiszonen das Fundament bilden, sorgt die Kombination aus einzigartigen Gegnergruppen und zufälligen Modifikatoren dafür, dass sich keine zwei Läufe durch dieselbe Zone identisch anfühlen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Tauchen Gegner aus der ersten Zone in späteren Abyssus-Zonen auf?",
+    answer: "Im Allgemeinen nein. Abyssus verwendet ein strenges zonenbasiertes Gegnersystem. Jede Zone hat eine einzigartige Gruppe von Gegnern, die nicht übernommen werden, mit der einzigen Ausnahme des Beute-Goblins."
+  },
+  {
+    question: "Wie viele Knoten gibt es in jeder Zone, bevor ein Boss erscheint?",
+    answer: "Die meisten Zonen folgen einer 4-Knoten-Struktur. Die ersten drei Knoten bestehen aus Standardbegegnungen und Eliten, während der 4. Knoten für den Hauptboss der Zone reserviert ist."
+  },
+  {
+    question: "Ist die erste Zone repräsentativ für die Vielfalt des gesamten Spiels?",
+    answer: "Nein. Die erste Zone fungiert als Tutorial mit einfacheren Robotergegnern. Die Vielfalt nimmt in Zone 2 und darüber hinaus erheblich zu und führt komplexere Mechaniken sowie biologische Bedrohungen ein."
+  },
+  {
+    question: "Wie bereitet man sich am besten auf eine neue Zone vor?",
+    answer: "Investiere stark in das Upgrade-Rad. Permanente Statusverbesserungen sind der einzige Weg, um mit den skalierenden Lebenspunkten und dem Schaden der Gegner in späteren Abyssus-Zonen mithalten zu können."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Die Tiefe von Abyssus lies in seinem Fortschritt. Indem jede Zone als separate Herausforderung mit eigenen Regeln und Gegnerverhalten behandelt wird, bietet das Spiel eine lohnende Erfahrung für alle, die bereit sind, über die anfänglichen Tutorial-Phasen hinauszugehen.
+</Callout>
+
+</Section>

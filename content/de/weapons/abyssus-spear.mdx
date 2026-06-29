@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus-Speer: Freischalt-Guide, Mods & Bestes Build-Setup",
+  description: "Meistern Sie den mächtigen Abyssus-Speer in Update 1.2. Erfahren Sie, wie Sie den Smiting-Speer freischalten, die besten Mods konfigurieren und Ihre Elementar-Builds optimieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Spear+Guide",
+  date: "2026-06-30",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus-Speer, Smiting-Speer, Guide, Mods, Builds, Freischalten, Update 1.2"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Abyssus-Speer**: Eine verheerende, Surge-betriebene Utility-Waffe, die Crowd Control, Zonenverteidigung und Bosskämpfe dominiert.
+- **Freischaltort**: Zu finden an einem versteckten Schrein, der über Windströmungen erreichbar ist, nachdem der zweite Boss des versunkenen Königreichs besiegt wurde.
+- **Kernmechanik**: Feststeckende Speere geben kontinuierlich pulsierenden Schaden ab und können manuell durch Beschießen ausgelöst werden.
+- **Beste Mod**: Die **Split Spears** Mod ermöglicht es Ihnen, bis zu 9 Speere gleichzeitig für eine massive Flächenabdeckung einzusetzen.
+- **Top-Aspekt**: Der **Gold-Aspekt** bietet exzellente Raumklärung mit Sofort-Exekutions-Fähigkeiten.
+</Callout>
+
+<Section icon={Map} title="So schalten Sie den Abyssus-Speer frei">
+
+Um den furchteinflößenden **Abyssus-Speer** (offiziell bekannt als **Smiting-Speer** in Update 1.2) zu erhalten, müssen Sie durch die Unterwasserruinen navigieren und die Herausforderungen der Tiefe meistern. Diese mächtige Surge-betriebene Utility-Waffe wird Ihnen nicht einfach geschenkt; stattdessen erfordert sie den Sieg über einen bedeutenden Wächter und das Erreichen eines versteckten Schreins.
+
+**Video-Highlights:**
+- **Freischaltort**: Detaillierte Wegbeschreibung von der zweiten Boss-Arena zu den versteckten Windströmungen.
+- **Speer-Management**: Wie man bis zu sechs Speere stapelt und einsetzt, um maximalen Boss-Schaden zu verursachen.
+- **Aspekt-Synergien**: Demonstration der Schadensskalierung von Gold- und Blut-Aspekten.
+
+<YouTubeEmbed videoId="jci7grwdWRc" title="Die neue Speer-Fähigkeit ist komplett OP | Abyssus" />
+
+### Den Schrein des Smiting-Speers finden
+
+Nachdem Sie den zweiten Boss des versunkenen Königreichs besiegt haben, steigen auf der gegenüberliegenden Seite der Arena, wo Sie ursprünglich eingetreten sind, Steinplattformen empor. Dieses Ereignis ist kaum zu übersehen, da ein Spektralspeer wie ein Meteor vom Himmel schießt, um den Ort zu markieren.
+
+Falls Sie dieses Ereignis bei Ihrem ersten Durchlauf verpassen, keine Sorge. Ein Portal wird dauerhaft neben dem Heilungsschrein in der Boss-Arena erscheinen, sodass Sie jederzeit zu den oberen Plattformen zurückkehren können.
+
+<Callout type="warning" title="Plattform-Gefahr">
+Die Windströmungen, die zum Schrein führen, erfordern präzise Doppelsprünge und Dashes. Ein Sturz von den Plattformen setzt Ihre Position zurück und verringert Ihre Gesundheit, also lassen Sie sich zwischen den Sprüngen Zeit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kernmechaniken des Abyssus-Speers">
+
+Der **Abyssus-Speer** fungiert als hochgradig vielseitiges Utility-Gadget, das die Lücke zwischen rohem Schaden und strategischem Crowd-Management schließt. Wenn er geworfen wird, heftet sich der Speer an alles, was er trifft – sei es ein mutierter Wächter oder die Umgebung.
+
+Sobald er eingebettet ist, emittiert der Speer eine kontinuierliche lokalisierte Aura, die allen nahen Feinden pulsierenden Schaden zufügt. Die wahre Kraft dieser Waffe liegt in ihrer manuellen Auslösemechanik: Das Beschießen eines feststeckenden Speers zwingt ihn dazu, sofort zu pulsieren, wodurch sein standardmäßiger interner Cooldown umgangen wird und Ihre ausgerüsteten Elementarsegnungen rasant ausgelöst werden.
+
+| Attribut | Basiswert | Beschreibung |
+| :--- | :--- | :--- |
+| **Schadenstyp** | Surge / AoE | Verursacht kontinuierlichen Schaden in einem Pulsradius |
+| **Aktiv-Limit** | 6 Speere | Maximale Anzahl gleichzeitig eingesetzter Speere |
+| **Puls-Intervall** | 1,5 Sekunden | Basisfrequenz der kontinuierlichen Aura-Pulse |
+| **Trigger-Effekt** | Schuss-Trigger | Das Beschießen eines Speers erzwingt einen sofortigen Puls |
+| **Basis-Pulsschaden** | 40 | Standard-Schaden pro Aura-Puls |
+
+<Callout type="info" title="Profi-Tipp: Internen Cooldown umgehen">
+Da das Beschießen des Speers seinen standardmäßigen internen Cooldown umgeht, ermöglicht die Kombination mit einer Waffe mit hoher Feuerrate, wie dem Standard-Gewehr, das Auslösen von Elementarsegnungen schneller als jedes andere Setup im Spiel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beste Mods und Upgrades der Antiken Schmiede">
+
+Um die Effektivität Ihres Speers zu maximieren, müssen Sie ihn in der Antiken Schmiede verbessern. Diese Modifikationen verändern das Verhalten des Speers und ermöglichen es Ihnen, von einem Einzelziel-Boss-Killer zu einem absoluten Raumklärungs-Kraftpaket zu werden.
+
+Durch die Anpassung Ihres Setups können Sie mehrere Speere miteinander verbinden oder verheerende Schockwellen erzeugen, die aggressive Gegnerwellen betäuben.
+
+| Mod-Name | Typ | Effektbeschreibung |
+| :--- | :--- | :--- |
+| **Split Spears** | Fähigkeits-Mod | Wirft zusätzliche Speere diagonal nach links und rechts |
+| **Charged Spear** | Fähigkeits-Mod | Aufladen, um Stapel zu verbrauchen; erhöht Schaden und Dauer |
+| **Environmental Spear** | Utility-Mod | Feststeckende Speere verlangsamen Feinde und erhöhen erlittenen Schaden |
+| **Linked Field** | DPS-Mod | Erzeugt ein hochenergetisches Feld zwischen feststeckenden Speeren |
+| **Shockwave Pulse** | Crowd Control | Erzeugt alle 3 Treffer eine Betäubungs-Schockwelle mit 40 Schaden |
+
+<Callout type="tip" title="Synergie-Mod-Alarm">
+Die Kombination von **Split Spears** mit **Linked Field** erzeugt ein riesiges Netz aus kontinuierlichen Energiefeldern. Dieses Setup ist außergewöhnlich stark für die Verteidigung von Engpässen und das Abriegeln von Spawns in High-Loop-Runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Elementar-Aspekt-Synergien und beste Builds">
+
+Der Speer skaliert dramatisch mit den elementaren Aspekt-Segnungen des Spiels. Je nach gewähltem Aspekt können Sie Ihre Speere in Instrumente der Regeneration, sofortigen Exekution oder chaotische Kettenblitz-Arrays verwandeln.
+
+| Aspekt | Synergie-Level | Beste Mod-Kombination | Spielstil-Fokus |
+| :--- | :--- | :--- | :--- |
+| **Gold-Aspekt** | ★★★★★ | Split Spears, Linked Field | Raumklärung und Sofort-Exekution |
+| **Blut-Aspekt** | ★★★★☆ | Charged Spear, Schwachstellen-Bonus | Hoher Einzelziel-DPS und Boss-Schmelzen |
+| **Finsternis-Aspekt** | ★★★★☆ | Environmental Spear, Schockwelle | Zonenverteidigung und Crowd-Management |
+| **Blitz-Aspekt** | ★★★★★ | Split Spears, Shockwave Pulse | Schnelle Kettenblitz-AoE-Trigger |
+
+<CardGrid cols={3}>
+  <Card title="Gold-Spalter Build">
+    - **Fokus**: Speedrunning und Raumklärung.
+    - **Schlüssel-Mod**: Split Spears für maximale Abdeckung.
+    - **Aspekt**: Gold-Aspekt für Sofort-Exekutions-Chance.
+  </Card>
+  <Card title="Blut-Boss-Schmelzer">
+    - **Fokus**: Einzelziel-DPS und Überleben.
+    - **Schlüssel-Mod**: Charged Spear für massive Schadensspitzen.
+    - **Aspekt**: Blut-Aspekt für Lebensentzug.
+  </Card>
+  <Card title="Blitz-Ketten-Array">
+    - **Fokus**: Chaotische AoE und Crowd Control.
+    - **Schlüssel-Mod**: Shockwave Pulse für konstante Betäubungen.
+    - **Aspekt**: Blitz-Aspekt für Kettenblitz-Procs.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Build-Empfehlung">
+Für Spieler, die Loop 2 betreten, wird der **Gold-Spalter Build** dringend empfohlen. Die Kombination aus weit gestreuten Speeren und der Sofort-Kill-Chance des Gold-Aspekts ermöglicht es Ihnen, ganze Räume mit gegnerstarken Feinden in Sekunden zu klären.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Meisterschafts-Guide">
+
+Um die ultimative Speer-Kampfrotation auszuführen und hohe Schadens-Meilensteine zu erreichen, müssen Sie die Mechaniken des Speer-Stapelns und der manuellen Detonation meistern. Folgen Sie dieser strukturierten Kampfsequenz, um Ihre Effizienz sowohl in Solo- als auch in Koop-Runs zu maximieren.
+
+<Steps>
+  <Step num="1" title="Den Speer-Stapel einsetzen">
+    Werfen Sie Ihr maximales Limit an Speeren (bis zu 6 oder 9, abhängig von Mods) direkt auf ein Ziel mit hoher Gesundheit oder einen zentralen Engpass.
+  </Step>
+  <Step num="2" title="Eine Schnellfeuerwaffe ausrüsten">
+    Wechseln Sie zu einer schnell schießenden Waffe, wie dem Standard-Gewehr, um die feststeckenden Speere anzuvisieren.
+  </Step>
+  <Step num="3" title="Die Pulse manuell auslösen">
+    Beschießen Sie die eingebetteten Speere kontinuierlich, um schnelle, aufeinanderfolgende Schadenspulse zu erzwingen und Ihre Elementar-Aspekte auszulösen.
+  </Step>
+  <Step num="4" title="Exekutieren und Auffüllen">
+    Besiegen Sie die verbleibenden Feinde, um Ihre Speerkapazität sofort wieder aufzufüllen und sich auf den nächsten Raum vorzubereiten.
+  </Step>
+</Steps>
+
+<Checklist
+  id="spear-mastery-milestones"
+  title="Ziele der Speer-Meisterschaft:"
+  items={[
+    "Schalten Sie den Smiting-Speer am versteckten Schrein frei",
+    "Erwerben Sie die Split Spears Mod in der Antiken Schmiede",
+    "Erreichen Sie eine Schadensschwelle von 100 Millionen in einem einzigen Run",
+    "Schließen Sie erfolgreich einen Loop 2 Run mit dem Gold-Spalter Build ab"
+  ]}
+/>
+
+<Callout type="tip" title="Koop-Koordination">
+Im Koop-Modus sollte ein Spieler die Speere platzieren, während ein anderer eine Waffe mit hoher Feuerrate verwendet, um sie zu zünden. Dies verteilt den Munitionsverbrauch und maximiert die Auslöserate von Elementar-Statuseffekten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich die Abyssus-Speer-Fähigkeit frei?",
+    answer: "Um den Speer freizuschalten, müssen Sie den zweiten Boss des versunkenen Königreichs besiegen. Folgen Sie danach den Steinplattformen und Windströmungen gegenüber dem Eingang, um den versteckten Schrein zu finden und mit ihm zu interagieren."
+  },
+  {
+    question: "Kann ich geworfene Speere während des Kampfes zurückerhalten?",
+    answer: "Ja. Obwohl Sie ein maximales Limit von 6 aktiven Speeren haben, füllen sie sich automatisch wieder auf, wenn Sie einen Kampfraum erfolgreich klären, sodass Sie den nächsten Raum mit einem vollen Stapel betreten."
+  },
+  {
+    question: "Welche Waffe lässt sich am besten mit dem Smiting-Speer kombinieren?",
+    answer: "Schnellfeuerwaffen wie das Standard-Gewehr oder Präzisionswaffen wie die Harpunenkanone sind ideal. Das Beschießen feststeckender Speere zwingt sie dazu, sofort zu pulsieren, daher lösen Waffen mit hoher Feuerrate schnellere Schadenszyklen aus."
+  },
+  {
+    question: "Wie funktioniert die Linked Field Mod?",
+    answer: "Die Linked Field Mod erzeugt ein Hochspannungs-Energiefeld zwischen allen feststeckenden Speeren. Jeder Feind, der dieses Feld durchquert, erleidet kontinuierlichen Schaden, was es perfekt für Zonenverteidigung und Engpässe macht."
+  }
+]} />
+
+<Callout type="info" title="Benötigen Sie weitere Hilfe?">
+Treten Sie der offiziellen Discord-Community bei, um Ihre Lieblings-Builds zu teilen, Koop-Gruppen zu finden und über die neuesten Waffen-Balance-Patches auf dem Laufenden zu bleiben.
+</Callout>
+
+</Section>

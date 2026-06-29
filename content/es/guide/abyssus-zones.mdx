@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Zonas de Abyssus: Guía de variedad de enemigos y progresión",
+  description: "Explora las mecánicas únicas de las zonas de Abyssus, incluyendo la variedad de enemigos, la progresión del medidor de profundidad y las estrategias de encuentros con jefes para jugadores en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Zones+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las zonas de Abyssus** cuentan con conjuntos de enemigos completamente únicos sin transferencia entre áreas, excepto por enemigos específicos basados en botín.
+- **La progresión** se realiza mediante un medidor de profundidad; llegar al cuarto nodo suele desencadenar un encuentro con un jefe principal.
+- **La variedad de enemigos** aumenta significativamente después de la primera zona, que sirve principalmente como tutorial de juego.
+- **Los modificadores de partida** y la rueda de mejoras son esenciales para sobrevivir en las zonas más profundas y en las batallas contra jefes del final del juego.
+- **Las estadísticas de finalización** indican que, aunque el primer jefe es accesible, la dificultad aumenta drásticamente en la tercera zona.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las zonas de Abyssus y la progresión">
+
+En el mundo de Abyssus, el entorno se divide en distintas capas conocidas como zonas. A diferencia de muchos otros roguelikes donde los enemigos pueden cambiar de color o reutilizarse, las **zonas de abyssus** están diseñadas con límites estrictos. Al pasar de la primera área a la segunda, no solo verás un cambio de escenario; te enfrentarás a un ecosistema de amenazas completamente nuevo.
+
+El sistema de progresión depende en gran medida del "Medidor de profundidad". Este elemento de la interfaz de usuario rastrea tu posición actual dentro de una zona. A medida que superas los encuentros, te mueves a lo largo de los nodos. La mayoría de los jugadores identifican los primeros nodos como la "fase de tutorial", donde las mecánicas se presentan a través de enemigos robóticos estándar. Sin embargo, el verdadero desafío comienza una vez que alcanzas los hitos principales.
+
+| Fase de la zona | Nodo de profundidad | Objetivo principal | Nivel de dificultad |
+| :--- | :--- | :--- | :--- |
+| Tutorial | 1-2 | Aprender el movimiento y el juego de armas básico | Muy bajo |
+| Zona media | 3 | Enfrentar el primer encuentro de élite | Moderado |
+| Pico de la zona | 4 | Batalla de jefe y transición de zona | Alto |
+| Postjuego | 5+ | Ciclo con modificadores y PS aumentados | Extremo |
+
+<Callout type="success" title="Consejo de progresión">
+No te desanimes si la primera zona se siente repetitiva. El juego está estructurado para ocultar a sus enemigos más complejos detrás del primer jefe. Una vez que llegas a la segunda y tercera zona, el combate centrado en robots es reemplazado por entidades biológicas y mecánicas completamente diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Variedad de enemigos y tipos de encuentros">
+
+Una de las preguntas más frecuentes de los nuevos jugadores se refiere a la aparente falta de variedad al principio del juego. Es importante distinguir entre "Élites" y "Jefes". Muchos jugadores confunden a los enemigos de orbes voladores que se encuentran en el tercer nodo con jefes, pero en realidad son élites de alto nivel destinados a poner a prueba tu build antes del verdadero desafío en el nodo cuatro.
+
+Cada una de las **zonas de abyssus** opera bajo la regla de "Sin transferencia". Esto significa que los esbirros mecánicos a los que te enfrentas en la primera zona no te seguirán a la segunda. La única excepción a esta regla es el enemigo "Duende del botín", una criatura rara que puede aparecer en cualquier zona para otorgar recompensas de alto nivel si se derrota rápidamente.
+
+<CardGrid cols={3}>
+  <Card title="Zona 1: La Fundición">
+    - **Tipo de enemigo**: Robots conscientes
+    - **Estilo de combate**: Proyectiles predecibles
+    - **Objetivo**: Dominar la mecánica de desplazamiento
+  </Card>
+  <Card title="Zona 2: El Crecimiento Desmedido">
+    - **Tipo de enemigo**: Horrores biológicos
+    - **Estilo de combate**: Embestidas cuerpo a cuerpo y área de efecto (AOE)
+    - **Objetivo**: Gestión de control de masas
+  </Card>
+  <Card title="Zona 3: El Vacío">
+    - **Tipo de enemigo**: Entidades etéreas
+    - **Estilo de combate**: Teletransportación y perjuicios (debuffs)
+    - **Objetivo**: Precisión de alta exactitud
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Observación de expertos">
+La variedad de enemigos en Abyssus se concentra al final. Aunque los primeros 20 minutos puedan parecer uniformes, la diversidad de ataques y las estrategias requeridas se expanden exponencialmente una vez que superas la primera barrera de profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo dominar las transiciones de zona">
+
+Moverse entre las **zonas de abyssus** requiere más que solo habilidad de combate; requiere una planificación estratégica a través de la "Rueda de mejoras". A medida que el juego avanza en 2026, el meta se ha desplazado hacia la priorización de mejoras permanentes sobre los potenciadores temporales basados en la partida. Si mueres constantemente en el cuarto nodo, es una señal de que las mejoras de tu rueda son insuficientes.
+
+<Steps>
+  <Step num="1" title="Derrota al primer Élite">
+    Llega a la mitad de la Zona 1. Concéntrate en sobrevivir a los ataques de rayo del orbe volador. Esto desbloquea el primer nivel de botín específico de la partida.
+  </Step>
+  <Step num="2" title="Derrota al jefe de la Zona 1">
+    Ubicado en el cuarto nodo de profundidad. Este jefe actúa como guardián. Derrotarlo desbloquea la transición a la Zona 2 y guarda tu progreso para futuros atajos.
+  </Step>
+  <Step num="3" title="Invierte en la rueda de mejoras">
+    Usa la moneda obtenida en tus partidas para aumentar la salud base y el daño. Esto es obligatorio para sobrevivir a la variedad de enemigos en la Zona 2.
+  </Step>
+  <Step num="4" title="Aplica modificadores de partida">
+    Una vez que te sientas cómodo con las zonas, añade modificadores para aumentar la tasa de obtención de botín. Esto convierte a los jefes estándar en "Jefes verdaderos" con nuevos conjuntos de movimientos.
+  </Step>
+</Steps>
+
+| Tipo de encuentro | Frecuencia | Calidad del botín | Nivel de riesgo |
+| :--- | :--- | :--- | :--- |
+| Enemigo estándar | Alta | Común | Bajo |
+| Élite (Orbe) | Una vez por nodo | Raro | Medio |
+| Duende del botín | Aleatorio | Legendario | Bajo (Escapa) |
+| Jefe de zona | Una vez por zona | Exótico | Muy alto |
+
+<Callout type="warning" title="Advertencia crítica">
+Los jefes en Abyssus no son solo "esponjas de balas". Tienen fases distintas que se activan según su salud restante. Si no cambias tu posicionamiento durante la Fase 2, la mayoría de los jefes de la Zona 1 te atraparán en una esquina con peligros en el suelo.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Estadísticas de progresión global">
+
+Comprender dónde te encuentras en comparación con la base de jugadores puede ayudar a medir la dificultad de las diferentes **zonas de abyssus**. Los datos de los logros de la comunidad de Steam y las estadísticas globales en 2026 muestran una caída significativa después de la primera zona, lo que indica una curva de aprendizaje pronunciada que recompensa la persistencia y el dominio mecánico.
+
+| Hito de logro | % de finalización de jugadores | Barrera de dificultad |
+| :--- | :--- | :--- |
+| Derrotar al primer élite | 88% | Mecánicas básicas |
+| Derrotar al primer jefe | 73% | Sinergia de la build |
+| Llegar a la Zona 3 | 24% | Límite de habilidad |
+| Derrotar al jefe final | 12% | Optimización del meta |
+
+<Checklist
+  id="progression-checklist"
+  title="Preparación para la Zona 2:"
+  items={[
+    "Desbloquear al menos 3 nodos de salud permanentes en la rueda",
+    "Dominar el tiempo de parada/desplazamiento para enemigos con proyectiles",
+    "Identificar las pistas visuales para la aparición del duende del botín",
+    "Llegar al cuarto nodo de profundidad al menos tres veces para aprender los patrones"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia profesional">
+Si tienes dificultades con la variedad de enemigos en las zonas posteriores, concéntrate en la "Acumulación de efectos". Combinar daño de fuego y eléctrico puede aturdir a la mayoría de los enemigos comunes, haciendo que las transiciones entre zonas sean mucho más fluidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mecánicas avanzadas de zona y modificadores">
+
+A medida que te adentras en las **zonas de abyssus**, el juego introduce "Modificadores". Estos no son solo aumentos de estadísticas para los enemigos; cambian el comportamiento fundamental de la zona. Por ejemplo, un modificador de "Gravedad" en la Zona 2 podría reducir tu altura de salto, haciendo que los enemigos biológicos sean mucho más peligrosos.
+
+| Nombre del modificador | Efecto en la zona | Contramedida recomendada |
+| :--- | :--- | :--- |
+| Sobrecargado | Los enemigos atacan un 20% más rápido | Armas de desequilibrio de alto impacto |
+| Envuelto | La visibilidad del mapa se reduce | Builds de corto alcance y alto daño |
+| Volátil | Los enemigos explotan al morir | Estrategia de mantener distancia a largo alcance |
+| Sifón | Los jefes se curan al golpear | Estilo de juego de esquiva perfeccionista |
+
+<Callout type="info" title="Perspectiva de los modificadores">
+Los modificadores son la clave de la longevidad del juego. Mientras que las zonas base proporcionan los cimientos, la combinación de conjuntos de enemigos únicos y modificadores aleatorios garantiza que no haya dos partidas iguales en la misma zona.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Aparecen los enemigos de la primera zona en zonas posteriores de abyssus?",
+    answer: "Generalmente, no. Abyssus utiliza un sistema estricto de enemigos basado en zonas. Cada zona tiene un conjunto único de enemigos que no se transfieren, con la única excepción del duende del botín."
+  },
+  {
+    question: "¿Cuántos nodos hay en cada zona antes de que aparezca un jefe?",
+    answer: "La mayoría de las zonas siguen una estructura de 4 nodos. Los primeros tres nodos consisten en encuentros estándar y élites, mientras que el cuarto nodo está reservado para el jefe principal de la zona."
+  },
+  {
+    question: "¿Es la primera zona representative de la variedad de todo el juego?",
+    answer: "No. La primera zona actúa como un tutorial con enemigos robóticos más simples. La variedad aumenta significativamente en la Zona 2 y más allá, introduciendo mecánicas más complejas y amenazas biológicas."
+  },
+  {
+    question: "¿Cuál es la mejor manera de prepararse para una nueva zona?",
+    answer: "Invertir fuertemente en la rueda de mejoras. Los aumentos permanentes de estadísticas son la única forma de mantenerse al día con el aumento de salud y daño de los enemigos en las zonas posteriores de abyssus."
+  }
+]} />
+
+<Callout type="success" title="Veredicto final">
+La profundidad de Abyssus radica en su progresión. Al tratar cada zona como un desafío independiente con sus propias reglas y comportamientos de enemigos, el juego ofrece una experiencia gratificante para aquellos dispuestos a superar las fases iniciales del tutorial.
+</Callout>
+
+</Section>
