@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enemigos de abyssus: Bestiario por zonas y guía de combate",
+  description: "Domina a los enemigos de abyssus con nuestra guía completa sobre la variedad de zonas, mecánicas de élite y estrategias contra jefes para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Enemies+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de abyssus",
+  slug: "abyssus-enemies-bestiary-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **enemigos de abyssus** presentan diseños mecánicos y orgánicos distintivos que varían significativamente a lo largo de las diferentes zonas del juego.
+- La **progresión de zona** es clave para experimentar la variedad de enemigos; la primera zona se centra principalmente en centinelas robóticos.
+- Los **enemigos de élite**, como el orbe volador, suelen ser confundidos con jefes por los jugadores nuevos debido a sus grandes reservas de salud.
+- Los **encuentros con jefes** ocurren en nodos de profundidad específicos (normalmente el cuarto nodo) y requieren mejoras de rueda especializadas.
+- Los **Goblins de botín** son el único tipo de enemigo que aparece de manera constante en todas las zonas únicas del juego.
+</Callout>
+
+<Section icon={Map} title="Introducción a los enemigos de abyssus y mecánicas de zona">
+
+Comprender la jerarquía de los **enemigos de abyssus** es el primer paso para sobrevivir en las profundidades de este desafiante rogue-lite. Los jugadores a menudo se sienten abrumados en las etapas iniciales, pero el juego está diseñado para introducir complejidad a través de cambios ambientales y progresión basada en la profundidad. El mundo de Abyssus está construido sobre una base de hierro, vapor y salmuera, donde cada constructo mecánico y horror biológico cumple una función específica en la defensa de su territorio.
+
+**Puntos destacados del video:**
+- Resumen visual de los tipos iniciales de enemigos robóticos que se encuentran en las primeras profundidades.
+- Vista previa de la atmósfera estética de "hierro, vapor y salmuera" que define el mundo.
+- Adelanto del combate de alta intensidad contra jefes en los niveles más profundos.
+- Demostración de los patrones de movimiento y ataque de las unidades de centinela básicas.
+
+<YouTubeEmbed videoId="iHfYfO2N4l0" title="Abyssus - Tráiler de lanzamiento | Juegos de PS5" />
+
+El bucle de combate en Abyssus requiere que los jugadores se adapten a nuevas amenazas a medida que descienden. Aunque la primera zona pueda parecer repetitiva para quienes tienen dificultades para derrotar al primer jefe, el juego se abre significativamente una vez que alcanzas el segundo y tercer nivel de profundidad.
+
+<CardGrid cols={3}>
+  <Card title="Zona 1: El desguace">
+    - **Enemigo principal**: Centinelas robóticos
+    - **Nivel de amenaza**: Bajo a moderado
+    - **Enfoque**: Aprender mecánicas básicas de esquiva y desvío (parry).
+  </Card>
+  <Card title="Zona 2: El área frondosa">
+    - **Enemigo principal**: Híbridos biomecánicos
+    - **Nivel de amenaza**: Alto
+    - **Enfoque**: Gestionar efectos de estado y peligros ambientales.
+  </Card>
+  <Card title="Zona 3: El abismo">
+    - **Enemigo principal**: Horrores primigenios
+    - **Nivel de amenaza**: Extremo
+    - **Enfoque**: Combate a alta velocidad y gestión de recursos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo del editor">
+No te desanimes por la aparente falta de variedad durante la primera hora. El juego está estructurado como un tutorial tradicional en su primera partida, y la verdadera variedad de los **enemigos de abyssus** aparece solo después de superar el primer nodo de profundidad importante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zona 1: Bestiario del centinela robótico">
+
+En la primera zona de Abyssus, los jugadores se enfrentan principalmente a **enemigos de abyssus** robóticos. Estas unidades están diseñadas para poner a prueba tu comprensión fundamental de la rueda de combate y los sistemas de movilidad del juego. Muchos jugadores confunden inicialmente la falta de variedad en la primera área con una falta de contenido, pero esta zona actúa como un filtro mecánico.
+
+| Nombre del enemigo | Tipo | Ataque principal | Estrategia |
+|------------|------|----------------|----------|
+| Dron centinela | Común | Láser a distancia | Mantenerse en movimiento / Esquivar |
+| Unidad chatarrera | Común | Carga cuerpo a cuerpo | Desviar (parry) / Contraatacar |
+| Orbe volador | Élite | Explosión de energía en área | Concentrar fuego / Ocultarse tras cobertura |
+| Bot de reparación | Soporte | Cura aliados | Priorizar como objetivo para evitar curación |
+| Goblin de botín | Especial | Huye con el botín | Daño de ráfaga antes de que escape |
+
+El orbe volador es un punto de especial discordia entre la comunidad. Según los jugadores veteranos en la [Comunidad de Steam](https://steamcommunity.com/app/1721110/discussions/0/598534917341629704/), esta unidad es un enemigo de élite, no un jefe, aunque su barra de vida puede hacer que parezca un encuentro final para los jugadores con equipamiento básico.
+
+<Callout type="tip" title="Nota de estrategia">
+El Goblin de botín es el único enemigo que se mantiene en todas las zonas. Si ves uno, priorízalo de inmediato, ya que las mejoras que suelta son esenciales para sobrevivir a los jefes en el cuarto nodo de profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Diferenciar enemigos de élite de los jefes">
+
+Un punto común de confusión con respecto a los **enemigos de abyssus** es la distinción entre enemigos de élite y jefes. En Abyssus, el medidor de profundidad de tu interfaz (HUD) es el indicador más confiable de a qué te estás enfrentando. Los jefes se ubican específicamente en el cuarto nodo del medidor de profundidad, mientras que los enemigos de élite pueden aparecer ya en el segundo nodo para actuar como minijefes.
+
+| Característica | Enemigos de élite | Jefes |
+|---------|---------------|--------------|
+| Apariencia | Versiones mejoradas de enemigos comunes | Modelos únicos y gigantescos |
+| Barra de salud | Barra estándar sobre la cabeza | Barra grande y segmentada en la parte inferior |
+| Frecuencia de aparición | Varias veces por partida | Una vez por nivel de profundidad |
+| Recompensas | Materiales de artesanía de alto nivel | Almas de jefe únicas / Mejoras de rueda |
+| Modificadores | Rara vez se ven afectados por modificadores de partida | Muy afectados por modificadores de dificultad |
+
+<Callout type="warning" title="Advertencia importante">
+Si tienes problemas con el orbe volador de élite en la Zona 1, es probable que aún no estés listo para el primer jefe. Concéntrate en farmear mejoras del Goblin de botín y de los drones centinela antes de avanzar hacia el cuarto nodo de profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progresión y escalado de enemigos">
+
+A medida que avanzas más allá de las amenazas robóticas iniciales, los **enemigos de abyssus** comienzan a escalar no solo en salud y daño, sino también en complejidad mecánica. Para cuando llegas a la Zona 2, los centinelas robóticos son reemplazados por conjuntos de enemigos completamente diferentes que no comparten los mismos patrones de ataque ni debilidades.
+
+<Checklist
+  id="enemy-progression"
+  title="Hitos de maestría de enemigos:"
+  items={[
+    "Desviar con éxito el ataque de una unidad chatarrera 10 veces",
+    "Derrotar a un orbe volador sin recibir daño",
+    "Alcanzar el cuarto nodo de profundidad en la Zona 1",
+    "Identificar el sonido del portal de escape del Goblin de botín",
+    "Desbloquear el primer nivel de mejoras de la rueda"
+  ]}
+/>
+
+El aumento de dificultad en la Zona 2 es significativo. Los jugadores suelen comentar que, mientras la Zona 1 es un "tutorial", la Zona 2 es donde comienza el verdadero juego. Los enemigos aquí utilizan veneno y ataques de denegación de área, lo que obliga a cambiar de un estilo cuerpo a cuerpo agresivo a uno más cauteloso y centrado en la distancia.
+
+<Callout type="info" title="Perspectiva de la comunidad">
+Las estadísticas globales de los usuarios de Steam indican que el 88% de los jugadores derrotan con éxito al primer enemigo de élite, pero solo el 73% logra vencer al primer jefe. Esta brecha resalta el salto de dificultad entre los **enemigos de abyssus** estándar y los jefes del final de la profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meta de combate: lidiar con grupos grandes">
+
+Gestionar grupos de **enemigos de abyssus** requiere un enfoque táctico de la rueda de mejoras del juego. No puedes limitarte a machacar botones en las profundidades más avanzadas; debes sincronizar tus habilidades con las ventanas de ataque del enemigo.
+
+<Steps>
+  <Step num="1" title="Exploración inicial">
+    Identifica la composición del grupo de enemigos. Busca siempre primero los bots de reparación o las unidades de soporte para eliminar sus capacidades de curación.
+  </Step>
+  <Step num="2" title="Control de masas">
+    Usa habilidades de área de efecto (AOE) para aturdir o ralentizar a las unidades centinela comunes. Esto te permite concentrar tus ataques de alto daño a un solo objetivo en los enemigos de élite.
+  </Step>
+  <Step num="3" title="Gestión de élites">
+    Una vez eliminados los enemigos menores, enfréntate al enemigo de élite. Usa el entorno para bloquear los ataques a distancia de los orbes voladores mientras esperas que se recarguen tus habilidades.
+  </Step>
+  <Step num="4" title="Recolección de botín">
+    Tras el encuentro, prioriza recolectar orbes de energía para alimentar tu rueda. Comprueba si hay Goblins de botín ocultos que puedan haber aparecido durante el caos.
+  </Step>
+</Steps>
+
+| Táctica de combate | Efectividad | Dificultad |
+|---------------|---------------|------------|
+| Desvío perfecto | Excelente | Alta |
+| Distanciamiento (kiting) | Bueno | Moderada |
+| Ráfaga en área | Excelente | Moderada |
+| Sigilo / Evasión | Deficiente | Extrema |
+
+<Callout type="tip" title="Consejo de combate pro">
+La "rueda" es tu salvavidas. Invertir pronto en mejoras de velocidad de movimiento y tiempo de recarga hará que enfrentarse a los rápidos ataques de los enemigos de la Zona 2 sea mucho más manejable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre los enemigos de abyssus">
+
+<FAQ items={[
+  {
+    question: "¿Cambian los enemigos de abyssus si reinicio mi partida?",
+    answer: "Sí, aunque el tema general de la zona sigue siendo el mismo (por ejemplo, robots en la Zona 1), las apariciones específicas y la ubicación de los enemigos de élite y los Goblins de botín se aleatorizan en cada partida."
+  },
+  {
+    question: "¿Hay alguna forma de ver la salud del enemigo antes de entablar combate?",
+    answer: "No, las barras de salud solo aparecen una vez que el enemigo ha recibido daño o si has desbloqueado mejoras de exploración específicas en tu rueda de progresión."
+  },
+  {
+    question: "¿Por qué algunos enemigos tienen un brillo dorado?",
+    answer: "Los enemigos con un brillo dorado son variantes potenciadas. Tienen más salud y daño, pero otorgan significativamente más dinero y materiales de artesanía de mayor calidad."
+  },
+  {
+    question: "¿Cómo encuentro más Goblins de botín?",
+    answer: "Los Goblins de botín tienen una probabilidad de aparición aleatoria en cada encuentro. Sin embargo, ciertos modificadores de partida pueden aumentar su tasa de aparición a cambio de hacer que otros enemigos sean más difíciles."
+  }
+]} />
+
+<Callout type="success" title="Resumen final">
+Dominar a los **enemigos de abyssus** es un maratón, no un esprint. Al comprender la diferencia entre enemigos de élite y jefes, priorizar objetivos como los bots de reparación y los Goblins de botín, y mejorar constantemente tu rueda, acabarás conquistando los rincones más profundos del Abismo.
+</Callout>
+
+</Section>

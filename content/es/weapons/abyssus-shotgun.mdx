@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Escopeta Abyssus: Mejores equipamientos y guía de mods de la Forja",
+  description: "Domina la escopeta Abyssus con nuestra guía de 2026 sobre mecánicas de desbloqueo, trazadores de disparo secundario y las combinaciones de mods de la Forja más poderosas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Shotgun+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **escopeta Abyssus** destaca en el combate a corta y media distancia con un daño elevado y un disparo secundario único de estilo hitscan.
+- El **método de desbloqueo** requiere completar el desafío 'The Bursting Weapon' en el Templo Abandonado.
+- El **disparo secundario** crea trazadores invisibles que golpean a cada enemigo en el área de efecto exactamente una vez.
+- Los **mods de la Forja** como Sawed-Off Barrel y Long Barrel permiten a los jugadores especializarse en potencia bruta o en precisión.
+- Las **mecánicas de impulso** (Momentum) son vitales para mantener altas cadencias de tiro durante los encuentros de combate intensos.
+</Callout>
+
+<Section icon={Map} title="Resumen del arma y requisitos de desbloqueo">
+
+La **escopeta Abyssus** es un arma formidable diseñada para jugadores que prefieren un estilo de juego de alto riesgo y alta recompensa. Descrita como una escopeta modificada con la potencia pura de una locomotora, es capaz de devastar a los enemigos a distancias cortas y medias. A diferencia de las armas de fuego estándar que dependen del fuego sostenido, esta arma se centra en un daño de ráfaga masivo y control de masas a través de sus mecánicas de disparo únicas.
+
+Para añadir este portento a tu arsenal, debes demostrar tu valía a través de desafíos de juego específicos. No es un botín aleatorio, sino una recompensa por la maestría táctica dentro de los entornos difíciles del juego.
+
+| Tipo de requisito | Detalles |
+| :--- | :--- |
+| **Nombre del desafío** | The Bursting Weapon |
+| **Ubicación** | Templo Abandonado |
+| **Prerrequisito** | Derrotar al enemigo Élite cerca de la salida del Abismo (Depth) |
+| **Punto de recogida** | Cerca de la salida del Abismo tras completar el desafío |
+| **Clase de arma** | Híbrido semiautomático / completamente automático |
+
+<Callout type="success" title="Consejo de desbloqueo">
+Al intentar el desafío 'The Bursting Weapon', asegúrate de que tu equipamiento actual tenga una alta movilidad. El Élite del Templo Abandonado utiliza varios ataques de denegación de área que pueden abrumar rápidamente a un jugador estático.
+</Callout>
+
+La obtención de la **escopeta Abyssus** marca un punto de inflexión significativo en la progresión del jugador. Su versatilidad para enfrentarse tanto a enemigos Élite de un solo objetivo como a grandes grupos de enemigos menores la convierte en un elemento básico para las configuraciones de mitad y final del juego.
+
+</Section>
+
+<Section icon={Swords} title="Dominando los modos de disparo y las mecánicas">
+
+Comprender la naturaleza dual de la **escopeta Abyssus** es la clave para maximizar su eficiencia. El arma funciona con dos modos de disparo distintos que deben alternarse según la densidad y la distancia de tus objetivos.
+
+<CardGrid cols={2}>
+  <Card title="Ataque principal">
+    - **Alto daño a un solo objetivo**
+    - Conexión hitscan de alto impacto
+    - Baja cadencia de tiro para mayor precisión
+    - Ideal para Élites y jefes
+  </Card>
+  <Card title="Ataque secundario">
+    - **Impacto multi-objetivo ilimitado**
+    - Tecnología de trazadores invisibles
+    - Golpea a todos los enemigos en pantalla una vez
+    - Los proyectiles visuales son puramente estéticos
+  </Card>
+</CardGrid>
+
+El disparo secundario es especialmente único. A diferencia de las escopetas tradicionales donde los perdigones se dispersan al azar, esta arma utiliza un sistema de trazadores. Cada enemigo dentro del área de efecto es marcado y golpeado simultáneamente. Sin embargo, no puedes golpear al mismo enemigo dos veces con una sola ráfaga secundaria, lo que la convierte en una herramienta dedicada a limpiar pantallas en lugar de desgastar a un solo objetivo.
+
+| Mecánica | Disparo principal | Disparo secundario |
+| :--- | :--- | :--- |
+| **Tipo de daño** | Ráfaga concentrada | Área de efecto (AoE) |
+| **Apuntado** | Apuntar y disparar | Trazadores en toda la pantalla |
+| **Objetivos máximos** | Un solo objetivo | Ilimitados (dentro del AoE) |
+| **Alcance óptimo** | Alcance medio | Alcance corto |
+| **Estilo visual** | Impacto directo | Perdigones visuales (puramente estético) |
+
+<Callout type="warning" title="Nota mecánica">
+No te dejes engañar por los perdigones visuales del disparo secundario. El daño se calcula instantáneamente a través de trazadores. Si un enemigo está detrás de una cobertura pero dentro del cono del AoE, es posible que el trazador no conecte, incluso si parece que los perdigones visuales lo golpean.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mods de la Forja y análisis de sinergias">
+
+El verdadero poder de la **escopeta Abyssus** se desbloquea a través de los mods de la Forja. Estas modificaciones te permiten adaptar el comportamiento del arma a tu configuración específica, ya sea que desees una escopeta de "francotirador" de largo alcance o una limpiadora de salas de disparo rápido.
+
+| Nombre del mod de la Forja | Efecto principal | Estrategia / Sinergia |
+| :--- | :--- | :--- |
+| **Automatic Trigger** | El siguiente disparo secundario inflige +30% de daño | Alterna el disparo principal antes de las ráfagas de AoE |
+| **Optimized Gauge** | +50% de daño a enemigos bajo control de masas (CC) | Combínalo con habilidades de aturdimiento/ralentización |
+| **Automatic Action** | El siguiente disparo principal inflige +30% de daño | Usa el disparo secundario para potenciar los impactos a un solo objetivo |
+| **Compact Shell** | Una eliminación otorga +100% de daño en el siguiente disparo | Esencial para encadenar bajas de enemigos menores |
+| **Heavy Shell** | El disparo secundario aplica ralentización (Slow) y debilidad (Weak) | Ideal para configuraciones de utilidad y soporte |
+| **Light Frame** | El impulso (Momentum) aumenta la cadencia de tiro y la velocidad | Óptimo para jugadores agresivos y móviles |
+| **Sawed-Off Barrel** | +50% de daño, +100% de dispersión | Dominio extremo a corta distancia |
+| **Long Barrel** | -50% de dispersión, +50% de daño en puntos débiles | Configuraciones de precisión para luchar contra jefes |
+
+<Callout type="tip" title="Combo de sinergia">
+Combina **Automatic Trigger** y **Automatic Action** para crear un estilo de juego fluido e intercalado. Al alternar entre disparos principales y secundarios, mantienes una bonificación de daño constante del 30% en cada ataque.
+</Callout>
+
+Al seleccionar los mods, considera tu estilo de movimiento. Si esquivas con frecuencia, **Light Frame** es obligatorio. Acumula "impulso" (Momentum), lo que aumenta significativamente tu cadencia de tiro y velocidad de movimiento según tu nivel de actividad. Este impulso disminuye con el tiempo y se restablece después de los encuentros, recompensando a los jugadores que se mantienen en el fragor de la batalla.
+
+</Section>
+
+<Section icon={Target} title="Estrategia de combate paso a paso">
+
+Para usar eficazmente la **escopeta Abyssus** en contenido de alto nivel, debes dominar el ritmo de sus modos de disparo y la gestión de las mejoras de los mods de la Forja.
+
+<Steps>
+  <Step num="1" title="Iniciar con el disparo secundario">
+    Comienza un encuentro usando el disparo secundario. Esto elimina a los enemigos menores y, si usas **Heavy Shell**, aplica efectos negativos de ralentización y debilidad a los objetivos más grandes.
+  </Step>
+  <Step num="2" title="Acumular impulso">
+    Utiliza **Light Frame** moviéndote y esquivando constantemente. Vigila tu barra de impulso; una vez que alcance su punto máximo, tu cadencia de tiro te permitirá destrozar las barras de salud de los enemigos Élite con el disparo principal.
+  </Step>
+  <Step num="3" title="Intercalar ataques">
+    Si tienes **Automatic Trigger** o **Automatic Action**, nunca uses repetidamente un solo modo de disparo. Alterna: Principal -> Secundario -> Principal. Esto asegura que cada disparo esté potenciado por el anterior.
+  </Step>
+  <Step num="4" title="Ejecutar con precisión">
+    Usa el mod **Long Barrel** si te enfrentas a un jefe. Apunta a los puntos débiles para aprovechar la bonificación de daño del 50%, que se acumula multiplicativamente con otras mejoras.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo táctico">
+El **Sawed-Off Barrel** es un arma de doble filo. Aunque el aumento de daño del 50% es enorme, el incremento del 100% en la dispersión hace que el disparo principal sea casi inútil a media distancia. Elígelo solo si tu configuración incluye una gran reducción de daño o escudos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de progresión y maestría">
+
+Dominar la **escopeta Abyssus** requiere una práctica constante y la adquisición de equipamiento específico para complementar los mods de la Forja. Usa la siguiente lista de verificación para seguir tu progreso con esta arma.
+
+<Checklist
+  id="shotgun-mastery"
+  title="Hitos de maestría de la escopeta:"
+  items={[
+    "Completar el desafío 'The Bursting Weapon' en el Templo Abandonado",
+    "Desbloquear los 8 mods de la Forja a través de la progresión del arma",
+    "Lograr una acumulación de 5 cargas de impulso (Momentum) usando el mod Light Frame",
+    "Limpiar con éxito una sala usando solo una ráfaga secundaria con Compact Shell",
+    "Derrotar a un jefe Élite usando la sinergia de puntos débiles de Long Barrel"
+  ]}
+/>
+
+| Hito | Recompensa / Beneficio | Prioridad |
+| :--- | :--- | :--- |
+| **Desbloquear todos los mods** | Máxima flexibilidad de configuración | Alta |
+| **Dominar la alternancia de disparos** | Aumento constante del 30% de DPS | Media |
+| **Control del impulso** | Alta movilidad y supervivencia | Alta |
+| **Apuntado a puntos débiles** | Eliminación eficiente de jefes | Media |
+
+<Callout type="success" title="Consejo profesional final">
+Para la configuración definitiva del juego tardío, céntrate en **Optimized Gauge**. Si tus compañeros de equipo o tus propias habilidades pueden congelar o inmovilizar a los enemigos de manera constante, el aumento de daño plano del 50% es el modificador de daño constante más alto disponible para la escopeta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo la escopeta Abyssus?",
+    answer: "Debes completar el desafío 'The Bursting Weapon' derrotando al enemigo Élite en el Templo Abandonado y recogiendo el arma cerca de la salida del Abismo (Depth)."
+  },
+  {
+    question: "¿El disparo secundario golpea al mismo enemigo varias veces?",
+    answer: "No. El disparo secundario utiliza trazadores que golpean a cada enemigo en pantalla exactamente una vez por ráfaga. Está diseñado para cobertura de área, no para acumular daño en un solo objetivo."
+  },
+  {
+    question: "¿Vale la pena el mod Cañón Recortado (Sawed-Off Barrel) a pesar de la dispersión adicional?",
+    answer: "Depende de tu estilo de juego. Si prefieres el combate a bocajarro, el aumento de daño del 50% es enorme. Sin embargo, hace que el arma sea ineficaz para la precisión a media distancia."
+  },
+  {
+    question: "¿Qué es el impulso (Momentum) en las mecánicas de la escopeta Abyssus?",
+    answer: "El impulso (Momentum) es una mecánica otorgada por el mod Light Frame. Moverse y esquivar acumula un medidor que aumenta tu cadencia de tiro y velocidad de movimiento durante ese encuentro."
+  }
+]} />
+
+</Section>
