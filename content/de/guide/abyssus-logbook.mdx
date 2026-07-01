@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abyssus-Logbuch: Herausforderungs-Walkthrough & Statistik-Leitfaden",
+  description: "Meistern Sie das Abyssus-Logbuch. Erfahren Sie in unserem Leitfaden, wie Sie Statistiken verfolgen, alle 94 Herausforderungen abschließen und den schwer fassbaren Erfolg 'Schreiber' freischalten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Abyssus+Logbook+Guide",
+  date: "2026-07-01",
+  author: "abyssus Wiki-Team",
+  keywords: "Abyssus, Logbuch, Herausforderungen, Schreiber Erfolg, Statistiken, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Das **Abyssus-Logbuch** dient als zentraler Knotenpunkt für die Verfolgung Ihrer In-Game-Statistiken, des Expeditionsverlaufs und des Fortschritts bei Herausforderungen.
+- Das **Freischalten von „Schreiber“** ist eine Voraussetzung für den Erfolg „Neuer Monarch“ und erfordert das Sammeln aller Segnungen und Charms.
+- **Expeditionsmetriken** speichern hochdetaillierte Run-Daten, einschließlich Genauigkeit, Schadensausstoß und Ihrer Haupttodesursachen.
+- Das **systematische Anvisieren von Herausforderungen** ermöglicht es Ihnen, mächtige Waffen-Mods und wertvolle Seelenfragmente freizuschalten.
+</Callout>
+
+<Section icon={Map} title="Was ist das Abyssus-Logbuch?">
+
+Das **Abyssus-Logbuch** ist ein wichtiges interaktives Objekt, das sich am Eingang zum Artefaktraum befindet [web]. Es kann auch direkt über das Hauptmenü des Spiels aufgerufen werden [web]. Dieses Tool fungiert als Ihr ultimativer Fortschritts-Tracker und überwacht alles, von Ihren gesamten Karrierestatistiken bis hin zu Ihrer aktuellen Abschlussrate der Herausforderungen [web]. Das Verständnis dieser Daten ist der Schlüssel zur Optimierung Ihrer Builds und zur Planung Ihrer zukünftigen Runs.
+
+**Video-Highlights:**
+- Das Freischalten des „Schreiber“-Erfolgs ist zwingend erforderlich, um den Status „Neuer Monarch“ zu erlangen [youtube].
+- Charms müssen während eines Runs nur einmal aufgehoben werden, um im Logbuch registriert zu werden [youtube].
+- Um Segnungen zu registrieren, müssen Sie diese in allen drei Slots ausrüsten und einen Run abschließen [youtube].
+
+<YouTubeEmbed videoId="K2H8USGiVaY" title="Abyssus: So schalten Sie den Schreiber-Erfolg frei" />
+
+Durch Interaktion mit dem Logbuch können Sie Ihre freigeschalteten Relikte einsehen, prüfen, welche Herausforderungen kurz vor dem Abschluss stehen, und Ihre Leistungstrends im Zeitverlauf analysieren [web]. Dies macht es zu einem unschätzbaren Vorteil für Spieler, die von Gelegenheits-Runs zu hochrangigen Deep-Water-Expeditionen übergehen möchten.
+
+<Callout type="tip" title="Profi-Tipp">
+Überprüfen Sie das Logbuch immer zwischen den Runs. Es hilft Ihnen zu identifizieren, welche spezifischen Waffen oder Fähigkeiten Sie als Nächstes einsetzen müssen, um fehlende Mods freizuschalten oder ausstehende Herausforderungen abzuschließen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Den Schreiber-Erfolg freischalten">
+
+Das Freischalten des **Schreiber**-Erfolgs ist einer der häufigsten Punkte der Verwirrung für Spieler, die einen 100%-Abschluss in Abyssus anstreben [youtube]. Das Spiel gibt an, dass Sie die Logbucheinträge für alle Segnungen und Charms freischalten müssen [youtube]. Es erklärt jedoch nicht explizit die Mechaniken, die erforderlich sind, um diese Gegenstände dauerhaft zu registrieren.
+
+Um diese monumentale Aufgabe zu bewältigen, müssen Sie eine bestimmte Abfolge von Aktionen für Relikte und Segnungen befolgen.
+
+<Steps>
+  <Step num="1" title="Fehlende Charms identifizieren">
+    Navigieren Sie im Menü zum Abschnitt „Relikte“ und wählen Sie „Charms“ [youtube]. Identifizieren Sie, welche Charms derzeit gesperrt sind. Die meisten davon sind an einfache Herausforderungen gebunden, wie das Sammeln von 1.000 Gold oder das Verursachen bestimmter Schadensarten [youtube, web].
+  </Step>
+  <Step num="2" title="Charms aufheben und registrieren">
+    Sobald ein Charm freigeschaltet ist, müssen Sie ihn während einer aktiven Expedition finden und aufheben [youtube]. Sie müssen den Run nicht mit dem ausgerüsteten Charm beenden; es reicht aus, ihn einfach aufzuheben und sofort wieder fallen zu lassen, um ihn im Logbuch zu registrieren [youtube].
+  </Step>
+  <Step num="3" title="Alle Segnungen registrieren">
+    Für Segnungen müssen Sie den spezifischen Segnungstyp auf Ihrer Primärwaffe, Sekundärwaffe und aktiven Fähigkeit ausrüsten [youtube]. Anschließend müssen Sie mindestens einen vollständigen Run abschließen und dabei jede Variation innerhalb der Upgrade-Reihen dieser Segnung einsammeln [youtube].
+  </Step>
+</Steps>
+
+| Relikttyp | Registrierungsanforderung | Tipp für schnelles Freischalten |
+| --- | --- | --- |
+| **Charms** | Einmal in einer Expedition aufheben [youtube] | Lassen Sie den Charm sofort nach dem Aufheben fallen, um Platz im Slot zu sparen [youtube] |
+| **Segnungen** | Auf Primär-, Sekundärwaffe und Fähigkeit ausrüsten [youtube] | Schließen Sie einen vollständigen Run ab und sammeln Sie alle Upgrade-Reihen für diese Segnung [youtube] |
+
+Indem Sie Ihre gesperrten Charms systematisch abarbeiten und die erforderlichen Segnungen ausrüsten, erfüllen Sie die Voraussetzungen für den Schreiber-Erfolg und ebnen den Weg zum Titel „Neuer Monarch“ [youtube].
+
+<Callout type="warning" title="Wichtige Run-Regel">
+Wenn Sie eine Expedition manuell verlassen, bevor Sie sie erfolgreich abgeschlossen haben oder gestorben sind, werden die Run-Daten und alle neu gefundenen Relikte nicht in Ihr Logbuch eingetragen [web].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Abyssus-Logbuch Herausforderungsliste">
+
+Der Kern des **Abyssus-Logbuchs** dreht sich um seine umfangreiche Herausforderungsliste [web]. Diese Erfolge fungieren als Meilensteine, die Sie mit Seelenfragmenten, einzigartigen Waffen oder mächtigen Schmiede-Mods belohnen [web]. Es gibt insgesamt 94 Herausforderungen, die im Erfolg „Der neue Monarch“ gipfeln [web].
+
+### Boss- und Fortschritts-Herausforderungen
+
+Diese Herausforderungen werden durch das Besiegen großer Gebietsbosse und das Fortschreiten durch die Hauptpfade des Abyss abgeschlossen [web].
+
+| Name der Herausforderung | Ziel | Belohnung |
+| --- | --- | --- |
+| **Royalität** | Besiegen Sie den Boss des Verlassenen Tempels [web] | Seelenfragmente [web] |
+| **Keine Legende mehr** | Besiegen Sie den Boss der Gärten [web] | Seelenfragmente [web] |
+| **Verdreht** | Besiegen Sie den Boss des Heiligtums [web] | Seelenfragmente [web] |
+| **Ein gestürztes Königreich** | Besiegen Sie den Endboss des Spiels [web] | Seelenfragmente [web] |
+| **Die Erste von Vielen** | Scheitern Sie zum ersten Mal bei einer Expedition [web] | Revenant-Charm [web] |
+| **Großwildjäger** | Besiegen Sie Ihren ersten Elite-Gegner [web] | Seelenfragmente [web] |
+
+### Kampf- und Hilfsmittel-Herausforderungen
+
+Diese Aufgaben erfordern das Erreichen bestimmter Gameplay-Meilensteine, eine effiziente Ressourcenverwaltung oder spezialisierte Kampfmanöver [web].
+
+| Name der Herausforderung | Ziel | Belohnung |
+| --- | --- | --- |
+| **Wohlhabend** | Sammeln Sie 1.000 Gold an Ihrer Person [web] | Goldköder [web] |
+| **Fleischschild** | Sammeln Sie insgesamt 5.000 erlittenen Schaden [web] | Bandage [web] |
+| **Schlüsseldienst** | Verwenden Sie 5 Schlüssel in einer einzigen Expedition [web] | Skelettschlüssel [web] |
+| **Dickhäutig** | Erreichen Sie einen maximalen Gesundheitswert über 600 [web] | Gesundes Engagement [web] |
+| **Agnostiker** | Schließen Sie eine Expedition ab, ohne Segnungen aufzuheben [web] | Aztek [web] |
+| **Waffenbeherrschung** | Schließen Sie eine Expedition mit jeder Waffe ab [web] | Bender [web] |
+
+### Spalten- und Waffenfreischaltungs-Herausforderungen
+
+Spalten müssen in verschiedenen Zonen zerstört werden, um kosmetische Belohnungen freizuschalten, während spezifische Geheimaufgaben neue Waffentypen freischalten [web].
+
+| Name der Herausforderung | Ziel | Belohnung |
+| --- | --- | --- |
+| **Lobby-Spalten** | Zerstören Sie 8 Surge-Spalten in der Lobby [web] | Goldener Skin [web] |
+| **Garten-Spalten** | Zerstören Sie 15 Surge-Spalten in den Gärten [web] | Goldener Skin [web] |
+| **Die scharfe Waffe** | Finden Sie die Waffe durch Zerstören versteckter Kristalle [web] | Diskuswerfer [web] |
+| **Die aquatische Waffe** | Lösen Sie das Geheimnis des geheimen Teichs [web] | Fischgottheit [web] |
+| **Die Zielfernrohr-Waffe** | Erreichen Sie das Ende des Geheimpfads der Lobby [web] | Brine-Revolver [web] |
+
+<Callout type="success" title="Priorität beim Freischalten">
+Priorisieren Sie das Freischalten des **Skelettschlüssels** über die Schlüsseldienst-Herausforderung frühzeitig. Er erleichtert das Ressourcenmanagement in Runs mit hohem Schwierigkeitsgrad erheblich, indem er die Schlüsselnutzung optimiert.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Statistiken und Expeditionsverlauf verfolgen">
+
+Über das Verfolgen von Erfolgen hinaus dient das **Abyssus-Logbuch** als tiefgreifendes Analysetool [web]. Es ist in mehrere Unterabschnitte unterteilt, mit denen Sie Ihre Karriereleistung überwachen und Bereiche Ihres Gameplays identifizieren können, die verbessert werden müssen [web].
+
+### Expeditionsverlauf
+
+Der Abschnitt „Expeditionen“ führt ein fortlaufendes Protokoll Ihrer abgeschlossenen oder gescheiterten Runs [web]. Dieser Abschnitt ist unglaublich detailliert und verfolgt Variablen wie:
+- Gesamter verursachter und erlittener Schaden während des Runs [web]
+- Gesamtgenauigkeit und Schwachstellen-Genauigkeit in Prozent [web]
+- Der exakte Gegner, der den tödlichen Schlag versetzt hat [web]
+- Ausgerüstete Waffen, aktive Segnungen und angewendete Schmiede-Mods [web]
+
+### Karriere-Spielerstatistiken
+
+Der Unterabschnitt „Spielerstatistiken“ fasst Ihre Daten über alle Expeditionen hinweg zusammen, um Ihr Lebenszeitprofil zu erstellen [web].
+
+| Metrik-Kategorie | Verfolgte Daten | Praktische Anwendung |
+| --- | --- | --- |
+| **Expeditions-Stats** | Erfolgsquote, Siegesserien und durchschnittliche Abschlusszeiten [web] | Hilft bei der Messung Ihrer Beständigkeit und Ihres Fortschritts beim Speedrunning [web] |
+| **Spieler-Stats** | Bevorzugte Segnung, Gesamtzahl der Niederschläge und Tode [web] | Identifiziert Ihre bevorzugten Spielstile und Überlebensengpässe [web] |
+| **Gegner-Stats** | Gesamte Kills pro Gegnertyp und Todeszahlen pro Gegner [web] | Zeigt auf, welche Gegnertypen die größte Bedrohung für Sie darstellen [web] |
+
+Durch die Analyse dieser Statistiken können Sie feststellen, ob Ihre Genauigkeit nachlässt, welche Waffen Ihren höchsten Schadensausstoß erzielen und welche Gegner als Ihr persönlicher „Erzfeind“ fungieren [web].
+
+<Callout type="info" title="Erzfeind-Verfolgung">
+Das Spiel verfolgt Ihren „Erzfeind“ (den spezifischen Gegnertyp, der Sie am häufigsten getötet hat) [web]. Nutzen Sie diese Daten, um Ihre Zielpriorisierung während chaotischer Kämpfe anzupassen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beste Strategien für schnellen Abschluss von Herausforderungen">
+
+Das Abschließen aller 94 Herausforderungen im **Abyssus-Logbuch** erfordert einen strukturierten Ansatz [web]. Der Versuch, alles auf einmal zu erledigen, kann zu ineffizienten Runs und unnötigen Toden führen. Gliedern Sie Ihren Fortschritt stattdessen in dedizierte Runs.
+
+<CardGrid cols={3}>
+  <Card title="Effizienz-Runs">
+    Kombinieren Sie passive Herausforderungen. Verwenden Sie beispielsweise einen Build mit hoher Gesundheit und der Belohnung **Gesundes Engagement**, um gleichzeitig an **Dickhäutig** und **Fleischschild** zu arbeiten [web].
+  </Card>
+  <Card title="Waffen-Mod-Farming">
+    Widmen Sie Runs ausschließlich dem Freischalten aller Primär- und Sekundär-Mods für eine einzelne Waffe, wie die Schrotflinte oder die Tesla-Kanone, um die Kenner-Herausforderungen abzuschließen [web].
+  </Card>
+  <Card title="Deep-Water-Fortschritt">
+    Erhöhen Sie schrittweise Ihre Deep-Water-Stufen. Das Abschließen von Stufe 20 schaltet den **Baseballer** frei und vervollständigt die ultimativen Schwierigkeits-Herausforderungen [web].
+  </Card>
+</CardGrid>
+
+Um stetige Fortschritte in Richtung 100% Abschluss zu machen, führen Sie während Ihrer Spielsitzungen eine Checkliste mit wichtigen Meilensteinen.
+
+<Checklist
+  id="logbook-milestones"
+  title="Wichtige Logbuch-Meilensteine:"
+  items={[
+    "Zerstören Sie alle Surge-Spalten in allen fünf Hauptzonen [web]",
+    "Schalten Sie alle 11 einzigartigen Waffen und Fähigkeiten frei [web]",
+    "Schließen Sie eine Expedition mit jedem Waffentyp ab, um die Bender-Belohnung zu erhalten [web]",
+    "Registrieren Sie jede Segnungsvariation, um den Schreiber-Erfolg freizuschalten [youtube, web]"
+  ]}
+/>
+
+<Callout type="tip" title="Speedrun-Strategie">
+Spielen Sie für waffenspezifische Kill-Herausforderungen auf niedrigeren Deep-Water-Stufen. Dies ermöglicht es Ihnen, große Gruppen schwächerer Gegner zu sammeln, was Multi-Kill-Erfolge erheblich erleichtert.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo befindet sich das physische Abyssus-Logbuch im Spiel?",
+    answer: "Das physische Logbuch befindet sich direkt am Eingang zum Artefaktraum. Alternativ können Sie jederzeit über das Hauptmenü des Spiels auf genau dieselbe Benutzeroberfläche zugreifen."
+  },
+  {
+    question: "Warum wurde meine abgeschlossene Herausforderung nicht im Logbuch registriert?",
+    answer: "Herausforderungen und Run-Statistiken werden nur gespeichert, wenn eine Expedition erfolgreich abgeschlossen wird oder wenn Sie sterben. Wenn Sie einen Run mitten im Spiel manuell beenden oder abbrechen, wird Ihr Fortschritt nicht in das Logbuch eingetragen."
+  },
+  {
+    question: "Muss ich einen Charm den gesamten Run über tragen, um Schreiber freizuschalten?",
+    answer: "Nein. Sie müssen den freigeschalteten Charm nur einmal während einer aktiven Expedition aufheben, um ihn in Ihrem Logbuch zu registrieren. Sobald er aufgehoben wurde, können Sie ihn sofort wieder fallen lassen und mit Ihrem bevorzugten Build fortfahren."
+  },
+  {
+    question: "Was ist die Belohnung für den Abschluss aller 94 Herausforderungen im Logbuch?",
+    answer: "Das Abschließen aller 94 Herausforderungen schaltet den Erfolg 'Der neue Monarch' frei, der den absoluten 100%-Abschluss der Standard-Fortschrittsinhalte des Spiels darstellt."
+  }
+]} />
+
+</Section>

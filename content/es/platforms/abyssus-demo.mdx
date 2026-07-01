@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Demo de Abyssus: Consejos prácticos de juego y guía de equipamiento",
+  description: "Saca el máximo partido a la demo de Abyssus. Aprende consejos esenciales de juego, equipamientos de personajes, estrategias contra jefes y pasos de instalación en Steam para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Demo+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de abyssus"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **demo de Abyssus** está disponible actualmente en Steam, ofreciendo un primer vistazo al combate FPS brinepunk.
+- Concéntrate en la **gestión de recursos** y la recarga activa para mantener un alto rendimiento de daño durante los encuentros intensos.
+- Utiliza la **mecánica de esquive (dash)** con frecuencia para evadir los ataques de proyectiles de los enemigos acuáticos mutados.
+- Experimenta con **diferentes combinaciones de armas** para encontrar el equipamiento óptimo para la batalla contra el jefe de la demo.
+</Callout>
+
+<Section icon={Map} title="Demo de Abyssus: Cómo descargar y configuración del sistema">
+
+El lanzamiento de la **demo de abyssus** ofrece a los jugadores una oportunidad temprana de experimentar la acción de disparos rogue-lite submarina y de ritmo rápido. Para garantizar una experiencia de juego fluida y sin problemas de rendimiento, los jugadores deben seguir la ruta de instalación correcta y optimizar las configuraciones de sus PC. La demo se distribuye exclusivamente a través de la plataforma Steam, lo que permite un acceso rápido al tutorial y al primer bioma importante.
+
+Antes de sumergirte en el mar profundo, revisa los requisitos de hardware para asegurarte de que tu sistema pueda manejar los densos efectos de partículas y el renderizado rápido del entorno brinepunk.
+
+| Requisito | Especificación mínima | Especificación recomendada |
+|-|-|-|
+| SO | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| CPU | Intel Core i5-6400 | Intel Core i7-8700 |
+| RAM | 8 GB | 16 GB |
+| GPU | GTX 1060 de 6 GB | RTX 2060 de 6 GB |
+| Almacenamiento | 15 GB disponibles | SSD de 15 GB |
+
+<Callout type="warning" title="Optimización del sistema">
+Asegúrate de que los controladores de tu tarjeta gráfica estén actualizados a la última versión de 2026 antes de iniciar el juego. Los controladores desactualizados pueden causar tirones (stuttering) graves durante las secuencias de combate intensas.
+</Callout>
+
+Para comenzar con la instalación, sigue estos sencillos pasos para configurar el juego en tu cliente de Steam.
+
+<Steps>
+  <Step num="1" title="Localiza la página de la tienda">
+    Abre el cliente de Steam, busca el juego y navega hasta la página oficial de la tienda. También puedes ver los anuncios oficiales a través del [Centro de noticias de Steam](https://store.steampowered.com/news/app/1721110/view/523087574772745373) para estar al tanto de las actualizaciones.
+  </Step>
+  <Step num="2" title="Descarga la demo">
+    Desplázate hacia abajo en la página de la tienda y haz clic en el botón Descargar demo. Asigna los 15 GB de espacio de almacenamiento requeridos en un SSD para obtener tiempos de carga óptimos.
+  </Step>
+  <Step num="3" title="Ajusta la configuración del juego">
+    Inicia el juego y navega hasta el menú de ajustes. Limita la tasa de fotogramas para que coincida con la frecuencia de actualización de tu monitor y activa la reducción del desenfoque de movimiento para una mejor visibilidad.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Dominando las mecánicas de combate Brinepunk">
+
+El combate en el juego gira en torno al movimiento de alta velocidad, los disparos precisos y la gestión de tu indicador de presión. A diferencia de los shooters tradicionales, no puedes confiar únicamente en las coberturas. El entorno acuático requiere un posicionamiento vertical constante y esquives rápidos para evitar las ráfagas de proyectiles entrantes.
+
+Comprender la distribución de controles predeterminada es crucial para ejecutar técnicas de movimiento avanzadas como el salto con esquive (dash-jump) y el deslizamiento con esquive (slide-dodge).
+
+| Acción | Tecla predeterminada | Propósito táctico |
+|-|-|-|
+| Esquivar (Dash) | Shift izquierdo | Evadir proyectiles entrantes y reposicionarse |
+| Deslizarse | Ctrl izquierdo | Esquivar por debajo de ataques a gran altura |
+| Habilidad cinética | Q | Desplegar habilidades ofensivas de control de masas |
+| Escudo | E | Bloquear daño frontal durante una duración corta |
+
+<Callout type="tip" title="Sinergia de movimiento">
+Combinar un deslizamiento seguido inmediatamente de un salto te permite llevar el impulso hacia adelante, lo que te permite atravesar áreas abiertas rápidamente mientras estás bajo el fuego enemigo.
+</Callout>
+
+Para destacar en las arenas de combate, los jugadores deben adoptar un estilo de juego que se adapte a su enfoque táctico preferido. La demo presenta tres estilos tácticos distintos.
+
+<CardGrid cols={3}>
+  <Card title="Poder de fuego cinético">
+    - Se centra en el daño físico puro.
+    - Excelente para jugadores que prefieren los rifles tradicionales.
+    - Alto rendimiento de daño a un solo objetivo.
+  </Card>
+  <Card title="Sinergias elementales">
+    - Utiliza efectos de estado como electrocución y congelación.
+    - Ideal para controlar grandes grupos de enemigos.
+    - Requiere una sincronización precisa para activar combos.
+  </Card>
+  <Card title="Alta movilidad">
+    - Enfatiza esquives rápidos y ataques cuerpo a cuerpo veloces.
+    - Más adecuado para combates agresivos a corta distancia.
+    - Alto riesgo pero ofrece tiempos de limpieza rápidos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores equipamientos de armas para la demo">
+
+Las armas disponibles en la versión de prueba muestran la estética única del brinepunk, combinando mecanismos a vapor con energía acuática de alta tecnología. Seleccionar la combinación correcta de armas principales y secundarias determina con qué facilidad puedes despejar las oleadas de criaturas mutadas.
+
+Revisa las características de las armas a continuación para planificar tu configuración antes de ingresar a las zonas de contención.
+
+| Nombre del arma | Modo de disparo principal | Daño base | Rango óptimo |
+|-|-|-|-|
+| Rifle de salmuera | Semiautomático | Medio-Alto | Medio a Largo |
+| Lanzador de arpones | Proyectil cargado | Muy alto | Largo |
+| Pistola de choque | Ráfaga automática | Bajo-Medio | Corto a Medio |
+| Escopeta de vapor | Disparo de dispersión | Alto | Corta distancia |
+
+<Callout type="success" title="Equipamiento recomendado">
+Para principiantes, combinar el rifle de salmuera con la escopeta de vapor proporciona una configuración equilibrada capaz de lidiar con francotiradores a larga distancia y atacantes agresivos a corta distancia.
+</Callout>
+
+Al usar el lanzador de arpones, recuerda que la caída del proyectil está activa. Debes apuntar ligeramente por encima de la cabeza de tu objetivo cuando te enfrentes a enemigos a distancia. La escopeta de vapor, por otro lado, solo debe dispararse cuando estés a corta distancia para maximizar el impacto de los perdigones y activar el efecto de aturdimiento en enemigos de élite.
+
+</Section>
+
+<Section icon={Target} title="Derrotando a la amenaza de las profundidades marinas">
+
+La demo culmina con un desafiante encuentro contra un jefe: un antiguo guardián mecánico. Derrotar a este jefe requiere un estricto cumplimiento de las mecánicas de fase y reflejos rápidos. También aparecerán enemigos normales periódicamente para distraerte, por lo que la percepción del campo de batalla es esencial.
+
+Antes de enfrentarte al jefe, familiarízate con las principales amenazas que encontrarás en la arena.
+
+| Tipo de enemigo | Ataque principal | Punto débil | Estrategia de contraataque |
+|-|-|-|-|
+| Dron de salmuera | Orbes de energía a distancia | Ojo central | Disparar para interrumpir la carga |
+| Acechador abisal | Embestidas cuerpo a cuerpo | Espalda brillante | Esquivar hacia los lados y contraatacar |
+| Jefe Guardián | Ondas de choque de área | Núcleo del pecho | Saltar sobre las ondas, disparar al núcleo |
+
+<Callout type="warning" title="Transición de fase del jefe">
+Cuando el jefe llegue a la mitad de su salud, inundará el anillo exterior de la arena con salmuera electrificada. Permanece en las plataformas centrales elevadas para evitar recibir daño continuo.
+</Callout>
+
+Durante la fase final de la batalla, concéntrate por completo en el núcleo del pecho del jefe. Usa tus habilidades cinéticas para despejar los drones de salmuera restantes y evitar que te abrumen mientras apuntas al punto débil.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de finalización de la demo">
+
+Para experimentar por completo todo lo que ofrece la versión de prueba, los jugadores deben intentar completar todos los desafíos y desbloquear cada entrada de lore disponible oculta por todo el mapa.
+
+<Callout type="info" title="Recompensas por completar">
+Completar todos los desafíos de la demo desbloquea insignias de perfil cosméticas exclusivas que se transferirán a la versión de lanzamiento del juego.
+</Callout>
+
+Utiliza esta lista de verificación para realizar un seguimiento de tu progreso a medida que exploras las profundidades.
+
+<Checklist
+  id="demo-achievements"
+  title="Hitos clave a lograr:"
+  items={[
+    "Derrotar al Jefe Guardián sin morir",
+    "Encontrar los tres registros de lore ocultos en el bioma",
+    "Desbloquear y probar los cuatro tipos de armas",
+    "Lograr un multiplicador de combo de combate de diez o más"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes de la demo de Abyssus">
+
+<Callout type="tip" title="Comentarios de la comunidad">
+Si encuentras errores durante tu tiempo de juego, envía un informe a través de los foros oficiales de la comunidad de Steam para ayudar a los desarrolladores a optimizar la versión final.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿El progreso de la demo de abyssus se transfiere al juego completo?",
+    answer: "No, el progreso realizado durante este período de prueba no se transfiere a la versión completa. Sin embargo, los jugadores participantes recibirán recompensas cosméticas exclusivas tras el lanzamiento oficial."
+  },
+  {
+    question: "¿Puedo jugar a la demo sin conexión?",
+    answer: "Sí, la parte de la campaña para un jugador de la demo se puede jugar completamente sin conexión una vez que se completen la descarga inicial y la configuración a través de Steam."
+  },
+  {
+    question: "¿Hay soporte multijugador en la demo?",
+    answer: "La versión actual de la demo es estrictamente para un jugador, centrándose en introducir a los jugadores a las mecánicas de combate principales y al lore."
+  },
+  {
+    question: "¿Qué debo hacer si el juego se cierra inesperadamente al iniciar?",
+    answer: "Verifica la integridad de los archivos del juego a través de Steam y asegúrate de que tu instalación de Windows esté actualizada con los últimos parches de seguridad de 2026."
+  }
+]} />
+
+</Section>

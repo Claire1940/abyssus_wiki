@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "abyssus deep water 30: Guía de las mejores builds y equipamiento",
+  description: "Domina abyssus deep water 30 con nuestra guía experta sobre builds de arco, escopeta y lanzadiscos, incluyendo la eliminación de corrupción y estrategias de amuletos para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Deep+Water+30+Builds",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de abyssus",
+  keywords: "abyssus, deep water 30, builds, guía, arco, escopeta"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **abyssus deep water 30** requiere una build altamente optimizada centrada en la **acumulación de puntos débiles** o campos de salmuera masivos de área de efecto (AOE).
+- **Meta de Armas**: El Arco de Combate con **Stable String** y la Escopeta con **Super Heavy Slugs** son actualmente las opciones de nivel superior.
+- **Estrategia de Corrupción**: Elimina siempre a los **Royal Heralds** y **Melee Execute** para minimizar el drenaje de recursos y aumentar la supervivencia.
+- **Bendiciones Clave**: Prioriza **Barrier** para la defensa y **Frost** o **Shadow** para el control de multitudes y debilitamientos de daño.
+- **Prioridad de Amuletos**: Busca el **Thief's Eye** temprano para obtener botín doble, luego cambia a **Blessed** o **Slow Power** para el escalado en el juego tardío.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el desafío de Deep Water 30">
+
+Alcanzar **abyssus deep water 30** es un hito significativo que separa a los jugadores casuales de los veteranos del endgame. En este nivel de corrupción, los enemigos poseen reservas de salud masivas y pueden abrumarte fácilmente si tu build carece de sinergia. El éxito no se trata solo de daño puro; se trata de gestionar recursos, elegir las mejoras de forja adecuadas y saber qué corrupciones desactivar para mantener la partida bajo control.
+
+<Callout type="warning" title="Gestión de Corrupción">
+Dado que el nivel 30 está cuatro niveles por debajo de la corrupción máxima, tienes el lujo de eliminar cuatro modificadores negativos específicos. Recomendamos encarecidamente eliminar a los **Royal Heralds**, ya que actúan como drenajes masivos de recursos que pueden arruinar una partida justo antes del jefe final.
+</Callout>
+
+Al planificar tu partida, debes decidirte por un motor de daño principal. Ya sea que prefieras la precisión de un arco o el caótico potencial de limpieza de salas del Campo de Salmuera, tu elección de arma y mods de forja dictará toda tu estrategia.
+
+| Prioridad de Eliminación | Nombre de la Corrupción | Razón para Eliminar |
+| :--- | :--- | :--- |
+| **Alta** | Royal Heralds | Evita la pérdida masiva de HP/recursos antes de los jefes |
+| **Alta** | Melee Execute | Inútil para builds a distancia; alto riesgo para poca recompensa |
+| **Media** | Healing Shrine Syringes | Limita el sustento, pero es manejable con una Barrera alta |
+| **Media** | Post-Boss Healing | Obliga a jugar a la perfección; elimínala si tu defensa es baja |
+
+<Callout type="tip" title="Consejo de Sostenibilidad">
+Si decides mantener la corrupción de "Sin curación tras el jefe", debes priorizar la bendición **Barrier**. Actúa como un escudo regenerativo que evita la pérdida permanente de HP por daño residual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds de armas de nivel superior para Deep Water 30">
+
+El meta actual para **abyssus deep water 30** gira en torno a tres arquetipos principales. Cada uno ofrece una forma única de manejar la salud escalable de los jefes y la densidad de las oleadas de enemigos.
+
+<CardGrid cols={3}>
+  <Card title="El Arco de Francotirador">
+    - Acumulación de **Stable String**
+    - Escalado infinito de puntos débiles
+    - Alto DPS contra un solo objetivo
+  </Card>
+  <Card title="La Escopeta de Postas">
+    - Precisión con **Super Heavy Slug**
+    - Alto daño de ráfaga
+    - Centrada en la velocidad de movimiento
+  </Card>
+  <Card title="El Lanzadiscos">
+    - Mod **Fan** para daño de área
+    - Fuego secundario con auto-apuntado
+    - Debilitamientos de Sombra/Escarcha
+  </Card>
+</CardGrid>
+
+### 1. El Arco de Combate (Escalado Infinito)
+El Arco es posiblemente el arma más fuerte para la corrupción de alto nivel debido a la mejora de forja **Stable String**. Esta mejora permite que cada golpe consecutivo en un punto débil aumente el daño en un 10%, acumulándose hasta 25 veces. Cuando se combina con **True Form**, que hace que los "sweetspots" siempre cuenten como golpes en puntos débiles, tu daño puede alcanzar los millones en cuestión de segundos.
+
+### 2. La Escopeta (Especialista en Postas)
+La build de Escopeta se basa en transformar el arma de una herramienta de dispersión en un cañón de alta precisión usando **Super Heavy Slugs**. Debido a que las postas eliminan la mecánica de dispersión, puedes elegir mejoras como **Sawed-Off Barrel** (+50% de daño, +100% de dispersión) sin ninguna penalización real de precisión.
+
+| Componente del Arma | Mod Recomendado | Efecto |
+| :--- | :--- | :--- |
+| **Primaria de Arco** | Precision Shot | Aumenta el multiplicador base de puntos débiles |
+| **Forja de Arco 1** | Stable String | 10% de daño por golpe, se acumula hasta 25x |
+| **Forja de Arco 2** | True Form | Sweetspots = Golpes en puntos débiles |
+| **Primaria de Escopeta**| Super Heavy Slug | Proyectil único de alto daño |
+| **Forja de Escopeta 1**| Light Frame | +40% de cadencia, +80% de velocidad de mov. |
+
+<Callout type="success" title="Sinergia de Build">
+Para la build de Escopeta, enfoca todos tus esfuerzos de nivelación en el disparo primario. Aunque las torretas son útiles, en Deep Water 30, el daño de tu posta primaria superará con creces cualquier daño de habilidad secundaria.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones esenciales y sinergias de amuletos">
+
+Tu elección de bendiciones puede definir el éxito de una partida en **abyssus deep water 30**. Si bien el daño es importante, la supervivencia y la utilidad a menudo proporcionan más consistencia en las capas de "Deep Water".
+
+### Prioridades de Bendición
+- **Barrier (Ancient Cube)**: Este es el estándar de oro para la supervivencia. Proporciona un amortiguador que absorbe el daño, permitiéndote cometer errores sin perder salud permanente.
+- **Frost (Secundaria)**: Congelar enemigos es la mejor forma de control de multitudes. Detiene a las turbas en seco y te da tiempo para alinear los disparos a los puntos débiles.
+- **Shadow (Primaria)**: Aplica un debilitamiento que aumenta el daño que los enemigos reciben de todas las fuentes. Esto es vital para acabar con unidades de élite con mucha vida.
+
+<Callout type="info" title="Estrategia de Campo de Salmuera">
+Si prefieres una build "relajada", apuesta todo al **Brine Field** con los mods de forja **Freebie** y **Quality over Quantity**. Esto crea un campo masivo que limpia salas enteras automáticamente mientras te concentras en esquivar.
+</Callout>
+
+### Lista de Niveles de Amuletos
+Los amuletos proporcionan mejoras pasivas que escalan tu poder exponencialmente a medida que avanza la partida.
+
+| Nombre del Amuleto | Rango | Beneficio |
+| :--- | :--- | :--- |
+| **Thief's Eye** | S | Doble botín de cofres; acelera los picos de poder |
+| **Blessed** | S | +10% de daño por cada bendición que poseas |
+| **Slow Power** | A | +1% de daño cada 2 segundos, hasta +50% |
+| **Marksman** | A | +1% de daño por golpe, se reinicia al fallar |
+
+<Callout type="tip" title="Consejo de Economía">
+Elige siempre el **Thief's Eye** si aparece en las dos primeras zonas. Las bendiciones adicionales y los materiales de forja que obtendrás de los cofres duplicados facilitarán significativamente los últimos 10 niveles de corrupción.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de la partida paso a paso">
+
+Para completar con éxito **abyssus deep water 30**, necesitas un enfoque disciplinado en la nivelación y la gestión de recursos. Sigue estos pasos para asegurar que tu build esté lista para el jefe final.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial">
+    Concéntrate en obtener tu arma principal y tu bendición primaria. Si usas el Arco, busca **Precision Shot**. Si usas la Escopeta, asegura las **Super Heavy Slugs**. No te preocupes por la defensa todavía; enfócate en limpiar salas rápido para recolectar materiales.
+  </Step>
+  <Step num="2" title="Primera Mejora de Forja">
+    Prioriza tu primera mejora de Forja. Para el Arco, esto **debe** ser **Stable String**. Para la Escopeta, busca **Light Frame** para aumentar tu velocidad de movimiento. La velocidad es tu defensa principal en las zonas intermedias.
+  </Step>
+  <Step num="3" title="Defensa a Mitad de Partida">
+    Al llegar a la segunda zona, deberías tener **Barrier** al nivel 3 o superior. Esto asegura que puedas sobrevivir a impactos accidentales de proyectiles. Empieza a buscar la bendición **Frost** en tu habilidad secundaria para ralentizar a los enemigos agresivos.
+  </Step>
+  <Step num="4" title="Eliminación de Corrupción">
+    Al alcanzar el umbral del nivel 30, asegúrate de haber eliminado a los **Royal Heralds**. Esto evita la fase de "drenaje de recursos" que a menudo mata las partidas antes del encuentro final.
+  </Step>
+  <Step num="5" title="Escalado Final">
+    En las zonas finales, invierte todos los recursos en el escalado de tu daño principal. Si tienes el amuleto **Blessed**, intenta recoger tantas bendiciones baratas como sea posible para maximizar el bono de daño porcentual.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estrategia Pro">
+El Revólver es una alternativa de alta habilidad que puede infligir más de 1 millón de daño por disparo. Sin embargo, requiere una puntería perfecta en los puntos débiles y no se recomienda para tu primer intento en Deep Water 30.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de supervivencia y preparación">
+
+Antes de sumergirte en una partida de nivel 30, asegúrate de tener la mentalidad adecuada y un plan claro para el crecimiento de tu personaje.
+
+<Checklist
+  id="dw30-prep"
+  title="Lista de Preparación para la Partida:"
+  items={[
+    "Selecciona 4 corrupciones para desactivar (Royal Heralds es obligatorio)",
+    "Identifica tu mod de daño principal (ej. Stable String o Slugs)",
+    "Comprométete con una estrategia de defensa (Barrera vs. Alta Movilidad)",
+    "Verifica la sinergia de tu amuleto (Blessed vs. Marksman)",
+    "Planifica tu ruta de forja para maximizar el daño en puntos débiles"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia Crítica">
+No ignores la velocidad de movimiento. En Deep Water 30, algunos jefes tienen mecánicas de "muerte instantánea" que solo pueden evitarse si tu velocidad de movimiento aumenta al menos un 50% mediante mods de forja o amuletos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué arma es la más fácil para abyssus deep water 30?",
+    answer: "El Arco de Combate con Stable String se considera generalmente el más fácil porque proporciona un escalado de daño infinito siempre que puedas golpear los puntos débiles de forma fiable."
+  },
+  {
+    question: "¿Por qué debería eliminar la corrupción de Royal Heralds?",
+    answer: "Los Royal Heralds actúan como un drenaje masivo de recursos. Dado que no obtienes curación entre combates en partidas de alta corrupción, cualquier error cometido contra ellos hace que el jefe final sea casi imposible."
+  },
+  {
+    question: "¿Es viable la build de Torretas en el nivel 30?",
+    answer: "Sí, las builds de Torretas son viables pero a menudo tienen un DPS más bajo que las builds optimizadas de Arco o Escopeta. Son excelentes para la seguridad pero requieren más tiempo para derrotar a los jefes."
+  },
+  {
+    question: "¿Cuál es la mejor bendición defensiva?",
+    answer: "Barrier es la mejor bendición defensiva. Proporciona un escudo regenerativo que protege tu reserva de salud real, lo cual es vital cuando las opciones de curación están restringidas."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+La consistencia es clave. Si te encuentras con dificultades, prueba el **Lanzadiscos** con el debilitamiento de **Shadow**. Proporciona un gran equilibrio entre auto-apuntado y daño AOE masivo que es muy permisivo para los jugadores nuevos.
+</Callout>
+
+</Section>

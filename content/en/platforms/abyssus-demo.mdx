@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus Demo: Hands-On Gameplay Tips & Loadout Guide",
+  description: "Get the most out of the Abyssus demo. Learn essential gameplay tips, character loadouts, boss strategies, and Steam installation steps for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Demo+Guide",
+  date: "2026-07-01",
+  author: "abyssus Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Abyssus demo** is currently available on Steam, offering a first look at the brinepunk FPS combat.
+- Focus on **resource management** and active reloading to maintain high damage output during intense encounters.
+- Utilize the **dash mechanic** frequently to evade incoming projectile attacks from mutated aquatic enemies.
+- Experiment with **different weapon combinations** to find the optimal loadout for the demo boss fight.
+</Callout>
+
+<Section icon={Map} title="Abyssus Demo: How to Download & System Setup">
+
+The release of the **abyssus demo** gives players an early opportunity to experience the fast-paced, underwater rogue-lite shooter action. To ensure a smooth gameplay experience without performance hiccups, players must follow the correct installation path and optimize their PC configurations. The demo is distributed exclusively through the Steam platform, allowing quick access to the tutorial and the first major biome.
+
+Before jumping into the deep sea, review the hardware requirements to ensure your system can handle the dense particle effects and fast-paced rendering of the brinepunk environment.
+
+| Requirement | Minimum Spec | Recommended Spec |
+|-|-|-|
+| OS | Windows 10 64-bit | Windows 11 64-bit |
+| CPU | Intel Core i5-6400 | Intel Core i7-8700 |
+| RAM | 8 GB | 16 GB |
+| GPU | GTX 1060 6GB | RTX 2060 6GB |
+| Storage | 15 GB available | 15 GB SSD |
+
+<Callout type="warning" title="System Optimization">
+Ensure your graphics card drivers are updated to the latest 2026 release before launching the game. Outdated drivers may cause severe stuttering during intense combat sequences.
+</Callout>
+
+To get started with the installation, follow these straightforward steps to configure the game on your Steam client.
+
+<Steps>
+  <Step num="1" title="Locate the Store Page">
+    Open the Steam client, search for the game, and navigate to the official store page. You can also view official announcements via the [Steam News Hub](https://store.steampowered.com/news/app/1721110/view/523087574772745373) for updates.
+  </Step>
+  <Step num="2" title="Download the Demo">
+    Scroll down the store page and click on the Download Demo button. Allocate the required 15 GB of storage space on an SSD for optimal loading times.
+  </Step>
+  <Step num="3" title="Adjust In-Game Settings">
+    Launch the game and navigate to the settings menu. Set the frame rate cap to match your monitor refresh rate and enable motion blur reduction for better visibility.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Mastering Brinepunk Combat Mechanics">
+
+Combat in the game revolves around high-speed movement, precise shooting, and managing your pressure gauge. Unlike traditional shooters, you cannot rely solely on cover. The aquatic environment requires constant vertical positioning and rapid dodging to avoid incoming projectile arrays.
+
+Understanding the default control layout is crucial for executing advanced movement techniques like dash-jumping and slide-dodging.
+
+| Action | Default Keybind | Tactical Purpose |
+|-|-|-|
+| Dash | Left Shift | Evade incoming projectiles and reposition |
+| Slide | Left Ctrl | Dodge under high-altitude attacks |
+| Kinetic Ability | Q | Deploy offensive crowd-control skills |
+| Shield | E | Block frontal damage for a short duration |
+
+<Callout type="tip" title="Movement Synergy">
+Combining a slide immediately followed by a jump allows you to carry momentum forward, letting you traverse open areas quickly while staying under enemy fire.
+</Callout>
+
+To excel in the combat arenas, players should adopt a playstyle that matches their preferred tactical approach. The demo showcases three distinct tactical styles.
+
+<CardGrid cols={3}>
+  <Card title="Kinetic Firepower">
+    - Focuses on raw physical damage.
+    - Excellent for players who prefer traditional rifles.
+    - High single-target damage output.
+  </Card>
+  <Card title="Elemental Synergies">
+    - Utilizes status effects like shock and freeze.
+    - Ideal for controlling large groups of enemies.
+    - Requires precise timing to trigger combos.
+  </Card>
+  <Card title="High Mobility">
+    - Emphasizes rapid dashes and quick melee strikes.
+    - Best suited for aggressive, close-quarters combat.
+    - High risk but offers fast clear times.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Top Weapon Loadouts for the Demo">
+
+The weapons available in the trial version showcase the unique brinepunk aesthetic, blending steam-powered mechanisms with high-tech aquatic energy. Selecting the right combination of primary and secondary weapons determines how easily you can clear the waves of mutated creatures.
+
+Review the weapon characteristics below to plan your build before entering the containment zones.
+
+| Weapon Name | Primary Fire Mode | Base Damage | Optimal Range |
+|-|-|-|-|
+| Brine-Rifle | Semi-Automatic | Medium-High | Medium to Long |
+| Harpoon Launcher | Charged Projectile | Very High | Long |
+| Shock Pistol | Automatic Burst | Low-Medium | Short to Medium |
+| Steam-Shotgun | Spread Shot | High | Close Range |
+
+<Callout type="success" title="Recommended Loadout">
+For beginners, combining the Brine-Rifle with the Steam-Shotgun provides a balanced setup capable of handling long-range snipers and aggressive close-range rushers.
+</Callout>
+
+When using the Harpoon Launcher, remember that projectile drop is active. You must aim slightly above your target's head when engaging enemies at a distance. The Steam-Shotgun, on the other hand, should only be fired when you are within melee range to maximize pellet connection and trigger the stagger effect on elite enemies.
+
+</Section>
+
+<Section icon={Target} title="Defeating the Deep-Sea Threat">
+
+The demo culminates in a challenging boss encounter against an ancient mechanical guardian. Defeating this boss requires strict adherence to phase mechanics and quick reflexes. Normal enemies will also spawn periodically to distract you, making battlefield awareness essential.
+
+Before engaging the boss, familiarize yourself with the primary threats you will face in the arena.
+
+| Enemy Type | Primary Attack | Weak Point | Counter Strategy |
+|-|-|-|-|
+| Brine Drone | Ranged energy Orbs | Central Eye | Shoot to interrupt charge |
+| Abyssal Lurker | Melee lunges | Glowing Back | Dash sideways and counter |
+| Guardian Boss | Area-of-effect shockwaves | Chest Core | Jump over waves, shoot core |
+
+<Callout type="warning" title="Boss Phase Transition">
+When the boss reaches half health, it will flood the outer ring of the arena with electrified brine. Stay on the elevated central platforms to avoid taking continuous damage.
+</Callout>
+
+During the final phase of the battle, focus entirely on the boss's chest core. Use your kinetic abilities to clear out any remaining Brine Drones so you do not get overwhelmed while aiming at the weak point.
+
+</Section>
+
+<Section icon={Trophy} title="Demo Completion Checklist">
+
+To fully experience everything the trial version has to offer, players should aim to complete all challenges and unlock every available lore entry hidden throughout the map.
+
+<Callout type="info" title="Completion Rewards">
+Completing all challenges in the demo unlocks exclusive cosmetic profile badges that carry over to the launch version of the game.
+</Callout>
+
+Use this checklist to track your progress as you explore the depths.
+
+<Checklist
+  id="demo-achievements"
+  title="Key Milestones to Achieve:"
+  items={[
+    "Defeat the Guardian Boss without dying",
+    "Find all three hidden lore logs in the biome",
+    "Unlock and try all four weapon types",
+    "Achieve a combat combo multiplier of ten or higher"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Abyssus Demo FAQ">
+
+<Callout type="tip" title="Community Feedback">
+If you encounter bugs during your playtime, submit a report via the official Steam community forums to help the developers optimize the final release.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Does progress from the abyssus demo carry over to the full game?",
+    answer: "No, progress made during this trial period does not carry over to the full version. However, participating players will receive exclusive cosmetic rewards upon the official launch."
+  },
+  {
+    question: "Can I play the demo offline?",
+    answer: "Yes, the single-player campaign portion of the demo can be played entirely offline once the initial download and setup are completed through Steam."
+  },
+  {
+    question: "Is there multiplayer support in the demo?",
+    answer: "The current demo version is strictly single-player, focusing on introducing players to the core combat mechanics and lore."
+  },
+  {
+    question: "What should I do if the game crashes on launch?",
+    answer: "Verify the integrity of game files via Steam and ensure your Windows installation is updated to the latest 2026 security patches."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abyssus-Demo: Praktische Gameplay-Tipps & Loadout-Leitfaden",
+  description: "Holen Sie das Beste aus der Abyssus-Demo heraus. Erfahren Sie wichtige Gameplay-Tipps, Charakter-Loadouts, Boss-Strategien und Steam-Installationsschritte für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abyssus+Demo+Guide",
+  date: "2026-07-01",
+  author: "abyssus Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Die **Abyssus-Demo** ist derzeit auf Steam verfügbar und bietet einen ersten Einblick in die Brinepunk-FPS-Kämpfe.
+- Konzentrieren Sie sich auf das **Ressourcenmanagement** und aktives Nachladen, um in intensiven Begegnungen einen hohen Schaden aufrechtzuerhalten.
+- Nutzen Sie die **Dash-Mechanik** häufig, um den ankommenden Projektilangriffen mutierter Wassergegner auszuweichen.
+- Experimentieren Sie mit **verschiedenen Waffen-Kombinationen**, um das optimale Loadout für den Demo-Bosskampf zu finden.
+</Callout>
+
+<Section icon={Map} title="Abyssus-Demo: Herunterladen & Systemkonfiguration">
+
+Die Veröffentlichung der **Abyssus-Demo** bietet Spielern eine frühe Gelegenheit, die rasante Unterwasser-Rogue-Lite-Shooter-Action zu erleben. Um ein reibungsloses Gameplay-Erlebnis ohne Leistungsprobleme zu gewährleisten, müssen Spieler den korrekten Installationspfad befolgen und ihre PC-Konfigurationen optimieren. Die Demo wird exklusiv über die Steam-Plattform vertrieben, was einen schnellen Zugriff auf das Tutorial und das erste große Biom ermöglicht.
+
+Bevor Sie in die Tiefsee eintauchen, überprüfen Sie die Hardwareanforderungen, um sicherzustellen, dass Ihr System die dichten Partikeleffekte und das schnelle Rendering der Brinepunk-Umgebung bewältigen kann.
+
+| Anforderung | Mindestanforderungen | Empfohlene Anforderungen |
+|-|-|-|
+| Betriebssystem | Windows 10 64-Bit | Windows 11 64-Bit |
+| CPU | Intel Core i5-6400 | Intel Core i7-8700 |
+| RAM | 8 GB | 16 GB |
+| GPU | GTX 1060 6GB | RTX 2060 6GB |
+| Speicherplatz | 15 GB verfügbar | 15 GB SSD |
+
+<Callout type="warning" title="Systemoptimierung">
+Stellen Sie sicher, dass Ihre Grafikkartentreiber auf die neueste Version von 2026 aktualisiert sind, bevor Sie das Spiel starten. Veraltete Treiber können bei intensiven Kampfsequenzen zu schweren Rucklern führen.
+</Callout>
+
+Befolgen Sie diese einfachen Schritte, um das Spiel auf Ihrem Steam-Client zu konfigurieren und mit der Installation zu beginnen.
+
+<Steps>
+  <Step num="1" title="Shop-Seite finden">
+    Öffnen Sie den Steam-Client, suchen Sie nach dem Spiel und navigieren Sie zur offiziellen Shop-Seite. Sie können auch offizielle Ankündigungen über den [Steam News Hub](https://store.steampowered.com/news/app/1721110/view/523087574772745373) für Updates einsehen.
+  </Step>
+  <Step num="2" title="Demo herunterladen">
+    Scrollen Sie auf der Shop-Seite nach unten und klicken Sie auf die Schaltfläche „Demo herunterladen“. Weisen Sie den erforderlichen Speicherplatz von 15 GB auf einer SSD zu, um optimale Ladezeiten zu gewährleisten.
+  </Step>
+  <Step num="3" title="Einstellungen im Spiel anpassen">
+    Starten Sie das Spiel und navigieren Sie zum Einstellungsmenü. Stellen Sie die Bildwiederholfrequenz so ein, dass sie der Aktualisierungsrate Ihres Monitors entspricht, und aktivieren Sie die Reduzierung der Bewegungsunschärfe für eine bessere Sicht.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Brinepunk-Kampfmechaniken meistern">
+
+Der Kampf im Spiel dreht sich um schnelle Bewegungen, präzises Schießen und die Verwaltung Ihrer Druckanzeige. Im Gegensatz zu traditionellen Shootern können Sie sich nicht nur auf Deckung verlassen. Die aquatische Umgebung erfordert eine ständige vertikale Positionierung und schnelles Ausweichen, um ankommenden Projektilsalven zu entgehen.
+
+Das Verständnis des Standard-Steuerungslayouts ist entscheidend für die Ausführung fortgeschrittener Bewegungstechniken wie Dash-Jumps und Slide-Ausweichmanöver.
+
+| Aktion | Standardtastaturbelegung | Taktischer Zweck |
+|-|-|-|
+| Dash | Linke Umschalttaste | Ankommenden Projektilen ausweichen und neu positionieren |
+| Slide | Linke Strg-Taste | Unter Angriffen in großer Höhe hindurchtauchen |
+| Kinetische Fähigkeit | Q | Offensive Fähigkeiten zur Massenkontrolle einsetzen |
+| Schild | E | Frontalen Schaden für kurze Zeit blockieren |
+
+<Callout type="tip" title="Bewegungssynergie">
+Die Kombination aus einem Rutschen unmittelbar gefolgt von einem Sprung ermöglicht es Ihnen, den Schwung mitzunehmen, sodass Sie offene Bereiche schnell durchqueren können, während Sie unter gegnerischem Feuer bleiben.
+</Callout>
+
+Um in den Kampfarenen zu glänzen, sollten Spieler einen Spielstil wählen, der zu ihrem bevorzugten taktischen Ansatz passt. Die Demo zeigt drei verschiedene taktische Stile.
+
+<CardGrid cols={3}>
+  <Card title="Kinetische Feuerkraft">
+    - Konzentriert sich auf rohen physischen Schaden.
+    - Hervorragend geeignet für Spieler, die traditionelle Gewehre bevorzugen.
+    - Hoher Einzeltadenschaden.
+  </Card>
+  <Card title="Elementare Synergien">
+    - Nutzt Statuseffekte wie Schock und Einfrieren.
+    - Ideal zur Kontrolle großer Gegnergruppen.
+    - Erfordert präzises Timing, um Kombos auszulösen.
+  </Card>
+  <Card title="Hohe Mobilität">
+    - Setzt auf schnelle Dashes und rasche Nahkampfangriffe.
+    - Am besten geeignet für aggressive Nahkämpfe.
+    - Hohes Risiko, bietet aber schnelle Abschlusszeiten.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Die besten Waffen-Loadouts für die Demo">
+
+Die in der Testversion verfügbaren Waffen präsentieren die einzigartige Brinepunk-Ästhetik, die dampfbetriebene Mechanismen mit hochtechnologischer aquatischer Energie verbindet. Die Wahl der richtigen Kombination aus Primär- und Sekundärwaffen entscheidet darüber, wie leicht Sie die Wellen der mutierten Kreaturen besiegen können.
+
+Überprüfen Sie die folgenden Waffeneigenschaften, um Ihren Build zu planen, bevor Sie die Eindämmungszonen betreten.
+
+| Waffenname | Primärer Feuermodus | Basisschaden | Optimale Reichweite |
+|-|-|-|-|
+| Brine-Rifle | Halbautomatisch | Mittel-Hoch | Mittel bis Lang |
+| Harpunenwerfer | Geladenes Projektil | Sehr hoch | Lang |
+| Schockpistole | Automatischer Feuerstoß | Niedrig-Mittel | Kurz bis Mittel |
+| Dampf-Schrotflinte | Streuschuss | Hoch | Nahbereich |
+
+<Callout type="success" title="Empfohlenes Loadout">
+Für Anfänger bietet die Kombination aus Brine-Rifle und Dampf-Schrotflinte ein ausgewogenes Setup, das sowohl mit Scharfschützen auf große Distanz als auch mit aggressiven Angreifern im Nahbereich umgehen kann.
+</Callout>
+
+Denken Sie bei der Verwendung des Harpunenwerfers daran, dass der Projektilabfall aktiv ist. Sie müssen leicht über den Kopf Ihres Ziels zielen, wenn Sie Gegner aus der Ferne bekämpfen. Die Dampf-Schrotflinte hingegen sollte nur abgefeuert werden, wenn Sie sich in Nahkampfreichweite befinden, um die Trefferwirkung der Schrotkugeln zu maximieren und den Taumel-Effekt bei Elitegegnern auszulösen.
+
+</Section>
+
+<Section icon={Target} title="Die Bedrohung aus der Tiefsee besiegen">
+
+Die Demo gipfelt in einer anspruchsvollen Bossbegegnung gegen einen uralten mechanischen Wächter. Um diesen Boss zu besiegen, müssen die Phasenmechaniken strikt eingehalten und schnelle Reflexe gezeigt werden. Zudem erscheinen regelmäßig normale Gegner, um Sie abzulenken, was eine gute Wahrnehmung des Schlachtfelds unerlässlich macht.
+
+Machen Sie sich vor dem Kampf gegen den Boss mit den primären Bedrohungen vertraut, denen Sie in der Arena begegnen werden.
+
+| Gegnertyp | Primärer Angriff | Schwachpunkt | Konterstrategie |
+|-|-|-|-|
+| Brine-Drohne | Fernkampf-Energiebälle | Zentrales Auge | Schießen, um den Ladevorgang zu unterbrechen |
+| Abyssischer Lauerer | Nahkampf-Ausfälle | Leuchtender Rücken | Seitlich ausweichen und kontern |
+| Wächter-Boss | Flächenschockwellen (AoE) | Brustkern | Über Wellen springen, auf den Kern schießen |
+
+<Callout type="warning" title="Boss-Phasenübergang">
+Wenn der Boss die Hälfte seiner Gesundheit erreicht hat, überschwemmt er den äußeren Ring der Arena mit elektrisierter Sole. Bleiben Sie auf den erhöhten zentralen Plattformen, um kontinuierlichen Schaden zu vermeiden.
+</Callout>
+
+Konzentrieren Sie sich in der letzten Phase des Kampfes ganz auf den Brustkern des Bosses. Nutzen Sie Ihre kinetischen Fähigkeiten, um verbleibende Brine-Drohnen zu beseitigen, damit Sie beim Zielen auf den Schwachpunkt nicht überwältigt werden.
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste zum Abschluss der Demo">
+
+Um alles vollständig zu erleben, was die Testversion zu bieten hat, sollten Spieler versuchen, alle Herausforderungen abzuschließen und jeden versteckten Lore-Eintrag auf der Karte freizuschalten.
+
+<Callout type="info" title="Belohnungen für den Abschluss">
+Das Abschließen aller Herausforderungen in der Demo schaltet exklusive kosmetische Profilabzeichen frei, die in die Vollversion des Spiels übernommen werden.
+</Callout>
+
+Verwenden Sie diese Checkliste, um Ihren Fortschritt beim Erkunden der Tiefen zu verfolgen.
+
+<Checklist
+  id="demo-achievements"
+  title="Wichtige Meilensteine, die es zu erreichen gilt:"
+  items={[
+    "Besiegen Sie den Wächter-Boss, ohne zu sterben",
+    "Finden Sie alle drei versteckten Lore-Protokolle im Biom",
+    "Schalten Sie alle vier Waffentypen frei und probieren Sie sie aus",
+    "Erreichen Sie einen Kampf-Kombo-Multiplikator von zehn oder höher"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Abyssus-Demo FAQ">
+
+<Callout type="tip" title="Community-Feedback">
+Wenn Sie während Ihrer Spielzeit auf Fehler stoßen, senden Sie einen Bericht über die offiziellen Steam-Community-Foren, um den Entwicklern bei der Optimierung der Vollversion zu helfen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wird der Fortschritt aus der Abyssus-Demo in das Hauptspiel übernommen?",
+    answer: "Nein, der während dieses Testzeitraums erzielte Fortschritt wird nicht in die Vollversion übernommen. Teilnehmende Spieler erhalten jedoch zum offiziellen Start exklusive kosmetische Belohnungen."
+  },
+  {
+    question: "Kann ich die Demo offline spielen?",
+    answer: "Ja, der Einzelspieler-Kampagnenteil der Demo kann vollständig offline gespielt werden, sobald der erste Download und die Einrichtung über Steam abgeschlossen sind."
+  },
+  {
+    question: "Gibt es einen Multiplayer-Support in der Demo?",
+    answer: "Die aktuelle Demo-Version ist ein reines Einzelspielererlebnis, das sich darauf konzentriert, die Spieler in die grundlegenden Kampfmechaniken und die Hintergrundgeschichte einzuführen."
+  },
+  {
+    question: "Was soll ich tun, wenn das Spiel beim Start abstürzt?",
+    answer: "Überprüfen Sie die Integrität der Spieldateien über Steam und stellen Sie sicher, dass Ihre Windows-Installation auf die neuesten Sicherheitsupdates von 2026 aktualisiert ist."
+  }
+]} />
+
+</Section>
